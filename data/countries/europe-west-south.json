@@ -1,0 +1,422 @@
+[
+  {
+    "iso3": "GBR", "iso2": "gb", "numeric": "826", "name": "United Kingdom", "region": "Europe",
+    "system": "Unitary parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Charles III", "title": "King", "since": "2022" },
+      "headOfGovernment": { "name": "Andy Burnham", "title": "Prime Minister", "party": "Labour", "since": "2026-07" },
+      "governingParties": ["Labour"]
+    },
+    "legislature": [
+      { "name": "House of Commons (650)", "control": "Labour majority", "detail": "Large majority from the July 2024 landslide; Reform UK leads many national polls." },
+      { "name": "House of Lords", "control": "No overall control", "detail": "Appointed; hereditary peers being removed by 2025–26 legislation." }
+    ],
+    "judiciary": "Supreme Court of the United Kingdom; separate Scottish legal system.",
+    "elections": [
+      { "name": "General election", "date": "2024-07-04", "status": "held", "note": "Labour landslide under Keir Starmer." },
+      { "name": "Scottish, Welsh & English local elections", "date": "2026-05-07", "status": "held", "note": "Heavy Labour losses triggered Starmer's exit." },
+      { "name": "Labour leadership (Burnham elected unopposed)", "date": "2026-07-17", "status": "held" },
+      { "name": "General election (latest)", "date": "2029-08", "status": "upcoming" }
+    ],
+    "synopsis": "Keir Starmer resigned as Labour leader after disastrous May 2026 local elections; Andy Burnham, returning to Parliament via the Makerfield by-election, became Labour leader unopposed and Prime Minister in July 2026. He is trying to reset the government's direction against a strong challenge from Reform UK.",
+    "policies": ["Growth, housing and planning reform", "Public service and NHS recovery", "Closer post-Brexit relations with the EU", "Defence spending increase and support for Ukraine"],
+    "challenges": ["Weak polling and rise of Reform UK", "Tight public finances", "Irregular migration (small boats)", "Union tensions after the 2026 Scottish and Welsh elections"],
+    "lastVerified": "2026-10-25",
+    "reviewNote": "Confirm Burnham's appointment date and cabinet."
+  },
+  {
+    "iso3": "IRL", "iso2": "ie", "numeric": "372", "name": "Ireland", "region": "Europe",
+    "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Catherine Connolly", "title": "President", "party": "Independent (left-backed)", "since": "2025-11-11" },
+      "headOfGovernment": { "name": "Micheál Martin", "title": "Taoiseach", "party": "Fianna Fáil", "since": "2025-01-23" },
+      "governingParties": ["Fianna Fáil", "Fine Gael", "Regional Independents"]
+    },
+    "legislature": [
+      { "name": "Dáil Éireann (174)", "control": "FF–FG coalition with independents", "detail": "Sinn Féin is the main opposition." },
+      { "name": "Seanad Éireann (60)", "control": "Government majority" }
+    ],
+    "judiciary": "Supreme Court of Ireland.",
+    "elections": [
+      { "name": "General election", "date": "2024-11-29", "status": "held" },
+      { "name": "Presidential election", "date": "2025-10-24", "status": "held", "note": "Connolly won decisively." },
+      { "name": "General election (latest)", "date": "2030", "status": "upcoming", "note": "Simon Harris (FG) due to rotate in as Taoiseach in Nov 2027." }
+    ],
+    "synopsis": "A centre-right Fianna Fáil–Fine Gael coalition governs with independent support, with a planned rotation of Taoiseach to Simon Harris in late 2027.",
+    "policies": ["Housing supply expansion", "Managing large corporate-tax surpluses (sovereign funds)", "Ireland's 2026 EU Council presidency (Jul–Dec)"],
+    "challenges": ["Housing crisis", "Exposure to US tariffs and pharma/tech firms", "Infrastructure bottlenecks", "Migration debate"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "FRA", "iso2": "fr", "numeric": "250", "name": "France", "region": "Europe",
+    "system": "Unitary semi-presidential republic", "systemType": "semi-presidential", "status": "in-flux",
+    "executive": {
+      "headOfState": { "name": "Emmanuel Macron", "title": "President", "party": "Renaissance", "since": "2017" },
+      "headOfGovernment": { "name": "Sébastien Lecornu", "title": "Prime Minister", "party": "Renaissance", "since": "2025-09 (reappointed 2025-10)" },
+      "governingParties": ["Renaissance", "MoDem", "Horizons", "Les Républicains (partial)"]
+    },
+    "legislature": [
+      { "name": "National Assembly (577)", "control": "Hung parliament", "detail": "Left alliance, Macron's centrists and the RN–allies bloc each lack a majority; governments survive via abstentions." },
+      { "name": "Senate (348)", "control": "Centre-right (LR and centrists)" }
+    ],
+    "judiciary": "Constitutional Council, Court of Cassation and Council of State.",
+    "elections": [
+      { "name": "Snap legislative election", "date": "2024-07-07", "status": "held" },
+      { "name": "Municipal elections", "date": "2026-03", "status": "held" },
+      { "name": "Presidential election (1st round)", "date": "2027-04", "status": "upcoming", "note": "Macron is term-limited; Marine Le Pen barred pending appeal, Jordan Bardella RN's likely candidate." }
+    ],
+    "synopsis": "France has cycled through prime ministers since the 2024 snap election produced a hung parliament. Budget consolidation and the 2027 presidential succession dominate.",
+    "policies": ["Deficit reduction through difficult budgets", "Pension reform (partially suspended as a concession)", "European defence and support for Ukraine"],
+    "challenges": ["Government instability and no-confidence threats", "High deficit and debt; rating downgrades", "Rise of the National Rally"],
+    "lastVerified": "2026-10-25",
+    "reviewNote": "Prime minister status not verified for 2026 — confirm."
+  },
+  {
+    "iso3": "DEU", "iso2": "de", "numeric": "276", "name": "Germany", "region": "Europe",
+    "system": "Federal parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Frank-Walter Steinmeier", "title": "Federal President", "party": "SPD (non-partisan in office)", "since": "2017" },
+      "headOfGovernment": { "name": "Friedrich Merz", "title": "Federal Chancellor", "party": "CDU", "since": "2025-05-06" },
+      "governingParties": ["CDU/CSU", "SPD"]
+    },
+    "legislature": [
+      { "name": "Bundestag (630)", "control": "CDU/CSU–SPD coalition (328 seats)", "detail": "AfD is the largest opposition party." },
+      { "name": "Bundesrat (69)", "control": "Represents state governments; no fixed majority" }
+    ],
+    "judiciary": "Federal Constitutional Court (Karlsruhe) with strong judicial review.",
+    "elections": [
+      { "name": "Federal election", "date": "2025-02-23", "status": "held" },
+      { "name": "State elections (BW, RP, ST, MV, Berlin)", "date": "2026-09-20", "status": "held", "note": "Five state elections across 2026 (March–September)." },
+      { "name": "Federal Convention (presidential election)", "date": "2027-02", "status": "upcoming" },
+      { "name": "Federal election", "date": "2029", "status": "upcoming" }
+    ],
+    "synopsis": "Merz leads a grand coalition with the SPD after loosening the debt brake for defence and infrastructure. The government is trying to revive a stagnant economy while the AfD polls strongly.",
+    "policies": ["€500bn infrastructure fund and exemption of defence from the debt brake", "Tighter migration and border controls", "Military expansion and new military service model", "Economic competitiveness and bureaucracy reduction"],
+    "challenges": ["Economic stagnation and industrial decline", "AfD strength, especially in the east", "Coalition friction on welfare and pensions"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "NLD", "iso2": "nl", "numeric": "528", "name": "Netherlands", "region": "Europe",
+    "system": "Parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Willem-Alexander", "title": "King", "since": "2013" },
+      "headOfGovernment": { "name": "Rob Jetten", "title": "Prime Minister", "party": "D66", "since": "2026-02-23" },
+      "governingParties": ["D66", "VVD", "CDA"]
+    },
+    "legislature": [
+      { "name": "House of Representatives (150)", "control": "Minority coalition (66 seats)", "detail": "Needs opposition support bill by bill; PVV and GL–PvdA lead the opposition." },
+      { "name": "Senate (75)", "control": "No government majority" }
+    ],
+    "judiciary": "Supreme Court; Dutch courts cannot review laws for constitutionality.",
+    "elections": [
+      { "name": "General election", "date": "2025-10-29", "status": "held", "note": "D66 narrowly edged out the PVV." },
+      { "name": "Municipal elections", "date": "2026-03-18", "status": "held" },
+      { "name": "Provincial / Senate elections", "date": "2027-03", "status": "upcoming" }
+    ],
+    "synopsis": "Rob Jetten, the youngest PM in Dutch history, leads a centrist minority cabinet that must negotiate every bill. Planned health and welfare savings face strong opposition.",
+    "policies": ["Housing construction push", "Health and welfare cost containment", "Stricter but managed migration policy", "Climate and nitrogen policy"],
+    "challenges": ["Governing as a minority", "Housing shortage", "Nitrogen permit gridlock"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "BEL", "iso2": "be", "numeric": "056", "name": "Belgium", "region": "Europe",
+    "system": "Federal parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Philippe", "title": "King", "since": "2013" },
+      "headOfGovernment": { "name": "Bart De Wever", "title": "Prime Minister", "party": "N-VA", "since": "2025-02-03" },
+      "governingParties": ["N-VA", "MR", "Les Engagés", "Vooruit", "CD&V"]
+    },
+    "legislature": [
+      { "name": "Chamber of Representatives (150)", "control": "'Arizona' coalition (81 seats)" },
+      { "name": "Senate (60)", "control": "Indirectly elected" }
+    ],
+    "judiciary": "Constitutional Court, Court of Cassation, Council of State.",
+    "elections": [
+      { "name": "Federal, regional & EU elections", "date": "2024-06-09", "status": "held" },
+      { "name": "Federal election", "date": "2029-06", "status": "upcoming" }
+    ],
+    "synopsis": "Flemish nationalist De Wever leads a five-party centre-right coalition focused on budget repair and labour-market reform.",
+    "policies": ["Pension and unemployment-benefit reform", "Budget consolidation", "Raising defence spending", "Stricter migration"],
+    "challenges": ["Union strikes against reforms", "Deficit above EU limits", "Brussels governance deadlock"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "LUX", "iso2": "lu", "numeric": "442", "name": "Luxembourg", "region": "Europe",
+    "system": "Parliamentary constitutional monarchy (grand duchy)", "systemType": "parliamentary-monarchy", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Guillaume V", "title": "Grand Duke", "since": "2025-10-03" },
+      "headOfGovernment": { "name": "Luc Frieden", "title": "Prime Minister", "party": "CSV", "since": "2023-11" },
+      "governingParties": ["CSV", "DP"]
+    },
+    "legislature": [{ "name": "Chamber of Deputies (60)", "control": "CSV–DP coalition (35 seats)" }],
+    "judiciary": "Constitutional Court and Superior Court of Justice.",
+    "elections": [
+      { "name": "General election", "date": "2023-10-08", "status": "held" },
+      { "name": "General election", "date": "2028-10", "status": "upcoming" }
+    ],
+    "synopsis": "A centre-right CSV–DP government governs a wealthy financial centre; Grand Duke Guillaume succeeded his father Henri in October 2025.",
+    "policies": ["Housing affordability", "Pension reform", "Tax relief for middle incomes"],
+    "challenges": ["Housing costs", "Pension sustainability", "Dependence on finance sector"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "AUT", "iso2": "at", "numeric": "040", "name": "Austria", "region": "Europe",
+    "system": "Federal parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Alexander Van der Bellen", "title": "Federal President", "party": "Independent (ex-Greens)", "since": "2017" },
+      "headOfGovernment": { "name": "Christian Stocker", "title": "Federal Chancellor", "party": "ÖVP", "since": "2025-03-03" },
+      "governingParties": ["ÖVP", "SPÖ", "NEOS"]
+    },
+    "legislature": [
+      { "name": "National Council (183)", "control": "ÖVP–SPÖ–NEOS coalition", "detail": "FPÖ is the largest party but in opposition." },
+      { "name": "Federal Council (60)", "control": "Represents the states" }
+    ],
+    "judiciary": "Constitutional Court, Supreme Court, Administrative Court.",
+    "elections": [
+      { "name": "Legislative election", "date": "2024-09-29", "status": "held", "note": "FPÖ came first with ~29%." },
+      { "name": "Presidential election", "date": "2028", "status": "upcoming" },
+      { "name": "Legislative election", "date": "2029", "status": "upcoming" }
+    ],
+    "synopsis": "Austria's first three-party coalition formed after talks between the FPÖ and ÖVP collapsed. It is focused on budget consolidation and migration control, while the FPÖ leads polls.",
+    "policies": ["Budget consolidation to exit EU excessive-deficit procedure", "Pause on family reunification for refugees", "Energy-price relief"],
+    "challenges": ["Recession and high inflation", "FPÖ polling lead", "Coalition cohesion"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "CHE", "iso2": "ch", "numeric": "756", "name": "Switzerland", "region": "Europe",
+    "system": "Federal directorial republic with direct democracy", "systemType": "directorial", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Guy Parmelin (President of the Confederation 2026)", "title": "Federal Council (collective head of state)", "party": "SVP", "since": "2026-01-01" },
+      "headOfGovernment": { "name": "Federal Council (7 members)", "title": "Collective executive", "party": "SVP 2, FDP 2, SP 2, Centre 1" },
+      "governingParties": ["SVP", "SP", "FDP", "The Centre"]
+    },
+    "legislature": [
+      { "name": "National Council (200)", "control": "SVP largest party; no majority" },
+      { "name": "Council of States (46)", "control": "Centre and FDP strongest" }
+    ],
+    "judiciary": "Federal Supreme Court (no review of federal laws' constitutionality).",
+    "elections": [
+      { "name": "Federal election", "date": "2023-10-22", "status": "held" },
+      { "name": "Federal election", "date": "2027-10-24", "status": "upcoming" }
+    ],
+    "synopsis": "Switzerland's consensus 'magic formula' government shares power among the four largest parties. Debate centres on the new EU bilateral package and US tariffs.",
+    "policies": ["New bilateral treaty package with the EU", "Negotiating relief from US tariffs", "Army and defence funding increase"],
+    "challenges": ["Referendums on EU deal and population cap ('10 million' initiative)", "Export pressure from strong franc and tariffs"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "LIE", "iso2": "li", "numeric": "438", "name": "Liechtenstein", "region": "Europe",
+    "system": "Constitutional monarchy with strong princely powers and direct democracy", "systemType": "parliamentary-monarchy", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Hans-Adam II (Hereditary Prince Alois as regent)", "title": "Prince", "since": "1989 (regent since 2004)" },
+      "headOfGovernment": { "name": "Brigitte Haas", "title": "Prime Minister", "party": "Progressive Citizens' Party (FBP)", "since": "2025-04-10" },
+      "governingParties": ["FBP", "Patriotic Union (VU)"]
+    },
+    "legislature": [{ "name": "Landtag (25)", "control": "FBP–VU coalition" }],
+    "judiciary": "State Court (constitutional) and Supreme Court.",
+    "elections": [
+      { "name": "General election", "date": "2025-02-09", "status": "held" },
+      { "name": "General election", "date": "2029-02", "status": "upcoming" }
+    ],
+    "synopsis": "Liechtenstein's first female prime minister leads the traditional two-party coalition.",
+    "policies": ["Economic stability and financial-sector regulation", "EEA relations"],
+    "challenges": ["US tariffs on exports", "Housing costs"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "MCO", "iso2": "mc", "numeric": "492", "name": "Monaco", "region": "Europe",
+    "system": "Constitutional monarchy (principality)", "systemType": "parliamentary-monarchy", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Albert II", "title": "Sovereign Prince", "since": "2005" },
+      "headOfGovernment": { "name": "Christophe Mirmand", "title": "Minister of State", "since": "2024-07" },
+      "governingParties": ["Non-partisan (appointed by the Prince)"]
+    },
+    "legislature": [{ "name": "National Council (24)", "control": "Monaco Nationale / Primo! Priorité Monaco (all seats in 2023)" }],
+    "judiciary": "Supreme Court.",
+    "elections": [
+      { "name": "National Council election", "date": "2023-02-05", "status": "held" },
+      { "name": "National Council election", "date": "2028-02", "status": "upcoming" }
+    ],
+    "synopsis": "Executive power rests with the Prince and his appointed Minister of State; the elected National Council approves budgets and laws.",
+    "policies": ["Financial-sector compliance (FATF grey-list exit)", "Housing for Monegasque nationals", "Environmental initiatives"],
+    "challenges": ["Anti-money-laundering scrutiny", "Land scarcity"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "AND", "iso2": "ad", "numeric": "020", "name": "Andorra", "region": "Europe",
+    "system": "Parliamentary co-principality", "systemType": "parliamentary-monarchy", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Emmanuel Macron and Bishop Josep-Lluís Serrano Pentinat", "title": "Co-Princes" },
+      "headOfGovernment": { "name": "Xavier Espot Zamora", "title": "Head of Government", "party": "Democrats for Andorra (DA)", "since": "2019" },
+      "governingParties": ["DA", "Committed Citizens", "Action for Andorra"]
+    },
+    "legislature": [{ "name": "General Council (28)", "control": "DA-led majority" }],
+    "judiciary": "Constitutional Tribunal and Superior Court of Justice.",
+    "elections": [
+      { "name": "Parliamentary election", "date": "2023-04-02", "status": "held" },
+      { "name": "Parliamentary election", "date": "2027-04", "status": "upcoming" }
+    ],
+    "synopsis": "Espot's centre-right government is finalising an association agreement with the EU and tackling housing pressures.",
+    "policies": ["EU association agreement", "Housing and rental regulation", "Limits on foreign investment"],
+    "challenges": ["Housing costs", "Domestic opposition to EU deal"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "ITA", "iso2": "it", "numeric": "380", "name": "Italy", "region": "Europe",
+    "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Sergio Mattarella", "title": "President", "since": "2015" },
+      "headOfGovernment": { "name": "Giorgia Meloni", "title": "President of the Council of Ministers", "party": "Brothers of Italy (FdI)", "since": "2022-10-22" },
+      "governingParties": ["Brothers of Italy", "Lega", "Forza Italia", "Noi Moderati"]
+    },
+    "legislature": [
+      { "name": "Chamber of Deputies (400)", "control": "Centre-right coalition majority" },
+      { "name": "Senate (200 + life senators)", "control": "Centre-right coalition majority" }
+    ],
+    "judiciary": "Constitutional Court; a constitutional reform separating judges' and prosecutors' careers has been central to government–judiciary tension.",
+    "elections": [
+      { "name": "General election", "date": "2022-09-25", "status": "held" },
+      { "name": "General election (latest)", "date": "2027", "status": "upcoming" }
+    ],
+    "synopsis": "Meloni leads one of Italy's most stable post-war governments, combining fiscal prudence with conservative social and migration policy and an Atlanticist foreign policy.",
+    "policies": ["Migration deterrence (including Albania processing centres)", "Justice reform and 'premierato' constitutional proposal", "Fiscal discipline to exit EU deficit procedure", "Support for Ukraine and close ties with the US"],
+    "challenges": ["Low growth and high public debt", "Demographic decline", "PNRR (EU recovery fund) deadline in 2026"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "SMR", "iso2": "sm", "numeric": "674", "name": "San Marino", "region": "Europe",
+    "system": "Parliamentary directorial republic", "systemType": "directorial", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Two Captains Regent (rotate every 6 months, 1 Apr / 1 Oct)", "title": "Captains Regent" },
+      "headOfGovernment": { "name": "Congress of State (Secretary of State for Foreign Affairs: Luca Beccari)", "title": "Collective government", "party": "PDCS-led coalition" },
+      "governingParties": ["Sammarinese Christian Democratic Party (PDCS)", "coalition partners"]
+    },
+    "legislature": [{ "name": "Grand and General Council (60)", "control": "PDCS-led coalition" }],
+    "judiciary": "Guarantors' College (constitutional) and courts.",
+    "elections": [
+      { "name": "General election", "date": "2024-06-09", "status": "held" },
+      { "name": "General election", "date": "2029", "status": "upcoming" }
+    ],
+    "synopsis": "San Marino is governed by a PDCS-led coalition and finalising an association agreement with the EU.",
+    "policies": ["EU association agreement", "Public finances and pension reform"],
+    "challenges": ["Debt refinancing", "Small economy dependence on Italy"],
+    "lastVerified": "2026-10-25",
+    "reviewNote": "Update names of current Captains Regent each April and October."
+  },
+  {
+    "iso3": "VAT", "iso2": "va", "numeric": "336", "name": "Vatican City", "region": "Europe",
+    "system": "Absolute elective theocratic monarchy", "systemType": "theocratic", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Pope Leo XIV (Robert Francis Prevost)", "title": "Sovereign Pontiff", "since": "2025-05-08" },
+      "headOfGovernment": { "name": "Sr. Raffaella Petrini (Governorate); Cardinal Pietro Parolin (Secretary of State)", "title": "President of the Governorate / Secretary of State" },
+      "governingParties": ["None"]
+    },
+    "legislature": [{ "name": "Pontifical Commission for Vatican City State", "control": "Appointed by the Pope" }],
+    "judiciary": "Vatican tribunals; the Pope holds supreme judicial power.",
+    "elections": [{ "name": "Papal conclave", "date": "2025-05-08", "status": "held", "note": "Elected the first US-born pope." }],
+    "synopsis": "Pope Leo XIV, the first American pope, has emphasised continuity with Francis on social issues while seeking unity within the Church.",
+    "policies": ["Peace diplomacy (Ukraine, Middle East)", "Financial reform of the Holy See", "Church reform and synodality"],
+    "challenges": ["Structural budget deficit", "Abuse-crisis accountability", "Internal divisions"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "ESP", "iso2": "es", "numeric": "724", "name": "Spain", "region": "Europe",
+    "system": "Parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "in-flux",
+    "executive": {
+      "headOfState": { "name": "Felipe VI", "title": "King", "since": "2014" },
+      "headOfGovernment": { "name": "Pedro Sánchez", "title": "President of the Government", "party": "PSOE", "since": "2018" },
+      "governingParties": ["PSOE", "Sumar (minority coalition)"]
+    },
+    "legislature": [
+      { "name": "Congress of Deputies (350)", "control": "Dissolved — snap election 29 Nov 2026", "detail": "Minority government lost key housing votes after Junts withdrew support." },
+      { "name": "Senate (266)", "control": "People's Party majority" }
+    ],
+    "judiciary": "Constitutional Court and Supreme Court; corruption probes touch PSOE figures.",
+    "elections": [
+      { "name": "General election", "date": "2023-07-23", "status": "held" },
+      { "name": "Snap general election", "date": "2026-11-29", "status": "upcoming", "note": "Called on 5 Oct 2026; polls favour PP, possibly with Vox." }
+    ],
+    "synopsis": "Sánchez called a snap election for 29 November 2026 after parliament rejected his housing decrees. The Socialists trail the People's Party in polls.",
+    "policies": ["Housing affordability and rent regulation", "Labour-market and minimum-wage policy", "Migration regularisation", "Catalan amnesty and regional financing"],
+    "challenges": ["Housing crisis and protests", "Corruption investigations", "No budget passed since 2023", "Migration pressure (Ceuta, Canaries)"],
+    "lastVerified": "2026-10-25",
+    "reviewNote": "Snap election on 29 Nov 2026 — update result."
+  },
+  {
+    "iso3": "PRT", "iso2": "pt", "numeric": "620", "name": "Portugal", "region": "Europe",
+    "system": "Unitary semi-presidential republic", "systemType": "semi-presidential", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "António José Seguro", "title": "President", "party": "Socialist Party (PS)", "since": "2026-03-09" },
+      "headOfGovernment": { "name": "Luís Montenegro", "title": "Prime Minister", "party": "PSD (Democratic Alliance)", "since": "2024-04-02" },
+      "governingParties": ["PSD", "CDS–PP (Democratic Alliance)"]
+    },
+    "legislature": [{ "name": "Assembly of the Republic (230)", "control": "AD minority", "detail": "Chega became the second-largest party in May 2025." }],
+    "judiciary": "Constitutional Court and Supreme Court of Justice.",
+    "elections": [
+      { "name": "Legislative election", "date": "2025-05-18", "status": "held" },
+      { "name": "Presidential runoff", "date": "2026-02-08", "status": "held", "note": "Seguro beat Chega's André Ventura ~67–33%." },
+      { "name": "Legislative election (latest)", "date": "2029", "status": "upcoming" }
+    ],
+    "synopsis": "Montenegro's centre-right minority government faces a fragmented parliament with a strong far-right Chega, while a Socialist president was elected in 2026.",
+    "policies": ["Tax cuts and housing supply measures", "Tighter immigration and nationality rules", "Health-service waiting-time reduction"],
+    "challenges": ["Housing costs", "Minority government stability", "Rise of Chega"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "MLT", "iso2": "mt", "numeric": "470", "name": "Malta", "region": "Europe",
+    "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Myriam Spiteri Debono", "title": "President", "since": "2024-04" },
+      "headOfGovernment": { "name": "Robert Abela", "title": "Prime Minister", "party": "Labour Party", "since": "2020" },
+      "governingParties": ["Labour Party"]
+    },
+    "legislature": [{ "name": "House of Representatives", "control": "Labour majority", "detail": "Nationalist Party (led by Alex Borg) in opposition." }],
+    "judiciary": "Constitutional Court and Court of Appeal.",
+    "elections": [
+      { "name": "General election", "date": "2026-05-30", "status": "held", "note": "Labour's record fourth straight win (~52%), with a narrower margin." },
+      { "name": "General election (due)", "date": "2031", "status": "upcoming" }
+    ],
+    "synopsis": "Abela secured a third term as PM in May 2026, with Labour winning a record fourth consecutive election.",
+    "policies": ["Energy-price subsidies", "Infrastructure and economic growth", "Rule-of-law reforms"],
+    "challenges": ["Governance and corruption concerns", "Overdevelopment and congestion", "Labour shortages"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "GRC", "iso2": "gr", "numeric": "300", "name": "Greece", "region": "Europe",
+    "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Konstantinos Tasoulas", "title": "President", "since": "2025-03-13" },
+      "headOfGovernment": { "name": "Kyriakos Mitsotakis", "title": "Prime Minister", "party": "New Democracy", "since": "2019" },
+      "governingParties": ["New Democracy"]
+    },
+    "legislature": [{ "name": "Hellenic Parliament (300)", "control": "New Democracy majority" }],
+    "judiciary": "Supreme Civil and Criminal Court, Council of State.",
+    "elections": [
+      { "name": "Legislative election", "date": "2023-06-25", "status": "held" },
+      { "name": "Legislative election (latest)", "date": "2027", "status": "upcoming" }
+    ],
+    "synopsis": "Mitsotakis's single-party government has overseen economic recovery and rating upgrades but is weakened by the Tempi rail-disaster fallout and a subsidy scandal.",
+    "policies": ["Debt reduction and investment-grade economy", "Defence modernisation", "Housing and wage measures"],
+    "challenges": ["Tempi train crash accountability", "OPEKEPE farm-subsidy scandal", "Cost of living", "Relations with Turkey"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "CYP", "iso2": "cy", "numeric": "196", "name": "Cyprus", "region": "Europe",
+    "system": "Unitary presidential republic", "systemType": "presidential", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Nikos Christodoulides", "title": "President", "party": "Independent", "since": "2023-02-28" },
+      "headOfGovernment": { "name": "Nikos Christodoulides", "title": "President", "since": "2023-02-28" },
+      "governingParties": ["Independent president backed by DIKO and others"]
+    },
+    "legislature": [{ "name": "House of Representatives (56)", "control": "No majority", "detail": "May 2026: DISY 17, AKEL 15, ELAM 8, DIKO 8, ALMA 4, Direct Democracy 4." }],
+    "judiciary": "Supreme Constitutional Court and Supreme Court.",
+    "elections": [
+      { "name": "Parliamentary election", "date": "2026-05-24", "status": "held", "note": "Far-right ELAM became joint third; new outsider parties entered." },
+      { "name": "Presidential election", "date": "2028-02", "status": "upcoming" }
+    ],
+    "synopsis": "Christodoulides holds Cyprus's EU Council presidency in the first half of 2026 and faces a fragmented House after ELAM's surge.",
+    "policies": ["EU Council presidency (Jan–Jun 2026)", "Reunification talks under UN auspices", "Energy and gas development"],
+    "challenges": ["Cyprus problem / division of the island", "Migration", "Corruption allegations"],
+    "lastVerified": "2026-10-25"
+  }
+]

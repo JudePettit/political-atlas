@@ -1,0 +1,220 @@
+[
+  {
+    "iso3": "HRV", "iso2": "hr", "numeric": "191", "name": "Croatia", "region": "Europe",
+    "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Zoran Milanović", "title": "President", "party": "Independent (SDP-backed)", "since": "2020" },
+      "headOfGovernment": { "name": "Andrej Plenković", "title": "Prime Minister", "party": "HDZ", "since": "2016" },
+      "governingParties": ["HDZ", "Homeland Movement (DP)"]
+    },
+    "legislature": [{ "name": "Sabor (151)", "control": "HDZ–DP coalition" }],
+    "judiciary": "Constitutional Court and Supreme Court.",
+    "elections": [
+      { "name": "Parliamentary election", "date": "2024-04-17", "status": "held" },
+      { "name": "Presidential election", "date": "2025-01-12", "status": "held", "note": "Milanović re-elected." },
+      { "name": "Parliamentary election", "date": "2028", "status": "upcoming" }
+    ],
+    "synopsis": "Plenković's third government relies on the nationalist Homeland Movement, with frequent clashes with President Milanović over foreign policy.",
+    "policies": ["Reintroduction of military conscription", "Inflation control", "Eurozone and Schengen integration"],
+    "challenges": ["Inflation", "Labour emigration", "Cohabitation tensions"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "BIH", "iso2": "ba", "numeric": "070", "name": "Bosnia and Herzegovina", "region": "Europe",
+    "system": "Federal parliamentary republic with tripartite presidency (Dayton system, international High Representative)", "systemType": "parliamentary-republic", "status": "in-flux",
+    "executive": {
+      "headOfState": { "name": "Tripartite Presidency: Denis Bećirović (Bosniak, SDP), Darijana Filipović (Croat, HDZ BiH), Željka Cvijanović (Serb, SNSD)", "title": "Presidency (preliminary Oct 2026 results)" },
+      "headOfGovernment": { "name": "Borjana Krišto", "title": "Chair of the Council of Ministers", "party": "HDZ BiH", "since": "2023-01" },
+      "governingParties": ["SNSD", "HDZ BiH", "'Troika' (SDP, NiP, Naša stranka)"]
+    },
+    "legislature": [
+      { "name": "House of Representatives (42)", "control": "Fragmented; ethnic power-sharing", "detail": "Oct 2026 preliminary: SDA largest (9), SNSD 6." },
+      { "name": "House of Peoples (15)", "control": "Ethnic quotas" }
+    ],
+    "judiciary": "Constitutional Court (with international judges); High Representative Christian Schmidt holds 'Bonn powers'.",
+    "elections": [
+      { "name": "General election", "date": "2026-10-04", "status": "held", "note": "Provisional until certified by the Central Election Commission." },
+      { "name": "General election", "date": "2030-10", "status": "upcoming" }
+    ],
+    "synopsis": "Nationalist parties largely held their ground in the October 2026 general election. Government formation at state and entity level follows, with Republika Srpska secessionist rhetoric a persistent risk.",
+    "policies": ["EU accession reforms (talks opened conditionally in 2024)", "Entity-level disputes over state institutions"],
+    "challenges": ["Republika Srpska–state tensions (Dodik legacy)", "Government formation", "Corruption and emigration"],
+    "lastVerified": "2026-10-25",
+    "reviewNote": "Confirm certified presidency results and new Council of Ministers."
+  },
+  {
+    "iso3": "SRB", "iso2": "rs", "numeric": "688", "name": "Serbia", "region": "Europe",
+    "system": "Unitary parliamentary republic (strong presidency in practice)", "systemType": "parliamentary-republic", "status": "in-flux",
+    "executive": {
+      "headOfState": { "name": "Aleksandar Vučić", "title": "President", "party": "Serbian Progressive Party (SNS)", "since": "2017" },
+      "headOfGovernment": { "name": "Đuro Macut", "title": "Prime Minister", "party": "Independent (SNS-backed)", "since": "2025-04-16" },
+      "governingParties": ["SNS", "SPS", "allies"]
+    },
+    "legislature": [{ "name": "National Assembly (250)", "control": "SNS-led majority (dissolved — election 25 Oct 2026)" }],
+    "judiciary": "Constitutional Court; judiciary under political pressure.",
+    "elections": [
+      { "name": "Snap parliamentary election", "date": "2026-10-25", "status": "held", "note": "Called after two years of protests; SNS nominated Vučić as PM candidate." },
+      { "name": "Presidential election", "date": "2027-04", "status": "upcoming" }
+    ],
+    "synopsis": "Vučić called an early parliamentary election for 25 October 2026 after student-led protests that began with the November 2024 Novi Sad canopy collapse. He is the SNS candidate for prime minister as his presidential term nears its end.",
+    "policies": ["Balancing EU accession with ties to Russia and China", "Infrastructure-led growth (Expo 2027)", "Response to protest movement"],
+    "challenges": ["Mass anti-corruption protests", "Media freedom and rule-of-law concerns", "Kosovo dispute", "NIS oil company sanctions"],
+    "lastVerified": "2026-10-25",
+    "reviewNote": "Election held 25 Oct 2026 — update results and new government."
+  },
+  {
+    "iso3": "MNE", "iso2": "me", "numeric": "499", "name": "Montenegro", "region": "Europe",
+    "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Jakov Milatović", "title": "President", "party": "Independent (ex-PES)", "since": "2023-05-20" },
+      "headOfGovernment": { "name": "Milojko Spajić", "title": "Prime Minister", "party": "Europe Now! (PES)", "since": "2023-10-31" },
+      "governingParties": ["PES", "Democrats", "For the Future of Montenegro", "Bosniak Party", "others"]
+    },
+    "legislature": [{ "name": "Parliament (81)", "control": "Broad PES-led coalition" }],
+    "judiciary": "Constitutional Court; judicial appointments were long blocked.",
+    "elections": [
+      { "name": "Parliamentary election", "date": "2023-06-11", "status": "held" },
+      { "name": "Parliamentary election", "date": "2027", "status": "upcoming" },
+      { "name": "Presidential election", "date": "2028", "status": "upcoming" }
+    ],
+    "synopsis": "Montenegro is the front-runner for EU accession, aiming to close negotiations by 2026–27.",
+    "policies": ["Closing EU accession chapters", "Wage and pension increases", "Tax reform"],
+    "challenges": ["Coalition frictions", "Organised crime", "Serbian–Montenegrin identity politics"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "XKX", "iso2": "xk", "numeric": null, "name": "Kosovo", "region": "Europe",
+    "system": "Unitary parliamentary republic (partially recognised)", "systemType": "parliamentary-republic", "status": "in-flux",
+    "executive": {
+      "headOfState": { "name": "Vacant / acting (Justina Pula reported from Oct 2026)", "title": "President" },
+      "headOfGovernment": { "name": "Albin Kurti", "title": "Prime Minister", "party": "Vetëvendosje (VV)", "since": "2021 (new government 2026-09-13)" },
+      "governingParties": ["Vetëvendosje", "minority-community partners"]
+    },
+    "legislature": [{ "name": "Assembly (120)", "control": "VV-led majority (62 votes for government)", "detail": "Two-thirds needed to elect a president; failure triggers dissolution." }],
+    "judiciary": "Constitutional Court.",
+    "elections": [
+      { "name": "Snap parliamentary election", "date": "2026-06-07", "status": "held", "note": "Third election in 18 months; VV ~43%." },
+      { "name": "Possible snap election (if presidency not filled)", "date": "TBD", "status": "upcoming" }
+    ],
+    "synopsis": "Kurti formed a new government in September 2026 after a long deadlock, but the failure to elect a president by the constitutional deadline could force yet another election.",
+    "policies": ["Integration of Serb-majority north", "EU visa liberalisation and membership bid", "Normalisation talks with Serbia"],
+    "challenges": ["Presidential deadlock", "EU punitive measures (partially lifted)", "Tensions in the north"],
+    "lastVerified": "2026-10-25",
+    "reviewNote": "Presidency and possible dissolution status unclear — verify."
+  },
+  {
+    "iso3": "ALB", "iso2": "al", "numeric": "008", "name": "Albania", "region": "Europe",
+    "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Bajram Begaj", "title": "President", "since": "2022-07-24" },
+      "headOfGovernment": { "name": "Edi Rama", "title": "Prime Minister", "party": "Socialist Party (PS)", "since": "2013" },
+      "governingParties": ["Socialist Party"]
+    },
+    "legislature": [{ "name": "Parliament (140)", "control": "Socialist majority (83 seats)" }],
+    "judiciary": "Constitutional Court; Special Anti-Corruption Structure (SPAK).",
+    "elections": [
+      { "name": "Parliamentary election", "date": "2025-05-11", "status": "held", "note": "Rama's fourth consecutive term." },
+      { "name": "Parliamentary election", "date": "2029", "status": "upcoming" }
+    ],
+    "synopsis": "Rama aims to complete EU accession talks by 2027 and has appointed an AI 'minister' for procurement oversight.",
+    "policies": ["EU accession by 2030", "Tourism boom", "Migration deal with Italy"],
+    "challenges": ["Corruption cases (incl. former deputy PM)", "Emigration", "Polarised politics"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "MKD", "iso2": "mk", "numeric": "807", "name": "North Macedonia", "region": "Europe",
+    "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Gordana Siljanovska-Davkova", "title": "President", "party": "VMRO-DPMNE-backed", "since": "2024-05-12" },
+      "headOfGovernment": { "name": "Hristijan Mickoski", "title": "Prime Minister", "party": "VMRO-DPMNE", "since": "2024-06-23" },
+      "governingParties": ["VMRO-DPMNE", "VLEN", "ZNAM"]
+    },
+    "legislature": [{ "name": "Assembly (120)", "control": "VMRO-DPMNE-led coalition majority" }],
+    "judiciary": "Constitutional Court.",
+    "elections": [
+      { "name": "Parliamentary & presidential elections", "date": "2024-05-08", "status": "held" },
+      { "name": "Parliamentary election", "date": "2028", "status": "upcoming" }
+    ],
+    "synopsis": "The nationalist government resists Bulgaria's demand for a constitutional change recognising a Bulgarian minority, stalling EU talks.",
+    "policies": ["Infrastructure (corridors 8 and 10)", "Anti-corruption pledges", "Revisiting EU negotiating framework"],
+    "challenges": ["EU accession blockage", "Kočani nightclub fire fallout", "Emigration"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "TUR", "iso2": "tr", "numeric": "792", "name": "Turkey", "region": "Europe (transcontinental)",
+    "system": "Unitary presidential republic", "systemType": "presidential", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Recep Tayyip Erdoğan", "title": "President", "party": "AKP", "since": "2014 (PM 2003–2014)" },
+      "headOfGovernment": { "name": "Recep Tayyip Erdoğan", "title": "President (VP: Cevdet Yılmaz)", "party": "AKP" },
+      "governingParties": ["AKP", "MHP (People's Alliance)"]
+    },
+    "legislature": [{ "name": "Grand National Assembly (600)", "control": "AKP–MHP majority", "detail": "CHP is the main opposition." }],
+    "judiciary": "Constitutional Court and Court of Cassation; judiciary widely seen as politicised.",
+    "elections": [
+      { "name": "Presidential & parliamentary elections", "date": "2023-05-28", "status": "held" },
+      { "name": "Presidential & parliamentary elections", "date": "2028-05", "status": "upcoming", "note": "Could be brought forward." }
+    ],
+    "synopsis": "Erdoğan's government faces a resurgent CHP opposition whose leading figure, Istanbul mayor Ekrem İmamoğlu, has been jailed since March 2025. A peace process with the PKK is under way.",
+    "policies": ["Disarmament process with the PKK", "Disinflation programme", "Active regional diplomacy (Syria, Ukraine, Gaza)"],
+    "challenges": ["High inflation", "Crackdown on opposition and protests", "Constitutional term limits for Erdoğan"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "GEO", "iso2": "ge", "numeric": "268", "name": "Georgia", "region": "Europe (transcontinental)",
+    "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Mikheil Kavelashvili", "title": "President (legitimacy disputed by opposition)", "party": "Georgian Dream", "since": "2024-12-29" },
+      "headOfGovernment": { "name": "Irakli Kobakhidze", "title": "Prime Minister", "party": "Georgian Dream", "since": "2024-02-08" },
+      "governingParties": ["Georgian Dream"]
+    },
+    "legislature": [{ "name": "Parliament (150)", "control": "Georgian Dream majority", "detail": "Main opposition boycotting; several opposition parties face ban proceedings." }],
+    "judiciary": "Constitutional Court; judiciary considered captured by ruling party.",
+    "elections": [
+      { "name": "Parliamentary election", "date": "2024-10-26", "status": "held", "note": "Disputed; triggered mass protests." },
+      { "name": "Parliamentary election", "date": "2028-10", "status": "upcoming" }
+    ],
+    "synopsis": "Georgian Dream, founded by billionaire Bidzina Ivanishvili, has frozen EU accession and cracked down on protest and civil society.",
+    "policies": ["Suspension of EU accession talks", "Foreign agents and media laws", "Rapprochement with Russia and China"],
+    "challenges": ["Daily protests and arrests", "Western sanctions on officials", "Democratic backsliding"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "ARM", "iso2": "am", "numeric": "051", "name": "Armenia", "region": "Europe (transcontinental)",
+    "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Vahagn Khachaturyan", "title": "President", "since": "2022-03-13" },
+      "headOfGovernment": { "name": "Nikol Pashinyan", "title": "Prime Minister", "party": "Civil Contract", "since": "2018" },
+      "governingParties": ["Civil Contract"]
+    },
+    "legislature": [{ "name": "National Assembly (105)", "control": "Civil Contract majority", "detail": "June 2026: Civil Contract ~49.8%; Strong Armenia (Karapetyan) and Armenia Alliance (Kocharyan) in opposition." }],
+    "judiciary": "Constitutional Court.",
+    "elections": [
+      { "name": "Parliamentary election", "date": "2026-06-07", "status": "held", "note": "Opposition contested results." },
+      { "name": "Parliamentary election", "date": "2031", "status": "upcoming" }
+    ],
+    "synopsis": "Pashinyan won a renewed majority in June 2026, framing it as a mandate for peace with Azerbaijan and distancing Armenia from Moscow.",
+    "policies": ["Peace treaty with Azerbaijan (Aug 2025 Washington framework, TRIPP corridor)", "New constitution (required by Baku for treaty signing)", "Westward pivot and EU aspirations"],
+    "challenges": ["Constitutional referendum", "Russian influence and pro-Russian opposition", "Tensions with the Armenian Apostolic Church"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "AZE", "iso2": "az", "numeric": "031", "name": "Azerbaijan", "region": "Europe (transcontinental)",
+    "system": "Unitary presidential republic (authoritarian)", "systemType": "presidential", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Ilham Aliyev", "title": "President (VP: Mehriban Aliyeva)", "party": "New Azerbaijan Party (YAP)", "since": "2003" },
+      "headOfGovernment": { "name": "Ali Asadov", "title": "Prime Minister", "party": "YAP", "since": "2019" },
+      "governingParties": ["New Azerbaijan Party"]
+    },
+    "legislature": [{ "name": "National Assembly (125)", "control": "YAP and pro-government independents" }],
+    "judiciary": "Constitutional Court; courts controlled by executive.",
+    "elections": [
+      { "name": "Presidential election", "date": "2024-02-07", "status": "held" },
+      { "name": "Parliamentary election", "date": "2024-09-01", "status": "held" },
+      { "name": "Presidential election", "date": "2031", "status": "upcoming" }
+    ],
+    "synopsis": "Aliyev, having retaken Karabakh in 2023, is negotiating a peace treaty with Armenia while strengthening ties with the US and Turkey and clashing with Russia.",
+    "policies": ["Peace treaty and transit corridor with Armenia", "Gas exports to Europe", "Reconstruction of Karabakh"],
+    "challenges": ["Repression of media and opposition", "Strained relations with Russia", "Oil and gas dependence"],
+    "lastVerified": "2026-10-25"
+  }
+]

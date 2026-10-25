@@ -1,0 +1,16 @@
+{
+  "name": "political-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Interactive map of political leadership in Europe, North America, Russia, China, Japan, Israel and Saudi Arabia",
+  "scripts": {
+    "start": "npx --yes serve@14.2.4 -l 8080 .",
+    "update-data": "node scripts/update-data.mjs",
+    "validate": "node scripts/validate.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.110.0",
+    "ajv": "^8.17.1"
+  }
+}

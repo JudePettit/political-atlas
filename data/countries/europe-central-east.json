@@ -1,0 +1,209 @@
+[
+  {
+    "iso3": "POL", "iso2": "pl", "numeric": "616", "name": "Poland", "region": "Europe",
+    "system": "Unitary semi-presidential republic", "systemType": "semi-presidential", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Karol Nawrocki", "title": "President", "party": "Independent (PiS-backed)", "since": "2025-08-06" },
+      "headOfGovernment": { "name": "Donald Tusk", "title": "Prime Minister", "party": "Civic Coalition (KO)", "since": "2023-12-13" },
+      "governingParties": ["Civic Coalition", "PSL", "Poland 2050", "The Left"]
+    },
+    "legislature": [
+      { "name": "Sejm (460)", "control": "Tusk coalition majority", "detail": "Not enough to override presidential vetoes (3/5 needed)." },
+      { "name": "Senate (100)", "control": "Tusk coalition majority" }
+    ],
+    "judiciary": "Constitutional Tribunal and Supreme Court; legitimacy of PiS-era judicial appointments remains disputed.",
+    "elections": [
+      { "name": "Presidential election", "date": "2025-06-01", "status": "held" },
+      { "name": "Parliamentary election", "date": "2027-10", "status": "upcoming" }
+    ],
+    "synopsis": "Tusk's pro-EU coalition faces a hostile, veto-wielding president, slowing judicial and social reforms. Defence spending is the highest in NATO relative to GDP.",
+    "policies": ["Defence spending near 5% of GDP", "Restoring rule of law in the judiciary", "Tighter migration and asylum suspension at Belarus border"],
+    "challenges": ["Cohabitation and presidential vetoes", "Deficit", "PiS and Confederation strength ahead of 2027"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "CZE", "iso2": "cz", "numeric": "203", "name": "Czechia", "region": "Europe",
+    "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Petr Pavel", "title": "President", "since": "2023-03-09" },
+      "headOfGovernment": { "name": "Andrej Babiš", "title": "Prime Minister", "party": "ANO", "since": "2025-12" },
+      "governingParties": ["ANO", "SPD", "Motorists for Themselves"]
+    },
+    "legislature": [
+      { "name": "Chamber of Deputies (200)", "control": "ANO-led coalition (108 seats)" },
+      { "name": "Senate (81)", "control": "Opposition (centre-right) majority" }
+    ],
+    "judiciary": "Constitutional Court.",
+    "elections": [
+      { "name": "Chamber election", "date": "2025-10-04", "status": "held" },
+      { "name": "Senate (1/3) elections", "date": "2026-10", "status": "held" },
+      { "name": "Presidential election", "date": "2028-01", "status": "upcoming" }
+    ],
+    "synopsis": "Populist Babiš returned to power with nationalist and anti-Green partners; he has had to resolve conflicts of interest over his Agrofert business.",
+    "policies": ["Scaling back Green Deal measures", "Reduced military aid to Ukraine (ammunition initiative reviewed)", "Pension and energy price relief"],
+    "challenges": ["Conflict-of-interest and fraud case", "Friction with President Pavel", "Budget deficit"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "SVK", "iso2": "sk", "numeric": "703", "name": "Slovakia", "region": "Europe",
+    "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Peter Pellegrini", "title": "President", "party": "Hlas (formerly)", "since": "2024-06-15" },
+      "headOfGovernment": { "name": "Robert Fico", "title": "Prime Minister", "party": "Smer–SD", "since": "2023-10-25" },
+      "governingParties": ["Smer–SD", "Hlas–SD", "Slovak National Party"]
+    },
+    "legislature": [{ "name": "National Council (150)", "control": "Fragile governing majority" }],
+    "judiciary": "Constitutional Court; criminal-code and prosecutor reforms criticised by the EU.",
+    "elections": [
+      { "name": "Parliamentary election", "date": "2023-09-30", "status": "held" },
+      { "name": "Parliamentary election", "date": "2027-09", "status": "upcoming" }
+    ],
+    "synopsis": "Fico's nationalist-left government has softened anti-corruption institutions and pursued a Russia-friendly line within the EU, sparking mass protests.",
+    "policies": ["Opposition to military aid for Ukraine", "Fiscal consolidation package", "Constitutional amendment on 'two sexes' and national sovereignty"],
+    "challenges": ["Large protests", "EU rule-of-law disputes", "High deficit"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "HUN", "iso2": "hu", "numeric": "348", "name": "Hungary", "region": "Europe",
+    "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Tamás Sulyok", "title": "President", "party": "Independent (Fidesz-elected)", "since": "2024-03-05" },
+      "headOfGovernment": { "name": "Péter Magyar", "title": "Prime Minister", "party": "Tisza", "since": "2026-05-09" },
+      "governingParties": ["Tisza"]
+    },
+    "legislature": [{ "name": "National Assembly (199)", "control": "Tisza two-thirds supermajority", "detail": "Fidesz under Viktor Orbán is the main opposition." }],
+    "judiciary": "Constitutional Court and Kúria, largely appointed under Orbán; reform is a Tisza priority.",
+    "elections": [
+      { "name": "Parliamentary election", "date": "2026-04-12", "status": "held", "note": "Tisza ended 16 years of Fidesz rule with a two-thirds majority." },
+      { "name": "Parliamentary election", "date": "2030-04", "status": "upcoming" }
+    ],
+    "synopsis": "Péter Magyar's Tisza ousted Viktor Orbán in April 2026 and is dismantling key parts of the Fidesz system while returning Hungary to the European mainstream.",
+    "policies": ["Unlocking frozen EU funds via rule-of-law reforms", "Overhaul of state media and anti-corruption measures", "Lifting Hungary's vetoes on EU support for Ukraine", "Cutting MPs' salaries and state waste"],
+    "challenges": ["Orbán-era appointees in key institutions (incl. president)", "Weak economy and inflation", "Delivering quickly on high expectations"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "SVN", "iso2": "si", "numeric": "705", "name": "Slovenia", "region": "Europe",
+    "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Nataša Pirc Musar", "title": "President", "since": "2022-12-23" },
+      "headOfGovernment": { "name": "Janez Janša", "title": "Prime Minister", "party": "Slovenian Democratic Party (SDS)", "since": "2026-05-22" },
+      "governingParties": ["SDS", "New Slovenia (NSi)", "SLS", "Focus", "Democrats"]
+    },
+    "legislature": [{ "name": "National Assembly (90)", "control": "Centre-right coalition (43) + Resni.ca support" }],
+    "judiciary": "Constitutional Court and Supreme Court.",
+    "elections": [
+      { "name": "Parliamentary election", "date": "2026-03", "status": "held", "note": "Golob's Freedom Movement won most votes but could not form a majority." },
+      { "name": "Presidential election", "date": "2027-10", "status": "upcoming" }
+    ],
+    "synopsis": "Janez Janša returned as PM for a fourth time in mid-2026, leading a right-leaning coalition after Robert Golob failed to build a majority.",
+    "policies": ["Tax cuts", "Targeted spending", "Anti-corruption drive"],
+    "challenges": ["Polarisation and media-freedom concerns", "Healthcare reform", "Narrow majority"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "ROU", "iso2": "ro", "numeric": "642", "name": "Romania", "region": "Europe",
+    "system": "Unitary semi-presidential republic", "systemType": "semi-presidential", "status": "in-flux",
+    "executive": {
+      "headOfState": { "name": "Nicușor Dan", "title": "President", "party": "Independent", "since": "2025-05-26" },
+      "headOfGovernment": { "name": "Ilie Bolojan", "title": "Prime Minister (interim since May 2026)", "party": "National Liberal Party (PNL)", "since": "2025-06-23" },
+      "governingParties": ["PNL", "USR", "UDMR (PSD withdrew in 2026)"]
+    },
+    "legislature": [
+      { "name": "Chamber of Deputies (331)", "control": "No stable majority", "detail": "Bolojan lost a no-confidence vote on 5 May 2026 (PSD + AUR); AUR is the largest opposition force." },
+      { "name": "Senate (134)", "control": "No stable majority" }
+    ],
+    "judiciary": "Constitutional Court (annulled the 2024 presidential election) and High Court of Cassation.",
+    "elections": [
+      { "name": "Presidential election (rerun)", "date": "2025-05-18", "status": "held" },
+      { "name": "Parliamentary election", "date": "2028-12", "status": "upcoming" }
+    ],
+    "synopsis": "The pro-European coalition collapsed in 2026 over austerity; Bolojan has led an interim government while talks on a new cabinet continue. President Dan has ruled out early elections.",
+    "policies": ["Deficit reduction (EU's largest deficit)", "Public-administration cuts", "Support for Ukraine and NATO's eastern flank"],
+    "challenges": ["Government formation", "Fiscal crisis and rating risk", "Strength of far-right AUR"],
+    "lastVerified": "2026-10-25",
+    "reviewNote": "Status of new government after July 2026 unverified."
+  },
+  {
+    "iso3": "BGR", "iso2": "bg", "numeric": "100", "name": "Bulgaria", "region": "Europe",
+    "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "in-flux",
+    "executive": {
+      "headOfState": { "name": "Iliana Iotova", "title": "President", "since": "2026-01-23" },
+      "headOfGovernment": { "name": "Rumen Radev", "title": "Prime Minister", "party": "Progressive Bulgaria", "since": "2026-05-08" },
+      "governingParties": ["Progressive Bulgaria (single-party majority)"]
+    },
+    "legislature": [{ "name": "National Assembly (240)", "control": "Progressive Bulgaria majority (131 seats)", "detail": "First single-party majority government since 1990." }],
+    "judiciary": "Constitutional Court and Supreme Judicial Council; judicial reform long demanded by the EU.",
+    "elections": [
+      { "name": "Snap parliamentary election", "date": "2026-04", "status": "held", "note": "Radev, who resigned the presidency to run, won outright." },
+      { "name": "Presidential election (1st round)", "date": "2026-10-25", "status": "held", "note": "Iotova vs Andrey Gyurov among main contenders." },
+      { "name": "Presidential runoff (if needed)", "date": "2026-11-01", "status": "upcoming" }
+    ],
+    "synopsis": "Former president Rumen Radev became PM in May 2026 with a rare absolute majority, ending years of repeated elections. Bulgaria joined the euro on 1 January 2026.",
+    "policies": ["Anti-corruption and judicial overhaul", "Euro-area integration", "Cautious stance on military aid to Ukraine"],
+    "challenges": ["Presidential election outcome", "Corruption", "Concerns over Russia-friendly positions"],
+    "lastVerified": "2026-10-25",
+    "reviewNote": "Presidential election held 25 Oct 2026 — update result/runoff."
+  },
+  {
+    "iso3": "MDA", "iso2": "md", "numeric": "498", "name": "Moldova", "region": "Europe",
+    "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Maia Sandu", "title": "President", "party": "PAS", "since": "2020-12-24" },
+      "headOfGovernment": { "name": "Alexandru Munteanu", "title": "Prime Minister", "party": "Independent (PAS-backed)", "since": "2025-11" },
+      "governingParties": ["Party of Action and Solidarity (PAS)"]
+    },
+    "legislature": [{ "name": "Parliament (101)", "control": "PAS majority (55 seats)" }],
+    "judiciary": "Constitutional Court; ongoing vetting of judges.",
+    "elections": [
+      { "name": "Parliamentary election", "date": "2025-09-28", "status": "held", "note": "PAS kept its majority despite large-scale Russian interference." },
+      { "name": "Presidential election", "date": "2028-10", "status": "upcoming" }
+    ],
+    "synopsis": "Pro-EU PAS retained power in 2025, and Moldova is pressing ahead with EU accession negotiations.",
+    "policies": ["EU accession reforms", "Energy independence from Russia", "Judicial vetting"],
+    "challenges": ["Russian hybrid interference", "Transnistria and Gagauzia", "Poverty and energy prices"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "UKR", "iso2": "ua", "numeric": "804", "name": "Ukraine", "region": "Europe",
+    "system": "Unitary semi-presidential republic (under martial law)", "systemType": "semi-presidential", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Volodymyr Zelensky", "title": "President", "party": "Servant of the People", "since": "2019-05-20" },
+      "headOfGovernment": { "name": "Yulia Svyrydenko", "title": "Prime Minister", "party": "Independent", "since": "2025-07-17" },
+      "governingParties": ["Servant of the People"]
+    },
+    "legislature": [{ "name": "Verkhovna Rada (450)", "control": "Servant of the People majority", "detail": "Elections postponed under martial law." }],
+    "judiciary": "Constitutional Court and Supreme Court; anti-corruption bodies NABU/SAP.",
+    "elections": [
+      { "name": "Parliamentary election", "date": "2019-07-21", "status": "held" },
+      { "name": "Presidential & parliamentary elections", "date": "TBD", "status": "upcoming", "note": "Postponed while martial law is in force; to be held after hostilities end." }
+    ],
+    "synopsis": "Ukraine continues to resist Russia's full-scale invasion while negotiating over a possible ceasefire framework. Elections are suspended under martial law.",
+    "policies": ["Defence and drone production", "Securing Western financing and security guarantees", "EU accession reforms", "Anti-corruption (after 2025 NABU controversy)"],
+    "challenges": ["War and attacks on energy infrastructure", "Manpower and mobilisation", "Corruption scandals (Energoatom)"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "BLR", "iso2": "by", "numeric": "112", "name": "Belarus", "region": "Europe",
+    "system": "Unitary presidential republic (authoritarian)", "systemType": "presidential", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Alexander Lukashenko", "title": "President", "party": "Independent (Belaya Rus)", "since": "1994" },
+      "headOfGovernment": { "name": "Alexander Turchin", "title": "Prime Minister", "since": "2025" },
+      "governingParties": ["Belaya Rus and pro-government parties"]
+    },
+    "legislature": [
+      { "name": "House of Representatives (110)", "control": "Pro-Lukashenko" },
+      { "name": "Council of the Republic", "control": "Pro-Lukashenko" },
+      { "name": "All-Belarusian People's Assembly", "control": "Pro-Lukashenko (supreme representative body)" }
+    ],
+    "judiciary": "Courts controlled by the executive.",
+    "elections": [
+      { "name": "Presidential election", "date": "2025-01-26", "status": "held", "note": "Lukashenko's seventh term; not recognised as free by the EU." },
+      { "name": "Parliamentary election", "date": "2029", "status": "upcoming" }
+    ],
+    "synopsis": "Lukashenko is closely aligned with Moscow and hosts Russian tactical nuclear weapons, while releasing some political prisoners in deals with the US.",
+    "policies": ["Union State integration with Russia", "Limited prisoner releases for sanctions relief", "Repression of opposition"],
+    "challenges": ["Western sanctions", "Economic dependence on Russia", "Political prisoners"],
+    "lastVerified": "2026-10-25"
+  }
+]

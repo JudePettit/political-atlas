@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Country political profile",
+  "type": "object",
+  "required": ["iso3", "iso2", "numeric", "name", "region", "system", "systemType", "status", "executive", "legislature", "judiciary", "elections", "synopsis", "policies", "challenges", "lastVerified"],
+  "additionalProperties": false,
+  "properties": {
+    "iso3": { "type": "string", "minLength": 3, "maxLength": 3 },
+    "iso2": { "type": "string", "minLength": 2, "maxLength": 2 },
+    "numeric": { "type": ["string", "null"], "description": "ISO 3166-1 numeric code, zero-padded; null if none (e.g. Kosovo)" },
+    "name": { "type": "string" },
+    "region": { "type": "string", "enum": ["Europe", "Europe (transcontinental)", "North America", "Asia", "Middle East"] },
+    "system": { "type": "string", "description": "Human-readable description of the system of government" },
+    "systemType": {
+      "type": "string",
+      "enum": ["presidential", "semi-presidential", "parliamentary-republic", "parliamentary-monarchy", "absolute-monarchy", "one-party", "directorial", "theocratic", "transitional", "dependent-territory"]
+    },
+    "status": { "type": "string", "enum": ["stable", "in-flux"], "description": "in-flux = government formation, caretaker, disputed or election under way" },
+    "executive": {
+      "type": "object",
+      "required": ["headOfState", "headOfGovernment", "governingParties"],
+      "additionalProperties": false,
+      "properties": {
+        "headOfState": { "$ref": "#/$defs/person" },
+        "headOfGovernment": { "$ref": "#/$defs/person" },
+        "governingParties": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "legislature": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "control"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "control": { "type": "string" },
+          "detail": { "type": "string" }
+        }
+      }
+    },
+    "judiciary": { "type": "string" },
+    "elections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "date", "status"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "date": { "type": "string", "description": "YYYY-MM-DD, YYYY-MM or YYYY" },
+          "status": { "type": "string", "enum": ["held", "upcoming"] },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "synopsis": { "type": "string" },
+    "policies": { "type": "array", "items": { "type": "string" } },
+    "challenges": { "type": "array", "items": { "type": "string" } },
+    "lastVerified": { "type": "string" },
+    "reviewNote": { "type": "string" }
+  },
+  "$defs": {
+    "person": {
+      "type": "object",
+      "required": ["name", "title"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string" },
+        "title": { "type": "string" },
+        "party": { "type": "string" },
+        "since": { "type": "string" }
+      }
+    }
+  }
+}

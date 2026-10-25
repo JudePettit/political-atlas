@@ -1,0 +1,474 @@
+[
+  {
+    "iso3": "USA", "iso2": "us", "numeric": "840", "name": "United States", "region": "North America",
+    "system": "Federal presidential constitutional republic", "systemType": "presidential", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Donald Trump", "title": "President", "party": "Republican", "since": "2025-01-20" },
+      "headOfGovernment": { "name": "Donald Trump", "title": "President (VP: JD Vance)", "party": "Republican", "since": "2025-01-20" },
+      "governingParties": ["Republican Party"]
+    },
+    "legislature": [
+      { "name": "House of Representatives (435)", "control": "Republican (narrow majority)", "detail": "Speaker Mike Johnson. All seats up on 3 Nov 2026." },
+      { "name": "Senate (100)", "control": "Republican (53–47)", "detail": "Majority Leader John Thune. 35 seats up in Nov 2026." }
+    ],
+    "judiciary": "Supreme Court, 6–3 conservative majority (Chief Justice John Roberts); major rulings on executive power, tariffs and immigration pending or recent.",
+    "elections": [
+      { "name": "Presidential & congressional elections", "date": "2024-11-05", "status": "held" },
+      { "name": "Midterm elections (House, 1/3 Senate, 36 governors)", "date": "2026-11-03", "status": "upcoming" },
+      { "name": "Presidential election", "date": "2028-11-07", "status": "upcoming" }
+    ],
+    "synopsis": "Republicans hold the White House and both chambers of Congress, with an assertive use of executive authority. The 3 November 2026 midterms will decide whether that unified control continues.",
+    "policies": ["Broad tariffs and trade renegotiation", "Immigration enforcement and deportations", "Federal workforce and regulatory cuts", "Tax cuts extended via the 2025 budget reconciliation law"],
+    "challenges": ["Cost of living, inflation and tariff effects", "Legal battles over the limits of executive power", "Deficits and federal debt", "Polarisation and midterm outcome"],
+    "lastVerified": "2026-10-25",
+    "reviewNote": "Midterms on 3 Nov 2026 — update House/Senate control."
+  },
+  {
+    "iso3": "CAN", "iso2": "ca", "numeric": "124", "name": "Canada", "region": "North America",
+    "system": "Federal parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Charles III (represented by Governor General Mary Simon)", "title": "Monarch", "since": "2022" },
+      "headOfGovernment": { "name": "Mark Carney", "title": "Prime Minister", "party": "Liberal", "since": "2025-03-14" },
+      "governingParties": ["Liberal Party"]
+    },
+    "legislature": [
+      { "name": "House of Commons (343)", "control": "Liberal (majority)", "detail": "Won a minority in April 2025; reached a majority in April 2026 through floor-crossings and by-elections. Opposition leader: Pierre Poilievre (Conservative)." },
+      { "name": "Senate (105)", "control": "Non-partisan / Independent Senators Group plurality", "detail": "Appointed on the PM's advice." }
+    ],
+    "judiciary": "Independent Supreme Court of Canada (Chief Justice Richard Wagner).",
+    "elections": [
+      { "name": "Federal election", "date": "2025-04-28", "status": "held", "note": "Liberals won 169 seats (minority)." },
+      { "name": "Federal election (fixed date, latest)", "date": "2029-10-15", "status": "upcoming" }
+    ],
+    "synopsis": "Mark Carney's Liberals govern with a majority, focused on responding to US tariffs and building domestic economic resilience. Major projects, defence and housing are central themes.",
+    "policies": ["Response to US trade pressure and diversification of exports", "Fast-tracking 'nation-building' infrastructure and energy projects", "Raising defence spending toward NATO targets", "Housing construction programme"],
+    "challenges": ["US tariffs and CUSMA renegotiation", "Housing affordability", "Alberta and Quebec tensions over federalism", "Fiscal deficits"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "MEX", "iso2": "mx", "numeric": "484", "name": "Mexico", "region": "North America",
+    "system": "Federal presidential republic", "systemType": "presidential", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Claudia Sheinbaum", "title": "President", "party": "Morena", "since": "2024-10-01" },
+      "headOfGovernment": { "name": "Claudia Sheinbaum", "title": "President", "party": "Morena", "since": "2024-10-01" },
+      "governingParties": ["Morena", "Labour Party (PT)", "Green Party (PVEM)"]
+    },
+    "legislature": [
+      { "name": "Chamber of Deputies (500)", "control": "Morena-led coalition (supermajority)" },
+      { "name": "Senate (128)", "control": "Morena-led coalition (supermajority)" }
+    ],
+    "judiciary": "Supreme Court elected by popular vote for the first time in June 2025 after a constitutional overhaul; new justices took office Sept 2025.",
+    "elections": [
+      { "name": "General election", "date": "2024-06-02", "status": "held" },
+      { "name": "First judicial election", "date": "2025-06-01", "status": "held", "note": "Low turnout (~13%)." },
+      { "name": "Midterm federal elections (+ second judicial election)", "date": "2027-06-06", "status": "upcoming" },
+      { "name": "Presidential election", "date": "2030-06", "status": "upcoming" }
+    ],
+    "synopsis": "Sheinbaum governs with large majorities, continuing the 'Fourth Transformation' project of her predecessor López Obrador. Relations with the US over trade, migration and cartels dominate.",
+    "policies": ["Social programmes and minimum-wage increases", "Judicial reform with elected judges", "Security strategy against cartels and fentanyl trafficking", "'Plan México' industrial and nearshoring policy"],
+    "challenges": ["US tariffs and USMCA review in 2026", "Organised crime violence", "Low growth and fiscal pressure (Pemex debt)", "Concerns over checks and balances"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "GTM", "iso2": "gt", "numeric": "320", "name": "Guatemala", "region": "North America",
+    "system": "Unitary presidential republic", "systemType": "presidential", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Bernardo Arévalo", "title": "President", "party": "Movimiento Semilla (successor movement Raíces)", "since": "2024-01-14" },
+      "headOfGovernment": { "name": "Bernardo Arévalo", "title": "President", "since": "2024-01-14" },
+      "governingParties": ["Semilla / Raíces (minority)"]
+    },
+    "legislature": [{ "name": "Congress (160)", "control": "Opposition-leaning, fragmented", "detail": "The president's party holds a small minority." }],
+    "judiciary": "Constitutional Court and Public Ministry; the Attorney General's office was in long conflict with the president (Consuelo Porras's term ended May 2026).",
+    "elections": [
+      { "name": "General election", "date": "2023-08-20", "status": "held" },
+      { "name": "General election", "date": "2027-06", "status": "upcoming" }
+    ],
+    "synopsis": "Anti-corruption reformer Arévalo governs with a weak position in Congress. Selection of a new attorney general and top judges in 2026 has been pivotal.",
+    "policies": ["Anti-corruption and institutional reform", "Infrastructure investment", "Migration cooperation with the US"],
+    "challenges": ["Hostile congress and entrenched elites", "Gang violence and prison security", "Poverty and emigration"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "BLZ", "iso2": "bz", "numeric": "084", "name": "Belize", "region": "North America",
+    "system": "Parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Charles III (Governor-General Froyla Tzalam)", "title": "Monarch" },
+      "headOfGovernment": { "name": "John Briceño", "title": "Prime Minister", "party": "People's United Party (PUP)", "since": "2020" },
+      "governingParties": ["People's United Party"]
+    },
+    "legislature": [
+      { "name": "House of Representatives (31)", "control": "PUP (large majority)" },
+      { "name": "Senate", "control": "Appointed; government majority" }
+    ],
+    "judiciary": "Supreme Court and Court of Appeal; Caribbean Court of Justice is final appellate court.",
+    "elections": [
+      { "name": "General election", "date": "2025-03-12", "status": "held", "note": "PUP re-elected in a landslide." },
+      { "name": "General election (due)", "date": "2030", "status": "upcoming" }
+    ],
+    "synopsis": "Briceño's PUP won a second consecutive landslide in 2025. Economic recovery and the Guatemala territorial dispute at the ICJ are key issues.",
+    "policies": ["Tourism and agriculture-led growth", "Social programmes and debt management", "ICJ case on Guatemala's territorial claim"],
+    "challenges": ["Crime", "Cost of living", "Climate vulnerability"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "HND", "iso2": "hn", "numeric": "340", "name": "Honduras", "region": "North America",
+    "system": "Unitary presidential republic", "systemType": "presidential", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Nasry Asfura", "title": "President", "party": "National Party", "since": "2026-01-27" },
+      "headOfGovernment": { "name": "Nasry Asfura", "title": "President", "party": "National Party", "since": "2026-01-27" },
+      "governingParties": ["National Party"]
+    },
+    "legislature": [{ "name": "National Congress (128)", "control": "No single-party majority", "detail": "National and Liberal parties dominate; LIBRE lost ground in 2025." }],
+    "judiciary": "Supreme Court of Justice; politicised appointments and weak independence.",
+    "elections": [
+      { "name": "General election", "date": "2025-11-30", "status": "held", "note": "Asfura narrowly beat Salvador Nasralla after a contested count; endorsed by Donald Trump." },
+      { "name": "General election", "date": "2029-11", "status": "upcoming" }
+    ],
+    "synopsis": "Conservative Asfura took office in January 2026 after a disputed, razor-thin election that ended the left-wing LIBRE government. He has realigned Honduras with the US and Taiwan-friendly positions.",
+    "policies": ["Closer alignment with the United States", "Security crackdown on gangs", "Investment-friendly economic policy"],
+    "challenges": ["Legitimacy questions after a contested count", "Gang violence and drug trafficking", "Poverty and migration"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "SLV", "iso2": "sv", "numeric": "222", "name": "El Salvador", "region": "North America",
+    "system": "Unitary presidential republic (dominant-party)", "systemType": "presidential", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Nayib Bukele", "title": "President", "party": "Nuevas Ideas", "since": "2019" },
+      "headOfGovernment": { "name": "Nayib Bukele", "title": "President", "party": "Nuevas Ideas", "since": "2019" },
+      "governingParties": ["Nuevas Ideas"]
+    },
+    "legislature": [{ "name": "Legislative Assembly (60)", "control": "Nuevas Ideas supermajority (54 seats)" }],
+    "judiciary": "Supreme Court reshaped by the governing party since 2021; limited independence.",
+    "elections": [
+      { "name": "General election", "date": "2024-02-04", "status": "held" },
+      { "name": "General election (presidential, legislative, municipal)", "date": "2027-02", "status": "upcoming", "note": "2025 reform allows indefinite re-election and moved the presidential vote to 2027." }
+    ],
+    "synopsis": "Bukele remains highly popular for a security crackdown that sharply cut homicides, under an extended state of exception. Constitutional changes in 2025 allow indefinite re-election.",
+    "policies": ["State of exception and mass incarceration of gang members", "Cooperation with the US on deportee detention", "Scaled-back Bitcoin policy under IMF deal"],
+    "challenges": ["Human rights and rule-of-law concerns", "Public debt", "Low investment and growth"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "NIC", "iso2": "ni", "numeric": "558", "name": "Nicaragua", "region": "North America",
+    "system": "Presidential republic (authoritarian, co-presidency since 2025)", "systemType": "presidential", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Daniel Ortega and Rosario Murillo", "title": "Co-Presidents", "party": "Sandinista National Liberation Front (FSLN)", "since": "2007 / co-presidency 2025" },
+      "headOfGovernment": { "name": "Daniel Ortega and Rosario Murillo", "title": "Co-Presidents", "party": "FSLN" },
+      "governingParties": ["FSLN"]
+    },
+    "legislature": [{ "name": "National Assembly (91)", "control": "FSLN supermajority" }],
+    "judiciary": "Courts controlled by the governing party.",
+    "elections": [
+      { "name": "General election", "date": "2021-11-07", "status": "held", "note": "Widely condemned; main challengers jailed." },
+      { "name": "General election", "date": "2027-11", "status": "upcoming", "note": "Term extended to six years by 2025 constitutional reform." }
+    ],
+    "synopsis": "Ortega and his wife Murillo formalised a co-presidency in a 2025 constitutional overhaul. Opposition, NGOs and the Church face sweeping repression.",
+    "policies": ["Consolidation of family/party control", "Ties with Russia, China and Iran"],
+    "challenges": ["International sanctions and isolation", "Emigration", "Succession"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "CRI", "iso2": "cr", "numeric": "188", "name": "Costa Rica", "region": "North America",
+    "system": "Unitary presidential republic", "systemType": "presidential", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Laura Fernández", "title": "President", "party": "Pueblo Soberano", "since": "2026-05-08" },
+      "headOfGovernment": { "name": "Laura Fernández", "title": "President", "party": "Pueblo Soberano", "since": "2026-05-08" },
+      "governingParties": ["Pueblo Soberano"]
+    },
+    "legislature": [{ "name": "Legislative Assembly (57)", "control": "Pueblo Soberano (largest party)" }],
+    "judiciary": "Independent Supreme Court; Constitutional Chamber (Sala IV) is a strong check.",
+    "elections": [
+      { "name": "General election", "date": "2026-02-01", "status": "held", "note": "Fernández, Rodrigo Chaves's chosen successor, won in the first round." },
+      { "name": "General election", "date": "2030-02", "status": "upcoming" }
+    ],
+    "synopsis": "Laura Fernández continues outgoing president Chaves's populist, security-focused agenda with a much stronger legislative position.",
+    "policies": ["Tough-on-crime measures and prison expansion", "Institutional reforms to reduce checks on the executive", "Investment attraction (semiconductors, medical devices)"],
+    "challenges": ["Rising drug-related homicides", "Tension with courts and auditors", "Fiscal consolidation"],
+    "lastVerified": "2026-10-25",
+    "reviewNote": "Verify exact seat count of Pueblo Soberano."
+  },
+  {
+    "iso3": "PAN", "iso2": "pa", "numeric": "591", "name": "Panama", "region": "North America",
+    "system": "Unitary presidential republic", "systemType": "presidential", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "José Raúl Mulino", "title": "President", "party": "Realizando Metas (RM)", "since": "2024-07-01" },
+      "headOfGovernment": { "name": "José Raúl Mulino", "title": "President", "party": "RM", "since": "2024-07-01" },
+      "governingParties": ["Realizando Metas"]
+    },
+    "legislature": [{ "name": "National Assembly (71)", "control": "Fragmented; large independent (Vamos) bloc" }],
+    "judiciary": "Supreme Court of Justice.",
+    "elections": [
+      { "name": "General election", "date": "2024-05-05", "status": "held" },
+      { "name": "General election", "date": "2029-05", "status": "upcoming" }
+    ],
+    "synopsis": "Mulino has navigated US pressure over the Panama Canal while pushing unpopular pension reform and fiscal tightening.",
+    "policies": ["Defending canal sovereignty while cooperating with the US", "Social security (CSS) reform", "Fiscal consolidation and investment-grade recovery"],
+    "challenges": ["Protests over pension reform and mining", "Canal water shortages", "Darién migration route"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "CUB", "iso2": "cu", "numeric": "192", "name": "Cuba", "region": "North America",
+    "system": "Unitary one-party socialist republic", "systemType": "one-party", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Miguel Díaz-Canel", "title": "President; First Secretary of the Communist Party", "party": "Communist Party of Cuba", "since": "2018 / 2021" },
+      "headOfGovernment": { "name": "Manuel Marrero Cruz", "title": "Prime Minister", "party": "Communist Party of Cuba", "since": "2019" },
+      "governingParties": ["Communist Party of Cuba"]
+    },
+    "legislature": [{ "name": "National Assembly of People's Power (470)", "control": "Communist Party (single-list elections)" }],
+    "judiciary": "People's Supreme Court, subordinate to the National Assembly.",
+    "elections": [
+      { "name": "National Assembly election", "date": "2023-03-26", "status": "held" },
+      { "name": "National Assembly election", "date": "2028", "status": "upcoming" }
+    ],
+    "synopsis": "Cuba faces its deepest economic crisis since the 1990s, with chronic blackouts and mass emigration. The Party maintains tight political control.",
+    "policies": ["Limited opening to private small businesses (MSMEs)", "Partial dollarisation measures", "Close ties with Russia and China"],
+    "challenges": ["Energy grid collapse and blackouts", "Food and medicine shortages", "Tightened US sanctions", "Emigration"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "HTI", "iso2": "ht", "numeric": "332", "name": "Haiti", "region": "North America",
+    "system": "Transitional arrangement (presidency vacant)", "systemType": "transitional", "status": "in-flux",
+    "executive": {
+      "headOfState": { "name": "Vacant", "title": "President" },
+      "headOfGovernment": { "name": "Alix Didier Fils-Aimé", "title": "Prime Minister (sole executive)", "since": "2024-11; sole executive since 2026-02-07" },
+      "governingParties": ["Non-partisan transitional government"]
+    },
+    "legislature": [{ "name": "Parliament", "control": "Not functioning", "detail": "No sitting legislature since January 2023." }],
+    "judiciary": "Court of Cassation; justice system severely weakened by gang violence.",
+    "elections": [
+      { "name": "General election (first round, planned)", "date": "2026-08-30", "status": "held", "note": "Timetable has slipped repeatedly — verify whether voting took place." },
+      { "name": "General election (second round, planned)", "date": "2026-12", "status": "upcoming" },
+      { "name": "Inauguration of elected president (target)", "date": "2027-02-07", "status": "upcoming" }
+    ],
+    "synopsis": "After the Transitional Presidential Council's mandate ended in February 2026, PM Fils-Aimé governs alone with US backing. Gangs control much of Port-au-Prince and an international Gang Suppression Force is deploying.",
+    "policies": ["Restoring security with the UN-authorised Gang Suppression Force", "Organising first elections since 2016", "Humanitarian response"],
+    "challenges": ["Gang control and mass displacement", "Lack of elected institutions", "Food insecurity"],
+    "lastVerified": "2026-10-25",
+    "reviewNote": "Election schedule uncertain; confirm status of 2026 voting."
+  },
+  {
+    "iso3": "DOM", "iso2": "do", "numeric": "214", "name": "Dominican Republic", "region": "North America",
+    "system": "Unitary presidential republic", "systemType": "presidential", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Luis Abinader", "title": "President", "party": "Modern Revolutionary Party (PRM)", "since": "2020" },
+      "headOfGovernment": { "name": "Luis Abinader", "title": "President", "party": "PRM", "since": "2020" },
+      "governingParties": ["PRM"]
+    },
+    "legislature": [
+      { "name": "Chamber of Deputies (190)", "control": "PRM supermajority" },
+      { "name": "Senate (32)", "control": "PRM supermajority" }
+    ],
+    "judiciary": "Supreme Court and Constitutional Tribunal.",
+    "elections": [
+      { "name": "General election", "date": "2024-05-19", "status": "held" },
+      { "name": "General election", "date": "2028-05", "status": "upcoming", "note": "Abinader term-limited." }
+    ],
+    "synopsis": "Abinader's second and final term focuses on growth, tourism and a hard line on Haitian migration. The PRM succession race for 2028 is under way.",
+    "policies": ["Mass deportations and border wall with Haiti", "Tourism and infrastructure investment", "Anti-corruption push"],
+    "challenges": ["Haiti crisis spillover", "Electricity sector losses", "Tax reform resistance"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "JAM", "iso2": "jm", "numeric": "388", "name": "Jamaica", "region": "North America",
+    "system": "Parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Charles III (Governor-General Patrick Allen)", "title": "Monarch" },
+      "headOfGovernment": { "name": "Andrew Holness", "title": "Prime Minister", "party": "Jamaica Labour Party (JLP)", "since": "2016" },
+      "governingParties": ["JLP"]
+    },
+    "legislature": [
+      { "name": "House of Representatives (63)", "control": "JLP majority" },
+      { "name": "Senate (21)", "control": "Appointed; government majority" }
+    ],
+    "judiciary": "Supreme Court and Court of Appeal; Privy Council final appellate court.",
+    "elections": [
+      { "name": "General election", "date": "2025-09-03", "status": "held", "note": "JLP won a third consecutive term." },
+      { "name": "General election (due)", "date": "2030", "status": "upcoming" }
+    ],
+    "synopsis": "Holness won a third term in 2025, then faced reconstruction after Hurricane Melissa struck in October 2025. A move to become a republic remains on the agenda.",
+    "policies": ["Hurricane recovery and resilience", "Crime reduction strategy", "Constitutional reform toward a republic"],
+    "challenges": ["Hurricane Melissa damage", "Violent crime", "Debt and climate vulnerability"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "BHS", "iso2": "bs", "numeric": "044", "name": "Bahamas", "region": "North America",
+    "system": "Parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Charles III (Governor-General Cynthia Pratt)", "title": "Monarch" },
+      "headOfGovernment": { "name": "Philip Davis", "title": "Prime Minister", "party": "Progressive Liberal Party (PLP)", "since": "2021" },
+      "governingParties": ["PLP"]
+    },
+    "legislature": [
+      { "name": "House of Assembly (41)", "control": "PLP (~33 seats)" },
+      { "name": "Senate (16)", "control": "Appointed; government majority" }
+    ],
+    "judiciary": "Supreme Court and Court of Appeal; Privy Council final appeal.",
+    "elections": [
+      { "name": "General election", "date": "2026-05-12", "status": "held", "note": "PLP re-elected — first back-to-back term for a Bahamian government since 1997." },
+      { "name": "General election (due)", "date": "2031", "status": "upcoming" }
+    ],
+    "synopsis": "Davis won a historic second consecutive term in a snap May 2026 election. Tourism, cost of living and climate finance are central.",
+    "policies": ["Tourism-led growth", "Climate finance and debt-for-nature swaps", "Cost-of-living measures"],
+    "challenges": ["Hurricane exposure", "Public debt", "Migration from Haiti"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "BRB", "iso2": "bb", "numeric": "052", "name": "Barbados", "region": "North America",
+    "system": "Parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Jeffrey Bostic", "title": "President", "since": "2025-11" },
+      "headOfGovernment": { "name": "Mia Mottley", "title": "Prime Minister", "party": "Barbados Labour Party (BLP)", "since": "2018" },
+      "governingParties": ["BLP"]
+    },
+    "legislature": [
+      { "name": "House of Assembly (30)", "control": "BLP (near-total)" },
+      { "name": "Senate (21)", "control": "Appointed" }
+    ],
+    "judiciary": "Supreme Court; Caribbean Court of Justice is final court of appeal.",
+    "elections": [
+      { "name": "General election", "date": "2026-02", "status": "held", "note": "Early election; BLP returned with a sweeping majority." },
+      { "name": "General election (due)", "date": "2031", "status": "upcoming" }
+    ],
+    "synopsis": "Mottley, a prominent global voice on climate finance (Bridgetown Initiative), leads a dominant BLP government in the republic established in 2021.",
+    "policies": ["Bridgetown Initiative on climate and development finance", "Economic recovery programme", "Renewable energy transition"],
+    "challenges": ["Climate vulnerability", "Debt servicing", "Cost of living"],
+    "lastVerified": "2026-10-25",
+    "reviewNote": "Verify 2026 election date/seat count and current president."
+  },
+  {
+    "iso3": "TTO", "iso2": "tt", "numeric": "780", "name": "Trinidad and Tobago", "region": "North America",
+    "system": "Parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Christine Kangaloo", "title": "President", "since": "2023" },
+      "headOfGovernment": { "name": "Kamla Persad-Bissessar", "title": "Prime Minister", "party": "United National Congress (UNC)", "since": "2025-05-01" },
+      "governingParties": ["UNC"]
+    },
+    "legislature": [
+      { "name": "House of Representatives (41)", "control": "UNC majority" },
+      { "name": "Senate (31)", "control": "Appointed; government majority" }
+    ],
+    "judiciary": "Supreme Court; Privy Council final appeal.",
+    "elections": [
+      { "name": "General election", "date": "2025-04-28", "status": "held" },
+      { "name": "General election (due)", "date": "2030", "status": "upcoming" }
+    ],
+    "synopsis": "Persad-Bissessar returned to power in 2025 and has aligned closely with US policy on Venezuela and drug trafficking.",
+    "policies": ["Support for US anti-narcotics operations in the Caribbean", "Crime and state of emergency measures", "Energy-sector revival (Dragon gas field)"],
+    "challenges": ["Violent crime", "Declining oil and gas output", "Venezuela tensions"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "ATG", "iso2": "ag", "numeric": "028", "name": "Antigua and Barbuda", "region": "North America",
+    "system": "Parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Charles III (Governor-General Rodney Williams)", "title": "Monarch" },
+      "headOfGovernment": { "name": "Gaston Browne", "title": "Prime Minister", "party": "Antigua and Barbuda Labour Party (ABLP)", "since": "2014" },
+      "governingParties": ["ABLP"]
+    },
+    "legislature": [{ "name": "House of Representatives (19)", "control": "ABLP majority" }, { "name": "Senate (17)", "control": "Appointed" }],
+    "judiciary": "Eastern Caribbean Supreme Court; Privy Council.",
+    "elections": [
+      { "name": "General election", "date": "2023-01-18", "status": "held" },
+      { "name": "General election (due)", "date": "2028", "status": "upcoming" }
+    ],
+    "synopsis": "Browne's ABLP has governed since 2014, focusing on tourism, citizenship-by-investment and debt.",
+    "policies": ["Tourism development", "Citizenship-by-investment programme", "Republic debate"],
+    "challenges": ["Debt", "Climate vulnerability", "Scrutiny of investment-citizenship schemes"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "DMA", "iso2": "dm", "numeric": "212", "name": "Dominica", "region": "North America",
+    "system": "Parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Sylvanie Burton", "title": "President", "since": "2023" },
+      "headOfGovernment": { "name": "Roosevelt Skerrit", "title": "Prime Minister", "party": "Dominica Labour Party (DLP)", "since": "2004" },
+      "governingParties": ["DLP"]
+    },
+    "legislature": [{ "name": "House of Assembly", "control": "DLP (19 of 21 elected seats)" }],
+    "judiciary": "Eastern Caribbean Supreme Court; Caribbean Court of Justice.",
+    "elections": [
+      { "name": "General election", "date": "2022-12-06", "status": "held", "note": "Boycotted by the main opposition." },
+      { "name": "General election (due)", "date": "2027", "status": "upcoming" }
+    ],
+    "synopsis": "Skerrit is the Caribbean's longest-serving leader, positioning Dominica as a 'climate-resilient nation'.",
+    "policies": ["Climate resilience", "Geothermal energy and international airport", "Citizenship-by-investment"],
+    "challenges": ["Hurricane exposure", "Electoral reform demands", "US visa restrictions linked to CBI"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "GRD", "iso2": "gd", "numeric": "308", "name": "Grenada", "region": "North America",
+    "system": "Parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Charles III (Governor-General Cécile La Grenade)", "title": "Monarch" },
+      "headOfGovernment": { "name": "Dickon Mitchell", "title": "Prime Minister", "party": "National Democratic Congress (NDC)", "since": "2022" },
+      "governingParties": ["NDC"]
+    },
+    "legislature": [{ "name": "House of Representatives (15)", "control": "NDC (9 seats)" }, { "name": "Senate (13)", "control": "Appointed" }],
+    "judiciary": "Eastern Caribbean Supreme Court; Privy Council.",
+    "elections": [
+      { "name": "General election", "date": "2022-06-23", "status": "held" },
+      { "name": "General election (due)", "date": "2027", "status": "upcoming" }
+    ],
+    "synopsis": "Mitchell's NDC leads recovery from 2024's Hurricane Beryl, which devastated Carriacou and Petite Martinique.",
+    "policies": ["Hurricane reconstruction", "Youth employment", "Tourism"],
+    "challenges": ["Climate damage", "Debt", "Cost of living"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "KNA", "iso2": "kn", "numeric": "659", "name": "Saint Kitts and Nevis", "region": "North America",
+    "system": "Federal parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Charles III (Governor-General Marcella Liburd)", "title": "Monarch" },
+      "headOfGovernment": { "name": "Terrance Drew", "title": "Prime Minister", "party": "Saint Kitts and Nevis Labour Party (SKNLP)", "since": "2022" },
+      "governingParties": ["SKNLP"]
+    },
+    "legislature": [{ "name": "National Assembly", "control": "SKNLP (6 of 11 elected seats)" }],
+    "judiciary": "Eastern Caribbean Supreme Court; Privy Council.",
+    "elections": [
+      { "name": "General election", "date": "2022-08-05", "status": "held" },
+      { "name": "General election (due)", "date": "2027", "status": "upcoming" }
+    ],
+    "synopsis": "Drew's government is pursuing a 'sustainable island state' agenda while reforming the citizenship-by-investment programme.",
+    "policies": ["Sustainable island state agenda (renewables, food security)", "Citizenship-by-investment reform"],
+    "challenges": ["CBI reputational risk", "Climate vulnerability"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "LCA", "iso2": "lc", "numeric": "662", "name": "Saint Lucia", "region": "North America",
+    "system": "Parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Charles III (Governor-General Errol Charles, acting)", "title": "Monarch" },
+      "headOfGovernment": { "name": "Philip J. Pierre", "title": "Prime Minister", "party": "Saint Lucia Labour Party (SLP)", "since": "2021" },
+      "governingParties": ["SLP"]
+    },
+    "legislature": [{ "name": "House of Assembly (17)", "control": "SLP large majority" }, { "name": "Senate (11)", "control": "Appointed" }],
+    "judiciary": "Eastern Caribbean Supreme Court; Privy Council.",
+    "elections": [
+      { "name": "General election", "date": "2025-12-01", "status": "held", "note": "SLP re-elected." },
+      { "name": "General election (due)", "date": "2030", "status": "upcoming" }
+    ],
+    "synopsis": "Pierre's SLP won a second term in December 2025, with crime and cost of living as top concerns.",
+    "policies": ["Crime reduction", "Infrastructure (hospital, roads)", "Tourism"],
+    "challenges": ["Rising violent crime", "Cost of living", "Climate risk"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "VCT", "iso2": "vc", "numeric": "670", "name": "Saint Vincent and the Grenadines", "region": "North America",
+    "system": "Parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Charles III (Governor-General Susan Dougan)", "title": "Monarch" },
+      "headOfGovernment": { "name": "Godwin Friday", "title": "Prime Minister", "party": "New Democratic Party (NDP)", "since": "2025-11" },
+      "governingParties": ["NDP"]
+    },
+    "legislature": [{ "name": "House of Assembly", "control": "NDP majority" }],
+    "judiciary": "Eastern Caribbean Supreme Court; Privy Council.",
+    "elections": [
+      { "name": "General election", "date": "2025-11-27", "status": "held", "note": "NDP ended Ralph Gonsalves's 24-year rule." },
+      { "name": "General election (due)", "date": "2030", "status": "upcoming" }
+    ],
+    "synopsis": "Godwin Friday's NDP took power in November 2025, ending the ULP's long rule. Hurricane Beryl recovery and economic revival are priorities.",
+    "policies": ["Economic revival and job creation", "Hurricane reconstruction", "Review of predecessor's policies (e.g. citizenship programme)"],
+    "challenges": ["Hurricane damage", "Unemployment", "Debt"],
+    "lastVerified": "2026-10-25"
+  }
+]

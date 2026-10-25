@@ -1,0 +1,12 @@
+{
+  "lastUpdated": "2026-10-25",
+  "updateMethod": "Initial dataset (manual research + web verification)",
+  "files": [
+    "countries/major-powers.json",
+    "countries/north-america.json",
+    "countries/europe-west-south.json",
+    "countries/europe-north.json",
+    "countries/europe-central-east.json",
+    "countries/europe-balkans-caucasus.json"
+  ]
+}

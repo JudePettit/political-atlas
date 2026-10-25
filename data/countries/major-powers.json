@@ -1,0 +1,111 @@
+[
+  {
+    "iso3": "RUS", "iso2": "ru", "numeric": "643", "name": "Russia", "region": "Europe (transcontinental)",
+    "system": "Federal semi-presidential republic (dominant-party, highly centralised presidency)", "systemType": "semi-presidential", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Vladimir Putin", "title": "President", "party": "Independent (backed by United Russia)", "since": "2012 (also 2000–2008)" },
+      "headOfGovernment": { "name": "Mikhail Mishustin", "title": "Prime Minister", "party": "Independent", "since": "2020" },
+      "governingParties": ["United Russia"]
+    },
+    "legislature": [
+      { "name": "State Duma (lower house, 450)", "control": "United Russia supermajority", "detail": "United Russia 349 seats after Sept 2026 election; CPRF 37, LDPR 23, New People 19, A Just Russia 17." },
+      { "name": "Federation Council (upper house)", "control": "Pro-Kremlin", "detail": "Appointed by regional authorities; chaired by Valentina Matviyenko." }
+    ],
+    "judiciary": "Constitutional Court and Supreme Court; judicial appointments controlled by the presidency and widely regarded as lacking independence.",
+    "elections": [
+      { "name": "Presidential election", "date": "2024-03-17", "status": "held", "note": "Putin re-elected with ~87% (official)." },
+      { "name": "State Duma election", "date": "2026-09-20", "status": "held", "note": "Held 18–20 Sept; United Russia won a record 349 seats. No OSCE observers invited." },
+      { "name": "Presidential election", "date": "2030-03", "status": "upcoming" }
+    ],
+    "synopsis": "Power is concentrated in the presidency, with United Russia dominating parliament and organised opposition largely suppressed. Policy is centred on the war in Ukraine, a war-oriented economy and confrontation with the West.",
+    "policies": ["Continuation of the war in Ukraine and negotiation on Russian terms", "Military-industrial expansion and high defence spending", "Pivot of trade and energy exports toward China, India and the Global South", "Tight control of media, internet and civil society"],
+    "challenges": ["Western sanctions and lower energy revenues", "Inflation, high interest rates and labour shortages", "Casualties and demographic decline", "Long-term succession question"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "CHN", "iso2": "cn", "numeric": "156", "name": "China", "region": "Asia",
+    "system": "Unitary one-party socialist republic led by the Chinese Communist Party", "systemType": "one-party", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Xi Jinping", "title": "President; CCP General Secretary; CMC Chairman", "party": "Chinese Communist Party", "since": "2012 (party) / 2013 (state)" },
+      "headOfGovernment": { "name": "Li Qiang", "title": "Premier of the State Council", "party": "Chinese Communist Party", "since": "2023" },
+      "governingParties": ["Chinese Communist Party (with eight subordinate 'democratic parties')"]
+    },
+    "legislature": [
+      { "name": "National People's Congress (~2,900)", "control": "Chinese Communist Party", "detail": "Meets annually each March; Standing Committee chaired by Zhao Leji." }
+    ],
+    "judiciary": "Supreme People's Court; courts operate under Party leadership via the Central Political and Legal Affairs Commission.",
+    "elections": [
+      { "name": "20th Party Congress", "date": "2022-10", "status": "held", "note": "Xi secured a third term as General Secretary." },
+      { "name": "21st Party Congress", "date": "2027", "status": "upcoming", "note": "Expected autumn 2027; leadership reshuffle and Xi's possible fourth term." }
+    ],
+    "synopsis": "Xi Jinping has consolidated power to a degree unseen since Mao, with the Party firmly over state institutions. Priorities include technological self-reliance, national security and managing a slowing economy under the 15th Five-Year Plan (2026–2030).",
+    "policies": ["15th Five-Year Plan: advanced manufacturing, AI and semiconductor self-sufficiency", "Boosting domestic consumption amid deflationary pressure", "Assertive posture on Taiwan and the South China Sea", "Anti-corruption campaigns, including within the military"],
+    "challenges": ["Property-sector slump and local-government debt", "US export controls and trade tensions", "Ageing and shrinking population", "Youth unemployment"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "JPN", "iso2": "jp", "numeric": "392", "name": "Japan", "region": "Asia",
+    "system": "Unitary parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Naruhito", "title": "Emperor", "since": "2019" },
+      "headOfGovernment": { "name": "Sanae Takaichi", "title": "Prime Minister", "party": "Liberal Democratic Party (LDP)", "since": "2025-10-21" },
+      "governingParties": ["LDP", "Japan Innovation Party (Ishin)"]
+    },
+    "legislature": [
+      { "name": "House of Representatives (465)", "control": "LDP supermajority", "detail": "LDP won ~315 seats in the Feb 2026 snap election, a record; with Ishin (36) the bloc holds ~351." },
+      { "name": "House of Councillors (248)", "control": "No government majority", "detail": "LDP lacks an upper-house majority, limiting but not blocking legislation." }
+    ],
+    "judiciary": "Independent Supreme Court; justices appointed by the Cabinet and subject to popular review.",
+    "elections": [
+      { "name": "House of Representatives snap election", "date": "2026-02-08", "status": "held", "note": "LDP landslide — two-thirds majority." },
+      { "name": "LDP leadership election", "date": "2027-09", "status": "upcoming" },
+      { "name": "House of Councillors election", "date": "2028-07", "status": "upcoming" }
+    ],
+    "synopsis": "Japan's first female prime minister leads a conservative LDP government strengthened by a landslide in February 2026. Her agenda centres on economic security, defence build-up and fiscal stimulus.",
+    "policies": ["Defence spending increase and security cooperation with the US", "Economic security and strategic industries (chips, AI)", "Fiscal stimulus and cost-of-living measures", "Debate on constitutional revision"],
+    "challenges": ["Rising cost of living and weak yen", "Tense relations with China", "Ageing population and labour shortages", "Upper-house minority"],
+    "lastVerified": "2026-10-25"
+  },
+  {
+    "iso3": "ISR", "iso2": "il", "numeric": "376", "name": "Israel", "region": "Middle East",
+    "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "in-flux",
+    "executive": {
+      "headOfState": { "name": "Isaac Herzog", "title": "President", "since": "2021" },
+      "headOfGovernment": { "name": "Benjamin Netanyahu", "title": "Prime Minister (caretaker)", "party": "Likud", "since": "2022-12" },
+      "governingParties": ["Likud", "Shas", "Religious Zionism", "Otzma Yehudit", "others (caretaker coalition)"]
+    },
+    "legislature": [
+      { "name": "Knesset (120)", "control": "Dissolved — election on 27 Oct 2026", "detail": "The Knesset dissolved on 17 July 2026; the outgoing right-religious coalition governs in a caretaker capacity." }
+    ],
+    "judiciary": "Supreme Court with strong judicial review; the government's judicial overhaul remains a central political fault line.",
+    "elections": [
+      { "name": "Knesset election", "date": "2022-11-01", "status": "held" },
+      { "name": "Knesset election", "date": "2026-10-27", "status": "upcoming", "note": "First on-schedule election since 1988; coalition talks will follow." }
+    ],
+    "synopsis": "Netanyahu's right-wing and religious coalition heads into the 27 October 2026 election after the Gaza war and regional conflict. The vote will decide whether he can form a sixth government.",
+    "policies": ["Security policy toward Gaza, Lebanon and Iran", "Judicial reform", "Expanding normalisation with Arab states", "Ultra-Orthodox military service exemptions"],
+    "challenges": ["Post-war Gaza governance and hostage aftermath", "Netanyahu's ongoing corruption trial", "International legal and diplomatic pressure", "Deep domestic polarisation"],
+    "lastVerified": "2026-10-25",
+    "reviewNote": "Election on 27 Oct 2026 — update with results and coalition formation."
+  },
+  {
+    "iso3": "SAU", "iso2": "sa", "numeric": "682", "name": "Saudi Arabia", "region": "Middle East",
+    "system": "Unitary absolute monarchy", "systemType": "absolute-monarchy", "status": "stable",
+    "executive": {
+      "headOfState": { "name": "Salman bin Abdulaziz Al Saud", "title": "King and Custodian of the Two Holy Mosques", "since": "2015" },
+      "headOfGovernment": { "name": "Mohammed bin Salman", "title": "Crown Prince and Prime Minister", "since": "2022 (PM)" },
+      "governingParties": ["None — political parties are banned"]
+    },
+    "legislature": [
+      { "name": "Consultative Assembly (Shura Council, 150)", "control": "Appointed by the King", "detail": "Advisory body; no legislative authority independent of the monarch." }
+    ],
+    "judiciary": "Sharia-based courts under the Supreme Judicial Council; the King is the final court of appeal.",
+    "elections": [
+      { "name": "Municipal council elections", "date": "2015-12-12", "status": "held", "note": "Only national-scale elections are partial municipal votes; no national elections scheduled." }
+    ],
+    "synopsis": "Crown Prince Mohammed bin Salman runs day-to-day governance and is driving the Vision 2030 diversification programme. Social liberalisation has gone alongside tight political control.",
+    "policies": ["Vision 2030 economic diversification and giga-projects", "Hosting Expo 2030 and the 2034 FIFA World Cup", "OPEC+ oil-output management", "Regional diplomacy and conditional normalisation with Israel"],
+    "challenges": ["Fiscal pressure from lower oil prices", "Scaling back or delaying giga-projects", "Regional security (Yemen, Iran)", "Human rights criticism"],
+    "lastVerified": "2026-10-25"
+  }
+]

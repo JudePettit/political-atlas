@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Political Atlas</title>
+  <meta name="description" content="Interactive map of political leadership, branches of power and elections across Europe, North America, Russia, China, Japan, Israel and Saudi Arabia.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <svg class="logo" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M2 12h20M12 2c3 3.5 3 16.5 0 20M12 2c-3 3.5-3 16.5 0 20" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>
+      <div>
+        <h1>Political Atlas</h1>
+        <p class="subtitle" id="updated">Loading data…</p>
+      </div>
+    </div>
+    <div class="controls">
+      <div class="search-wrap">
+        <input id="search" type="search" placeholder="Search a country…" autocomplete="off" aria-label="Search countries">
+        <ul id="search-results" class="search-results" role="listbox" hidden></ul>
+      </div>
+      <div class="segmented" role="radiogroup" aria-label="Colour map by">
+        <button type="button" data-mode="system" class="active" role="radio" aria-checked="true">System</button>
+        <button type="button" data-mode="election" role="radio" aria-checked="false">Next election</button>
+        <button type="button" data-mode="status" role="radio" aria-checked="false">Stability</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="map-wrap" aria-label="World map">
+      <svg id="map" role="img" aria-label="World map; click a highlighted country for details"></svg>
+      <div class="map-tools">
+        <button type="button" id="zoom-in" aria-label="Zoom in">+</button>
+        <button type="button" id="zoom-out" aria-label="Zoom out">−</button>
+        <button type="button" id="zoom-reset" aria-label="Reset view">⟲</button>
+      </div>
+      <div id="legend" class="legend"></div>
+      <div id="tooltip" class="tooltip" hidden></div>
+    </section>
+
+    <aside id="panel" class="panel" aria-live="polite">
+      <div class="panel-empty">
+        <h2>Select a country</h2>
+        <p>Click a highlighted country on the map, or search above, to see who holds power across the executive, legislature and judiciary, upcoming elections, and a summary of current policies and challenges.</p>
+        <h3>Upcoming elections</h3>
+        <ol id="upcoming" class="upcoming"></ol>
+      </div>
+    </aside>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
