@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-25",
-  "updateMethod": "Initial dataset (manual research + web verification)",
+  "updateMethod": "Automated refresh with claude-opus-5-5 + web search",
   "files": [
     "countries/major-powers.json",
     "countries/north-america.json",

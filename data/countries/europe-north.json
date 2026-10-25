@@ -1,177 +1,556 @@
 [
   {
-    "iso3": "DNK", "iso2": "dk", "numeric": "208", "name": "Denmark", "region": "Europe",
-    "system": "Unitary parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
+    "iso3": "DNK",
+    "iso2": "dk",
+    "numeric": "208",
+    "name": "Denmark",
+    "region": "Europe",
+    "system": "Unitary parliamentary constitutional monarchy",
+    "systemType": "parliamentary-monarchy",
+    "status": "stable",
     "executive": {
-      "headOfState": { "name": "Frederik X", "title": "King", "since": "2024-01-14" },
-      "headOfGovernment": { "name": "Mette Frederiksen", "title": "Prime Minister", "party": "Social Democrats", "since": "2019 (third term from 2026-06-03)" },
-      "governingParties": ["Social Democrats", "Green Left (SF)", "Moderates", "Social Liberals (Radikale)"]
+      "headOfState": {
+        "name": "Frederik X",
+        "title": "King",
+        "since": "2024-01-14"
+      },
+      "headOfGovernment": {
+        "name": "Mette Frederiksen",
+        "title": "Prime Minister",
+        "party": "Social Democrats",
+        "since": "2019 (third term from 2026-06-03)"
+      },
+      "governingParties": [
+        "Social Democrats",
+        "Green Left (SF)",
+        "Moderates",
+        "Social Liberals (Radikale)"
+      ]
     },
-    "legislature": [{ "name": "Folketing (179)", "control": "Centre-left minority coalition (82 seats)", "detail": "Supported by Red–Green Alliance, Alternative and Greenlandic/Faroese members." }],
+    "legislature": [
+      {
+        "name": "Folketing (179)",
+        "control": "Centre-left minority coalition (82 seats)",
+        "detail": "Supported by Red–Green Alliance, Alternative and Greenlandic/Faroese members."
+      }
+    ],
     "judiciary": "Supreme Court of Denmark.",
     "elections": [
-      { "name": "Early general election", "date": "2026-03-24", "status": "held", "note": "Hung parliament; record ~70-day government formation." },
-      { "name": "General election (latest)", "date": "2030", "status": "upcoming" }
+      {
+        "name": "Early general election",
+        "date": "2026-03-24",
+        "status": "held",
+        "note": "Hung parliament; record ~70-day government formation."
+      },
+      {
+        "name": "General election (latest)",
+        "date": "2030",
+        "status": "upcoming"
+      }
     ],
     "synopsis": "Frederiksen began a third term in June 2026 at the head of a four-party centre-left minority government. Greenland and rapid military build-up top the agenda after a crisis over US designs on the territory.",
-    "policies": ["Rapid defence build-up", "Greenland negotiations with the US and Greenland's government", "Welfare and climate investments", "Strict immigration policy maintained"],
-    "challenges": ["US pressure over Greenland", "Governing as a minority", "Baltic Sea security"],
+    "policies": [
+      "Rapid defence build-up",
+      "Greenland negotiations with the US and Greenland's government",
+      "Welfare and climate investments",
+      "Strict immigration policy maintained"
+    ],
+    "challenges": [
+      "US pressure over Greenland",
+      "Governing as a minority",
+      "Baltic Sea security"
+    ],
     "lastVerified": "2026-10-25"
   },
   {
-    "iso3": "GRL", "iso2": "gl", "numeric": "304", "name": "Greenland (Denmark)", "region": "North America",
-    "system": "Autonomous territory of the Kingdom of Denmark with parliamentary self-government", "systemType": "dependent-territory", "status": "stable",
+    "iso3": "GRL",
+    "iso2": "gl",
+    "numeric": "304",
+    "name": "Greenland (Denmark)",
+    "region": "North America",
+    "system": "Autonomous territory of the Kingdom of Denmark with parliamentary self-government",
+    "systemType": "dependent-territory",
+    "status": "stable",
     "executive": {
-      "headOfState": { "name": "Frederik X", "title": "King of Denmark" },
-      "headOfGovernment": { "name": "Jens-Frederik Nielsen", "title": "Premier", "party": "Demokraatit", "since": "2025-04-07" },
-      "governingParties": ["Demokraatit", "Inuit Ataqatigiit", "Siumut", "Atassut"]
+      "headOfState": {
+        "name": "Frederik X",
+        "title": "King of Denmark"
+      },
+      "headOfGovernment": {
+        "name": "Jens-Frederik Nielsen",
+        "title": "Premier",
+        "party": "Demokraatit",
+        "since": "2025-04-07"
+      },
+      "governingParties": [
+        "Demokraatit",
+        "Inuit Ataqatigiit",
+        "Siumut",
+        "Atassut"
+      ]
     },
-    "legislature": [{ "name": "Inatsisartut (31)", "control": "Broad four-party coalition" }],
+    "legislature": [
+      {
+        "name": "Inatsisartut (31)",
+        "control": "Broad four-party coalition"
+      }
+    ],
     "judiciary": "Greenland courts within the Danish legal system.",
     "elections": [
-      { "name": "Inatsisartut election", "date": "2025-03-11", "status": "held" },
-      { "name": "Inatsisartut election", "date": "2029", "status": "upcoming" }
+      {
+        "name": "Inatsisartut election",
+        "date": "2025-03-11",
+        "status": "held"
+      },
+      {
+        "name": "Inatsisartut election",
+        "date": "2029",
+        "status": "upcoming"
+      }
     ],
     "synopsis": "A broad national-unity coalition governs in response to US interest in acquiring Greenland. The long-term goal of independence is shared but its pace is debated.",
-    "policies": ["Resisting annexation while expanding US/Danish cooperation", "Gradual path toward independence", "Mining and economic diversification"],
-    "challenges": ["Geopolitical pressure from the US", "Economic dependence on Danish block grant"],
+    "policies": [
+      "Resisting annexation while expanding US/Danish cooperation",
+      "Gradual path toward independence",
+      "Mining and economic diversification"
+    ],
+    "challenges": [
+      "Geopolitical pressure from the US",
+      "Economic dependence on Danish block grant"
+    ],
     "lastVerified": "2026-10-25"
   },
   {
-    "iso3": "SWE", "iso2": "se", "numeric": "752", "name": "Sweden", "region": "Europe",
-    "system": "Unitary parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "in-flux",
+    "iso3": "SWE",
+    "iso2": "se",
+    "numeric": "752",
+    "name": "Sweden",
+    "region": "Europe",
+    "system": "Unitary parliamentary constitutional monarchy",
+    "systemType": "parliamentary-monarchy",
+    "status": "in-flux",
     "executive": {
-      "headOfState": { "name": "Carl XVI Gustaf", "title": "King", "since": "1973" },
-      "headOfGovernment": { "name": "Ulf Kristersson", "title": "Prime Minister (caretaker)", "party": "Moderates", "since": "2022-10-18" },
-      "governingParties": ["Moderates", "Christian Democrats", "Liberals (caretaker)"]
+      "headOfState": {
+        "name": "Carl XVI Gustaf",
+        "title": "King",
+        "since": "1973-09-15"
+      },
+      "headOfGovernment": {
+        "name": "Ulf Kristersson",
+        "title": "Prime Minister (caretaker since 17 Sep 2026)",
+        "party": "Moderates",
+        "since": "2022-10-18"
+      },
+      "governingParties": [
+        "Moderates (caretaker)",
+        "Christian Democrats (caretaker)",
+        "Liberals (caretaker)"
+      ]
     },
-    "legislature": [{ "name": "Riksdag (349)", "control": "Opposition bloc 176 vs outgoing bloc 173", "detail": "Social Democrats largest party (99). Magdalena Andersson lost a PM vote 248–99 on 15 Oct 2026; government formation continues." }],
-    "judiciary": "Supreme Court; Council on Legislation reviews bills.",
-    "elections": [
-      { "name": "General election", "date": "2026-09-13", "status": "held", "note": "Narrow win for the centre-left bloc; Kristersson resigned." },
-      { "name": "General election", "date": "2030-09", "status": "upcoming" }
+    "legislature": [
+      {
+        "name": "Riksdag (349)",
+        "control": "Opposition parties (S, V, C, MP) 176 vs outgoing Tidö parties (M, SD, KD, L) 173",
+        "detail": "S 99, M 70, SD 62, V 30, C 25, KD 22, MP 22, L 19. Speaker Andreas Norlén (M). On 15 Oct 2026 the Riksdag rejected Magdalena Andersson as PM of a Social Democrat-only government, 248 against and 99 in favour. This was the first of the four PM votes allowed before a snap election must be called. Government formation is continuing."
+      }
     ],
-    "synopsis": "The centre-left bloc narrowly won the September 2026 election, but disputes over the Left Party's role have stalled the formation of a new government. Kristersson leads a caretaker cabinet.",
-    "policies": ["(Caretaker) Gang-crime crackdown", "NATO integration and defence spending", "Stricter migration policy"],
-    "challenges": ["Government deadlock — risk of a snap election after four failed PM votes", "Gang violence", "Housing and economic slowdown"],
+    "judiciary": "Independent courts headed by the Supreme Court and the Supreme Administrative Court; the Council on Legislation reviews draft bills.",
+    "elections": [
+      {
+        "name": "General election (Riksdag)",
+        "date": "2026-09-13",
+        "status": "held",
+        "note": "Turnout 84.9%. Opposition parties won 176 seats against 173 for the Tidö parties. Seats and vote share: S 99 (28.0%), M 70 (19.9%), SD 62 (17.5%), V 30 (8.4%), C 25 (7.0%), KD 22 (6.2%), MP 22 (6.1%), L 19 (5.3%). Kristersson asked to be relieved of office on 17 Sep and now leads a caretaker government."
+      },
+      {
+        "name": "General election (Riksdag)",
+        "date": "2030-09-08",
+        "status": "upcoming",
+        "note": "Regular election, held on the second Sunday of September. A snap election would be called if four PM votes fail."
+      }
+    ],
+    "synopsis": "The opposition parties (Social Democrats, Left, Centre and Greens) narrowly won the September 2026 election with 176 of 349 seats. They disagree over which parties should sit in government, and on 15 October 2026 the Riksdag rejected Magdalena Andersson as prime minister of a Social Democrat-only government. Ulf Kristersson leads a caretaker government while the Speaker continues talks.",
+    "policies": [
+      "Caretaker government limited to routine business pending a new government",
+      "Measures against gang crime (outgoing government's agenda)",
+      "NATO integration and higher defence spending",
+      "Stricter migration policy (outgoing government's agenda)"
+    ],
+    "challenges": [
+      "Government formation deadlock: one failed PM vote so far, and a snap election follows if four fail",
+      "Disputes among the opposition parties over whether the Centre or Left Party should be in government",
+      "Gang violence",
+      "Housing and economic slowdown"
+    ],
     "lastVerified": "2026-10-25",
-    "reviewNote": "Government formation ongoing — confirm new prime minister."
+    "reviewNote": "Confirmed: election results, seat counts, Kristersson's caretaker status (still shown as of about 23 Oct 2026) and the 15 Oct PM vote (248–99 against Andersson). Corrected the earlier claim of 'four failed PM votes'; only one vote has been held. Not yet confirmed: who the Speaker gave the next formation mandate to after 15 Oct, and whether any further PM vote is scheduled. Check before the next update."
   },
   {
-    "iso3": "NOR", "iso2": "no", "numeric": "578", "name": "Norway", "region": "Europe",
-    "system": "Unitary parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
+    "iso3": "NOR",
+    "iso2": "no",
+    "numeric": "578",
+    "name": "Norway",
+    "region": "Europe",
+    "system": "Unitary parliamentary constitutional monarchy",
+    "systemType": "parliamentary-monarchy",
+    "status": "stable",
     "executive": {
-      "headOfState": { "name": "Harald V", "title": "King", "since": "1991" },
-      "headOfGovernment": { "name": "Jonas Gahr Støre", "title": "Prime Minister", "party": "Labour (Ap)", "since": "2021" },
-      "governingParties": ["Labour Party (minority)"]
+      "headOfState": {
+        "name": "Harald V",
+        "title": "King",
+        "since": "1991"
+      },
+      "headOfGovernment": {
+        "name": "Jonas Gahr Støre",
+        "title": "Prime Minister",
+        "party": "Labour (Ap)",
+        "since": "2021"
+      },
+      "governingParties": [
+        "Labour Party (minority)"
+      ]
     },
-    "legislature": [{ "name": "Storting (169)", "control": "Labour minority, relying on centre-left parties", "detail": "Progress Party is the largest opposition party." }],
+    "legislature": [
+      {
+        "name": "Storting (169)",
+        "control": "Labour minority, relying on centre-left parties",
+        "detail": "Progress Party is the largest opposition party."
+      }
+    ],
     "judiciary": "Supreme Court of Norway.",
     "elections": [
-      { "name": "Parliamentary election", "date": "2025-09-08", "status": "held", "note": "Labour re-elected; Progress Party surged to second." },
-      { "name": "Parliamentary election", "date": "2029-09", "status": "upcoming" }
+      {
+        "name": "Parliamentary election",
+        "date": "2025-09-08",
+        "status": "held",
+        "note": "Labour re-elected; Progress Party surged to second."
+      },
+      {
+        "name": "Parliamentary election",
+        "date": "2029-09",
+        "status": "upcoming"
+      }
     ],
     "synopsis": "Støre's Labour Party governs alone in minority, with Jens Stoltenberg as finance minister. The sovereign wealth fund, energy and security dominate.",
-    "policies": ["Defence spending and Arctic security", "Energy exports to Europe", "Ethical guidelines for the sovereign wealth fund"],
-    "challenges": ["Budget negotiations with smaller parties", "Cost of living", "Russia on the northern border"],
+    "policies": [
+      "Defence spending and Arctic security",
+      "Energy exports to Europe",
+      "Ethical guidelines for the sovereign wealth fund"
+    ],
+    "challenges": [
+      "Budget negotiations with smaller parties",
+      "Cost of living",
+      "Russia on the northern border"
+    ],
     "lastVerified": "2026-10-25"
   },
   {
-    "iso3": "FIN", "iso2": "fi", "numeric": "246", "name": "Finland", "region": "Europe",
-    "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
+    "iso3": "FIN",
+    "iso2": "fi",
+    "numeric": "246",
+    "name": "Finland",
+    "region": "Europe",
+    "system": "Unitary parliamentary republic",
+    "systemType": "parliamentary-republic",
+    "status": "stable",
     "executive": {
-      "headOfState": { "name": "Alexander Stubb", "title": "President", "party": "National Coalition (KOK)", "since": "2024-03-01" },
-      "headOfGovernment": { "name": "Petteri Orpo", "title": "Prime Minister", "party": "National Coalition (KOK)", "since": "2023-06-20" },
-      "governingParties": ["National Coalition", "Finns Party", "Swedish People's Party", "Christian Democrats"]
+      "headOfState": {
+        "name": "Alexander Stubb",
+        "title": "President",
+        "party": "National Coalition (KOK)",
+        "since": "2024-03-01"
+      },
+      "headOfGovernment": {
+        "name": "Petteri Orpo",
+        "title": "Prime Minister",
+        "party": "National Coalition (KOK)",
+        "since": "2023-06-20"
+      },
+      "governingParties": [
+        "National Coalition",
+        "Finns Party",
+        "Swedish People's Party",
+        "Christian Democrats"
+      ]
     },
-    "legislature": [{ "name": "Eduskunta (200)", "control": "Right-of-centre coalition majority" }],
+    "legislature": [
+      {
+        "name": "Eduskunta (200)",
+        "control": "Right-of-centre coalition majority"
+      }
+    ],
     "judiciary": "Supreme Court and Supreme Administrative Court.",
     "elections": [
-      { "name": "Parliamentary election", "date": "2023-04-02", "status": "held" },
-      { "name": "Parliamentary election", "date": "2027-04-18", "status": "upcoming" }
+      {
+        "name": "Parliamentary election",
+        "date": "2023-04-02",
+        "status": "held"
+      },
+      {
+        "name": "Parliamentary election",
+        "date": "2027-04-18",
+        "status": "upcoming"
+      }
     ],
     "synopsis": "Orpo's centre-right coalition is pursuing austerity and labour-market reform, while President Stubb leads foreign and security policy as a NATO frontline state.",
-    "policies": ["Fiscal consolidation and welfare cuts", "Labour-market reform", "NATO integration and border security with Russia"],
-    "challenges": ["High unemployment", "Weak growth", "Social Democrats leading polls"],
+    "policies": [
+      "Fiscal consolidation and welfare cuts",
+      "Labour-market reform",
+      "NATO integration and border security with Russia"
+    ],
+    "challenges": [
+      "High unemployment",
+      "Weak growth",
+      "Social Democrats leading polls"
+    ],
     "lastVerified": "2026-10-25"
   },
   {
-    "iso3": "ISL", "iso2": "is", "numeric": "352", "name": "Iceland", "region": "Europe",
-    "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
+    "iso3": "ISL",
+    "iso2": "is",
+    "numeric": "352",
+    "name": "Iceland",
+    "region": "Europe",
+    "system": "Unitary parliamentary republic",
+    "systemType": "parliamentary-republic",
+    "status": "stable",
     "executive": {
-      "headOfState": { "name": "Halla Tómasdóttir", "title": "President", "since": "2024-08-01" },
-      "headOfGovernment": { "name": "Kristrún Frostadóttir", "title": "Prime Minister", "party": "Social Democratic Alliance", "since": "2024-12-21" },
-      "governingParties": ["Social Democratic Alliance", "Viðreisn (Liberal Reform)", "People's Party"]
+      "headOfState": {
+        "name": "Halla Tómasdóttir",
+        "title": "President",
+        "since": "2024-08-01"
+      },
+      "headOfGovernment": {
+        "name": "Kristrún Frostadóttir",
+        "title": "Prime Minister",
+        "party": "Social Democratic Alliance",
+        "since": "2024-12-21"
+      },
+      "governingParties": [
+        "Social Democratic Alliance",
+        "Viðreisn (Liberal Reform)",
+        "People's Party"
+      ]
     },
-    "legislature": [{ "name": "Althing (63)", "control": "Three-party coalition majority" }],
+    "legislature": [
+      {
+        "name": "Althing (63)",
+        "control": "Three-party coalition majority"
+      }
+    ],
     "judiciary": "Supreme Court of Iceland.",
     "elections": [
-      { "name": "Parliamentary election", "date": "2024-11-30", "status": "held" },
-      { "name": "Referendum on resuming EU accession talks (planned)", "date": "2027", "status": "upcoming" },
-      { "name": "Parliamentary election", "date": "2028", "status": "upcoming" }
+      {
+        "name": "Parliamentary election",
+        "date": "2024-11-30",
+        "status": "held"
+      },
+      {
+        "name": "Referendum on resuming EU accession talks (planned)",
+        "date": "2027",
+        "status": "upcoming"
+      },
+      {
+        "name": "Parliamentary election",
+        "date": "2028",
+        "status": "upcoming"
+      }
     ],
     "synopsis": "A coalition led by women party leaders is focused on stabilising the economy and plans a referendum on reopening EU accession talks.",
-    "policies": ["Inflation and interest-rate reduction", "Possible EU referendum", "Fisheries fee reform"],
-    "challenges": ["Inflation", "Volcanic activity on Reykjanes", "Housing"],
+    "policies": [
+      "Inflation and interest-rate reduction",
+      "Possible EU referendum",
+      "Fisheries fee reform"
+    ],
+    "challenges": [
+      "Inflation",
+      "Volcanic activity on Reykjanes",
+      "Housing"
+    ],
     "lastVerified": "2026-10-25"
   },
   {
-    "iso3": "EST", "iso2": "ee", "numeric": "233", "name": "Estonia", "region": "Europe",
-    "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
+    "iso3": "EST",
+    "iso2": "ee",
+    "numeric": "233",
+    "name": "Estonia",
+    "region": "Europe",
+    "system": "Unitary parliamentary republic",
+    "systemType": "parliamentary-republic",
+    "status": "stable",
     "executive": {
-      "headOfState": { "name": "Ülle Madise", "title": "President", "since": "2026-10-12" },
-      "headOfGovernment": { "name": "Kristen Michal", "title": "Prime Minister", "party": "Reform Party", "since": "2024-07-23" },
-      "governingParties": ["Reform Party", "Eesti 200"]
+      "headOfState": {
+        "name": "Ülle Madise",
+        "title": "President",
+        "since": "2026-10-12"
+      },
+      "headOfGovernment": {
+        "name": "Kristen Michal",
+        "title": "Prime Minister",
+        "party": "Reform Party",
+        "since": "2024-07-23"
+      },
+      "governingParties": [
+        "Reform Party",
+        "Eesti 200"
+      ]
     },
-    "legislature": [{ "name": "Riigikogu (101)", "control": "Reform–Eesti 200 coalition (narrow majority)" }],
+    "legislature": [
+      {
+        "name": "Riigikogu (101)",
+        "control": "Reform–Eesti 200 coalition (narrow majority)"
+      }
+    ],
     "judiciary": "Supreme Court (also constitutional review).",
     "elections": [
-      { "name": "Presidential election (by Riigikogu)", "date": "2026-09-02", "status": "held", "note": "Madise elected unopposed with 71 votes." },
-      { "name": "Parliamentary election", "date": "2027-03-07", "status": "upcoming" }
+      {
+        "name": "Presidential election (by Riigikogu)",
+        "date": "2026-09-02",
+        "status": "held",
+        "note": "Madise elected unopposed with 71 votes."
+      },
+      {
+        "name": "Parliamentary election",
+        "date": "2027-03-07",
+        "status": "upcoming"
+      }
     ],
     "synopsis": "Michal's two-party government is very unpopular amid tax rises to fund defence, with Isamaa leading polls ahead of the March 2027 election.",
-    "policies": ["Defence spending above 5% of GDP", "Tax increases and budget consolidation", "Support for Ukraine"],
-    "challenges": ["Low government approval", "Economic recovery", "Russian hybrid threats"],
+    "policies": [
+      "Defence spending above 5% of GDP",
+      "Tax increases and budget consolidation",
+      "Support for Ukraine"
+    ],
+    "challenges": [
+      "Low government approval",
+      "Economic recovery",
+      "Russian hybrid threats"
+    ],
     "lastVerified": "2026-10-25"
   },
   {
-    "iso3": "LVA", "iso2": "lv", "numeric": "428", "name": "Latvia", "region": "Europe",
-    "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "in-flux",
+    "iso3": "LVA",
+    "iso2": "lv",
+    "numeric": "428",
+    "name": "Latvia",
+    "region": "Europe",
+    "system": "Unitary parliamentary republic",
+    "systemType": "parliamentary-republic",
+    "status": "in-flux",
     "executive": {
-      "headOfState": { "name": "Edgars Rinkēvičs", "title": "President", "since": "2023-07-08" },
-      "headOfGovernment": { "name": "Evika Siliņa", "title": "Prime Minister (pending new government)", "party": "New Unity", "since": "2023-09-15" },
-      "governingParties": ["New Unity", "Union of Greens and Farmers", "Progressives (outgoing)"]
+      "headOfState": {
+        "name": "Edgars Rinkēvičs",
+        "title": "President",
+        "since": "2023-07-08"
+      },
+      "headOfGovernment": {
+        "name": "Evika Siliņa",
+        "title": "Prime Minister (pending new government)",
+        "party": "New Unity",
+        "since": "2023-09-15"
+      },
+      "governingParties": [
+        "New Unity",
+        "Union of Greens and Farmers",
+        "Progressives (outgoing)"
+      ]
     },
-    "legislature": [{ "name": "Saeima (100)", "control": "United List largest (41 seats)", "detail": "Oct 2026: United List 41, Latvia First 17, others 10–15 each; coalition talks under way." }],
+    "legislature": [
+      {
+        "name": "Saeima (100)",
+        "control": "United List largest (41 seats)",
+        "detail": "Oct 2026: United List 41, Latvia First 17, others 10–15 each; coalition talks under way."
+      }
+    ],
     "judiciary": "Constitutional Court and Supreme Court.",
     "elections": [
-      { "name": "Saeima election", "date": "2026-10-03", "status": "held", "note": "Andris Kulbergs' United List won decisively." },
-      { "name": "Presidential election (by Saeima)", "date": "2027-05", "status": "upcoming" }
+      {
+        "name": "Saeima election",
+        "date": "2026-10-03",
+        "status": "held",
+        "note": "Andris Kulbergs' United List won decisively."
+      },
+      {
+        "name": "Presidential election (by Saeima)",
+        "date": "2027-05",
+        "status": "upcoming"
+      }
     ],
     "synopsis": "The centre-right United List won the October 2026 election by a wide margin, and its leader Andris Kulbergs is expected to form the next government.",
-    "policies": ["Defence and border fortification", "Budget efficiency", "Energy independence"],
-    "challenges": ["Coalition formation", "Economic stagnation", "Russian-speaking minority integration"],
+    "policies": [
+      "Defence and border fortification",
+      "Budget efficiency",
+      "Energy independence"
+    ],
+    "challenges": [
+      "Coalition formation",
+      "Economic stagnation",
+      "Russian-speaking minority integration"
+    ],
     "lastVerified": "2026-10-25",
     "reviewNote": "New government expected — update prime minister and coalition."
   },
   {
-    "iso3": "LTU", "iso2": "lt", "numeric": "440", "name": "Lithuania", "region": "Europe",
-    "system": "Unitary semi-presidential republic", "systemType": "semi-presidential", "status": "stable",
+    "iso3": "LTU",
+    "iso2": "lt",
+    "numeric": "440",
+    "name": "Lithuania",
+    "region": "Europe",
+    "system": "Unitary semi-presidential republic",
+    "systemType": "semi-presidential",
+    "status": "stable",
     "executive": {
-      "headOfState": { "name": "Gitanas Nausėda", "title": "President", "since": "2019" },
-      "headOfGovernment": { "name": "Inga Ruginienė", "title": "Prime Minister", "party": "Social Democratic Party (LSDP)", "since": "2025-09" },
-      "governingParties": ["LSDP", "Dawn of Nemunas", "Farmers and Greens Union"]
+      "headOfState": {
+        "name": "Gitanas Nausėda",
+        "title": "President",
+        "since": "2019"
+      },
+      "headOfGovernment": {
+        "name": "Inga Ruginienė",
+        "title": "Prime Minister",
+        "party": "Social Democratic Party (LSDP)",
+        "since": "2025-09"
+      },
+      "governingParties": [
+        "LSDP",
+        "Dawn of Nemunas",
+        "Farmers and Greens Union"
+      ]
     },
-    "legislature": [{ "name": "Seimas (141)", "control": "LSDP-led coalition" }],
+    "legislature": [
+      {
+        "name": "Seimas (141)",
+        "control": "LSDP-led coalition"
+      }
+    ],
     "judiciary": "Constitutional Court and Supreme Court.",
     "elections": [
-      { "name": "Seimas election", "date": "2024-10-27", "status": "held" },
-      { "name": "Seimas election", "date": "2028-10", "status": "upcoming" },
-      { "name": "Presidential election", "date": "2029-05", "status": "upcoming" }
+      {
+        "name": "Seimas election",
+        "date": "2024-10-27",
+        "status": "held"
+      },
+      {
+        "name": "Seimas election",
+        "date": "2028-10",
+        "status": "upcoming"
+      },
+      {
+        "name": "Presidential election",
+        "date": "2029-05",
+        "status": "upcoming"
+      }
     ],
     "synopsis": "Ruginienė's Social Democrat-led coalition took over after a business scandal toppled her predecessor; the inclusion of the populist Dawn of Nemunas party has drawn protests.",
-    "policies": ["Defence spending ~5–6% of GDP", "Tax reform to fund defence", "Support for Ukraine"],
-    "challenges": ["Coalition controversy over Dawn of Nemunas", "Belarus border provocations (balloons, migrants)"],
+    "policies": [
+      "Defence spending ~5–6% of GDP",
+      "Tax reform to fund defence",
+      "Support for Ukraine"
+    ],
+    "challenges": [
+      "Coalition controversy over Dawn of Nemunas",
+      "Belarus border provocations (balloons, migrants)"
+    ],
     "lastVerified": "2026-10-25"
   }
 ]
