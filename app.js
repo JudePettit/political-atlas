@@ -389,6 +389,12 @@ function setupModes() {
     setupModes();
     const iso = location.hash.slice(1).toUpperCase();
     if (state.countries.has(iso)) select(iso);
+    // Follow address-bar edits and back/forward navigation between countries.
+    window.addEventListener('hashchange', () => {
+      const code = location.hash.slice(1).toUpperCase();
+      if (state.countries.has(code)) { if (code !== state.selected) select(code); }
+      else if (state.selected) clearSelection();
+    });
   } catch (err) {
     console.error(err);
     document.getElementById('updated').textContent = 'Failed to load data — serve this folder over HTTP (see README).';

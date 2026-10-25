@@ -7,10 +7,14 @@
   "scripts": {
     "start": "npx --yes serve@14.2.4 -l 8080 .",
     "update-data": "node scripts/update-data.mjs",
-    "validate": "node scripts/validate.mjs"
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test --test-concurrency=1 tests/data.test.mjs tests/e2e.test.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.110.0",
     "ajv": "^8.17.1"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.56.1"
   }
 }
