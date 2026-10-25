@@ -1,5 +1,5 @@
-{
-  "lastUpdated": "2026-10-25",
+﻿{
+  "lastUpdated": "2026-10-26",
   "updateMethod": "Automated refresh with claude-opus-5-5 + web search",
   "files": [
     "countries/major-powers.json",
@@ -10,3 +10,4 @@
     "countries/europe-balkans-caucasus.json"
   ]
 }
+

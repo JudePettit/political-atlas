@@ -136,14 +136,14 @@
     "judiciary": "Constitutional Court and Supreme Judicial Council; judicial reform long demanded by the EU.",
     "elections": [
       { "name": "Snap parliamentary election", "date": "2026-04", "status": "held", "note": "Radev, who resigned the presidency to run, won outright." },
-      { "name": "Presidential election (1st round)", "date": "2026-10-25", "status": "held", "note": "Iotova vs Andrey Gyurov among main contenders." },
+      { "name": "Presidential election (1st round)", "date": "2026-10-25", "status": "held", "note": "Main contenders: incumbent Iliana Iotova (independent) and former caretaker PM Andrey Gyurov (independent). Official results pending; no Bulgarian president has ever won outright in the first round." },
       { "name": "Presidential runoff (if needed)", "date": "2026-11-01", "status": "upcoming" }
     ],
     "synopsis": "Former president Rumen Radev became PM in May 2026 with a rare absolute majority, ending years of repeated elections. Bulgaria joined the euro on 1 January 2026.",
     "policies": ["Anti-corruption and judicial overhaul", "Euro-area integration", "Cautious stance on military aid to Ukraine"],
     "challenges": ["Presidential election outcome", "Corruption", "Concerns over Russia-friendly positions"],
     "lastVerified": "2026-10-25",
-    "reviewNote": "Presidential election held 25 Oct 2026 — update result/runoff."
+    "reviewNote": "Presidential first round held 25 Oct 2026; results not yet published when checked (26 Oct). Update with the result and the 1 Nov runoff."
   },
   {
     "iso3": "MDA", "iso2": "md", "numeric": "498", "name": "Moldova", "region": "Europe",

@@ -46,21 +46,21 @@
     "iso3": "SRB", "iso2": "rs", "numeric": "688", "name": "Serbia", "region": "Europe",
     "system": "Unitary parliamentary republic (strong presidency in practice)", "systemType": "parliamentary-republic", "status": "in-flux",
     "executive": {
-      "headOfState": { "name": "Aleksandar Vučić", "title": "President", "party": "Serbian Progressive Party (SNS)", "since": "2017" },
-      "headOfGovernment": { "name": "Đuro Macut", "title": "Prime Minister", "party": "Independent (SNS-backed)", "since": "2025-04-16" },
-      "governingParties": ["SNS", "SPS", "allies"]
+      "headOfState": { "name": "Acting president (Speaker of the National Assembly)", "title": "President (vacant — Vučić resigned Sept 2026 to run for PM)" },
+      "headOfGovernment": { "name": "Đuro Macut", "title": "Prime Minister (caretaker)", "party": "Independent (SNS-backed)", "since": "2025-04-16" },
+      "governingParties": ["SNS-led caretaker government", "Students' List expected to form the next government"]
     },
-    "legislature": [{ "name": "National Assembly (250)", "control": "SNS-led majority (dissolved — election 25 Oct 2026)" }],
+    "legislature": [{ "name": "National Assembly (250)", "control": "Students' List won (official results pending)", "detail": "Vučić conceded on election night; his party projected ~135–140 seats for the Students' List and ~105 for SNS." }],
     "judiciary": "Constitutional Court; judiciary under political pressure.",
     "elections": [
-      { "name": "Snap parliamentary election", "date": "2026-10-25", "status": "held", "note": "Called after two years of protests; SNS nominated Vučić as PM candidate." },
-      { "name": "Presidential election", "date": "2027-04", "status": "upcoming" }
+      { "name": "Snap parliamentary election", "date": "2026-10-25", "status": "held", "note": "Student-led opposition list defeated Vučić's SNS; turnout reported near record highs. Vučić conceded." },
+      { "name": "Early presidential election (due after Vučić's resignation)", "date": "2027", "status": "upcoming" }
     ],
-    "synopsis": "Vučić called an early parliamentary election for 25 October 2026 after student-led protests that began with the November 2024 Novi Sad canopy collapse. He is the SNS candidate for prime minister as his presidential term nears its end.",
-    "policies": ["Balancing EU accession with ties to Russia and China", "Infrastructure-led growth (Expo 2027)", "Response to protest movement"],
-    "challenges": ["Mass anti-corruption protests", "Media freedom and rule-of-law concerns", "Kosovo dispute", "NIS oil company sanctions"],
-    "lastVerified": "2026-10-25",
-    "reviewNote": "Election held 25 Oct 2026 — update results and new government."
+    "synopsis": "In a seismic shift, the student-led opposition movement that grew out of protests over the 2024 Novi Sad canopy collapse defeated Aleksandar Vučić's Serbian Progressive Party on 25 October 2026, ending more than a decade of SNS dominance. Vučić, who resigned the presidency in September to run for prime minister, conceded on election night; a new government led by the Students' List is expected once results are certified.",
+    "policies": ["(Incoming) Anti-corruption and rule-of-law reform", "(Incoming) Media freedom and independent institutions", "EU accession while managing ties with Russia and China"],
+    "challenges": ["Forming a government from a list of political newcomers", "A peaceful transfer of power and SNS-aligned institutions", "Vacant presidency and early presidential election", "Kosovo dispute and NIS oil company sanctions"],
+    "lastVerified": "2026-10-26",
+    "reviewNote": "Results provisional (party projection; official RIK results pending). Confirm seat totals, the acting president's name and the Students' List's PM candidate."
   },
   {
     "iso3": "MNE", "iso2": "me", "numeric": "499", "name": "Montenegro", "region": "Europe",
