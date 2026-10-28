@@ -10,7 +10,9 @@ Click a country to see:
 - **Key election dates**: past and upcoming, with countdowns
 - **Synopsis, key policies and main challenges** of the current leadership
 
-You can colour the map by **system of government**, **time to next election**, or **stability** (stable vs. in flux).
+You can colour the map by **system of government**, **time to next election**, or **stability** (stable vs. in flux). On the map, systems are grouped into three families (parliamentary, presidential or semi-presidential, one-party or absolute rule) plus "Other", so the colours stay distinguishable for colour-blind readers; the tooltip, profile and table give each country's exact system. The **Table** tab lists every country with its system, leaders, stability and next election, sortable by any column (`?view=table` links straight to it).
+
+Political Atlas is a submodule of **Realtime Intelligence** in **PRP** (Personal Resource Planner, by JDP-Iq), also at https://jdpi.pages.dev/#/rt/atlas. It uses the shared PRP stylesheet and connector (`https://jdpi.pages.dev/design/prp.css`, `prp-bar.js`), light by default with a dark theme.
 
 ## Run locally
 

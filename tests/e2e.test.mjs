@@ -1,6 +1,8 @@
 // End-to-end tests for Political Atlas, run against a deployed URL with the installed Edge.
 //   ATLAS_URL=https://political-atlas.pages.dev node --test tests/
-// Defaults to the live site; set ATLAS_URL=http://localhost:8080 to test a local server.
+// Defaults to the live site; set ATLAS_URL=http://localhost:8080 to test a local server. To test before a deploy, also
+// set JDPI_URL to a local PRP checkout (e.g. http://localhost:8787): the live shared files (prp.css, prp-bar.js) and the
+// shell are then served from it, and the shell's frame loads this local atlas.
 import { test, before, after } from 'node:test';
 import assert from 'node:assert/strict';
 import { chromium } from 'playwright-core';
@@ -10,6 +12,18 @@ const SHELL = (process.env.JDPI_URL || 'https://jdpi.pages.dev').replace(/\/$/, 
 let browser, page;
 const consoleErrors = [];
 
+// Serve the live hosts from the local servers under test (a no-op against the live sites).
+const LIVE = { 'https://jdpi.pages.dev/': `${SHELL}/`, 'https://political-atlas.pages.dev/': `${BASE}/` };
+async function mapLive(p) {
+  for (const [from, to] of Object.entries(LIVE)) {
+    if (from === to) continue;
+    await p.route(u => u.href.startsWith(from), async route => {
+      const res = await route.fetch({ url: to + route.request().url().slice(from.length) });
+      await route.fulfill({ response: res });
+    });
+  }
+}
+
 async function open(hash = '') {
   await page.goto(`${BASE}/${hash}`, { waitUntil: 'networkidle' });
   await page.waitForFunction(() => document.querySelectorAll('path.country.active').length > 0, null, { timeout: 30000 });
@@ -18,6 +32,7 @@ async function open(hash = '') {
 before(async () => {
   browser = await chromium.launch({ channel: 'msedge' });
   page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+  await mapLive(page);
   page.on('console', m => { if (m.type() === 'error') consoleErrors.push(m.text()); });
   page.on('pageerror', e => consoleErrors.push(e.message));
 });
@@ -25,9 +40,10 @@ after(async () => { await browser?.close(); });
 
 test('page loads with all countries and no script errors', async () => {
   await open();
-  const subtitle = await page.textContent('#updated');
-  assert.match(subtitle, /^78 countries · data updated /);
-  assert.equal(await page.title(), 'Political Atlas · JDP-I H&P');
+  const meta = await page.textContent('#updated');
+  assert.match(meta, /Updated \S+/);
+  assert.match(meta, /Coverage 78 countries and territories/);
+  assert.equal(await page.title(), 'Political Atlas · PRP');
   const active = await page.locator('path.country.active').count();
   const markers = await page.locator('circle.microstate').count();
   assert.ok(active >= 70, `expected ≥70 clickable country shapes, got ${active}`);
@@ -125,31 +141,31 @@ test('search finds countries and leaders', async () => {
   assert.equal(await page.locator('#search-results').isHidden(), true);
 });
 
-test('JDP-I design system is applied', async () => {
+test('PRP design system is applied', async () => {
   await open();
   const s = await page.evaluate(() => ({
     bg: getComputedStyle(document.body).backgroundColor,
     font: getComputedStyle(document.body).fontFamily,
-    accent: getComputedStyle(document.documentElement).getPropertyValue('--jdpi-cyan').trim(),
+    accent: getComputedStyle(document.documentElement).getPropertyValue('--prp-accent').trim(),
     suite: document.documentElement.dataset.suite,
     returnBar: !!document.querySelector('.jdpi-returnbar')
   }));
-  assert.equal(s.bg, 'rgb(16, 24, 32)');
-  assert.match(s.font, /DM Sans/);
-  assert.equal(s.accent, '#6ddac8', 'shared stylesheet loaded from jdpi.pages.dev');
-  assert.equal(s.suite, 'hp');
+  assert.equal(s.bg, 'rgb(243, 244, 246)'); // PRP canvas, light theme
+  assert.match(s.font, /IBM Plex Sans/);
+  assert.ok(s.accent, 'shared stylesheet loaded from jdpi.pages.dev');
+  assert.equal(s.suite, 'rt');
   await page.waitForSelector('.jdpi-returnbar', { timeout: 5000 });
 });
 
-test('inside the JDP-I shell the module hides its own brand', async () => {
-  await page.goto(`${SHELL}/#/hp/atlas`, { waitUntil: 'networkidle' });
+test('inside the PRP shell the page hides its own brand', async () => {
+  await page.goto(`${SHELL}/#/rt/atlas`, { waitUntil: 'networkidle' });
   const frame = page.frameLocator('#frames iframe.active');
   await frame.locator('path.country.active').first().waitFor({ timeout: 30000 });
   const embedded = await frame.locator('html').getAttribute('class');
   assert.match(embedded || '', /jdpi-embedded/);
   assert.equal(await frame.locator('.eyebrow').isHidden(), true);
   assert.equal(await frame.locator('.jdpi-returnbar').count(), 0);
-  assert.match(await page.textContent('#crumbs'), /H&P.*Political Atlas/);
+  assert.match(await page.textContent('#crumbs'), /Realtime Intelligence.*Political Atlas/);
 });
 
 test('phone layout has no horizontal overflow', async () => {

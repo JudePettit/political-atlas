@@ -1,5 +1,6 @@
-/* Political Atlas — map + country detail panel. Data lives in data/*.json and is
-   refreshed monthly by scripts/update-data.mjs. */
+/* Political Atlas (PRP · Realtime Intelligence): map, table and country profile panel. Data lives in data/*.json and
+   is refreshed monthly by scripts/update-data.mjs. Map colours are CSS custom properties over PRP tokens (styles.css),
+   written into SVG fills as var(...), so the map follows the light/dark theme without redrawing. */
 
 const WORLD_URL = 'https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-50m.json';
 const DAY = 86400000;
@@ -12,18 +13,28 @@ const MARKERS = {
   VCT: [-61.2, 13.25], GRD: [-61.68, 12.12], BRB: [-59.55, 13.17], TTO: [-61.25, 10.6]
 };
 
-const SYSTEM_TYPES = {
-  'presidential': { label: 'Presidential republic', color: 'var(--c-presidential)' },
-  'semi-presidential': { label: 'Semi-presidential', color: 'var(--c-semi)' },
-  'parliamentary-republic': { label: 'Parliamentary republic', color: 'var(--c-parl-rep)' },
-  'parliamentary-monarchy': { label: 'Constitutional monarchy', color: 'var(--c-parl-mon)' },
-  'absolute-monarchy': { label: 'Absolute monarchy', color: 'var(--c-abs-mon)' },
-  'one-party': { label: 'One-party state', color: 'var(--c-one-party)' },
-  'directorial': { label: 'Directorial', color: 'var(--c-directorial)' },
-  'theocratic': { label: 'Theocratic monarchy', color: 'var(--c-theocratic)' },
-  'transitional': { label: 'Transitional', color: 'var(--c-transitional)' },
-  'dependent-territory': { label: 'Autonomous territory', color: 'var(--c-territory)' }
+// On the map, systems fold into three families (three categorical colours is the most a map can carry and stay
+// colour-blind safe) plus "Other"; the tooltip, profile and table name each country's exact system.
+const FAMILIES = {
+  parl: { label: 'Parliamentary', note: 'republic or constitutional monarchy', color: 'var(--c-parl)' },
+  pres: { label: 'Presidential or semi-presidential', note: '', color: 'var(--c-pres)' },
+  auto: { label: 'One-party or absolute rule', note: '', color: 'var(--c-auto)' },
+  other: { label: 'Other', note: 'directorial, transitional, territory', color: 'var(--c-other)' }
 };
+const SYSTEM_TYPES = {
+  'presidential': { label: 'Presidential republic', family: 'pres' },
+  'semi-presidential': { label: 'Semi-presidential', family: 'pres' },
+  'parliamentary-republic': { label: 'Parliamentary republic', family: 'parl' },
+  'parliamentary-monarchy': { label: 'Constitutional monarchy', family: 'parl' },
+  'absolute-monarchy': { label: 'Absolute monarchy', family: 'auto' },
+  'one-party': { label: 'One-party state', family: 'auto' },
+  'directorial': { label: 'Directorial', family: 'other' },
+  'theocratic': { label: 'Theocratic monarchy', family: 'auto' },
+  'transitional': { label: 'Transitional', family: 'other' },
+  'dependent-territory': { label: 'Autonomous territory', family: 'other' }
+};
+const systemOf = c => SYSTEM_TYPES[c.systemType] || { label: c.system, family: 'other' };
+const familyColor = c => FAMILIES[systemOf(c).family].color;
 
 const ELECTION_BUCKETS = [
   { max: 90, label: 'Within 3 months', color: 'var(--e-1)' },
@@ -34,11 +45,17 @@ const ELECTION_BUCKETS = [
 ];
 
 const STATUS = {
-  'stable': { label: 'Stable government', color: 'var(--c-parl-rep)' },
-  'in-flux': { label: 'In flux (formation, caretaker, election under way)', color: 'var(--e-2)' }
+  'stable': { label: 'Stable government', note: '', color: 'var(--c-stable)' },
+  'in-flux': { label: 'In flux', note: 'formation, caretaker or election under way', color: 'var(--c-flux)' }
 };
 
-const state = { countries: new Map(), byNumeric: new Map(), byName: new Map(), mode: 'system', selected: null, manifest: null };
+const CAPTIONS = {
+  system: 'Countries coloured by system of government. Parliamentary systems include constitutional monarchies; the tooltip, profile and table give each country’s exact system. Dots mark states too small to click at this scale.',
+  election: 'Countries coloured by the time to their next scheduled national election, counted from today: the stronger the colour, the sooner the vote.',
+  status: 'Countries coloured by government stability. “In flux” means a government is being formed, is a caretaker, or an election or count is under way.'
+};
+
+const state = { countries: new Map(), byNumeric: new Map(), byName: new Map(), mode: 'system', selected: null, manifest: null, view: 'map', sort: { key: 'name', dir: 1 } };
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
@@ -68,13 +85,26 @@ function nextElection(c) {
 }
 
 function daysUntil(dt) { return Math.ceil((dt.getTime() - Date.now()) / DAY); }
+const countdown = days => (days === 0 ? 'today' : `in ${days} day${days === 1 ? '' : 's'}`);
+// Year-only dates are mid-year placeholders, so the table and tooltip count down only to dates with a month.
+const soonLabel = (e, days) => (e.date.split('-').length > 1 && days >= 0 && days < 730 ? countdown(days) : '');
 
 function fillFor(c) {
-  if (state.mode === 'system') return SYSTEM_TYPES[c.systemType]?.color || 'var(--c-transitional)';
+  if (state.mode === 'system') return familyColor(c);
   if (state.mode === 'status') return STATUS[c.status]?.color;
   const ne = nextElection(c);
   const days = ne ? daysUntil(ne.dt) : Infinity;
   return ELECTION_BUCKETS.find(b => days <= b.max).color;
+}
+
+// What the current colour means for one country, in words (tooltip line).
+function modeDetail(c) {
+  if (state.mode === 'system') return systemOf(c).label;
+  if (state.mode === 'status') return STATUS[c.status]?.label || c.status;
+  const ne = nextElection(c);
+  if (!ne) return 'No national election scheduled';
+  const soon = soonLabel(ne, daysUntil(ne.dt));
+  return `Next election ${formatDate(ne.date)}${soon ? `, ${soon}` : ''}`;
 }
 
 async function loadData() {
@@ -89,8 +119,9 @@ async function loadData() {
   // Natural Earth names that differ from ours
   state.byName.set('kosovo', state.countries.get('XKX'));
   state.byName.set('n. cyprus', state.countries.get('CYP'));
-  document.getElementById('updated').textContent =
-    `${state.countries.size} countries · data updated ${formatDate(manifest.lastUpdated)}`;
+  document.getElementById('updated').innerHTML =
+    `<span>Updated <b>${esc(formatDate(manifest.lastUpdated))}</b></span><span>Coverage <b>${state.countries.size} countries and territories</b></span>` +
+    '<span>Refresh <b>monthly, reviewed</b></span><span>Boundaries <b>Natural Earth</b></span>';
 }
 
 function countryForFeature(f) {
@@ -102,7 +133,9 @@ let svg, g, path, projection, zoom;
 async function drawMap() {
   const world = await fetch(WORLD_URL).then(r => r.json());
   const features = topojson.feature(world, world.objects.countries).features
-    .filter(f => f.properties.name !== 'Antarctica');
+    .filter(f => f.properties.name !== 'Antarctica')
+    // Covered countries last, so their outlines sit on top of their neighbours'.
+    .sort((a, b) => !!countryForFeature(a) - !!countryForFeature(b));
 
   // Fixed internal coordinate space; the SVG scales to its container via viewBox,
   // so layout changes (resizes, panes opening) never invalidate projection maths.
@@ -166,32 +199,35 @@ function focusBounds([[x0, y0], [x1, y1]], duration = 750) {
 
 function showTip(ev, c, fallbackName) {
   const tooltip = document.getElementById('tooltip');
-  const box = document.querySelector('.map-wrap').getBoundingClientRect();
+  const box = document.querySelector('.map-stage').getBoundingClientRect();
   if (c) {
     const hog = c.executive.headOfGovernment;
-    tooltip.innerHTML = `<strong>${esc(c.name)}</strong>${esc(hog.name)} · ${esc(hog.party || hog.title)}`;
+    tooltip.innerHTML = `<strong>${esc(c.name)}</strong>${esc(hog.name)} · ${esc(hog.party || hog.title)}` +
+      `<span class="tip-sub"><span class="swatch" style="background:${fillFor(c)}"></span>${esc(modeDetail(c))}</span>`;
   } else {
-    tooltip.innerHTML = `<strong>${esc(fallbackName)}</strong>Not covered`;
+    tooltip.innerHTML = `<strong>${esc(fallbackName)}</strong><span class="tip-sub">Not covered</span>`;
   }
   tooltip.hidden = false;
   const x = Math.min(ev.clientX - box.left + 14, box.width - tooltip.offsetWidth - 8);
-  tooltip.style.left = `${x}px`;
-  tooltip.style.top = `${ev.clientY - box.top + 14}px`;
+  const y = Math.min(ev.clientY - box.top + 14, box.height - tooltip.offsetHeight - 8);
+  tooltip.style.left = `${Math.max(8, x)}px`;
+  tooltip.style.top = `${Math.max(8, y)}px`;
 }
 
 function recolor() {
   g.selectAll('path.country.active').attr('fill', f => fillFor(countryForFeature(f)));
   g.selectAll('circle.microstate').attr('fill', d => fillFor(state.countries.get(d[0])));
   renderLegend();
+  document.getElementById('caption').textContent = `${CAPTIONS[state.mode]} Boundaries: Natural Earth.`;
 }
 
 function renderLegend() {
   const el = document.getElementById('legend');
   let title, items;
   if (state.mode === 'system') {
-    const used = new Set([...state.countries.values()].map(c => c.systemType));
+    const used = new Set([...state.countries.values()].map(c => systemOf(c).family));
     title = 'System of government';
-    items = Object.entries(SYSTEM_TYPES).filter(([k]) => used.has(k)).map(([, v]) => v);
+    items = Object.entries(FAMILIES).filter(([k]) => used.has(k)).map(([, v]) => v);
   } else if (state.mode === 'status') {
     title = 'Government stability';
     items = Object.values(STATUS);
@@ -200,8 +236,8 @@ function renderLegend() {
     items = ELECTION_BUCKETS;
   }
   el.innerHTML = `<h4>${title}</h4><ul>${items.map(i =>
-    `<li><span class="swatch" style="background:${i.color}"></span>${esc(i.label)}</li>`).join('')}
-    <li><span class="swatch" style="background:var(--land-inactive)"></span>Not covered</li></ul>`;
+    `<li><span class="swatch" style="background:${i.color}"></span>${esc(i.label)}${i.note ? ` <small>${esc(i.note)}</small>` : ''}</li>`).join('')}
+    <li><span class="swatch" style="background:var(--c-none)"></span>Not covered</li></ul>`;
 }
 
 function select(iso3, fromMap = false) {
@@ -209,7 +245,11 @@ function select(iso3, fromMap = false) {
   if (!c) return;
   state.selected = iso3;
   g.selectAll('.country, .microstate').classed('selected', function () { return this.dataset.iso === iso3; });
+  // Draw the selected outline above its neighbours, and keep the microstate dots on top.
+  g.selectAll('.country.selected').raise();
+  g.selectAll('circle.microstate').raise();
   if (location.hash !== `#${iso3}`) history.replaceState(null, '', `#${iso3}`);
+  markTableRow();
   renderCountry(c);
   if (!fromMap) zoomTo(iso3);
 }
@@ -278,7 +318,7 @@ function renderCountry(c) {
       const dt = parseDate(e.date);
       const days = dt ? daysUntil(dt) : null;
       const count = e.status === 'upcoming' && days !== null && days >= 0 && days < 730
-        ? `<span class="t-count">${days === 0 ? 'today' : `in ${days} day${days === 1 ? '' : 's'}`}</span>` : '';
+        ? `<span class="t-count">${countdown(days)}</span>` : '';
       return `<li class="${e.status === 'upcoming' ? 'upcoming-e' : ''}">
         <span class="t-date">${esc(formatDate(e.date))}</span>${count}
         <div class="t-name">${esc(e.name)}</div>
@@ -304,8 +344,9 @@ function renderCountry(c) {
 
 function clearSelection() {
   state.selected = null;
-  history.replaceState(null, '', location.pathname);
+  history.replaceState(null, '', location.pathname + location.search);
   g.selectAll('.selected').classed('selected', false);
+  markTableRow();
   renderEmptyPanel();
 }
 
@@ -313,7 +354,7 @@ function renderEmptyPanel() {
   const panel = document.getElementById('panel');
   panel.innerHTML = `<div class="panel-empty">
     <h2>Select a country</h2>
-    <p>Click a highlighted country on the map, or search above, to see who holds power across the executive, legislature and judiciary, upcoming elections, and a summary of current policies and challenges.</p>
+    <p>Click a coloured country on the map, a row in the table, or search above to see who holds power across the executive, legislature and judiciary, upcoming elections, and a summary of current policies and challenges.</p>
     <h3>Upcoming elections</h3><ol id="upcoming" class="upcoming"></ol></div>`;
   renderUpcoming();
 }
@@ -330,9 +371,103 @@ function renderUpcoming() {
   rows.sort((a, b) => a.dt - b.dt);
   const ol = document.getElementById('upcoming');
   ol.innerHTML = rows.slice(0, 25).map(({ c, e }) =>
-    `<li data-iso="${c.iso3}"><span class="u-date">${esc(formatDate(e.date))}</span>
+    `<li data-iso="${c.iso3}" tabindex="0"><span class="u-date">${esc(formatDate(e.date))}</span>
       <span><span class="u-name">${esc(c.name)}</span><span class="u-kind">${esc(e.name)}</span></span></li>`).join('');
-  ol.querySelectorAll('li').forEach(li => li.onclick = () => select(li.dataset.iso));
+  ol.querySelectorAll('li').forEach(li => {
+    li.onclick = () => select(li.dataset.iso);
+    li.onkeydown = ev => { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); select(li.dataset.iso); } };
+  });
+}
+
+/* ---------------------------------------------------------------- table view */
+const COLUMNS = [
+  ['name', 'Country', c => c.name],
+  ['system', 'System', c => `${Object.keys(FAMILIES).indexOf(systemOf(c).family)} ${systemOf(c).label}`],
+  ['hos', 'Head of state', c => c.executive.headOfState.name],
+  ['hog', 'Head of government', c => c.executive.headOfGovernment.name],
+  ['status', 'Stability', c => (c.status === 'in-flux' ? 0 : 1)],
+  ['election', 'Next election', c => nextElection(c)?.dt.getTime() ?? Infinity]
+];
+
+function renderTable() {
+  const table = document.getElementById('country-table');
+  const { key, dir } = state.sort;
+  const value = COLUMNS.find(col => col[0] === key)[2];
+  const cmp = (x, y) => (typeof x === 'number' ? (x === y ? 0 : x < y ? -1 : 1) : String(x).localeCompare(String(y)));
+  const rows = [...state.countries.values()].sort((a, b) => cmp(value(a), value(b)) * dir || a.name.localeCompare(b.name));
+  table.tHead.innerHTML = `<tr>${COLUMNS.map(([k, label]) => `<th scope="col"${k === key ? ` aria-sort="${dir > 0 ? 'ascending' : 'descending'}"` : ''}>` +
+    `<button type="button" class="sort" data-sort="${k}">${label}<span class="arrow" aria-hidden="true">${k === key ? (dir > 0 ? '↑' : '↓') : '↕'}</span></button></th>`).join('')}</tr>`;
+  table.tBodies[0].innerHTML = rows.map(c => {
+    const { headOfState: hos, headOfGovernment: hog } = c.executive;
+    const ne = nextElection(c);
+    const soon = ne ? soonLabel(ne, daysUntil(ne.dt)) : '';
+    return `<tr data-iso="${c.iso3}"${c.iso3 === state.selected ? ' class="selected"' : ''}>
+      <td><span class="cell-name"><img src="https://flagcdn.com/w40/${esc(c.iso2)}.png" alt="" loading="lazy" onerror="this.remove()"><button type="button" class="row-link">${esc(c.name)}</button></span></td>
+      <td><span class="cell-sys"><span class="swatch" style="background:${familyColor(c)}"></span>${esc(systemOf(c).label)}</span></td>
+      <td>${esc(hos.name)}<span class="cell-sub">${esc(hos.title)}</span></td>
+      <td>${esc(hog.name)}<span class="cell-sub">${esc(hog.party || hog.title)}</span></td>
+      <td><span class="prp-status ${c.status === 'stable' ? 'good' : 'warn'}">${c.status === 'stable' ? 'Stable' : 'In flux'}</span></td>
+      <td>${ne ? `<span class="cell-date">${esc(formatDate(ne.date))}${soon ? ` · ${soon}` : ''}</span><span class="cell-sub">${esc(ne.name)}</span>`
+        : '<span class="cell-sub">None scheduled</span>'}</td></tr>`;
+  }).join('');
+}
+
+function markTableRow() {
+  const wrap = document.querySelector('.table-wrap');
+  document.querySelectorAll('#country-table tbody tr').forEach(tr => {
+    const on = tr.dataset.iso === state.selected;
+    tr.classList.toggle('selected', on);
+    // Bring the selected row into view (below the sticky header) if it is scrolled out of sight.
+    if (on && state.view === 'table') {
+      const r = tr.getBoundingClientRect(), w = wrap.getBoundingClientRect(), head = wrap.querySelector('thead').offsetHeight;
+      if (r.top < w.top + head || r.bottom > w.bottom) wrap.scrollTop += r.top - w.top - head - w.height / 3;
+    }
+  });
+}
+
+function setupTable() {
+  const table = document.getElementById('country-table');
+  table.tHead.onclick = ev => {
+    const b = ev.target.closest('[data-sort]');
+    if (!b) return;
+    const k = b.dataset.sort;
+    state.sort = { key: k, dir: state.sort.key === k ? -state.sort.dir : 1 };
+    renderTable();
+    table.querySelector(`[data-sort="${k}"]`).focus();
+  };
+  table.tBodies[0].onclick = ev => { const tr = ev.target.closest('tr[data-iso]'); if (tr) select(tr.dataset.iso); };
+}
+
+/* ---------------------------------------------------------------- views (tabs) */
+// Map and Table are tabs; ?view=table links straight to the table and the #ISO3 hash still selects a country.
+function setupTabs() {
+  const tabs = [...document.querySelectorAll('.prp-tabs [role="tab"]')];
+  const show = (view, focus = false) => {
+    state.view = view;
+    for (const t of tabs) {
+      const on = t.dataset.view === view;
+      t.setAttribute('aria-selected', String(on));
+      t.tabIndex = on ? 0 : -1;
+      document.getElementById(t.getAttribute('aria-controls')).hidden = !on;
+      if (on && focus) t.focus();
+    }
+    document.querySelector('.mode').hidden = view !== 'map'; // colouring applies to the map only
+    if (view === 'table') { renderTable(); markTableRow(); }
+    const params = new URLSearchParams(location.search);
+    if (view === 'map') params.delete('view'); else params.set('view', view);
+    const query = params.toString();
+    history.replaceState(null, '', `${location.pathname}${query ? `?${query}` : ''}${location.hash}`);
+  };
+  tabs.forEach((t, i) => {
+    t.onclick = () => show(t.dataset.view);
+    t.onkeydown = ev => {
+      const to = { ArrowRight: i + 1, ArrowLeft: i - 1, Home: 0, End: tabs.length - 1 }[ev.key];
+      if (to === undefined) return;
+      ev.preventDefault();
+      show(tabs[(to + tabs.length) % tabs.length].dataset.view, true);
+    };
+  });
+  show(new URLSearchParams(location.search).get('view') === 'table' ? 'table' : 'map');
 }
 
 function setupSearch() {
@@ -385,6 +520,8 @@ function setupModes() {
     await loadData();
     renderUpcoming();
     setupSearch();
+    setupTable();
+    setupTabs();
     await drawMap();
     setupModes();
     const iso = location.hash.slice(1).toUpperCase();

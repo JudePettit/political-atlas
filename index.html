@@ -1,62 +1,94 @@
 <!doctype html>
-<html lang="en" data-suite="hp">
+<html lang="en" class="prp" data-suite="rt">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#101820">
-  <title>Political Atlas · JDP-I H&amp;P</title>
+  <meta name="theme-color" content="#f3f4f6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1318" media="(prefers-color-scheme: dark)">
+  <title>Political Atlas · PRP</title>
   <meta name="description" content="Interactive map of political leadership, branches of power and elections across Europe, North America, Russia, China, Japan, Israel and Saudi Arabia.">
-  <link rel="icon" href="https://jdpi.pages.dev/design/brand-jdpi.svg" type="image/svg+xml">
+  <link rel="icon" href="https://jdpi.pages.dev/design/brand-prp.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://jdpi.pages.dev/design/jdpi.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://jdpi.pages.dev/design/prp.css">
   <link rel="stylesheet" href="styles.css">
-  <script src="https://jdpi.pages.dev/design/jdpi-bar.js" data-suite="hp" data-module="atlas" defer></script>
+  <script src="https://jdpi.pages.dev/design/prp-bar.js" data-suite="rt" data-module="atlas" defer></script>
 </head>
 <body>
-  <header class="topbar">
-    <div class="brand">
-      <svg class="logo" data-jdpi-standalone viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M2 12h20M12 2c3 3.5 3 16.5 0 20M12 2c-3 3.5-3 16.5 0 20" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>
-      <div>
-        <p class="eyebrow" data-jdpi-standalone>JDP-I H&amp;P · History &amp; Politics</p>
-        <h1>Political Atlas</h1>
-        <p class="subtitle" id="updated">Loading data…</p>
-      </div>
+<div class="page">
+  <header class="page-head">
+    <p class="prp-eyebrow" data-jdpi-standalone><span>Realtime Intelligence <span class="sep">·</span> Political Atlas</span></p>
+    <h1 class="prp-title">Political Atlas</h1>
+    <p class="prp-dek">Who holds power now across Europe, North America, Russia, China, Japan, Israel and Saudi Arabia. Colour the map by system, election or stability, and select a country for its profile.</p>
+    <p class="prp-meta" id="updated">Loading data…</p>
+  </header>
+
+  <div class="prp-tabs" role="tablist" aria-label="Views">
+    <button type="button" role="tab" id="tab-map" data-view="map" aria-controls="view-map" aria-selected="true">Map</button>
+    <button type="button" role="tab" id="tab-table" data-view="table" aria-controls="view-table" aria-selected="false" tabindex="-1">Table</button>
+  </div>
+
+  <div class="toolbar">
+    <div class="search-wrap">
+      <input id="search" class="prp-input" type="search" placeholder="Search a country or leader…" autocomplete="off" aria-label="Search countries and leaders">
+      <ul id="search-results" class="search-results" role="listbox" hidden></ul>
     </div>
-    <div class="controls">
-      <div class="search-wrap">
-        <input id="search" type="search" placeholder="Search a country…" autocomplete="off" aria-label="Search countries">
-        <ul id="search-results" class="search-results" role="listbox" hidden></ul>
-      </div>
-      <div class="segmented" role="radiogroup" aria-label="Colour map by">
+    <div class="mode">
+      <span class="prp-label" id="mode-label">Colour by</span>
+      <div class="segmented" role="radiogroup" aria-labelledby="mode-label">
         <button type="button" data-mode="system" class="active" role="radio" aria-checked="true">System</button>
         <button type="button" data-mode="election" role="radio" aria-checked="false">Next election</button>
         <button type="button" data-mode="status" role="radio" aria-checked="false">Stability</button>
       </div>
     </div>
-  </header>
+  </div>
 
   <main class="layout">
-    <section class="map-wrap" aria-label="World map">
-      <svg id="map" role="img" aria-label="World map; click a highlighted country for details"></svg>
-      <div class="map-tools">
-        <button type="button" id="zoom-in" aria-label="Zoom in">+</button>
-        <button type="button" id="zoom-out" aria-label="Zoom out">−</button>
-        <button type="button" id="zoom-reset" aria-label="Reset view">⟲</button>
-      </div>
-      <div id="legend" class="legend"></div>
-      <div id="tooltip" class="tooltip" hidden></div>
+    <section class="view" id="view-map" role="tabpanel" aria-labelledby="tab-map">
+      <figure class="prp-figure">
+        <div class="map-wrap prp-panel">
+          <div class="map-stage">
+            <svg id="map" role="img" aria-label="World map; click a highlighted country for details"></svg>
+            <div class="map-tools">
+              <button type="button" id="zoom-in" aria-label="Zoom in">+</button>
+              <button type="button" id="zoom-out" aria-label="Zoom out">−</button>
+              <button type="button" id="zoom-reset" aria-label="Reset view">⟲</button>
+            </div>
+            <div id="tooltip" class="tooltip" hidden></div>
+          </div>
+          <div id="legend" class="legend"></div>
+        </div>
+        <figcaption><b>Figure 1.</b> <span id="caption">Countries coloured by system of government.</span></figcaption>
+      </figure>
     </section>
 
-    <aside id="panel" class="panel" aria-live="polite">
+    <section class="view" id="view-table" role="tabpanel" aria-labelledby="tab-table" hidden>
+      <div class="table-wrap prp-panel">
+        <table class="prp-table" id="country-table">
+          <caption class="sr-only">Every country and territory in the atlas, with its system, leaders, stability and next election</caption>
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="prp-caption"><b>Table 1.</b> Every country and territory in the atlas, with the same data as the map. Select a column heading to sort, or a row to open the profile.</p>
+    </section>
+
+    <aside id="panel" class="panel prp-panel" aria-live="polite">
       <div class="panel-empty">
         <h2>Select a country</h2>
-        <p>Click a highlighted country on the map, or search above, to see who holds power across the executive, legislature and judiciary, upcoming elections, and a summary of current policies and challenges.</p>
+        <p>Click a coloured country on the map, a row in the table, or search above to see who holds power across the executive, legislature and judiciary, upcoming elections, and a summary of current policies and challenges.</p>
         <h3>Upcoming elections</h3>
         <ol id="upcoming" class="upcoming"></ol>
       </div>
     </aside>
   </main>
+
+  <footer class="prp-sources">
+    <p><b>Sources.</b> Country profiles are researched from official government, parliament and election-commission websites and checked against Reuters, AP, BBC and national media; each profile shows when it was last verified. Boundaries: <a href="https://github.com/topojson/world-atlas">Natural Earth via world-atlas 2.0.2</a> (public domain). Flags: <a href="https://flagcdn.com">flagcdn</a>.</p>
+    <p><b>Method.</b> Profiles are refreshed every month by an automated research run with live web search, validated against a JSON schema and published after human review. Facts that could not be confirmed keep their previous value and are marked “Needs review”. A government is “in flux” while it is being formed, is a caretaker, or an election or count is under way.</p>
+    <p><b>Note.</b> Political information changes quickly; check official sources before relying on it for important decisions.</p>
+  </footer>
+</div>
 
   <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
