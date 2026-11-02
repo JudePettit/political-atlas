@@ -1,13 +1,14 @@
-// End-to-end tests for Political Atlas, run against a deployed URL with the installed Edge.
-//   ATLAS_URL=https://political-atlas.pages.dev node --test tests/
-// Defaults to the live site; set ATLAS_URL=http://localhost:8080 to test a local server. To test before a deploy, also
-// set JDPI_URL to a local PRP checkout (e.g. http://localhost:8787): the live shared files (prp.css, prp-bar.js) and the
-// shell are then served from it, and the shell's frame loads this local atlas.
+// End-to-end tests for Political Atlas, run with the installed Edge against a local server or a deployed URL.
+//   npm start, then npm test                                  this checkout, at http://localhost:8080 (the default)
+//   ATLAS_URL=https://political-atlas.pages.dev npm test      the live site
+// Like the Retrospective's tests, they default to the local server, so a change is tested before it goes live. To test
+// jdpi's side before a deploy too, set JDPI_URL to a local PRP checkout (e.g. http://localhost:8787): the live shared
+// files (prp.css, prp-bar.js) and the shell are then served from it, and the shell's frame loads this local atlas.
 import { test, before, after } from 'node:test';
 import assert from 'node:assert/strict';
 import { chromium } from 'playwright-core';
 
-const BASE = (process.env.ATLAS_URL || 'https://political-atlas.pages.dev').replace(/\/$/, '');
+const BASE = (process.env.ATLAS_URL || 'http://localhost:8080').replace(/\/$/, '');
 const SHELL = (process.env.JDPI_URL || 'https://jdpi.pages.dev').replace(/\/$/, '');
 let browser, page;
 const consoleErrors = [];
@@ -158,14 +159,20 @@ test('PRP design system is applied', async () => {
 });
 
 test('inside the PRP shell the page hides its own brand', async () => {
-  await page.goto(`${SHELL}/#/rt/atlas`, { waitUntil: 'networkidle' });
+  // Where the shell files the atlas, and what its breadcrumb calls it, come from jdpi's registry, so a rename there
+  // needs no change here.
+  const registry = await (await fetch(`${SHELL}/registry.json`)).json();
+  const suite = registry.suites.find(s => s.modules.some(m => m.id === 'atlas'));
+  const atlas = suite.modules.find(m => m.id === 'atlas');
+  await page.goto(`${SHELL}/#/${suite.id}/atlas`, { waitUntil: 'networkidle' });
   const frame = page.frameLocator('#frames iframe.active');
   await frame.locator('path.country.active').first().waitFor({ timeout: 30000 });
   const embedded = await frame.locator('html').getAttribute('class');
   assert.match(embedded || '', /jdpi-embedded/);
   assert.equal(await frame.locator('.eyebrow').isHidden(), true);
   assert.equal(await frame.locator('.jdpi-returnbar').count(), 0);
-  assert.match(await page.textContent('#crumbs'), /Realtime Intelligence.*Political Atlas/);
+  const crumbs = await page.textContent('#crumbs');
+  assert.ok(crumbs.includes(suite.name) && crumbs.indexOf(atlas.name) > crumbs.indexOf(suite.name), `breadcrumb: ${crumbs}`);
 });
 
 test('phone layout has no horizontal overflow', async () => {
