@@ -75,18 +75,19 @@
       "governingParties": ["Likud", "Shas", "Religious Zionism", "Otzma Yehudit", "others (caretaker coalition)"]
     },
     "legislature": [
-      { "name": "Knesset (120)", "control": "Dissolved — election on 27 Oct 2026", "detail": "The Knesset dissolved on 17 July 2026; the outgoing right-religious coalition governs in a caretaker capacity." }
+      { "name": "Knesset (120)", "control": "Elected 27 Oct 2026; no bloc has a majority", "detail": "Likud 27, Yashar! (Gadi Eisenkot) 21, B'Yachad (Naftali Bennett) 12, Joint List 11, the Democrats 8, Ra'am 8, Yisrael Beiteinu 7, United Torah Judaism 7, Otzma Yehudit 7, Shas 6, Religious Zionism 6. Netanyahu's outgoing bloc has 53 seats, the opposition 48 and the Arab parties 19; 61 are needed." }
     ],
     "judiciary": "Supreme Court with strong judicial review; the government's judicial overhaul remains a central political fault line.",
     "elections": [
       { "name": "Knesset election", "date": "2022-11-01", "status": "held" },
-      { "name": "Knesset election", "date": "2026-10-27", "status": "upcoming", "note": "First on-schedule election since 1988; coalition talks will follow." }
+      { "name": "Knesset election", "date": "2026-10-27", "status": "held", "note": "Likud came first with 27 of 120 seats, but no bloc reached the 61 needed: Netanyahu's bloc 53, the opposition 48, the Arab parties 19. Coalition talks follow." },
+      { "name": "Knesset election", "date": "2030", "status": "upcoming", "note": "Due by late 2030; sooner if no government can be formed." }
     ],
-    "synopsis": "Netanyahu's right-wing and religious coalition heads into the 27 October 2026 election after the Gaza war and regional conflict. The vote will decide whether he can form a sixth government.",
+    "synopsis": "Netanyahu's Likud came first in the 27 October 2026 election with 27 seats, but his right-wing and religious bloc won 53 of 120, eight short of a majority, and Gadi Eisenkot's Yashar! came second with 21. Eisenkot has ruled out serving under Netanyahu; coalition talks will decide whether he can form a sixth government or whether Israel votes again.",
     "policies": ["Security policy toward Gaza, Lebanon and Iran", "Judicial reform", "Expanding normalisation with Arab states", "Ultra-Orthodox military service exemptions"],
-    "challenges": ["Post-war Gaza governance and hostage aftermath", "Netanyahu's ongoing corruption trial", "International legal and diplomatic pressure", "Deep domestic polarisation"],
-    "lastVerified": "2026-10-25",
-    "reviewNote": "Election on 27 Oct 2026 — update with results and coalition formation."
+    "challenges": ["Forming a majority government after an inconclusive election", "Post-war Gaza governance and hostage aftermath", "Netanyahu's ongoing corruption trial", "International legal and diplomatic pressure", "Deep domestic polarisation"],
+    "lastVerified": "2026-11-02",
+    "reviewNote": "Count completed 29 Oct 2026; official results due 4 Nov, then President Herzog's consultations. Update when he asks a party leader to form a government, and when one is sworn in."
   },
   {
     "iso3": "SAU", "iso2": "sa", "numeric": "682", "name": "Saudi Arabia", "region": "Middle East",
