@@ -48,6 +48,9 @@ Rules:
 - Keep at least the most recent held national election and all known upcoming national elections.
 - Be neutral and factual. Describe policies and challenges without editorialising or taking sides.
 - Keep the synopsis to two or three sentences and policies/challenges to 3-5 short items each.
+- Set executive.leader to the office that holds the most power in practice ("headOfGovernment" in parliamentary systems;
+  "headOfState" where the president, monarch or party leader directs the government, as in France, Russia or China).
+  Change it only when power has really moved, and say why in "reviewNote".
 - Set "status" to "in-flux" when a government is being formed, is caretaker, or a national election/count is under way; otherwise "stable".
 - Set "lastVerified" to "${today}".
 - If you cannot confirm a fact, keep the existing value and explain in "reviewNote". Remove "reviewNote" when everything is confirmed.
@@ -107,6 +110,7 @@ function summariseChange(before, after) {
   const pick = c => ({
     hos: c.executive.headOfState.name,
     hog: c.executive.headOfGovernment.name,
+    leader: c.executive.leader,
     parties: c.executive.governingParties.join(', '),
     status: c.status
   });

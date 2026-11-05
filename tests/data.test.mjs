@@ -43,6 +43,21 @@ test('election dates are well formed and statuses match the calendar', () => {
   assert.deepEqual(problems, []);
 });
 
+test('each country names the office that holds the most power', () => {
+  const leader = iso => countries.find(c => c.iso3 === iso).executive.leader;
+  // Where the president, party leader or ruling monarch directs the government, it is the head of state…
+  for (const iso of ['FRA', 'RUS', 'CHN', 'UKR', 'BLR', 'AZE', 'CUB', 'MCO', 'VAT', 'USA', 'MEX']) assert.equal(leader(iso), 'headOfState', iso);
+  // …and in parliamentary systems the head of government (Saudi Arabia's crown prince governs as its prime minister).
+  for (const iso of ['GBR', 'DEU', 'ITA', 'ESP', 'POL', 'CAN', 'JPN', 'ISR', 'SAU', 'IRL']) assert.equal(leader(iso), 'headOfGovernment', iso);
+  for (const c of countries) {
+    const { leader: which, headOfState: hos, headOfGovernment: hog } = c.executive;
+    assert.ok(c.executive[which]?.name, `${c.iso3}: the leader has a name`);
+    // One person in both offices is named as head of state; a presidential system's president always is.
+    if (hos.name === hog.name || c.systemType === 'presidential') assert.equal(which, 'headOfState', c.iso3);
+    if (c.systemType === 'dependent-territory') assert.equal(which, 'headOfGovernment', c.iso3);
+  }
+});
+
 test('every country has an upcoming election or a stated reason', () => {
   const none = countries.filter(c => !c.elections.some(e => e.status === 'upcoming'))
     .map(c => c.iso3);

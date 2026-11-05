@@ -10,6 +10,8 @@ Click a country to see:
 - **Key election dates**: past and upcoming, with countdowns
 - **Synopsis, key policies and main challenges** of the current leadership
 
+Hover over a country for its name and **whoever holds the most power** there, with their office and party. That is the head of government in parliamentary systems (the UK's prime minister, Germany's chancellor) and the head of state where the president, monarch or party leader directs the government (France's president, not its prime minister; Russia's and Ukraine's presidents; China's party leader; Monaco's prince). Each record says which of the two it is, in `executive.leader`, judged by practice and not by the constitution's wording alone. The field names one of the two offices, so where the most powerful figure holds neither (Georgia's ruling-party founder, for example), the atlas still names the officeholder.
+
 You can colour the map by **system of government**, **time to next election**, or **stability** (stable vs. in flux). On the map, systems are grouped into three families (parliamentary, presidential or semi-presidential, one-party or absolute rule) plus "Other", so the colours stay distinguishable for colour-blind readers; the tooltip, profile and table give each country's exact system. The **Table** tab lists every country with its system, leaders, stability and next election, sortable by any column (`?view=table` links straight to it).
 
 Political Atlas is a submodule of **Realtime Intelligence** in **PRP** (Personal Resource Planner, by JDP-Iq), also at https://jdpi.pages.dev/#/rt/atlas. It uses the shared PRP stylesheet and connector (`https://jdpi.pages.dev/design/prp.css`, `prp-bar.js`), light by default with a dark theme.

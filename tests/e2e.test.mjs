@@ -131,6 +131,38 @@ test('map colour modes change fills and legend', async () => {
   await page.click('.segmented button[data-mode="system"]');
 });
 
+test('the tooltip names whoever holds the most power: the president of France, the prime minister of the UK', async () => {
+  await open();
+  const records = await page.evaluate(async () => {
+    const m = await fetch('data/manifest.json').then(r => r.json());
+    const lists = await Promise.all(m.files.map(f => fetch('data/' + f).then(r => r.json())));
+    return Object.fromEntries(lists.flat().map(c => [c.iso3, c.executive]));
+  });
+  const tip = async iso => {
+    // The tooltip follows the pointer, so the event is sent to the country's own shape (France's bounding box also
+    // covers its neighbours).
+    await page.evaluate(code => {
+      const el = document.querySelector(`path.country.active[data-iso="${code}"]`), b = el.getBoundingClientRect();
+      el.dispatchEvent(new MouseEvent('mousemove', { bubbles: true, clientX: b.left + b.width / 2, clientY: b.top + b.height / 2 }));
+    }, iso);
+    // The country, the leader's name (the text after the country) and the leader's office and party.
+    return page.evaluate(() => {
+      const t = document.getElementById('tooltip');
+      return t.hidden ? null : [t.querySelector('strong').textContent, t.querySelector('strong').nextSibling.textContent, t.querySelector('.tip-role').textContent].join(' | ');
+    });
+  };
+  const fra = records.FRA, gbr = records.GBR;
+  assert.equal(fra.leader, 'headOfState');
+  assert.notEqual(fra.headOfState.name, fra.headOfGovernment.name, 'France has a president and a prime minister');
+  const france = await tip('FRA');
+  assert.ok(france.startsWith(`France | ${fra.headOfState.name} | ${fra.headOfState.title}`), france);
+  assert.ok(!france.includes(fra.headOfGovernment.name), 'not the prime minister');
+  assert.equal(gbr.leader, 'headOfGovernment');
+  const uk = await tip('GBR');
+  assert.ok(uk.startsWith(`United Kingdom | ${gbr.headOfGovernment.name} | ${gbr.headOfGovernment.title}`), uk);
+  assert.ok(!uk.includes(gbr.headOfState.name), 'not the monarch');
+});
+
 test('search finds countries and leaders', async () => {
   await open();
   await page.fill('#search', 'Burnham');

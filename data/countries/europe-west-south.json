@@ -3,6 +3,7 @@
     "iso3": "GBR", "iso2": "gb", "numeric": "826", "name": "United Kingdom", "region": "Europe",
     "system": "Unitary parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Charles III", "title": "King", "since": "2022" },
       "headOfGovernment": { "name": "Andy Burnham", "title": "Prime Minister", "party": "Labour", "since": "2026-07" },
       "governingParties": ["Labour"]
@@ -28,6 +29,7 @@
     "iso3": "IRL", "iso2": "ie", "numeric": "372", "name": "Ireland", "region": "Europe",
     "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Catherine Connolly", "title": "President", "party": "Independent (left-backed)", "since": "2025-11-11" },
       "headOfGovernment": { "name": "Micheál Martin", "title": "Taoiseach", "party": "Fianna Fáil", "since": "2025-01-23" },
       "governingParties": ["Fianna Fáil", "Fine Gael", "Regional Independents"]
@@ -51,6 +53,7 @@
     "iso3": "FRA", "iso2": "fr", "numeric": "250", "name": "France", "region": "Europe",
     "system": "Unitary semi-presidential republic", "systemType": "semi-presidential", "status": "in-flux",
     "executive": {
+      "leader": "headOfState",
       "headOfState": { "name": "Emmanuel Macron", "title": "President", "party": "Renaissance", "since": "2017" },
       "headOfGovernment": { "name": "Sébastien Lecornu", "title": "Prime Minister", "party": "Renaissance", "since": "2025-09 (reappointed 2025-10)" },
       "governingParties": ["Renaissance", "MoDem", "Horizons", "Les Républicains (partial)"]
@@ -75,6 +78,7 @@
     "iso3": "DEU", "iso2": "de", "numeric": "276", "name": "Germany", "region": "Europe",
     "system": "Federal parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Frank-Walter Steinmeier", "title": "Federal President", "party": "SPD (non-partisan in office)", "since": "2017" },
       "headOfGovernment": { "name": "Friedrich Merz", "title": "Federal Chancellor", "party": "CDU", "since": "2025-05-06" },
       "governingParties": ["CDU/CSU", "SPD"]
@@ -99,6 +103,7 @@
     "iso3": "NLD", "iso2": "nl", "numeric": "528", "name": "Netherlands", "region": "Europe",
     "system": "Parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Willem-Alexander", "title": "King", "since": "2013" },
       "headOfGovernment": { "name": "Rob Jetten", "title": "Prime Minister", "party": "D66", "since": "2026-02-23" },
       "governingParties": ["D66", "VVD", "CDA"]
@@ -122,6 +127,7 @@
     "iso3": "BEL", "iso2": "be", "numeric": "056", "name": "Belgium", "region": "Europe",
     "system": "Federal parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Philippe", "title": "King", "since": "2013" },
       "headOfGovernment": { "name": "Bart De Wever", "title": "Prime Minister", "party": "N-VA", "since": "2025-02-03" },
       "governingParties": ["N-VA", "MR", "Les Engagés", "Vooruit", "CD&V"]
@@ -144,6 +150,7 @@
     "iso3": "LUX", "iso2": "lu", "numeric": "442", "name": "Luxembourg", "region": "Europe",
     "system": "Parliamentary constitutional monarchy (grand duchy)", "systemType": "parliamentary-monarchy", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Guillaume V", "title": "Grand Duke", "since": "2025-10-03" },
       "headOfGovernment": { "name": "Luc Frieden", "title": "Prime Minister", "party": "CSV", "since": "2023-11" },
       "governingParties": ["CSV", "DP"]
@@ -163,6 +170,7 @@
     "iso3": "AUT", "iso2": "at", "numeric": "040", "name": "Austria", "region": "Europe",
     "system": "Federal parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Alexander Van der Bellen", "title": "Federal President", "party": "Independent (ex-Greens)", "since": "2017" },
       "headOfGovernment": { "name": "Christian Stocker", "title": "Federal Chancellor", "party": "ÖVP", "since": "2025-03-03" },
       "governingParties": ["ÖVP", "SPÖ", "NEOS"]
@@ -186,6 +194,7 @@
     "iso3": "CHE", "iso2": "ch", "numeric": "756", "name": "Switzerland", "region": "Europe",
     "system": "Federal directorial republic with direct democracy", "systemType": "directorial", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Guy Parmelin (President of the Confederation 2026)", "title": "Federal Council (collective head of state)", "party": "SVP", "since": "2026-01-01" },
       "headOfGovernment": { "name": "Federal Council (7 members)", "title": "Collective executive", "party": "SVP 2, FDP 2, SP 2, Centre 1" },
       "governingParties": ["SVP", "SP", "FDP", "The Centre"]
@@ -208,6 +217,7 @@
     "iso3": "LIE", "iso2": "li", "numeric": "438", "name": "Liechtenstein", "region": "Europe",
     "system": "Constitutional monarchy with strong princely powers and direct democracy", "systemType": "parliamentary-monarchy", "status": "stable",
     "executive": {
+      "leader": "headOfState",
       "headOfState": { "name": "Hans-Adam II (Hereditary Prince Alois as regent)", "title": "Prince", "since": "1989 (regent since 2004)" },
       "headOfGovernment": { "name": "Brigitte Haas", "title": "Prime Minister", "party": "Progressive Citizens' Party (FBP)", "since": "2025-04-10" },
       "governingParties": ["FBP", "Patriotic Union (VU)"]
@@ -227,6 +237,7 @@
     "iso3": "MCO", "iso2": "mc", "numeric": "492", "name": "Monaco", "region": "Europe",
     "system": "Constitutional monarchy (principality)", "systemType": "parliamentary-monarchy", "status": "stable",
     "executive": {
+      "leader": "headOfState",
       "headOfState": { "name": "Albert II", "title": "Sovereign Prince", "since": "2005" },
       "headOfGovernment": { "name": "Christophe Mirmand", "title": "Minister of State", "since": "2024-07" },
       "governingParties": ["Non-partisan (appointed by the Prince)"]
@@ -246,6 +257,7 @@
     "iso3": "AND", "iso2": "ad", "numeric": "020", "name": "Andorra", "region": "Europe",
     "system": "Parliamentary co-principality", "systemType": "parliamentary-monarchy", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Emmanuel Macron and Bishop Josep-Lluís Serrano Pentinat", "title": "Co-Princes" },
       "headOfGovernment": { "name": "Xavier Espot Zamora", "title": "Head of Government", "party": "Democrats for Andorra (DA)", "since": "2019" },
       "governingParties": ["DA", "Committed Citizens", "Action for Andorra"]
@@ -265,6 +277,7 @@
     "iso3": "ITA", "iso2": "it", "numeric": "380", "name": "Italy", "region": "Europe",
     "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Sergio Mattarella", "title": "President", "since": "2015" },
       "headOfGovernment": { "name": "Giorgia Meloni", "title": "President of the Council of Ministers", "party": "Brothers of Italy (FdI)", "since": "2022-10-22" },
       "governingParties": ["Brothers of Italy", "Lega", "Forza Italia", "Noi Moderati"]
@@ -287,6 +300,7 @@
     "iso3": "SMR", "iso2": "sm", "numeric": "674", "name": "San Marino", "region": "Europe",
     "system": "Parliamentary directorial republic", "systemType": "directorial", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Two Captains Regent (rotate every 6 months, 1 Apr / 1 Oct)", "title": "Captains Regent" },
       "headOfGovernment": { "name": "Congress of State (Secretary of State for Foreign Affairs: Luca Beccari)", "title": "Collective government", "party": "PDCS-led coalition" },
       "governingParties": ["Sammarinese Christian Democratic Party (PDCS)", "coalition partners"]
@@ -307,6 +321,7 @@
     "iso3": "VAT", "iso2": "va", "numeric": "336", "name": "Vatican City", "region": "Europe",
     "system": "Absolute elective theocratic monarchy", "systemType": "theocratic", "status": "stable",
     "executive": {
+      "leader": "headOfState",
       "headOfState": { "name": "Pope Leo XIV (Robert Francis Prevost)", "title": "Sovereign Pontiff", "since": "2025-05-08" },
       "headOfGovernment": { "name": "Sr. Raffaella Petrini (Governorate); Cardinal Pietro Parolin (Secretary of State)", "title": "President of the Governorate / Secretary of State" },
       "governingParties": ["None"]
@@ -323,6 +338,7 @@
     "iso3": "ESP", "iso2": "es", "numeric": "724", "name": "Spain", "region": "Europe",
     "system": "Parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "in-flux",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Felipe VI", "title": "King", "since": "2014" },
       "headOfGovernment": { "name": "Pedro Sánchez", "title": "President of the Government", "party": "PSOE", "since": "2018" },
       "governingParties": ["PSOE", "Sumar (minority coalition)"]
@@ -346,6 +362,7 @@
     "iso3": "PRT", "iso2": "pt", "numeric": "620", "name": "Portugal", "region": "Europe",
     "system": "Unitary semi-presidential republic", "systemType": "semi-presidential", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "António José Seguro", "title": "President", "party": "Socialist Party (PS)", "since": "2026-03-09" },
       "headOfGovernment": { "name": "Luís Montenegro", "title": "Prime Minister", "party": "PSD (Democratic Alliance)", "since": "2024-04-02" },
       "governingParties": ["PSD", "CDS–PP (Democratic Alliance)"]
@@ -366,6 +383,7 @@
     "iso3": "MLT", "iso2": "mt", "numeric": "470", "name": "Malta", "region": "Europe",
     "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Myriam Spiteri Debono", "title": "President", "since": "2024-04" },
       "headOfGovernment": { "name": "Robert Abela", "title": "Prime Minister", "party": "Labour Party", "since": "2020" },
       "governingParties": ["Labour Party"]
@@ -385,6 +403,7 @@
     "iso3": "GRC", "iso2": "gr", "numeric": "300", "name": "Greece", "region": "Europe",
     "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Konstantinos Tasoulas", "title": "President", "since": "2025-03-13" },
       "headOfGovernment": { "name": "Kyriakos Mitsotakis", "title": "Prime Minister", "party": "New Democracy", "since": "2019" },
       "governingParties": ["New Democracy"]
@@ -404,6 +423,7 @@
     "iso3": "CYP", "iso2": "cy", "numeric": "196", "name": "Cyprus", "region": "Europe",
     "system": "Unitary presidential republic", "systemType": "presidential", "status": "stable",
     "executive": {
+      "leader": "headOfState",
       "headOfState": { "name": "Nikos Christodoulides", "title": "President", "party": "Independent", "since": "2023-02-28" },
       "headOfGovernment": { "name": "Nikos Christodoulides", "title": "President", "since": "2023-02-28" },
       "governingParties": ["Independent president backed by DIKO and others"]

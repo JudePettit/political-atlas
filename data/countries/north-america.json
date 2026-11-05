@@ -3,30 +3,31 @@
     "iso3": "USA", "iso2": "us", "numeric": "840", "name": "United States", "region": "North America",
     "system": "Federal presidential constitutional republic", "systemType": "presidential", "status": "stable",
     "executive": {
+      "leader": "headOfState",
       "headOfState": { "name": "Donald Trump", "title": "President", "party": "Republican", "since": "2025-01-20" },
       "headOfGovernment": { "name": "Donald Trump", "title": "President (VP: JD Vance)", "party": "Republican", "since": "2025-01-20" },
       "governingParties": ["Republican Party"]
     },
     "legislature": [
-      { "name": "House of Representatives (435)", "control": "Republican (narrow majority)", "detail": "Speaker Mike Johnson. All seats up on 3 Nov 2026." },
-      { "name": "Senate (100)", "control": "Republican (53–47)", "detail": "Majority Leader John Thune. 35 seats up in Nov 2026." }
+      { "name": "House of Representatives (435)", "control": "Republican until January 2027; Democrats won a majority on 3 Nov 2026", "detail": "Speaker Mike Johnson until the new House sits. CBS News projects 251–268 Democratic seats; Hakeem Jeffries, the Democratic leader, is in line to be Speaker." },
+      { "name": "Senate (100)", "control": "Republican (53–47) until January 2027; Democrats won a majority on 3 Nov 2026", "detail": "Majority Leader John Thune until the new Senate sits. Democrats won at least 54 seats; Alaska and Mississippi were still uncalled on 5 Nov." }
     ],
     "judiciary": "Supreme Court, 6–3 conservative majority (Chief Justice John Roberts); major rulings on executive power, tariffs and immigration pending or recent.",
     "elections": [
       { "name": "Presidential & congressional elections", "date": "2024-11-05", "status": "held" },
-      { "name": "Midterm elections (House, 1/3 Senate, 36 governors)", "date": "2026-11-03", "status": "upcoming" },
-      { "name": "Presidential election", "date": "2028-11-07", "status": "upcoming" }
+      { "name": "Midterm elections (House, 1/3 Senate, 36 governors)", "date": "2026-11-03", "status": "held", "note": "Democrats won both chambers: at least 54 Senate seats and a projected 251–268 House seats (CBS News, 5 Nov), with the Alaska and Mississippi Senate races uncalled. The new Congress sits in January 2027." },      { "name": "Presidential election", "date": "2028-11-07", "status": "upcoming" }
     ],
-    "synopsis": "Republicans hold the White House and both chambers of Congress, with an assertive use of executive authority. The 3 November 2026 midterms will decide whether that unified control continues.",
+    "synopsis": "Republicans hold the White House, with an assertive use of executive authority. Democrats won both chambers of Congress in the 3 November 2026 midterms, so unified Republican control ends when the new Congress sits in January 2027; final seat counts are pending.",
     "policies": ["Broad tariffs and trade renegotiation", "Immigration enforcement and deportations", "Federal workforce and regulatory cuts", "Tax cuts extended via the 2025 budget reconciliation law"],
-    "challenges": ["Cost of living, inflation and tariff effects", "Legal battles over the limits of executive power", "Deficits and federal debt", "Polarisation and midterm outcome"],
-    "lastVerified": "2026-10-25",
-    "reviewNote": "Midterms on 3 Nov 2026 — update House/Senate control."
+    "challenges": ["Cost of living, inflation and tariff effects", "Legal battles over the limits of executive power", "Deficits and federal debt", "Polarisation and divided government from January 2027"],
+    "lastVerified": "2026-11-05",
+    "reviewNote": "Final House and Senate seat counts pending (Alaska and Mississippi Senate races uncalled on 5 Nov); confirm the new Speaker and Senate Majority Leader in January 2027."
   },
   {
     "iso3": "CAN", "iso2": "ca", "numeric": "124", "name": "Canada", "region": "North America",
     "system": "Federal parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Charles III (represented by Governor General Mary Simon)", "title": "Monarch", "since": "2022" },
       "headOfGovernment": { "name": "Mark Carney", "title": "Prime Minister", "party": "Liberal", "since": "2025-03-14" },
       "governingParties": ["Liberal Party"]
@@ -49,6 +50,7 @@
     "iso3": "MEX", "iso2": "mx", "numeric": "484", "name": "Mexico", "region": "North America",
     "system": "Federal presidential republic", "systemType": "presidential", "status": "stable",
     "executive": {
+      "leader": "headOfState",
       "headOfState": { "name": "Claudia Sheinbaum", "title": "President", "party": "Morena", "since": "2024-10-01" },
       "headOfGovernment": { "name": "Claudia Sheinbaum", "title": "President", "party": "Morena", "since": "2024-10-01" },
       "governingParties": ["Morena", "Labour Party (PT)", "Green Party (PVEM)"]
@@ -73,6 +75,7 @@
     "iso3": "GTM", "iso2": "gt", "numeric": "320", "name": "Guatemala", "region": "North America",
     "system": "Unitary presidential republic", "systemType": "presidential", "status": "stable",
     "executive": {
+      "leader": "headOfState",
       "headOfState": { "name": "Bernardo Arévalo", "title": "President", "party": "Movimiento Semilla (successor movement Raíces)", "since": "2024-01-14" },
       "headOfGovernment": { "name": "Bernardo Arévalo", "title": "President", "since": "2024-01-14" },
       "governingParties": ["Semilla / Raíces (minority)"]
@@ -92,6 +95,7 @@
     "iso3": "BLZ", "iso2": "bz", "numeric": "084", "name": "Belize", "region": "North America",
     "system": "Parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Charles III (Governor-General Froyla Tzalam)", "title": "Monarch" },
       "headOfGovernment": { "name": "John Briceño", "title": "Prime Minister", "party": "People's United Party (PUP)", "since": "2020" },
       "governingParties": ["People's United Party"]
@@ -114,6 +118,7 @@
     "iso3": "HND", "iso2": "hn", "numeric": "340", "name": "Honduras", "region": "North America",
     "system": "Unitary presidential republic", "systemType": "presidential", "status": "stable",
     "executive": {
+      "leader": "headOfState",
       "headOfState": { "name": "Nasry Asfura", "title": "President", "party": "National Party", "since": "2026-01-27" },
       "headOfGovernment": { "name": "Nasry Asfura", "title": "President", "party": "National Party", "since": "2026-01-27" },
       "governingParties": ["National Party"]
@@ -133,6 +138,7 @@
     "iso3": "SLV", "iso2": "sv", "numeric": "222", "name": "El Salvador", "region": "North America",
     "system": "Unitary presidential republic (dominant-party)", "systemType": "presidential", "status": "stable",
     "executive": {
+      "leader": "headOfState",
       "headOfState": { "name": "Nayib Bukele", "title": "President", "party": "Nuevas Ideas", "since": "2019" },
       "headOfGovernment": { "name": "Nayib Bukele", "title": "President", "party": "Nuevas Ideas", "since": "2019" },
       "governingParties": ["Nuevas Ideas"]
@@ -152,6 +158,7 @@
     "iso3": "NIC", "iso2": "ni", "numeric": "558", "name": "Nicaragua", "region": "North America",
     "system": "Presidential republic (authoritarian, co-presidency since 2025)", "systemType": "presidential", "status": "stable",
     "executive": {
+      "leader": "headOfState",
       "headOfState": { "name": "Daniel Ortega and Rosario Murillo", "title": "Co-Presidents", "party": "Sandinista National Liberation Front (FSLN)", "since": "2007 / co-presidency 2025" },
       "headOfGovernment": { "name": "Daniel Ortega and Rosario Murillo", "title": "Co-Presidents", "party": "FSLN" },
       "governingParties": ["FSLN"]
@@ -171,6 +178,7 @@
     "iso3": "CRI", "iso2": "cr", "numeric": "188", "name": "Costa Rica", "region": "North America",
     "system": "Unitary presidential republic", "systemType": "presidential", "status": "stable",
     "executive": {
+      "leader": "headOfState",
       "headOfState": { "name": "Laura Fernández", "title": "President", "party": "Pueblo Soberano", "since": "2026-05-08" },
       "headOfGovernment": { "name": "Laura Fernández", "title": "President", "party": "Pueblo Soberano", "since": "2026-05-08" },
       "governingParties": ["Pueblo Soberano"]
@@ -191,6 +199,7 @@
     "iso3": "PAN", "iso2": "pa", "numeric": "591", "name": "Panama", "region": "North America",
     "system": "Unitary presidential republic", "systemType": "presidential", "status": "stable",
     "executive": {
+      "leader": "headOfState",
       "headOfState": { "name": "José Raúl Mulino", "title": "President", "party": "Realizando Metas (RM)", "since": "2024-07-01" },
       "headOfGovernment": { "name": "José Raúl Mulino", "title": "President", "party": "RM", "since": "2024-07-01" },
       "governingParties": ["Realizando Metas"]
@@ -210,6 +219,7 @@
     "iso3": "CUB", "iso2": "cu", "numeric": "192", "name": "Cuba", "region": "North America",
     "system": "Unitary one-party socialist republic", "systemType": "one-party", "status": "stable",
     "executive": {
+      "leader": "headOfState",
       "headOfState": { "name": "Miguel Díaz-Canel", "title": "President; First Secretary of the Communist Party", "party": "Communist Party of Cuba", "since": "2018 / 2021" },
       "headOfGovernment": { "name": "Manuel Marrero Cruz", "title": "Prime Minister", "party": "Communist Party of Cuba", "since": "2019" },
       "governingParties": ["Communist Party of Cuba"]
@@ -229,6 +239,7 @@
     "iso3": "HTI", "iso2": "ht", "numeric": "332", "name": "Haiti", "region": "North America",
     "system": "Transitional arrangement (presidency vacant)", "systemType": "transitional", "status": "in-flux",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Vacant", "title": "President" },
       "headOfGovernment": { "name": "Alix Didier Fils-Aimé", "title": "Prime Minister (sole executive)", "since": "2024-11; sole executive since 2026-02-07" },
       "governingParties": ["Non-partisan transitional government"]
@@ -250,6 +261,7 @@
     "iso3": "DOM", "iso2": "do", "numeric": "214", "name": "Dominican Republic", "region": "North America",
     "system": "Unitary presidential republic", "systemType": "presidential", "status": "stable",
     "executive": {
+      "leader": "headOfState",
       "headOfState": { "name": "Luis Abinader", "title": "President", "party": "Modern Revolutionary Party (PRM)", "since": "2020" },
       "headOfGovernment": { "name": "Luis Abinader", "title": "President", "party": "PRM", "since": "2020" },
       "governingParties": ["PRM"]
@@ -272,6 +284,7 @@
     "iso3": "JAM", "iso2": "jm", "numeric": "388", "name": "Jamaica", "region": "North America",
     "system": "Parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Charles III (Governor-General Patrick Allen)", "title": "Monarch" },
       "headOfGovernment": { "name": "Andrew Holness", "title": "Prime Minister", "party": "Jamaica Labour Party (JLP)", "since": "2016" },
       "governingParties": ["JLP"]
@@ -294,6 +307,7 @@
     "iso3": "BHS", "iso2": "bs", "numeric": "044", "name": "Bahamas", "region": "North America",
     "system": "Parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Charles III (Governor-General Cynthia Pratt)", "title": "Monarch" },
       "headOfGovernment": { "name": "Philip Davis", "title": "Prime Minister", "party": "Progressive Liberal Party (PLP)", "since": "2021" },
       "governingParties": ["PLP"]
@@ -316,6 +330,7 @@
     "iso3": "BRB", "iso2": "bb", "numeric": "052", "name": "Barbados", "region": "North America",
     "system": "Parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Jeffrey Bostic", "title": "President", "since": "2025-11" },
       "headOfGovernment": { "name": "Mia Mottley", "title": "Prime Minister", "party": "Barbados Labour Party (BLP)", "since": "2018" },
       "governingParties": ["BLP"]
@@ -339,6 +354,7 @@
     "iso3": "TTO", "iso2": "tt", "numeric": "780", "name": "Trinidad and Tobago", "region": "North America",
     "system": "Parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Christine Kangaloo", "title": "President", "since": "2023" },
       "headOfGovernment": { "name": "Kamla Persad-Bissessar", "title": "Prime Minister", "party": "United National Congress (UNC)", "since": "2025-05-01" },
       "governingParties": ["UNC"]
@@ -361,6 +377,7 @@
     "iso3": "ATG", "iso2": "ag", "numeric": "028", "name": "Antigua and Barbuda", "region": "North America",
     "system": "Parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Charles III (Governor-General Rodney Williams)", "title": "Monarch" },
       "headOfGovernment": { "name": "Gaston Browne", "title": "Prime Minister", "party": "Antigua and Barbuda Labour Party (ABLP)", "since": "2014" },
       "governingParties": ["ABLP"]
@@ -380,6 +397,7 @@
     "iso3": "DMA", "iso2": "dm", "numeric": "212", "name": "Dominica", "region": "North America",
     "system": "Parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Sylvanie Burton", "title": "President", "since": "2023" },
       "headOfGovernment": { "name": "Roosevelt Skerrit", "title": "Prime Minister", "party": "Dominica Labour Party (DLP)", "since": "2004" },
       "governingParties": ["DLP"]
@@ -399,6 +417,7 @@
     "iso3": "GRD", "iso2": "gd", "numeric": "308", "name": "Grenada", "region": "North America",
     "system": "Parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Charles III (Governor-General Cécile La Grenade)", "title": "Monarch" },
       "headOfGovernment": { "name": "Dickon Mitchell", "title": "Prime Minister", "party": "National Democratic Congress (NDC)", "since": "2022" },
       "governingParties": ["NDC"]
@@ -418,6 +437,7 @@
     "iso3": "KNA", "iso2": "kn", "numeric": "659", "name": "Saint Kitts and Nevis", "region": "North America",
     "system": "Federal parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Charles III (Governor-General Marcella Liburd)", "title": "Monarch" },
       "headOfGovernment": { "name": "Terrance Drew", "title": "Prime Minister", "party": "Saint Kitts and Nevis Labour Party (SKNLP)", "since": "2022" },
       "governingParties": ["SKNLP"]
@@ -437,6 +457,7 @@
     "iso3": "LCA", "iso2": "lc", "numeric": "662", "name": "Saint Lucia", "region": "North America",
     "system": "Parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Charles III (Governor-General Errol Charles, acting)", "title": "Monarch" },
       "headOfGovernment": { "name": "Philip J. Pierre", "title": "Prime Minister", "party": "Saint Lucia Labour Party (SLP)", "since": "2021" },
       "governingParties": ["SLP"]
@@ -456,6 +477,7 @@
     "iso3": "VCT", "iso2": "vc", "numeric": "670", "name": "Saint Vincent and the Grenadines", "region": "North America",
     "system": "Parliamentary constitutional monarchy", "systemType": "parliamentary-monarchy", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Charles III (Governor-General Susan Dougan)", "title": "Monarch" },
       "headOfGovernment": { "name": "Godwin Friday", "title": "Prime Minister", "party": "New Democratic Party (NDP)", "since": "2025-11" },
       "governingParties": ["NDP"]

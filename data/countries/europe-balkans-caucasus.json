@@ -3,6 +3,7 @@
     "iso3": "HRV", "iso2": "hr", "numeric": "191", "name": "Croatia", "region": "Europe",
     "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Zoran Milanović", "title": "President", "party": "Independent (SDP-backed)", "since": "2020" },
       "headOfGovernment": { "name": "Andrej Plenković", "title": "Prime Minister", "party": "HDZ", "since": "2016" },
       "governingParties": ["HDZ", "Homeland Movement (DP)"]
@@ -23,6 +24,7 @@
     "iso3": "BIH", "iso2": "ba", "numeric": "070", "name": "Bosnia and Herzegovina", "region": "Europe",
     "system": "Federal parliamentary republic with tripartite presidency (Dayton system, international High Representative)", "systemType": "parliamentary-republic", "status": "in-flux",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Tripartite Presidency: Denis Bećirović (Bosniak, SDP), Darijana Filipović (Croat, HDZ BiH), Željka Cvijanović (Serb, SNSD)", "title": "Presidency (preliminary Oct 2026 results)" },
       "headOfGovernment": { "name": "Borjana Krišto", "title": "Chair of the Council of Ministers", "party": "HDZ BiH", "since": "2023-01" },
       "governingParties": ["SNSD", "HDZ BiH", "'Troika' (SDP, NiP, Naša stranka)"]
@@ -46,6 +48,7 @@
     "iso3": "SRB", "iso2": "rs", "numeric": "688", "name": "Serbia", "region": "Europe",
     "system": "Unitary parliamentary republic (strong presidency in practice)", "systemType": "parliamentary-republic", "status": "in-flux",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Acting president (Speaker of the National Assembly)", "title": "President (vacant — Vučić resigned Sept 2026 to run for PM)" },
       "headOfGovernment": { "name": "Đuro Macut", "title": "Prime Minister (caretaker)", "party": "Independent (SNS-backed)", "since": "2025-04-16" },
       "governingParties": ["SNS-led caretaker government", "Students' List expected to form the next government"]
@@ -66,6 +69,7 @@
     "iso3": "MNE", "iso2": "me", "numeric": "499", "name": "Montenegro", "region": "Europe",
     "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Jakov Milatović", "title": "President", "party": "Independent (ex-PES)", "since": "2023-05-20" },
       "headOfGovernment": { "name": "Milojko Spajić", "title": "Prime Minister", "party": "Europe Now! (PES)", "since": "2023-10-31" },
       "governingParties": ["PES", "Democrats", "For the Future of Montenegro", "Bosniak Party", "others"]
@@ -86,6 +90,7 @@
     "iso3": "XKX", "iso2": "xk", "numeric": null, "name": "Kosovo", "region": "Europe",
     "system": "Unitary parliamentary republic (partially recognised)", "systemType": "parliamentary-republic", "status": "in-flux",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Vacant / acting (Justina Pula reported from Oct 2026)", "title": "President" },
       "headOfGovernment": { "name": "Albin Kurti", "title": "Prime Minister", "party": "Vetëvendosje (VV)", "since": "2021 (new government 2026-09-13)" },
       "governingParties": ["Vetëvendosje", "minority-community partners"]
@@ -106,6 +111,7 @@
     "iso3": "ALB", "iso2": "al", "numeric": "008", "name": "Albania", "region": "Europe",
     "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Bajram Begaj", "title": "President", "since": "2022-07-24" },
       "headOfGovernment": { "name": "Edi Rama", "title": "Prime Minister", "party": "Socialist Party (PS)", "since": "2013" },
       "governingParties": ["Socialist Party"]
@@ -125,6 +131,7 @@
     "iso3": "MKD", "iso2": "mk", "numeric": "807", "name": "North Macedonia", "region": "Europe",
     "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Gordana Siljanovska-Davkova", "title": "President", "party": "VMRO-DPMNE-backed", "since": "2024-05-12" },
       "headOfGovernment": { "name": "Hristijan Mickoski", "title": "Prime Minister", "party": "VMRO-DPMNE", "since": "2024-06-23" },
       "governingParties": ["VMRO-DPMNE", "VLEN", "ZNAM"]
@@ -144,6 +151,7 @@
     "iso3": "TUR", "iso2": "tr", "numeric": "792", "name": "Turkey", "region": "Europe (transcontinental)",
     "system": "Unitary presidential republic", "systemType": "presidential", "status": "stable",
     "executive": {
+      "leader": "headOfState",
       "headOfState": { "name": "Recep Tayyip Erdoğan", "title": "President", "party": "AKP", "since": "2014 (PM 2003–2014)" },
       "headOfGovernment": { "name": "Recep Tayyip Erdoğan", "title": "President (VP: Cevdet Yılmaz)", "party": "AKP" },
       "governingParties": ["AKP", "MHP (People's Alliance)"]
@@ -163,6 +171,7 @@
     "iso3": "GEO", "iso2": "ge", "numeric": "268", "name": "Georgia", "region": "Europe (transcontinental)",
     "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Mikheil Kavelashvili", "title": "President (legitimacy disputed by opposition)", "party": "Georgian Dream", "since": "2024-12-29" },
       "headOfGovernment": { "name": "Irakli Kobakhidze", "title": "Prime Minister", "party": "Georgian Dream", "since": "2024-02-08" },
       "governingParties": ["Georgian Dream"]
@@ -182,6 +191,7 @@
     "iso3": "ARM", "iso2": "am", "numeric": "051", "name": "Armenia", "region": "Europe (transcontinental)",
     "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Vahagn Khachaturyan", "title": "President", "since": "2022-03-13" },
       "headOfGovernment": { "name": "Nikol Pashinyan", "title": "Prime Minister", "party": "Civil Contract", "since": "2018" },
       "governingParties": ["Civil Contract"]
@@ -201,6 +211,7 @@
     "iso3": "AZE", "iso2": "az", "numeric": "031", "name": "Azerbaijan", "region": "Europe (transcontinental)",
     "system": "Unitary presidential republic (authoritarian)", "systemType": "presidential", "status": "stable",
     "executive": {
+      "leader": "headOfState",
       "headOfState": { "name": "Ilham Aliyev", "title": "President (VP: Mehriban Aliyeva)", "party": "New Azerbaijan Party (YAP)", "since": "2003" },
       "headOfGovernment": { "name": "Ali Asadov", "title": "Prime Minister", "party": "YAP", "since": "2019" },
       "governingParties": ["New Azerbaijan Party"]

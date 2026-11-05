@@ -18,9 +18,14 @@
     "status": { "type": "string", "enum": ["stable", "in-flux"], "description": "in-flux = government formation, caretaker, disputed or election under way" },
     "executive": {
       "type": "object",
-      "required": ["headOfState", "headOfGovernment", "governingParties"],
+      "required": ["leader", "headOfState", "headOfGovernment", "governingParties"],
       "additionalProperties": false,
       "properties": {
+        "leader": {
+          "type": "string",
+          "enum": ["headOfState", "headOfGovernment"],
+          "description": "Which of the two holds the most power in practice: the person the map names for the country. headOfGovernment in parliamentary systems, where the prime minister or chancellor governs and the monarch or president is mostly ceremonial. headOfState where the president, monarch or party leader directs the government: presidential systems; presidents who dominate their governments (France, Russia, Ukraine, Belarus, Azerbaijan, Moldova); one-party states whose party leader is head of state (China, Cuba); ruling monarchs (Monaco, Liechtenstein) and the Pope. Judge by practice, not by the constitution's wording alone, and say why in reviewNote when it changes."
+        },
         "headOfState": { "$ref": "#/$defs/person" },
         "headOfGovernment": { "$ref": "#/$defs/person" },
         "governingParties": { "type": "array", "items": { "type": "string" } }

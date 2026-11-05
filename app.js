@@ -97,6 +97,11 @@ function fillFor(c) {
   return ELECTION_BUCKETS.find(b => days <= b.max).color;
 }
 
+// The person who holds the most power in practice, whom the tooltip names: the head of government in parliamentary
+// systems, the head of state where the president, monarch or party leader directs the government (France's president,
+// not its prime minister). Each record says which of the two it is, in executive.leader.
+const leaderOf = c => c.executive[c.executive.leader] || c.executive.headOfGovernment;
+
 // What the current colour means for one country, in words (tooltip line).
 function modeDetail(c) {
   if (state.mode === 'system') return systemOf(c).label;
@@ -201,8 +206,8 @@ function showTip(ev, c, fallbackName) {
   const tooltip = document.getElementById('tooltip');
   const box = document.querySelector('.map-stage').getBoundingClientRect();
   if (c) {
-    const hog = c.executive.headOfGovernment;
-    tooltip.innerHTML = `<strong>${esc(c.name)}</strong>${esc(hog.name)} · ${esc(hog.party || hog.title)}` +
+    const who = leaderOf(c);
+    tooltip.innerHTML = `<strong>${esc(c.name)}</strong>${esc(who.name)}<span class="tip-role">${esc(who.title)}${who.party ? ` · ${esc(who.party)}` : ''}</span>` +
       `<span class="tip-sub"><span class="swatch" style="background:${fillFor(c)}"></span>${esc(modeDetail(c))}</span>`;
   } else {
     tooltip.innerHTML = `<strong>${esc(fallbackName)}</strong><span class="tip-sub">Not covered</span>`;

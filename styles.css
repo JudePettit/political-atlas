@@ -75,6 +75,7 @@ body { margin: 0; }
   font-size: var(--prp-fs-sm); line-height: 1.45;
 }
 .tooltip strong { display: block; font-size: 13px; }
+.tooltip .tip-role { display: block; color: var(--prp-text-2); }
 .tooltip .tip-sub { display: flex; align-items: center; gap: 6px; margin-top: 2px; color: var(--prp-muted); }
 
 .legend { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 18px; padding: 9px 14px; border-top: 1px solid var(--prp-line); background: var(--prp-surface); }

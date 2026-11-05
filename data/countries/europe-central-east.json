@@ -3,6 +3,7 @@
     "iso3": "POL", "iso2": "pl", "numeric": "616", "name": "Poland", "region": "Europe",
     "system": "Unitary semi-presidential republic", "systemType": "semi-presidential", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Karol Nawrocki", "title": "President", "party": "Independent (PiS-backed)", "since": "2025-08-06" },
       "headOfGovernment": { "name": "Donald Tusk", "title": "Prime Minister", "party": "Civic Coalition (KO)", "since": "2023-12-13" },
       "governingParties": ["Civic Coalition", "PSL", "Poland 2050", "The Left"]
@@ -25,6 +26,7 @@
     "iso3": "CZE", "iso2": "cz", "numeric": "203", "name": "Czechia", "region": "Europe",
     "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Petr Pavel", "title": "President", "since": "2023-03-09" },
       "headOfGovernment": { "name": "Andrej Babiš", "title": "Prime Minister", "party": "ANO", "since": "2025-12" },
       "governingParties": ["ANO", "SPD", "Motorists for Themselves"]
@@ -48,6 +50,7 @@
     "iso3": "SVK", "iso2": "sk", "numeric": "703", "name": "Slovakia", "region": "Europe",
     "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Peter Pellegrini", "title": "President", "party": "Hlas (formerly)", "since": "2024-06-15" },
       "headOfGovernment": { "name": "Robert Fico", "title": "Prime Minister", "party": "Smer–SD", "since": "2023-10-25" },
       "governingParties": ["Smer–SD", "Hlas–SD", "Slovak National Party"]
@@ -67,6 +70,7 @@
     "iso3": "HUN", "iso2": "hu", "numeric": "348", "name": "Hungary", "region": "Europe",
     "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Tamás Sulyok", "title": "President", "party": "Independent (Fidesz-elected)", "since": "2024-03-05" },
       "headOfGovernment": { "name": "Péter Magyar", "title": "Prime Minister", "party": "Tisza", "since": "2026-05-09" },
       "governingParties": ["Tisza"]
@@ -86,6 +90,7 @@
     "iso3": "SVN", "iso2": "si", "numeric": "705", "name": "Slovenia", "region": "Europe",
     "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Nataša Pirc Musar", "title": "President", "since": "2022-12-23" },
       "headOfGovernment": { "name": "Janez Janša", "title": "Prime Minister", "party": "Slovenian Democratic Party (SDS)", "since": "2026-05-22" },
       "governingParties": ["SDS", "New Slovenia (NSi)", "SLS", "Focus", "Democrats"]
@@ -105,6 +110,7 @@
     "iso3": "ROU", "iso2": "ro", "numeric": "642", "name": "Romania", "region": "Europe",
     "system": "Unitary semi-presidential republic", "systemType": "semi-presidential", "status": "in-flux",
     "executive": {
+      "leader": "headOfState",
       "headOfState": { "name": "Nicușor Dan", "title": "President", "party": "Independent", "since": "2025-05-26" },
       "headOfGovernment": { "name": "Ilie Bolojan", "title": "Prime Minister (interim since May 2026)", "party": "National Liberal Party (PNL)", "since": "2025-06-23" },
       "governingParties": ["PNL", "USR", "UDMR (PSD withdrew in 2026)"]
@@ -128,6 +134,7 @@
     "iso3": "BGR", "iso2": "bg", "numeric": "100", "name": "Bulgaria", "region": "Europe",
     "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": { "name": "Iliana Iotova", "title": "President", "since": "2026-01-23" },
       "headOfGovernment": { "name": "Rumen Radev", "title": "Prime Minister", "party": "Progressive Bulgaria", "since": "2026-05-08" },
       "governingParties": ["Progressive Bulgaria (single-party majority)"]
@@ -150,6 +157,7 @@
     "iso3": "MDA", "iso2": "md", "numeric": "498", "name": "Moldova", "region": "Europe",
     "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
     "executive": {
+      "leader": "headOfState",
       "headOfState": { "name": "Maia Sandu", "title": "President", "party": "PAS", "since": "2020-12-24" },
       "headOfGovernment": { "name": "Alexandru Munteanu", "title": "Prime Minister", "party": "Independent (PAS-backed)", "since": "2025-11" },
       "governingParties": ["Party of Action and Solidarity (PAS)"]
@@ -169,6 +177,7 @@
     "iso3": "UKR", "iso2": "ua", "numeric": "804", "name": "Ukraine", "region": "Europe",
     "system": "Unitary semi-presidential republic (under martial law)", "systemType": "semi-presidential", "status": "stable",
     "executive": {
+      "leader": "headOfState",
       "headOfState": { "name": "Volodymyr Zelensky", "title": "President", "party": "Servant of the People", "since": "2019-05-20" },
       "headOfGovernment": { "name": "Yulia Svyrydenko", "title": "Prime Minister", "party": "Independent", "since": "2025-07-17" },
       "governingParties": ["Servant of the People"]
@@ -188,6 +197,7 @@
     "iso3": "BLR", "iso2": "by", "numeric": "112", "name": "Belarus", "region": "Europe",
     "system": "Unitary presidential republic (authoritarian)", "systemType": "presidential", "status": "stable",
     "executive": {
+      "leader": "headOfState",
       "headOfState": { "name": "Alexander Lukashenko", "title": "President", "party": "Independent (Belaya Rus)", "since": "1994" },
       "headOfGovernment": { "name": "Alexander Turchin", "title": "Prime Minister", "since": "2025" },
       "governingParties": ["Belaya Rus and pro-government parties"]

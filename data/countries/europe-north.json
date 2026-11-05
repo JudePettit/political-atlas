@@ -9,6 +9,7 @@
     "systemType": "parliamentary-monarchy",
     "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": {
         "name": "Frederik X",
         "title": "King",
@@ -72,6 +73,7 @@
     "systemType": "dependent-territory",
     "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": {
         "name": "Frederik X",
         "title": "King of Denmark"
@@ -130,6 +132,7 @@
     "systemType": "parliamentary-monarchy",
     "status": "in-flux",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": {
         "name": "Carl XVI Gustaf",
         "title": "King",
@@ -195,6 +198,7 @@
     "systemType": "parliamentary-monarchy",
     "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": {
         "name": "Harald V",
         "title": "King",
@@ -254,6 +258,7 @@
     "systemType": "parliamentary-republic",
     "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": {
         "name": "Alexander Stubb",
         "title": "President",
@@ -315,6 +320,7 @@
     "systemType": "parliamentary-republic",
     "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": {
         "name": "Halla Tómasdóttir",
         "title": "President",
@@ -379,6 +385,7 @@
     "systemType": "parliamentary-republic",
     "status": "stable",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": {
         "name": "Ülle Madise",
         "title": "President",
@@ -438,6 +445,7 @@
     "systemType": "parliamentary-republic",
     "status": "in-flux",
     "executive": {
+      "leader": "headOfGovernment",
       "headOfState": {
         "name": "Edgars Rinkēvičs",
         "title": "President",
@@ -500,6 +508,7 @@
     "systemType": "semi-presidential",
     "status": "stable",
     "executive": {
+      "leader": "headOfState",
       "headOfState": {
         "name": "Gitanas Nausėda",
         "title": "President",
