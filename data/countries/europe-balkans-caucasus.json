@@ -25,28 +25,28 @@
     "system": "Federal parliamentary republic with tripartite presidency (Dayton system, international High Representative)", "systemType": "parliamentary-republic", "status": "in-flux",
     "executive": {
       "leader": "headOfGovernment",
-      "headOfState": { "name": "Tripartite Presidency: Denis Bećirović (Bosniak, SDP), Darijana Filipović (Croat, HDZ BiH), Željka Cvijanović (Serb, SNSD)", "title": "Presidency (preliminary Oct 2026 results)" },
+      "headOfState": { "name": "Tripartite Presidency: Denis Bećirović (Bosniak, SDP), Željko Komšić (Croat, DF), Željka Cvijanović (Serb, SNSD)", "title": "Presidency (chaired by Bećirović since 16 Mar 2026; the members elected on 4 Oct 2026 take office on 16 Nov 2026)" },
       "headOfGovernment": { "name": "Borjana Krišto", "title": "Chair of the Council of Ministers", "party": "HDZ BiH", "since": "2023-01" },
       "governingParties": ["SNSD", "HDZ BiH", "'Troika' (SDP, NiP, Naša stranka)"]
     },
     "legislature": [
-      { "name": "House of Representatives (42)", "control": "Fragmented; ethnic power-sharing", "detail": "Oct 2026 preliminary: SDA largest (9), SNSD 6." },
-      { "name": "House of Peoples (15)", "control": "Ethnic quotas" }
+      { "name": "House of Representatives (42)", "control": "Fragmented; ethnic power-sharing", "detail": "4 Oct 2026 election, results confirmed by the Central Election Commission on 3 Nov 2026: SDA 9, SNSD 6, SDP BiH 5, HDZ BiH-led coalition 4, Party for BiH 3; 11 other lists share the remaining 15 seats. The new house has yet to be constituted." },
+      { "name": "House of Peoples (15)", "control": "Ethnic quotas", "detail": "Delegates are chosen indirectly by the entity parliaments after the 2026 election; not yet chosen." }
     ],
-    "judiciary": "Constitutional Court (with international judges); High Representative Christian Schmidt holds 'Bonn powers'.",
+    "judiciary": "Constitutional Court (with international judges). The Office of the High Representative, which holds the 'Bonn powers', has been led by Acting High Representative Louis Crishock since 1 July 2026, after Christian Schmidt resigned in May; no permanent successor has been appointed.",
     "elections": [
-      { "name": "General election", "date": "2026-10-04", "status": "held", "note": "Provisional until certified by the Central Election Commission." },
+      { "name": "General election", "date": "2026-10-04", "status": "held", "note": "Results confirmed by the Central Election Commission on 3 November 2026. Denis Bećirović and Željka Cvijanović re-elected to the Presidency; Darijana Filipović (HDZ BiH) elected to the Croat seat, succeeding Željko Komšić. The new Presidency takes office on 16 November 2026." },
       { "name": "General election", "date": "2030-10", "status": "upcoming" }
     ],
-    "synopsis": "Nationalist parties largely held their ground in the October 2026 general election. Government formation at state and entity level follows, with Republika Srpska secessionist rhetoric a persistent risk.",
+    "synopsis": "The Central Election Commission confirmed the results of the 4 October 2026 general election on 3 November. Denis Bećirović (Bosniak) and Željka Cvijanović (Serb) were re-elected to the tripartite Presidency, and Darijana Filipović of HDZ BiH won the Croat seat held by Željko Komšić; the new Presidency takes office on 16 November. SDA won the most seats (9 of 42) in the state House of Representatives. Borjana Krišto's Council of Ministers remains in office while the new state parliament is constituted and a new government is negotiated.",
     "policies": ["EU accession reforms (talks opened conditionally in 2024)", "Entity-level disputes over state institutions"],
     "challenges": ["Republika Srpska–state tensions (Dodik legacy)", "Government formation", "Corruption and emigration"],
-    "lastVerified": "2026-10-25",
-    "reviewNote": "Confirm certified presidency results and new Council of Ministers."
+    "lastVerified": "2026-11-06",
+    "reviewNote": "Election results confirmed by the Central Election Commission on 3 Nov 2026. On 16 Nov 2026 the new Presidency (Bećirović, Filipović, Cvijanović) takes office: update headOfState then. Not yet confirmed: who chairs the new Presidency first; the House of Peoples delegates; the next Chair and parties of the Council of Ministers, which follow the constitution of the new state parliament."
   },
   {
     "iso3": "SRB", "iso2": "rs", "numeric": "688", "name": "Serbia", "region": "Europe",
-    "system": "Unitary parliamentary republic (strong presidency in practice)", "systemType": "parliamentary-republic", "status": "in-flux",
+    "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "in-flux",
     "executive": {
       "leader": "headOfState",
       "headOfState": { "name": "Ana Brnabić", "title": "Acting President (Speaker of the National Assembly; Vučić resigned Sept 2026)", "party": "Serbian Progressive Party (SNS)", "since": "2026-09-28" },
@@ -59,7 +59,7 @@
       { "name": "Snap parliamentary election", "date": "2026-10-25", "status": "held", "note": "Student-led opposition list defeated Vučić's SNS, winning 140 of 250 seats; turnout about 69%. Vučić conceded." },
       { "name": "Early presidential election (due after Vučić's resignation; must be held by 27 December 2026, not yet called)", "date": "2026-12", "status": "upcoming" }
     ],
-    "synopsis": "In a seismic shift, the student-led opposition movement that grew out of protests over the 2024 Novi Sad canopy collapse defeated Aleksandar Vučić's Serbian Progressive Party on 25 October 2026, ending more than a decade of SNS dominance. Vučić, who resigned the presidency in September to run for prime minister, conceded on election night. Final results on 5 November gave the Student List 140 of 250 seats; Speaker Ana Brnabić is acting President and Đuro Macut leads a caretaker government until the new assembly elects a government.",
+    "synopsis": "The student-led opposition movement that grew out of protests over the 2024 Novi Sad canopy collapse defeated Aleksandar Vučić's Serbian Progressive Party on 25 October 2026, after more than a decade of SNS-led government. Vučić, who resigned the presidency in September to run for prime minister, conceded on election night. Final results on 5 November gave the Student List 140 of 250 seats; Speaker Ana Brnabić is acting President and Đuro Macut leads a caretaker government until the new assembly elects a government.",
     "policies": ["(Incoming) Anti-corruption and rule-of-law reform", "(Incoming) Media freedom and independent institutions", "EU accession while managing ties with Russia and China"],
     "challenges": ["Forming a government from a list of political newcomers", "A peaceful transfer of power and SNS-aligned institutions", "Acting presidency and early presidential election", "Kosovo dispute and NIS oil company sanctions"],
     "lastVerified": "2026-11-06",

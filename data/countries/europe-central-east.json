@@ -125,7 +125,7 @@
       { "name": "Parliamentary election", "date": "2028-12", "status": "upcoming" }
     ],
     "synopsis": "The pro-European coalition collapsed in 2026 over austerity, and Bolojan's government fell to a no-confidence vote in May. After three earlier nominees failed, non-party diplomat Luca Niculescu, President Dan's fourth nominee, won parliament's approval on 20 October 2026 for a minority cabinet of PSD ministers and independents. President Dan has ruled out early elections.",
-    "policies": ["Deficit reduction (EU's largest deficit)", "Public-administration cuts", "Support for Ukraine and NATO's eastern flank"],
+    "policies": ["Deficit reduction to below 3% of GDP by 2030, through spending efficiency and better tax collection", "Flat income tax kept; minimum turnover tax (IMCA) abolished from 2027", "Pension indexation from 2027 and targeted support for low-income households", "Audit of central institutions to remove overlapping functions, instead of uniform staff cuts", "New energy generation and storage; completion of the Recovery and Resilience Plan (PNRR)", "Defence modernisation within NATO; support for Moldova's EU accession"],
     "challenges": ["Fragile minority government", "Fiscal crisis and rating risk", "Strength of far-right AUR"],
     "lastVerified": "2026-11-06"
   },
