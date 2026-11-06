@@ -3,7 +3,7 @@
 //   node --test tests/create.test.mjs
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { cp, mkdtemp, readFile, rm, access } from 'node:fs/promises';
+import { cp, mkdtemp, readFile, rm, access, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -71,6 +71,19 @@ function stubClient(answer) {
 async function tempData() {
   const dir = await mkdtemp(path.join(tmpdir(), 'atlas-create-'));
   await cp(DATA, dir, { recursive: true });
+  // These tests expect the data as it was before any seed group was created, whatever has been generated since:
+  // a record for a seed country is dropped from the copy, and a file left empty goes with its manifest line.
+  const manifestPath = path.join(dir, 'manifest.json');
+  const manifest = JSON.parse(await readFile(manifestPath, 'utf8'));
+  const seeded = new Set(seeds.map(s => s.iso3));
+  const files = [];
+  for (const f of manifest.files) {
+    const p = path.join(dir, f);
+    const kept = JSON.parse(await readFile(p, 'utf8')).filter(r => !seeded.has(r.iso3));
+    if (kept.length) { await writeFile(p, JSON.stringify(kept, null, 2) + '\n'); files.push(f); } else await rm(p);
+  }
+  manifest.files = files;
+  await writeFile(manifestPath, JSON.stringify(manifest, null, 2) + '\n');
   return dir;
 }
 const readJson = async (dir, p) => JSON.parse(await readFile(path.join(dir, p), 'utf8'));
@@ -241,11 +254,13 @@ test('a create run refuses unknown regions and codes, codes that already have re
   await assert.rejects(runCreate({ client, dataDir: DATA, log: quiet }), /needs --region/);
   // France already has a record and no seed: create mode never touches existing records.
   await assert.rejects(runCreate({ client, dataDir: DATA, only: ['FRA'], log: quiet }), /not in data\/seeds\.json: FRA/);
-  // A whole continent is too large for one run (time limit, review), unless asked for.
-  await assert.rejects(runCreate({ client, dataDir: DATA, region: 'Africa', log: quiet }), /54 countries is more than one run should create \(at most 20\)/);
+  // A whole continent is too large for one run (time limit, review), unless asked for. The copy holds no seed
+  // country's record, so the count is the same however many groups have been generated since.
+  const dir = await tempData();
+  await assert.rejects(runCreate({ client, dataDir: dir, region: 'Africa', log: quiet }), /54 countries is more than one run should create \(at most 20\)/);
   assert.equal(client.calls.length, 0);
   for (const g of new Set(seeds.map(s => s.group))) assert.ok(seeds.filter(s => s.group === g).length <= MAX_CREATE, `group ${g} fits in one run`);
-  const big = await runCreate({ client: stubClient(() => json(draft())), dataDir: DATA, region: 'Africa', allowLarge: true, dryRun: true, today: TODAY, log: quiet });
+  const big = await runCreate({ client: stubClient(() => json(draft())), dataDir: dir, region: 'Africa', allowLarge: true, dryRun: true, today: TODAY, log: quiet });
   assert.equal(big.created, 54, '--allow-large lets it through (a dry run here, so nothing is written)');
 });
 

@@ -1,0 +1,462 @@
+[
+  {
+    "iso3": "DZA",
+    "iso2": "dz",
+    "numeric": "012",
+    "name": "Algeria",
+    "region": "Africa",
+    "system": "Semi-presidential republic with a dominant executive president and a prime minister he appoints",
+    "systemType": "semi-presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Abdelmadjid Tebboune",
+        "title": "President (also Minister of National Defence)",
+        "party": "Independent",
+        "since": "2019-12-19"
+      },
+      "headOfGovernment": {
+        "name": "Sifi Ghrieb",
+        "title": "Prime Minister",
+        "party": "Independent",
+        "since": "2025-09-14"
+      },
+      "governingParties": [
+        "National Liberation Front (FLN)",
+        "National Democratic Rally (RND)",
+        "El-Moustakbel Front (Future Front)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "People's National Assembly",
+        "control": "Pro-government majority of the National Liberation Front (FLN), National Democratic Rally (RND) and El-Moustakbel Front, with 221 of 407 seats",
+        "detail": "2 July 2026 election (results confirmed by the Constitutional Court on 18 July): FLN 91, RND 74, El-Moustakbel Front 56, Movement of Society for Peace (MSP) 43, El-Binaa (National Construction Movement) 40, Voice of the People 16, Rally for Hope for Algeria 3, New Algeria Front 1, others and independents the rest. Turnout about 21%. Speaker Khalida Boufedeche (FLN) has held the post since 28 July 2026."
+      },
+      {
+        "name": "Council of the Nation",
+        "control": "Two-thirds indirectly elected by municipal and provincial assembly members, one-third appointed by the president; pro-government majority",
+        "detail": "174 members; 87 seats renewed on 9 March 2025. President of the Council: Azouz Nasri."
+      }
+    ],
+    "judiciary": "The Constitutional Court, created under the 2020 constitution, rules on constitutionality and certifies national election results; the Supreme Court and the Council of State head the ordinary and administrative courts. Constitutional amendments adopted by Parliament in March 2026 changed the make-up of the High Council of the Judiciary. Critics say the judiciary depends on the executive, notably in cases against journalists and activists.",
+    "elections": [
+      {
+        "name": "Presidential election",
+        "date": "2024-09-07",
+        "status": "held",
+        "note": "Abdelmadjid Tebboune re-elected for a second term with about 84% of the vote, according to official results."
+      },
+      {
+        "name": "People's National Assembly election",
+        "date": "2026-07-02",
+        "status": "held",
+        "note": "FLN remained the largest party with 91 of 407 seats, ahead of the RND (74) and El-Moustakbel Front (56); the three pro-government parties won 221 seats together. Several opposition parties that boycotted the 2021 vote took part. Turnout was about 21%, a record low."
+      },
+      {
+        "name": "Local elections (communal and provincial people's assemblies)",
+        "date": "2026-11-28",
+        "status": "upcoming",
+        "note": "Councils in 1,541 municipalities and 69 provinces; the campaign opened on 5 November 2026 with more than 162,000 candidates."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due at the end of Tebboune's second and constitutionally final term."
+      }
+    ],
+    "synopsis": "Algeria is governed by President Abdelmadjid Tebboune, re-elected in 2024, who sets policy, chairs the Council of Ministers and holds the defence portfolio; the military high command remains an influential actor. Prime Minister Sifi Ghrieb, a technocrat, has led the government since September 2025. The FLN stayed the largest party in the July 2026 legislative elections, which had record-low turnout, and the government relies on a pro-government majority in Parliament.",
+    "policies": [
+      "Diversifying the economy beyond oil and gas, with emphasis on industry, mining and pharmaceutical production",
+      "Expanding natural gas exports and energy partnerships with European countries, notably Italy and Germany",
+      "Maintaining extensive social spending, including subsidies, housing programmes and an unemployment allowance",
+      "Supporting the Polisario Front and Sahrawi self-determination in the Western Sahara dispute",
+      "\"Technical\" constitutional and electoral law amendments adopted in 2026"
+    ],
+    "challenges": [
+      "Low voter participation and limited public trust in elected institutions",
+      "Heavy dependence on hydrocarbon revenues and exposure to energy price swings",
+      "Strained relations with Morocco and France and instability along the Sahel border, including tensions with Mali",
+      "Criticism by rights groups of restrictions on the press, opposition parties and civil society, including opposition complaints that candidate lists were rejected for the 2026 local elections",
+      "Youth unemployment and pressure on purchasing power"
+    ],
+    "lastVerified": "2026-11-06",
+    "reviewNote": "The parties in the Ghrieb cabinet are not confirmed; governingParties lists the three parties that the IPU calls the pro-government majority. No formal reappointment of Ghrieb after the July 2026 legislative elections was found, but official and press reports up to 5 November 2026 name him as Prime Minister. Party seat totals for the Council of the Nation could not be confirmed."
+  },
+  {
+    "iso3": "EGY",
+    "iso2": "eg",
+    "numeric": "818",
+    "name": "Egypt",
+    "region": "Africa",
+    "system": "Presidential republic with a dominant, military-backed presidency, a presidentially appointed prime minister and a bicameral parliament",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Abdel Fattah el-Sisi",
+        "title": "President",
+        "since": "2014-06-08"
+      },
+      "headOfGovernment": {
+        "name": "Mostafa Madbouly",
+        "title": "Prime Minister",
+        "since": "2018-06"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "House of Representatives (Majlis al-Nuwab)",
+        "control": "Pro-government parties of the National Unified List for Egypt, led by the Nation's Future Party",
+        "detail": "596 seats: 568 elected in 2025, 28 appointed by the president. Final results announced on 10 January 2026: Nation's Future 227, Homeland Defenders 87, National Front 65, Republican People's Party 25, and the rest held by smaller parties and independents. Speaker Hisham Badawi, a presidential appointee, was elected on 12 January 2026 with 521 of 570 votes."
+      },
+      {
+        "name": "Senate (Majlis al-Shuyukh)",
+        "control": "Pro-government National List for Egypt, led by the Nation's Future Party",
+        "detail": "300 seats: 100 elected by closed party list, 100 elected in individual races and 100 appointed by the president. In 2025 the National List won all 100 list seats, including Nation's Future 44, Homeland Defenders 19 and National Front 12. Nation's Future won more than 100 of the 200 elected seats overall. Essam El-Din Farid was elected Speaker on 18 October 2025."
+      }
+    ],
+    "judiciary": "The Supreme Constitutional Court rules on constitutionality, and the Court of Cassation and the State Council's Supreme Administrative Court head the ordinary and administrative courts. Under the 2019 constitutional amendments the president appoints the heads of the main judicial bodies, which critics say weakens judicial independence. In late 2025 the Supreme Administrative Court annulled House election results in 28 constituencies.",
+    "elections": [
+      {
+        "name": "Senate election",
+        "date": "2025-08",
+        "status": "held",
+        "note": "Held 4-5 August 2025, with runoffs for 5 seats later in August. The pro-government National List for Egypt won all list seats, led by the Nation's Future Party. Turnout was 17.1%."
+      },
+      {
+        "name": "House of Representatives election",
+        "date": "2025-11",
+        "status": "held",
+        "note": "Held in two phases in November 2025. The National Elections Authority and the courts annulled results in 47 constituencies, which voted again in December 2025 and January 2026. Final results announced on 10 January 2026: Nation's Future 227 of 568 elected seats, Homeland Defenders 87, National Front 65, Republican People's Party 25. Turnout was 32.4%."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Due before President Sisi's current six-year term ends in April 2030. In October 2026 Sisi said his term would end in 2030 and that the constitution would not be amended."
+      },
+      {
+        "name": "Senate election",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Due at the end of the 2025-2030 term."
+      },
+      {
+        "name": "House of Representatives election",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Due at the end of the five-year term that began in January 2026."
+      }
+    ],
+    "synopsis": "Egypt is governed by President Abdel Fattah el-Sisi, a former army chief who has led the country since 2014 and is serving a third term that ends in 2030. Prime Minister Mostafa Madbouly heads a largely technocratic cabinet, which was reshuffled with parliamentary approval in February 2026. Parties loyal to the president, led by the Nation's Future Party, dominate both chambers of parliament.",
+    "policies": [
+      "Economic reform and fiscal consolidation under an IMF-supported programme, including more private-sector involvement and tax incentives",
+      "Large state infrastructure projects, including the New Administrative Capital, where the presidency and parliament now sit",
+      "Mediation and humanitarian diplomacy over the war in Gaza",
+      "Security cooperation with Gulf partners, including a pledge to support Saudi Arabia's security if asked",
+      "A February 2026 cabinet reshuffle, approved by parliament with 22 nominees, that named a new defence minister and merged several ministries"
+    ],
+    "challenges": [
+      "High public debt, inflation and pressure on living costs",
+      "Lost Suez Canal revenue and economic strain linked to regional conflicts",
+      "Criticism from human rights groups over political prisoners, pre-trial detention and limits on free expression",
+      "Low turnout and allegations of irregularities and vote-buying in the 2025 parliamentary elections",
+      "Debate over succession and over calls to amend the constitution so Sisi can stay beyond 2030"
+    ],
+    "lastVerified": "2026-11-06",
+    "reviewNote": "The exact date of the next presidential election has not been set. Voting may take place in late 2029 or early 2030, before the current term ends in April 2030. Nation's Future's 227 House seats, the 32.4% turnout and the order of the next parties are confirmed, but the other parties' House seat figures were not checked against the National Elections Authority's own announcement: sources differ on the Homeland Defenders Party's seats (the official SIS report says 87, other tallies say 86)."
+  },
+  {
+    "iso3": "LBY",
+    "iso2": "ly",
+    "numeric": "434",
+    "name": "Libya",
+    "region": "Africa",
+    "system": "Interim arrangement under the 2021 UN-facilitated political process: a three-member Presidential Council as collective head of state and a Government of National Unity in Tripoli, contested by a rival eastern government backed by the House of Representatives and the Libyan National Army",
+    "systemType": "transitional",
+    "status": "in-flux",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Mohamed al-Menfi",
+        "title": "Chairman of the Presidential Council",
+        "since": "2021-03-15"
+      },
+      "headOfGovernment": {
+        "name": "Abdul Hamid Dbeibah",
+        "title": "Prime Minister of the Government of National Unity",
+        "since": "2021-03-15"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "House of Representatives",
+        "control": "Members sit largely as independents; the chamber is based in the east, is aligned with the eastern Government of National Stability and Khalifa Haftar's Libyan National Army, and does not recognise the Tripoli government",
+        "detail": "200 seats; elected in 2014 and not renewed since. On 6 October 2026 the House elected Al-Salhin Abdulnabi al-Obeidi, a member for Tobruk, as speaker in place of Aguila Saleh, a day after 98 members voted to limit the speaker's term to 12 months; Saleh called the sessions unofficial."
+      },
+      {
+        "name": "High Council of State",
+        "control": "Advisory chamber set up under the 2015 Libyan Political Agreement and based in Tripoli; its members come from the former General National Congress rather than from parties",
+        "detail": "Its approval is needed for electoral laws and appointments to key offices under the UN-backed process; it has been at odds with the House of Representatives over the UN-backed dialogue track. Its president, Mohamed Takala, was re-elected in July 2026."
+      }
+    ],
+    "judiciary": "The Supreme Court in Tripoli is the highest court. Its authority over constitutional matters has been contested by a constitutional court that the eastern-based House of Representatives set up in Benghazi, and the courts are caught up in the wider East-West rivalry.",
+    "elections": [
+      {
+        "name": "House of Representatives election",
+        "date": "2014-06",
+        "status": "held",
+        "note": "Most recent national legislative election. Presidential and parliamentary elections set for December 2021 were postponed and never held. Municipal council elections in 119 municipalities ran from November 2024 to February 2026."
+      },
+      {
+        "name": "Presidential and parliamentary elections",
+        "date": "2027-02",
+        "status": "upcoming",
+        "note": "On 18 June 2026 the heads of the House of Representatives, the High Council of State and the Presidential Council agreed to hold simultaneous elections by 17 February 2027. The UN-backed 4+4 agreement signed in Tripoli on 30 August 2026 instead plans elections under a unified executive within 24 months, so the date is uncertain."
+      }
+    ],
+    "synopsis": "Libya remains divided between the internationally recognised Government of National Unity in Tripoli, led by Prime Minister Abdul Hamid Dbeibah, and a rival eastern Government of National Stability backed by the House of Representatives and Field Marshal Khalifa Haftar's Libyan National Army. In June 2026 the heads of the House of Representatives, the High Council of State and the Presidential Council agreed to hold presidential and parliamentary elections by 17 February 2027, and in August the UN-backed 4+4 agreement set a timetable for elections under a unified executive within 24 months. Talks under US mediation on a unified government and military command have not yet been completed.",
+    "policies": [
+      "UN-backed 4+4 roadmap toward a unified executive and presidential and parliamentary elections",
+      "US-mediated talks on sharing power between the Dbeibah and Haftar camps and on a unified military command",
+      "Expansion of oil and gas output through new exploration licences and foreign investment deals",
+      "Work toward a unified national budget and development spending",
+      "Proposals to replace fuel subsidies with direct cash transfers"
+    ],
+    "challenges": [
+      "Rival governments, parliaments and armed forces in the east and west",
+      "Dispute over leadership of the Central Bank of Libya after the House of Representatives accepted Governor Naji Issa's resignation in October 2026 and voted in Fowzi Abukhzam to replace him",
+      "Drone strikes in August 2026 on the Zawiya refinery and power station and on fuel storage near Tripoli",
+      "Currency weakness, a parallel exchange-rate market and fiscal strain",
+      "Migrant smuggling and deaths at sea in the Mediterranean, and armed groups in the south"
+    ],
+    "lastVerified": "2026-11-06",
+    "reviewNote": "In flux: control of the state is contested by the Tripoli-based Government of National Unity and the eastern-based Government of National Stability and Libyan National Army; a unified executive under the June 2026 election roadmap and the August 2026 4+4 agreement has not yet been formed. Not confirmed: who heads the eastern Government of National Stability now (Osama Hammad in earlier sources, not re-checked in recent reporting); whether the 17 February 2027 election target still stands after the 4+4 agreement's 24-month timeline; whether the Tripoli authorities accept the House of Representatives' choice of central bank governor. The description of the rival Benghazi constitutional court was not re-checked in recent sources."
+  },
+  {
+    "iso3": "MAR",
+    "iso2": "ma",
+    "numeric": "504",
+    "name": "Morocco",
+    "region": "Africa",
+    "system": "Constitutional monarchy with an elected bicameral parliament and a head of government appointed by the king from the largest party",
+    "systemType": "parliamentary-monarchy",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Mohammed VI",
+        "title": "King of Morocco",
+        "since": "1999-07-23"
+      },
+      "headOfGovernment": {
+        "name": "Fatima Ezzahra El Mansouri",
+        "title": "Head of Government",
+        "party": "Authenticity and Modernity Party (PAM)",
+        "since": "2026-09-29"
+      },
+      "governingParties": [
+        "Authenticity and Modernity Party (PAM)",
+        "Istiqlal Party",
+        "Socialist Union of Popular Forces (USFP)",
+        "Party of Progress and Socialism (PPS)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "House of Representatives",
+        "control": "Governing coalition of PAM, Istiqlal, USFP and PPS (207 of 395 seats); Speaker Ahmed Touizi (PAM), elected 2026-10-13",
+        "detail": "2026-09-23 election: PAM 97, RNI 66, Istiqlal 65, PJD 54, Popular Movement 29, USFP 26, PPS 19, Constitutional Union 17, Democratic and Social Movement 8, Left Alliance 8, Front of Democratic Forces 2, Party of Equity 2, Party of New Democrats 1, Party of Unity and Democracy 1. The government won its investiture vote on 2026-10-22 by 204 votes to 127."
+      },
+      {
+        "name": "House of Councillors",
+        "control": "Indirectly elected by local and regional councillors, professional chambers and trade unions. No party holds a majority; the RNI, now in opposition, is the largest group. Speaker Mohamed Ould Errachid (Istiqlal).",
+        "detail": "120 seats, last elected 2021-10-05: RNI 27, PAM 19, Istiqlal 17, with the rest split among other parties, trade unions and the employers' confederation (CGEM)"
+      }
+    ],
+    "judiciary": "The Constitutional Court reviews the constitutionality of laws and rules on election disputes; by mid-October 2026 it had received at least 38 challenges to the September 2026 parliamentary results. The Court of Cassation is the highest ordinary court, and the Supreme Council of Judicial Power, presided over by the King, oversees judges.",
+    "elections": [
+      {
+        "name": "House of Representatives election",
+        "date": "2026-09-23",
+        "status": "held",
+        "note": "PAM came first with 97 of 395 seats, ahead of RNI 66, Istiqlal 65 and PJD 54; turnout 38.02%. The King appointed PAM's Fatima Ezzahra El Mansouri head of government, and she formed a four-party coalition with Istiqlal, USFP and PPS. The RNI, which led the outgoing government, went into opposition."
+      },
+      {
+        "name": "House of Councillors election",
+        "date": "2027",
+        "status": "upcoming",
+        "note": "Due by law at the end of the six-year term of the councillors elected in October 2021; no date announced"
+      },
+      {
+        "name": "House of Representatives election",
+        "date": "2031",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year term; no date announced"
+      }
+    ],
+    "synopsis": "Morocco is a constitutional monarchy in which King Mohammed VI keeps decisive powers over foreign policy, defence and religious affairs, while an elected government runs day-to-day policy. After the Authenticity and Modernity Party (PAM) came first in the September 2026 election, the King appointed Fatima Ezzahra El Mansouri as the country's first woman head of government. Her four-party coalition won parliament's confidence in October 2026.",
+    "policies": [
+      "A government programme focused on social policy, youth employment and public services",
+      "Preparations to co-host the 2030 FIFA World Cup",
+      "Promoting Morocco's autonomy plan as the basis for settling the Western Sahara dispute",
+      "A new ministry for artificial intelligence, digital transformation and administrative reform",
+      "Reform of the Family Code and rural housing initiatives"
+    ],
+    "challenges": [
+      "Youth unemployment, the cost of living and regional inequality",
+      "Low trust in politics and falling turnout (38% in 2026)",
+      "The aftermath of the 2025 GenZ 212 protests and the prosecutions that followed",
+      "The unresolved Western Sahara dispute with the Polisario Front and tension with Algeria; on 2026-10-30 the UN Security Council failed to adopt drafts renewing the MINURSO mandate",
+      "Challenges to the 2026 election results pending before the Constitutional Court"
+    ],
+    "lastVerified": "2026-11-06"
+  },
+  {
+    "iso3": "SDN",
+    "iso2": "sd",
+    "numeric": "729",
+    "name": "Sudan",
+    "region": "Africa",
+    "system": "Military-led transitional government under an amended 2019 Transitional Constitutional Document, amid civil war and a rival RSF-led administration",
+    "systemType": "military",
+    "status": "in-flux",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Abdel Fattah al-Burhan",
+        "title": "Chairman of the Transitional Sovereignty Council and Commander-in-Chief of the Sudanese Armed Forces",
+        "since": "2019-08-21"
+      },
+      "headOfGovernment": {
+        "name": "Kamil Idris",
+        "title": "Prime Minister",
+        "since": "2025-05-19"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "Transitional Legislative Council",
+        "control": "Not formed. The members of the Transitional Sovereignty Council and the Cabinet act together as an interim Transitional Legislative Authority. The elected National Legislature was dissolved after the 2019 overthrow of Omar al-Bashir.",
+        "detail": "The 2019 Transitional Constitutional Document provided for a 300-seat council. In February 2026 the Democratic Block alliance, which backs the army, began consultations on forming one."
+      }
+    ],
+    "judiciary": "The top courts are the Constitutional Court and the National Supreme Court, which is headed by the Chief Justice. Since the 2021 coup their leaders have been appointed by decree of army chief Abdel Fattah al-Burhan, including Wahbi Mohamed Mukhtar, whom he reappointed as Constitutional Court president in August 2025, and critics question the courts' independence.",
+    "elections": [
+      {
+        "name": "General election (presidential and National Assembly)",
+        "date": "2015-04",
+        "status": "held",
+        "note": "This was the last national election, held on 13-16 April 2015. Omar al-Bashir of the National Congress Party was re-elected with about 94% of the vote, in a poll widely criticised as unfair and boycotted by much of the opposition. Bashir was overthrown in 2019, and no national election has been held since."
+      },
+      {
+        "name": "General election at the end of the transitional period",
+        "date": "2028",
+        "status": "upcoming",
+        "note": "No date has been set. The February 2025 amendment to the Transitional Constitutional Document extended the transitional period by 39 months, so it would end around 2028. Holding elections depends on the course of the war."
+      }
+    ],
+    "synopsis": "Since a 2021 coup Sudan has been ruled by the Sudanese Armed Forces (SAF) under General Abdel Fattah al-Burhan, who chairs the Transitional Sovereignty Council. Burhan appointed the civilian technocrat Kamil Idris as prime minister in May 2025, and the government returned to Khartoum from Port Sudan in January 2026. The civil war with the paramilitary Rapid Support Forces (RSF) that began in April 2023 continues: an RSF-led coalition called Tasis runs a rival, unrecognised Government of Peace and Unity from Nyala in Darfur, chaired by RSF commander Mohamed Hamdan Dagalo (Hemedti), with Mohamed Hassan al-Ta'aishi as prime minister.",
+    "policies": [
+      "Continue the military campaign against the RSF, rejecting talks unless it disarms and ruling out any role for it after the war",
+      "Rejected the Quad (United States, Egypt, Saudi Arabia, United Arab Emirates) truce proposal in November 2025, citing the UAE's role; Burhan says he supports US efforts but wants the UN to monitor any ceasefire and RSF forces withdrawn from civilian areas",
+      "Pursue a national dialogue among Sudanese political forces, with legal guarantees offered by Burhan to participants, while excluding the RSF",
+      "Rebuild state institutions and services, including moving the government back to Khartoum, under Idris's non-partisan technocratic 'Hope Government'"
+    ],
+    "challenges": [
+      "The civil war with the RSF goes on, with fighting in Darfur, Kordofan and Blue Nile and expanding drone strikes on infrastructure and the power grid",
+      "The country is effectively divided, with a rival RSF-led Tasis government administering parts of western Sudan",
+      "One of the world's largest humanitarian crises, with mass displacement, food insecurity and attacks on civilians and UN sites",
+      "There is no elected executive or legislature, and the promised transition to civilian rule has stalled",
+      "International sanctions and pressure over human rights abuses by both warring sides"
+    ],
+    "lastVerified": "2026-11-06",
+    "reviewNote": "In flux: control of the state is contested by an ongoing civil war, and the RSF-led Tasis coalition runs a rival, unrecognised government in western Sudan. Kamil Idris was appointed on 19 May 2025 and sworn in on 31 May 2025. Not confirmed: whether a Transitional Legislative Council has been formed since the February 2026 consultations. The 39-month extension runs from the amendment's publication in the official gazette on 23 February 2025, to about May 2028, unless elections are held or a national consensus is reached first. The cabinet is described as technocratic, but whether armed movements allied to the army hold ministries was not checked, so governingParties is left empty."
+  },
+  {
+    "iso3": "TUN",
+    "iso2": "tn",
+    "numeric": "788",
+    "name": "Tunisia",
+    "region": "Africa",
+    "system": "Presidential republic under the 2022 constitution, with power concentrated in the presidency",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Kais Saied",
+        "title": "President",
+        "since": "2019-10-23"
+      },
+      "headOfGovernment": {
+        "name": "Sarra Zaafrani Zenzri",
+        "title": "Head of Government (Prime Minister)",
+        "since": "2025-03-21"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "Assembly of the Representatives of the People",
+        "control": "Non-partisan majority: members were elected as individuals, not on party lists, under Saied's 2022 electoral law. Most parties boycotted the vote, and the chamber is broadly aligned with the president.",
+        "detail": "161 seats, all from single-member constituencies; elected in two rounds on 17 December 2022 and 29 January 2023. Seven diaspora seats were left unfilled for lack of candidates, so 154 seats were filled."
+      },
+      {
+        "name": "National Council of Regions and Districts",
+        "control": "Chosen indirectly by regional and district councils, which came out of the 2023-24 local elections; members are not organised by party",
+        "detail": "77 members; each regional council elects three members and each district council elects one"
+      }
+    ],
+    "judiciary": "The Court of Cassation and the Administrative Court are the top ordinary and administrative courts. The Constitutional Court required by the 2022 constitution has not been set up. In 2022 President Saied dissolved the Supreme Judicial Council, replaced it with a provisional body and dismissed dozens of judges, and rights groups criticise what they describe as eroded judicial independence and prosecutions of opponents.",
+    "elections": [
+      {
+        "name": "Presidential election",
+        "date": "2024-10-06",
+        "status": "held",
+        "note": "Kais Saied was re-elected with 90.69% of the vote. Ayachi Zammel, who was in detention, won 7.35% and Zouhair Maghzaoui won the rest. Turnout was 28.8%, and most opposition parties boycotted the vote."
+      },
+      {
+        "name": "Municipal elections",
+        "date": "2027",
+        "status": "upcoming",
+        "note": "The electoral authority (ISIE) has proposed holding them in spring 2027. The date depends on a presidential decree calling voters to the polls."
+      },
+      {
+        "name": "Parliamentary election (Assembly of the Representatives of the People)",
+        "date": "2027",
+        "status": "upcoming",
+        "note": "The ISIE expects it in November or December 2027."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Next presidential election due by law"
+      }
+    ],
+    "synopsis": "President Kais Saied has held dominant power since he took extraordinary powers in July 2021, and the 2022 constitution confirmed it; he appoints and dismisses the head of government at will. Sarra Zaafrani Zenzri has been prime minister since March 2025 and is his fourth head of government since 2021. In October 2026 the UGTT labour union led the largest protests against Saied's rule in years, over economic hardship and restrictions on freedoms.",
+    "policies": [
+      "In September 2026 the president adopted four decree-laws by decree. They amend the cybercrime decree (Decree-Law 54) and the penal reconciliation decree, change the law on the electoral authority, and set rules for municipal councils.",
+      "Economic self-reliance and a refusal to accept foreign-imposed conditions on financing",
+      "Prosecution of what the president calls conspirators and corruption, including penal reconciliation with businesspeople",
+      "Drafting the 2027 finance bill and preparing municipal and parliamentary elections for 2027",
+      "Migration cooperation with European partners and closer ties with non-Western partners, including attendance at the Russia-Africa summit in October 2026"
+    ],
+    "challenges": [
+      "A deepening economic crisis, with high living costs, recurring water and power cuts and shortages of medicines",
+      "Growing street protests, including a march in Tunis led by the UGTT and other national organisations on 17 October 2026, and clashes between police and protesters in Tunis and Sfax governorate later that month over deaths blamed on the police",
+      "Criticism from human rights groups over the detention and prosecution of opponents, journalists and critics, including the 'Conspiracy Case' sentences",
+      "Concerns about separation of powers and judicial independence, with the Constitutional Court still not established",
+      "Low voter turnout and an opposition that largely boycotts elections"
+    ],
+    "lastVerified": "2026-11-06"
+  }
+]
