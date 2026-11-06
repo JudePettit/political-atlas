@@ -200,9 +200,9 @@
     "executive": {
       "leader": "headOfGovernment",
       "headOfState": {
-        "name": "Harald V",
+        "name": "Haakon VIII",
         "title": "King",
-        "since": "1991"
+        "since": "2026-08-28"
       },
       "headOfGovernment": {
         "name": "Jonas Gahr Støre",
@@ -246,7 +246,7 @@
       "Cost of living",
       "Russia on the northern border"
     ],
-    "lastVerified": "2026-10-25"
+    "lastVerified": "2026-11-06"
   },
   {
     "iso3": "FIN",
@@ -452,22 +452,23 @@
         "since": "2023-07-08"
       },
       "headOfGovernment": {
-        "name": "Evika Siliņa",
-        "title": "Prime Minister (pending new government)",
-        "party": "New Unity",
-        "since": "2023-09-15"
+        "name": "Andris Kulbergs",
+        "title": "Prime Minister (caretaker)",
+        "party": "United List",
+        "since": "2026-05-28"
       },
       "governingParties": [
+        "United List",
         "New Unity",
-        "Union of Greens and Farmers",
-        "Progressives (outgoing)"
+        "National Alliance",
+        "Union of Greens and Farmers (caretaker cabinet only; no seats in the new Saeima)"
       ]
     },
     "legislature": [
       {
         "name": "Saeima (100)",
-        "control": "United List largest (41 seats)",
-        "detail": "Oct 2026: United List 41, Latvia First 17, others 10–15 each; coalition talks under way."
+        "control": "United List largest (41 seats); coalition talks under way",
+        "detail": "15th Saeima (elected 3 Oct 2026): United List 41, Latvia First 17, Sovereign Power/Alliance of Young Latvians 15, National Alliance 10, Progressives 10, New Unity 7. Speaker: Edvards Smiltēns (United List), elected 3 Nov 2026."
       }
     ],
     "judiciary": "Constitutional Court and Supreme Court.",
@@ -476,7 +477,7 @@
         "name": "Saeima election",
         "date": "2026-10-03",
         "status": "held",
-        "note": "Andris Kulbergs' United List won decisively."
+        "note": "Andris Kulbergs' United List won 41 of 100 seats; six lists entered the Saeima."
       },
       {
         "name": "Presidential election (by Saeima)",
@@ -484,7 +485,7 @@
         "status": "upcoming"
       }
     ],
-    "synopsis": "The centre-right United List won the October 2026 election by a wide margin, and its leader Andris Kulbergs is expected to form the next government.",
+    "synopsis": "Andris Kulbergs (United List) has led a four-party government since 28 May 2026, after Evika Siliņa resigned. His centre-right United List won the 3 October 2026 election with 41 of 100 seats; the government resigned when the new Saeima met on 3 November and stays on as caretaker, and on 4 November President Rinkēvičs nominated Kulbergs to form the next government, which he aims to present by 18 November.",
     "policies": [
       "Defence and border fortification",
       "Budget efficiency",
@@ -495,8 +496,8 @@
       "Economic stagnation",
       "Russian-speaking minority integration"
     ],
-    "lastVerified": "2026-10-25",
-    "reviewNote": "New government expected — update prime minister and coalition."
+    "lastVerified": "2026-11-06",
+    "reviewNote": "Kulbergs leads a caretaker government and was nominated on 4 Nov 2026 to form the next one. As of 6 Nov its partners are not settled: he has held talks with the National Alliance, New Unity and other parties and has not ruled out a minority government. Update the title, governing parties and synopsis once the Saeima approves the new cabinet."
   },
   {
     "iso3": "LTU",
@@ -515,21 +516,21 @@
         "since": "2019"
       },
       "headOfGovernment": {
-        "name": "Inga Ruginienė",
+        "name": "Mindaugas Sinkevičius",
         "title": "Prime Minister",
         "party": "Social Democratic Party (LSDP)",
-        "since": "2025-09"
+        "since": "2026-07-14"
       },
       "governingParties": [
         "LSDP",
-        "Dawn of Nemunas",
+        "Democrats \"For Lithuania\"",
         "Farmers and Greens Union"
       ]
     },
     "legislature": [
       {
         "name": "Seimas (141)",
-        "control": "LSDP-led coalition"
+        "control": "LSDP-led coalition (75 of 141 seats)"
       }
     ],
     "judiciary": "Constitutional Court and Supreme Court.",
@@ -550,16 +551,16 @@
         "status": "upcoming"
       }
     ],
-    "synopsis": "Ruginienė's Social Democrat-led coalition took over after a business scandal toppled her predecessor; the inclusion of the populist Dawn of Nemunas party has drawn protests.",
+    "synopsis": "Social Democrat leader Mindaugas Sinkevičius heads the third Social Democrat-led government of this Seimas term, sworn in on 14 July 2026. Inga Ruginienė's government resigned in June after the Social Democrats ended their coalition with Dawn of Nemunas and brought in the Democrats \"For Lithuania\".",
     "policies": [
       "Defence spending ~5–6% of GDP",
       "Tax reform to fund defence",
       "Support for Ukraine"
     ],
     "challenges": [
-      "Coalition controversy over Dawn of Nemunas",
+      "Narrow coalition majority (75 of 141 seats)",
       "Belarus border provocations (balloons, migrants)"
     ],
-    "lastVerified": "2026-10-25"
+    "lastVerified": "2026-11-06"
   }
 ]

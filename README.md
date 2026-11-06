@@ -99,4 +99,4 @@ The site is fully static, so any static host works. Recommended setup:
 
 ## Data accuracy
 
-The initial dataset is current to **25 October 2026** and was checked against news sources for the many changes since mid-2026 (new governments in the UK, Hungary, Slovenia, Bulgaria, Denmark and the Netherlands, among others). Countries with fast-moving situations are marked **In flux** with a review note. At the time of writing these are Sweden, Israel, Spain, Serbia, Bulgaria, Latvia, Bosnia, Kosovo, Romania, France and Haiti. Run the updater once after setup to refresh them.
+The initial dataset is current to **25 October 2026** and was checked against news sources for the many changes since mid-2026 (new governments in the UK, Hungary, Slovenia, Bulgaria, Denmark and the Netherlands, among others). Countries with fast-moving situations are marked **In flux** with a review note. On 6 November 2026 these are Bosnia, France, Haiti, Israel, Latvia, Serbia, Spain and Sweden. Run the updater once after setup to refresh them.

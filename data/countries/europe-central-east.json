@@ -71,7 +71,7 @@
     "system": "Unitary parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
     "executive": {
       "leader": "headOfGovernment",
-      "headOfState": { "name": "Tamás Sulyok", "title": "President", "party": "Independent (Fidesz-elected)", "since": "2024-03-05" },
+      "headOfState": { "name": "András Baka", "title": "President", "party": "Independent (Tisza-nominated)", "since": "2026-08-19" },
       "headOfGovernment": { "name": "Péter Magyar", "title": "Prime Minister", "party": "Tisza", "since": "2026-05-09" },
       "governingParties": ["Tisza"]
     },
@@ -81,10 +81,10 @@
       { "name": "Parliamentary election", "date": "2026-04-12", "status": "held", "note": "Tisza ended 16 years of Fidesz rule with a two-thirds majority." },
       { "name": "Parliamentary election", "date": "2030-04", "status": "upcoming" }
     ],
-    "synopsis": "Péter Magyar's Tisza ousted Viktor Orbán in April 2026 and is dismantling key parts of the Fidesz system while returning Hungary to the European mainstream.",
+    "synopsis": "Péter Magyar's Tisza ousted Viktor Orbán in April 2026 and is dismantling key parts of the Fidesz system while returning Hungary to the European mainstream. A constitutional amendment ended President Tamás Sulyok's mandate in July 2026, and parliament elected former Supreme Court president András Baka in his place on 11 August, with Fidesz boycotting the vote.",
     "policies": ["Unlocking frozen EU funds via rule-of-law reforms", "Overhaul of state media and anti-corruption measures", "Lifting Hungary's vetoes on EU support for Ukraine", "Cutting MPs' salaries and state waste"],
-    "challenges": ["Orbán-era appointees in key institutions (incl. president)", "Weak economy and inflation", "Delivering quickly on high expectations"],
-    "lastVerified": "2026-10-25"
+    "challenges": ["Orbán-era appointees in key institutions", "Weak economy and inflation", "Delivering quickly on high expectations"],
+    "lastVerified": "2026-11-06"
   },
   {
     "iso3": "SVN", "iso2": "si", "numeric": "705", "name": "Slovenia", "region": "Europe",
@@ -108,27 +108,26 @@
   },
   {
     "iso3": "ROU", "iso2": "ro", "numeric": "642", "name": "Romania", "region": "Europe",
-    "system": "Unitary semi-presidential republic", "systemType": "semi-presidential", "status": "in-flux",
+    "system": "Unitary semi-presidential republic", "systemType": "semi-presidential", "status": "stable",
     "executive": {
       "leader": "headOfState",
       "headOfState": { "name": "Nicușor Dan", "title": "President", "party": "Independent", "since": "2025-05-26" },
-      "headOfGovernment": { "name": "Ilie Bolojan", "title": "Prime Minister (interim since May 2026)", "party": "National Liberal Party (PNL)", "since": "2025-06-23" },
-      "governingParties": ["PNL", "USR", "UDMR (PSD withdrew in 2026)"]
+      "headOfGovernment": { "name": "Luca Niculescu", "title": "Prime Minister", "party": "Independent", "since": "2026-10-20" },
+      "governingParties": ["PSD (minority government with independent ministers)"]
     },
     "legislature": [
-      { "name": "Chamber of Deputies (331)", "control": "No stable majority", "detail": "Bolojan lost a no-confidence vote on 5 May 2026 (PSD + AUR); AUR is the largest opposition force." },
-      { "name": "Senate (134)", "control": "No stable majority" }
+      { "name": "Chamber of Deputies (331)", "control": "PSD-led minority government", "detail": "Bolojan lost a no-confidence vote on 5 May 2026 (PSD + AUR). Parliament approved Niculescu's cabinet on 20 October 2026 by 280 votes (233 needed), with PSD, PNL and UDMR in favour; PNL and UDMR hold no ministries and call themselves opposition. AUR and USR voted against; AUR is the largest opposition force." },
+      { "name": "Senate (134)", "control": "PSD-led minority government" }
     ],
     "judiciary": "Constitutional Court (annulled the 2024 presidential election) and High Court of Cassation.",
     "elections": [
       { "name": "Presidential election (rerun)", "date": "2025-05-18", "status": "held" },
       { "name": "Parliamentary election", "date": "2028-12", "status": "upcoming" }
     ],
-    "synopsis": "The pro-European coalition collapsed in 2026 over austerity; Bolojan has led an interim government while talks on a new cabinet continue. President Dan has ruled out early elections.",
+    "synopsis": "The pro-European coalition collapsed in 2026 over austerity, and Bolojan's government fell to a no-confidence vote in May. After three earlier nominees failed, non-party diplomat Luca Niculescu, President Dan's fourth nominee, won parliament's approval on 20 October 2026 for a minority cabinet of PSD ministers and independents. President Dan has ruled out early elections.",
     "policies": ["Deficit reduction (EU's largest deficit)", "Public-administration cuts", "Support for Ukraine and NATO's eastern flank"],
-    "challenges": ["Government formation", "Fiscal crisis and rating risk", "Strength of far-right AUR"],
-    "lastVerified": "2026-10-25",
-    "reviewNote": "Status of new government after July 2026 unverified."
+    "challenges": ["Fragile minority government", "Fiscal crisis and rating risk", "Strength of far-right AUR"],
+    "lastVerified": "2026-11-06"
   },
   {
     "iso3": "BGR", "iso2": "bg", "numeric": "100", "name": "Bulgaria", "region": "Europe",
@@ -159,7 +158,7 @@
     "executive": {
       "leader": "headOfState",
       "headOfState": { "name": "Maia Sandu", "title": "President", "party": "PAS", "since": "2020-12-24" },
-      "headOfGovernment": { "name": "Alexandru Munteanu", "title": "Prime Minister", "party": "Independent (PAS-backed)", "since": "2025-11" },
+      "headOfGovernment": { "name": "Vasile Tofan", "title": "Prime Minister", "party": "Independent (PAS-backed)", "since": "2026-07-22" },
       "governingParties": ["Party of Action and Solidarity (PAS)"]
     },
     "legislature": [{ "name": "Parliament (101)", "control": "PAS majority (55 seats)" }],
@@ -168,10 +167,10 @@
       { "name": "Parliamentary election", "date": "2025-09-28", "status": "held", "note": "PAS kept its majority despite large-scale Russian interference." },
       { "name": "Presidential election", "date": "2028-10", "status": "upcoming" }
     ],
-    "synopsis": "Pro-EU PAS retained power in 2025, and Moldova is pressing ahead with EU accession negotiations.",
+    "synopsis": "Pro-EU PAS retained power in 2025, and Moldova is pressing ahead with EU accession negotiations. After Alexandru Munteanu resigned in July 2026, financier Vasile Tofan, nominated by President Sandu, won a confidence vote on 21 July with the votes of 53 PAS deputies.",
     "policies": ["EU accession reforms", "Energy independence from Russia", "Judicial vetting"],
     "challenges": ["Russian hybrid interference", "Transnistria and Gagauzia", "Poverty and energy prices"],
-    "lastVerified": "2026-10-25"
+    "lastVerified": "2026-11-06"
   },
   {
     "iso3": "UKR", "iso2": "ua", "numeric": "804", "name": "Ukraine", "region": "Europe",
@@ -179,7 +178,7 @@
     "executive": {
       "leader": "headOfState",
       "headOfState": { "name": "Volodymyr Zelensky", "title": "President", "party": "Servant of the People", "since": "2019-05-20" },
-      "headOfGovernment": { "name": "Yulia Svyrydenko", "title": "Prime Minister", "party": "Independent", "since": "2025-07-17" },
+      "headOfGovernment": { "name": "Sergii Koretskyi", "title": "Prime Minister", "party": "Independent", "since": "2026-07-16" },
       "governingParties": ["Servant of the People"]
     },
     "legislature": [{ "name": "Verkhovna Rada (450)", "control": "Servant of the People majority", "detail": "Elections postponed under martial law." }],
@@ -188,10 +187,10 @@
       { "name": "Parliamentary election", "date": "2019-07-21", "status": "held" },
       { "name": "Presidential & parliamentary elections", "date": "TBD", "status": "upcoming", "note": "Postponed while martial law is in force; to be held after hostilities end." }
     ],
-    "synopsis": "Ukraine continues to resist Russia's full-scale invasion while negotiating over a possible ceasefire framework. Elections are suspended under martial law.",
+    "synopsis": "Ukraine continues to resist Russia's full-scale invasion while negotiating over a possible ceasefire framework. In July 2026 parliament accepted Yulia Svyrydenko's resignation and appointed former Naftogaz head Sergii Koretskyi Prime Minister. Elections are suspended under martial law.",
     "policies": ["Defence and drone production", "Securing Western financing and security guarantees", "EU accession reforms", "Anti-corruption (after 2025 NABU controversy)"],
     "challenges": ["War and attacks on energy infrastructure", "Manpower and mobilisation", "Corruption scandals (Energoatom)"],
-    "lastVerified": "2026-10-25"
+    "lastVerified": "2026-11-06"
   },
   {
     "iso3": "BLR", "iso2": "by", "numeric": "112", "name": "Belarus", "region": "Europe",

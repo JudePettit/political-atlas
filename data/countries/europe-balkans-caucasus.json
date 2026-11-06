@@ -48,22 +48,22 @@
     "iso3": "SRB", "iso2": "rs", "numeric": "688", "name": "Serbia", "region": "Europe",
     "system": "Unitary parliamentary republic (strong presidency in practice)", "systemType": "parliamentary-republic", "status": "in-flux",
     "executive": {
-      "leader": "headOfGovernment",
-      "headOfState": { "name": "Acting president (Speaker of the National Assembly)", "title": "President (vacant — Vučić resigned Sept 2026 to run for PM)" },
+      "leader": "headOfState",
+      "headOfState": { "name": "Ana Brnabić", "title": "Acting President (Speaker of the National Assembly; Vučić resigned Sept 2026)", "party": "Serbian Progressive Party (SNS)", "since": "2026-09-28" },
       "headOfGovernment": { "name": "Đuro Macut", "title": "Prime Minister (caretaker)", "party": "Independent (SNS-backed)", "since": "2025-04-16" },
-      "governingParties": ["SNS-led caretaker government", "Students' List expected to form the next government"]
+      "governingParties": ["SNS-led caretaker government", "Student List expected to form the next government"]
     },
-    "legislature": [{ "name": "National Assembly (250)", "control": "Students' List won (official results pending)", "detail": "Vučić conceded on election night; his party projected ~135–140 seats for the Students' List and ~105 for SNS." }],
+    "legislature": [{ "name": "National Assembly (250)", "control": "Student List majority (140 of 250) in the newly elected assembly", "detail": "Final results adopted by the electoral commission (RIK) on 5 November 2026: Student List 140, Aleksandar Vučić – United Serbia 103, national-minority lists 7. The new assembly must hold its constitutive session by 5 December 2026; until then Ana Brnabić (SNS) remains Speaker." }],
     "judiciary": "Constitutional Court; judiciary under political pressure.",
     "elections": [
-      { "name": "Snap parliamentary election", "date": "2026-10-25", "status": "held", "note": "Student-led opposition list defeated Vučić's SNS; turnout reported near record highs. Vučić conceded." },
-      { "name": "Early presidential election (due after Vučić's resignation)", "date": "2027", "status": "upcoming" }
+      { "name": "Snap parliamentary election", "date": "2026-10-25", "status": "held", "note": "Student-led opposition list defeated Vučić's SNS, winning 140 of 250 seats; turnout about 69%. Vučić conceded." },
+      { "name": "Early presidential election (due after Vučić's resignation; must be held by 27 December 2026, not yet called)", "date": "2026-12", "status": "upcoming" }
     ],
-    "synopsis": "In a seismic shift, the student-led opposition movement that grew out of protests over the 2024 Novi Sad canopy collapse defeated Aleksandar Vučić's Serbian Progressive Party on 25 October 2026, ending more than a decade of SNS dominance. Vučić, who resigned the presidency in September to run for prime minister, conceded on election night; a new government led by the Students' List is expected once results are certified.",
+    "synopsis": "In a seismic shift, the student-led opposition movement that grew out of protests over the 2024 Novi Sad canopy collapse defeated Aleksandar Vučić's Serbian Progressive Party on 25 October 2026, ending more than a decade of SNS dominance. Vučić, who resigned the presidency in September to run for prime minister, conceded on election night. Final results on 5 November gave the Student List 140 of 250 seats; Speaker Ana Brnabić is acting President and Đuro Macut leads a caretaker government until the new assembly elects a government.",
     "policies": ["(Incoming) Anti-corruption and rule-of-law reform", "(Incoming) Media freedom and independent institutions", "EU accession while managing ties with Russia and China"],
-    "challenges": ["Forming a government from a list of political newcomers", "A peaceful transfer of power and SNS-aligned institutions", "Vacant presidency and early presidential election", "Kosovo dispute and NIS oil company sanctions"],
-    "lastVerified": "2026-10-26",
-    "reviewNote": "Results provisional (party projection; official RIK results pending). Confirm seat totals, the acting president's name and the Students' List's PM candidate."
+    "challenges": ["Forming a government from a list of political newcomers", "A peaceful transfer of power and SNS-aligned institutions", "Acting presidency and early presidential election", "Kosovo dispute and NIS oil company sanctions"],
+    "lastVerified": "2026-11-06",
+    "reviewNote": "Map leader set to the acting President: while the government is a caretaker one, Brnabić holds the transition's main levers (convening the new assembly, proposing the prime minister after consultations, calling the presidential election). Unconfirmed: whether the acting presidency passes to the new Speaker once the new assembly elects one, and who the Student List will propose as prime minister."
   },
   {
     "iso3": "MNE", "iso2": "me", "numeric": "499", "name": "Montenegro", "region": "Europe",
@@ -88,24 +88,24 @@
   },
   {
     "iso3": "XKX", "iso2": "xk", "numeric": null, "name": "Kosovo", "region": "Europe",
-    "system": "Unitary parliamentary republic (partially recognised)", "systemType": "parliamentary-republic", "status": "in-flux",
+    "system": "Unitary parliamentary republic (partially recognised)", "systemType": "parliamentary-republic", "status": "stable",
     "executive": {
       "leader": "headOfGovernment",
-      "headOfState": { "name": "Vacant / acting (Justina Pula reported from Oct 2026)", "title": "President" },
+      "headOfState": { "name": "Justina Shiroka Pula", "title": "President", "since": "2026-10-07" },
       "headOfGovernment": { "name": "Albin Kurti", "title": "Prime Minister", "party": "Vetëvendosje (VV)", "since": "2021 (new government 2026-09-13)" },
       "governingParties": ["Vetëvendosje", "minority-community partners"]
     },
-    "legislature": [{ "name": "Assembly (120)", "control": "VV-led majority (62 votes for government)", "detail": "Two-thirds needed to elect a president; failure triggers dissolution." }],
+    "legislature": [{ "name": "Assembly (120)", "control": "VV-led majority (62 votes for government)", "detail": "Elected Justina Shiroka Pula president on 7 October 2026 with 81 votes (80 needed), averting dissolution." }],
     "judiciary": "Constitutional Court.",
     "elections": [
       { "name": "Snap parliamentary election", "date": "2026-06-07", "status": "held", "note": "Third election in 18 months; VV ~43%." },
-      { "name": "Possible snap election (if presidency not filled)", "date": "TBD", "status": "upcoming" }
+      { "name": "Presidential election (by the Assembly)", "date": "2026-10-07", "status": "held", "note": "Justina Shiroka Pula, proposed by Kurti and backed by Vetëvendosje and PDK, elected in the first round with 81 votes in a vote around the midnight constitutional deadline." },
+      { "name": "Parliamentary election", "date": "2030", "status": "upcoming" }
     ],
-    "synopsis": "Kurti formed a new government in September 2026 after a long deadlock, but the failure to elect a president by the constitutional deadline could force yet another election.",
+    "synopsis": "Kurti formed a new government in September 2026 after a long deadlock, and on 7 October the Assembly elected Justina Shiroka Pula president at the constitutional deadline, averting another snap election. The vote followed an agreement between Vetëvendosje and the PDK, under which the Assembly first passed amendments limiting the powers of the Hague-based Kosovo Specialist Chambers.",
     "policies": ["Integration of Serb-majority north", "EU visa liberalisation and membership bid", "Normalisation talks with Serbia"],
-    "challenges": ["Presidential deadlock", "EU punitive measures (partially lifted)", "Tensions in the north"],
-    "lastVerified": "2026-10-25",
-    "reviewNote": "Presidency and possible dissolution status unclear — verify."
+    "challenges": ["Specialist Chambers law amendments (possible constitutional review)", "EU punitive measures (partially lifted)", "Tensions in the north"],
+    "lastVerified": "2026-11-06"
   },
   {
     "iso3": "ALB", "iso2": "al", "numeric": "008", "name": "Albania", "region": "Europe",
