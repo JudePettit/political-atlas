@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#f3f4f6" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0f1318" media="(prefers-color-scheme: dark)">
   <title>Political Atlas · PRP</title>
-  <meta name="description" content="Interactive map of political leadership, branches of power and elections across Europe, North America, Russia, China, Japan, Israel and Saudi Arabia.">
+  <meta name="description" content="Interactive world map of political leadership, branches of power and elections, country by country.">
   <link rel="icon" href="https://jdpi.pages.dev/design/brand-prp.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,7 @@
   <header class="page-head">
     <p class="prp-eyebrow" data-jdpi-standalone><span>Realtime Intelligence <span class="sep">·</span> Political Atlas</span></p>
     <h1 class="prp-title">Political Atlas</h1>
-    <p class="prp-dek">Who holds power now across Europe, North America, Russia, China, Japan, Israel and Saudi Arabia. Colour the map by system, election or stability, and select a country for its profile.</p>
+    <p class="prp-dek">Who holds power now, country by country. Colour the map by system, election or stability, narrow it to a region, and select a country for its profile.</p>
     <p class="prp-meta" id="updated">Loading data…</p>
   </header>
 
@@ -29,9 +29,15 @@
   </div>
 
   <div class="toolbar">
-    <div class="search-wrap">
-      <input id="search" class="prp-input" type="search" placeholder="Search a country or leader…" autocomplete="off" aria-label="Search countries and leaders">
-      <ul id="search-results" class="search-results" role="listbox" hidden></ul>
+    <div class="finders">
+      <div class="search-wrap">
+        <input id="search" class="prp-input" type="search" placeholder="Search a country or leader…" autocomplete="off" aria-label="Search countries and leaders">
+        <ul id="search-results" class="search-results" role="listbox" hidden></ul>
+      </div>
+      <div class="region-wrap">
+        <label class="prp-label" for="region">Region</label>
+        <select id="region" class="prp-select"><option value="">All regions</option></select>
+      </div>
     </div>
     <div class="mode">
       <span class="prp-label" id="mode-label">Colour by</span>

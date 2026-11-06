@@ -4,16 +4,24 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import Ajv from 'ajv/dist/2020.js';
+import { seedRows, checkRecord, NO_ELECTION_TYPES, IDENTITY } from '../scripts/research.mjs';
 
 const read = p => JSON.parse(readFileSync(new URL(`../data/${p}`, import.meta.url), 'utf8'));
 const manifest = read('manifest.json');
 const schema = read('schema.json');
 const countries = manifest.files.flatMap(f => read(f));
+const seeds = seedRows(read('seeds.json'));
 const validate = new Ajv({ allErrors: true, strict: false }).compile(schema);
 const DATE = /^(\d{4})(-\d{2})?(-\d{2})?$|^TBD$/;
 
-test('78 countries, each valid against the schema', () => {
-  assert.equal(countries.length, 78);
+// The atlas's full set: the 193 UN member states, the two observer states (the Holy See and Palestine), Kosovo, Taiwan
+// and Greenland. Each has a record, or a seed in data/seeds.json that create mode turns into one, so the test follows
+// the data as regions are added while the target stays fixed.
+const TARGET = 198;
+
+test('every country has a record or a seed, and every record is valid against the schema', () => {
+  assert.ok(countries.length > 0);
+  assert.equal(new Set([...countries.map(c => c.iso3), ...seeds.map(s => s.iso3)]).size, TARGET);
   const errors = countries.filter(c => !validate(c)).map(c => `${c.iso3}: ${JSON.stringify(validate.errors)}`);
   assert.deepEqual(errors, []);
 });
@@ -61,8 +69,46 @@ test('each country names the office that holds the most power', () => {
 test('every country has an upcoming election or a stated reason', () => {
   const none = countries.filter(c => !c.elections.some(e => e.status === 'upcoming'))
     .map(c => c.iso3);
-  // Absolute monarchies and the Holy See hold no national elections.
-  assert.deepEqual(none.filter(c => !['SAU', 'VAT'].includes(c)), []);
+  // Absolute monarchies, the Holy See, military governments and civilian transitions have no national vote to schedule
+  // (the rule create mode applies too).
+  const exempt = new Set(countries.filter(c => NO_ELECTION_TYPES.includes(c.systemType)).map(c => c.iso3));
+  assert.deepEqual(none.filter(c => !exempt.has(c)), []);
+  assert.ok(exempt.has('SAU') && exempt.has('VAT'), 'Saudi Arabia and the Holy See are exempt');
+});
+
+test('seeds are well formed and agree with the records made from them', () => {
+  const regions = schema.properties.region.enum;
+  const problems = [];
+  for (const key of ['iso3', 'iso2', 'numeric', 'name']) {
+    const values = seeds.map(s => s[key]).filter(Boolean);
+    if (new Set(values).size !== values.length) problems.push(`duplicate seed ${key}`);
+  }
+  const byIso = new Map(countries.map(c => [c.iso3, c]));
+  const fileOf = new Map(manifest.files.flatMap(f => read(f).map(c => [c.iso3, f])));
+  for (const s of seeds) {
+    if (!/^[A-Z]{3}$/.test(s.iso3) || !/^[a-z]{2}$/.test(s.iso2)) problems.push(`${s.iso3}: bad codes`);
+    if (s.numeric !== null && !/^\d{3}$/.test(s.numeric)) problems.push(`${s.iso3}: numeric ${s.numeric}`);
+    if (!regions.includes(s.region)) problems.push(`${s.iso3}: region ${s.region} is not in the schema`);
+    if (!/^[a-z0-9-]+$/.test(s.group)) problems.push(`${s.iso3}: group ${s.group}`);
+    // Once created, a record keeps its seed's identity and lives in its group's file.
+    const r = byIso.get(s.iso3);
+    if (r) {
+      for (const k of IDENTITY) if (r[k] !== s[k]) problems.push(`${s.iso3}: record ${k} "${r[k]}" differs from seed "${s[k]}"`);
+      const file = fileOf.get(s.iso3);
+      if (file !==`countries/${s.group}.json`) problems.push(`${s.iso3}: in ${file}, not countries/${s.group}.json`);
+    } else {
+      // A seed still to be created must not clash with an existing record's codes or name.
+      for (const k of ['iso2', 'numeric', 'name']) if (s[k] && countries.some(c => c[k] === s[k])) problems.push(`${s.iso3}: ${k} already used by a record`);
+    }
+  }
+  assert.deepEqual(problems, []);
+});
+
+test("create mode's checks accept every existing record", () => {
+  // Create mode refuses a record that fails these checks, so they must be no stricter than the data the atlas has.
+  const today = new Date().toISOString().slice(0, 10);
+  const problems = countries.map(c => [c.iso3, checkRecord(c, today)]).filter(([, p]) => p.length).map(([iso, p]) => `${iso}: ${p.join('; ')}`);
+  assert.deepEqual(problems, []);
 });
 
 test('in-flux countries explain why', () => {

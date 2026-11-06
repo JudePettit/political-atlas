@@ -28,7 +28,10 @@ body { margin: 0; }
 
 /* Toolbar: search and colour mode in one row */
 .toolbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; margin-bottom: 12px; }
+.finders { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; flex: 0 1 560px; min-width: 0; }
 .search-wrap { position: relative; flex: 0 1 320px; }
+.region-wrap { display: flex; align-items: center; gap: 10px; }
+#region { min-width: 0; max-width: 100%; }
 #search { width: 100%; }
 .search-results {
   position: absolute; top: calc(100% + 4px); left: 0; right: 0; z-index: 20; list-style: none; margin: 0; padding: 4px;
@@ -62,6 +65,12 @@ body { margin: 0; }
 .country.active.selected { stroke: var(--prp-text); stroke-width: 2.2; }
 .microstate { stroke: var(--prp-map-halo); stroke-width: 1.2; vector-effect: non-scaling-stroke; cursor: pointer; }
 .microstate:hover, .microstate.selected { stroke: var(--prp-text); stroke-width: 2; }
+/* With a region chosen, countries outside it stay clickable but step back. */
+.country.active.out-region, .microstate.out-region { opacity: .35; }
+/* On a narrow touch screen at world scale, a tap goes to the country under it, not to a nearby microstate dot (app.js
+   marks dots "far" until the map is zoomed in; search and the table still reach every country). */
+@media (max-width: 899px) { .microstate.far { pointer-events: none; } }
+.country.active.out-region.selected, .microstate.out-region.selected { opacity: 1; }
 
 .map-tools { position: absolute; top: 12px; left: 12px; display: flex; flex-direction: column; gap: 4px; }
 .map-tools button {
@@ -173,7 +182,10 @@ body { margin: 0; }
 @media (max-width: 900px) {
   .page { padding: 16px 16px 24px; }
   .prp-title { font-size: 26px; }
+  .finders { flex: 1 1 100%; }
   .search-wrap { flex: 1 1 100%; }
+  .region-wrap { flex: 1 1 100%; }
+  #region { flex: 1; }
   .mode { flex: 1 1 100%; flex-wrap: wrap; gap: 6px; }
   .segmented { width: 100%; }
   .segmented button { flex: 1; padding: 0 6px; }

@@ -39,27 +39,83 @@ before(async () => {
 });
 after(async () => { await browser?.close(); });
 
+// The records the page reads, fetched the way the page fetches them.
+const loadRecords = () => page.evaluate(async () => {
+  const m = await fetch('data/manifest.json').then(r => r.json());
+  const lists = await Promise.all(m.files.map(f => fetch('data/' + f).then(r => r.json())));
+  return lists.flat();
+});
+
 test('page loads with all countries and no script errors', async () => {
   await open();
+  const records = await loadRecords();
   const meta = await page.textContent('#updated');
   assert.match(meta, /Updated \S+/);
-  assert.match(meta, /Coverage 78 countries and territories/);
+  assert.match(meta, new RegExp(`Coverage ${records.length} countries and territories`));
   assert.equal(await page.title(), 'Political Atlas · PRP');
   const active = await page.locator('path.country.active').count();
   const markers = await page.locator('circle.microstate').count();
-  assert.ok(active >= 70, `expected ≥70 clickable country shapes, got ${active}`);
-  assert.equal(markers, 16, 'microstate markers');
+  // Dots are drawn for the countries in app.js's MARKERS list that have a record.
+  const expectedMarkers = await page.evaluate(codes => Object.keys(MARKERS).filter(iso => codes.includes(iso)).length, records.map(c => c.iso3));
+  assert.ok(active >= records.length - expectedMarkers, `expected ≥${records.length - expectedMarkers} clickable country shapes, got ${active}`);
+  assert.equal(markers, expectedMarkers, 'microstate markers');
+  // The map opens on the whole world.
+  assert.equal(await page.getAttribute('#map > g', 'transform'), 'translate(0,0) scale(1)');
   assert.deepEqual(consoleErrors, [], 'console errors on load');
+});
+
+test('every country to be added can be drawn: a shape in the boundaries or a marker', async () => {
+  await open();
+  const problems = await page.evaluate(async () => {
+    const seeds = await fetch('data/seeds.json').then(r => r.json());
+    const m = await fetch('data/manifest.json').then(r => r.json());
+    const records = (await Promise.all(m.files.map(f => fetch('data/' + f).then(r => r.json())))).flat();
+    const rows = [...records, ...Object.values(seeds.groups).flat().map(row => Object.fromEntries(seeds.fields.map((f, i) => [f, row[i]])))];
+    const world = await fetch(WORLD_URL).then(r => r.json());
+    const ids = new Set(world.objects.countries.geometries.map(g => g.id));
+    const known = new Set(rows.map(c => c.iso3));
+    return [
+      ...rows.filter(c => !(c.numeric && ids.has(c.numeric)) && !MARKERS[c.iso3]).map(c => `${c.iso3}: no shape and no marker`),
+      ...Object.keys(MARKERS).filter(iso => !known.has(iso)).map(iso => `marker ${iso} is not a country in the atlas`)
+    ];
+  });
+  assert.deepEqual(problems, []);
+});
+
+test('the region filter narrows the table and upcoming list, and zooms the map', async () => {
+  await open();
+  const records = await loadRecords();
+  const options = await page.$$eval('#region option', os => os.map(o => o.value));
+  const regions = [...new Set(records.map(c => c.region.replace(/\s*\(.*\)$/, '')))].sort((a, b) => a.localeCompare(b));
+  assert.deepEqual(options, ['', ...regions], 'one option per region in the data');
+  const europe = records.filter(c => c.region.startsWith('Europe')).map(c => c.iso3).sort();
+  await page.selectOption('#region', 'Europe');
+  assert.match(page.url(), /[?&]region=Europe/);
+  const upcoming = await page.$$eval('#upcoming li', lis => lis.map(li => li.dataset.iso));
+  assert.ok(upcoming.length > 0 && upcoming.every(iso => europe.includes(iso)), 'upcoming elections are European');
+  // Shapes outside the region step back; those inside do not.
+  assert.equal(await page.getAttribute('path.country.active[data-iso="USA"]', 'class').then(c => c.includes('out-region')), true);
+  assert.equal(await page.getAttribute('path.country.active[data-iso="DEU"]', 'class').then(c => c.includes('out-region')), false);
+  await page.waitForFunction(() => document.querySelector('#map > g').getAttribute('transform') !== 'translate(0,0) scale(1)');
+  await page.click('#tab-table');
+  const rows = await page.$$eval('#country-table tbody tr', trs => trs.map(tr => tr.dataset.iso).sort());
+  assert.deepEqual(rows, europe);
+  // A link with ?region= opens filtered; "All regions" brings every row back.
+  await page.goto(`${BASE}/?view=table&region=north%20america`, { waitUntil: 'networkidle' });
+  await page.waitForSelector('#country-table tbody tr');
+  assert.equal(await page.inputValue('#region'), 'North America');
+  assert.equal(await page.locator('#country-table tbody tr').count(), records.filter(c => c.region === 'North America').length);
+  await page.selectOption('#region', '');
+  assert.equal(await page.locator('#country-table tbody tr').count(), records.length);
+  assert.doesNotMatch(page.url(), /region=/);
+  await page.click('#tab-map');
 });
 
 test('every country opens a complete detail panel', async () => {
   await open();
-  const codes = await page.evaluate(async () => {
-    const m = await fetch('data/manifest.json').then(r => r.json());
-    const lists = await Promise.all(m.files.map(f => fetch('data/' + f).then(r => r.json())));
-    return lists.flat().map(c => c.iso3);
-  });
-  assert.equal(codes.length, 78);
+  const codes = (await loadRecords()).map(c => c.iso3);
+  const coverage = Number((await page.textContent('#updated')).match(/Coverage (\d+)/)[1]);
+  assert.equal(codes.length, coverage, 'the coverage line counts every record');
   const problems = [];
   for (const iso3 of codes) {
     const ok = await page.evaluate(async code => {
@@ -103,6 +159,39 @@ test('deep link opens the country and the close button clears it', async () => {
   await page.click('#close');
   assert.equal(await page.locator('.panel-empty h2').textContent(), 'Select a country');
   assert.equal(await page.evaluate(() => location.hash), '');
+});
+
+// The point a selection should bring into view: the centre of a country's largest piece, or its marker dot.
+const centreInView = () => page.evaluate(async () => {
+  const seeds = await fetch('data/seeds.json').then(r => r.json());
+  const seedRows = Object.values(seeds.groups).flat().map(row => Object.fromEntries(seeds.fields.map((f, i) => [f, row[i]])));
+  const feats = g.selectAll('path.country').data();
+  const { width, height } = svg.node().viewBox.baseVal;
+  const off = [];
+  // Every record, and every country still to be added (as its shape will be once it has a record).
+  for (const c of [...state.countries.values(), ...seedRows]) {
+    const f = state.countries.has(c.iso3) ? g.select(`path.country[data-iso="${c.iso3}"]`).datum() : feats.find(x => x.id === c.numeric);
+    if (!f && !MARKERS[c.iso3]) continue; // checked by the "can be drawn" test
+    const box = f ? shapeBounds(f) : markerBounds(MARKERS[c.iso3]);
+    const [x, y] = boxTransform(projectBounds(box)).apply(f ? path.centroid(mainPolygon(f)) : projection(MARKERS[c.iso3]));
+    if (!(x >= 0 && x <= width && y >= 0 && y <= height)) off.push(`${c.iso3} at (${Math.round(x)}, ${Math.round(y)})`);
+  }
+  return off;
+});
+
+test('selecting a country frames it on the map, near the 180° line too', async () => {
+  await open();
+  assert.deepEqual(await centreInView(), [], 'countries whose selection zooms the map away from them');
+  // And the real thing, as a deep link: the United States (whose padded box once wrapped round the 180° line) and Russia.
+  for (const iso of ['USA', 'RUS']) {
+    await open(`#${iso}`);
+    await page.waitForTimeout(1000); // the zoom's 750 ms transition
+    const where = await page.evaluate(code => {
+      const f = g.select(`path.country[data-iso="${code}"]`).datum();
+      return d3.zoomTransform(svg.node()).apply(path.centroid(mainPolygon(f)));
+    }, iso);
+    assert.ok(where[0] >= 0 && where[0] <= 1000 && where[1] >= 0 && where[1] <= 600, `${iso} lands at ${where.map(Math.round)}`);
+  }
 });
 
 test('upcoming elections list is in date order and opens countries', async () => {
@@ -170,6 +259,12 @@ test('search finds countries and leaders', async () => {
   assert.equal((await page.textContent('#search-results li')).trim(), 'United Kingdom');
   await page.press('#search', 'Enter');
   assert.equal(await page.textContent('.c-head h2'), 'United Kingdom');
+  // Someone who heads several states: the country they lead comes first (Macron is also Andorra's co-prince).
+  await page.fill('#search', 'Macron');
+  await page.waitForSelector('#search-results li');
+  assert.deepEqual((await page.$$eval('#search-results li', lis => lis.map(li => li.textContent.trim()))), ['France', 'Andorra']);
+  await page.press('#search', 'Enter');
+  assert.equal(await page.textContent('.c-head h2'), 'France');
   await page.fill('#search', 'zzzz');
   assert.equal(await page.locator('#search-results').isHidden(), true);
 });
@@ -213,6 +308,35 @@ test('phone layout has no horizontal overflow', async () => {
   await mobile.waitForSelector('.c-head h2');
   const { scroll, width } = await mobile.evaluate(() => ({ scroll: document.documentElement.scrollWidth, width: innerWidth }));
   assert.ok(scroll <= width + 1, `page is ${scroll}px wide on a ${width}px screen`);
+  await mobile.close();
+});
+
+test('on a phone at world scale, a tap on Germany opens Germany, not the Luxembourg dot', async () => {
+  const mobile = await browser.newPage({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
+  await mobile.goto(`${BASE}/`, { waitUntil: 'networkidle' });
+  await mobile.waitForSelector('path.country.active[data-iso="DEU"]');
+  const dot = () => mobile.$eval('circle.microstate[data-iso="LUX"]', el => getComputedStyle(el).pointerEvents);
+  assert.equal(await dot(), 'none', 'dots let taps through at world scale');
+  // Measure Germany once the layout has settled (fonts and lazy images can still move the map after network idle; in
+  // one full run a tap measured too early landed on nothing), and only when Germany is the element under that point.
+  const b = await mobile.waitForFunction(async () => {
+    await document.fonts.ready;
+    await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
+    const at = () => { const r = document.querySelector('path.country.active[data-iso="DEU"]').getBoundingClientRect(); return { x: r.left + r.width / 2, y: r.top + r.height / 2 }; };
+    const p = at();
+    await new Promise(r => setTimeout(r, 200));
+    const q = at();
+    const stable = Math.abs(p.x - q.x) < 0.5 && Math.abs(p.y - q.y) < 0.5;
+    return stable && document.elementFromPoint(q.x, q.y)?.getAttribute('data-iso') === 'DEU' ? q : false;
+  }, null, { timeout: 15000 }).then(h => h.jsonValue());
+  await mobile.touchscreen.tap(b.x, b.y);
+  await mobile.waitForSelector('.c-head h2', { timeout: 10000 }).catch(async () => {
+    assert.fail(`the tap at (${b.x.toFixed(1)}, ${b.y.toFixed(1)}) opened nothing; address ${await mobile.evaluate(() => location.hash) || '(none)'}`);
+  });
+  assert.equal(await mobile.textContent('.c-head h2'), 'Germany');
+  // Zoomed in, the dots can be tapped again.
+  await mobile.evaluate(() => svg.call(zoom.transform, d3.zoomIdentity.scale(3)));
+  assert.equal(await dot(), 'auto');
   await mobile.close();
 });
 

@@ -9,11 +9,12 @@
     "iso2": { "type": "string", "minLength": 2, "maxLength": 2 },
     "numeric": { "type": ["string", "null"], "description": "ISO 3166-1 numeric code, zero-padded; null if none (e.g. Kosovo)" },
     "name": { "type": "string" },
-    "region": { "type": "string", "enum": ["Europe", "Europe (transcontinental)", "North America", "Asia", "Middle East"] },
+    "region": { "type": "string", "enum": ["Europe", "Europe (transcontinental)", "North America", "South America", "Africa", "Middle East", "Asia", "Oceania"] },
     "system": { "type": "string", "description": "Human-readable description of the system of government" },
     "systemType": {
       "type": "string",
-      "enum": ["presidential", "semi-presidential", "parliamentary-republic", "parliamentary-monarchy", "absolute-monarchy", "one-party", "directorial", "theocratic", "transitional", "dependent-territory"]
+      "enum": ["presidential", "semi-presidential", "parliamentary-republic", "parliamentary-monarchy", "absolute-monarchy", "one-party", "directorial", "theocratic", "military", "transitional", "dependent-territory"],
+      "description": "How power is held in practice. absolute-monarchy: a monarch who rules as well as reigns (Saudi Arabia, Oman, Brunei). one-party: one party rules and others are banned or subordinate. theocratic: religious authority holds supreme power (the Holy See, Iran). military: the armed forces hold power after a coup, including juntas that call themselves transitional. transitional: a civilian interim arrangement on the way to a new constitution or election. dependent-territory: self-governing but not sovereign (Greenland)."
     },
     "status": { "type": "string", "enum": ["stable", "in-flux"], "description": "in-flux = government formation, caretaker, disputed or election under way" },
     "executive": {
@@ -24,7 +25,7 @@
         "leader": {
           "type": "string",
           "enum": ["headOfState", "headOfGovernment"],
-          "description": "Which of the two holds the most power in practice: the person the map names for the country. headOfGovernment in parliamentary systems, where the prime minister or chancellor governs and the monarch or president is mostly ceremonial. headOfState where the president, monarch or party leader directs the government: presidential systems; presidents who dominate their governments (France, Russia, Ukraine, Belarus, Azerbaijan, Moldova); one-party states whose party leader is head of state (China, Cuba); ruling monarchs (Monaco, Liechtenstein) and the Pope. Judge by practice, not by the constitution's wording alone, and say why in reviewNote when it changes."
+          "description": "Which of the two holds the most power in practice: the person the map names for the country. headOfGovernment in parliamentary systems, where the prime minister or chancellor governs and the monarch or president is mostly ceremonial. headOfState where the president, monarch or party leader directs the government: presidential systems; presidents who dominate their governments (France, Russia, Ukraine, Belarus, Azerbaijan, Moldova); one-party states whose party leader is head of state (China, Cuba); ruling monarchs, emirs and sultans (Monaco, Liechtenstein, Qatar, Oman) and the Pope; a supreme leader above the elected president (Iran); the head of a military government. Where a crown prince or premier who is not head of state governs, as in Saudi Arabia, it is headOfGovernment. Judge by practice, not by the constitution's wording alone, and say why in reviewNote when it changes."
         },
         "headOfState": { "$ref": "#/$defs/person" },
         "headOfGovernment": { "$ref": "#/$defs/person" },

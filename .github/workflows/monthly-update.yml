@@ -1,12 +1,23 @@
 name: Monthly data update
 
+# The scheduled run refreshes every country that has a record. Run it by hand (Actions → Run workflow) to refresh some
+# countries, or with mode "create" to research and add countries that have no record yet, one region per run: each run
+# opens its own pull request for review.
 on:
   schedule:
     - cron: '0 6 1 * *'   # 06:00 UTC on the 1st of every month
   workflow_dispatch:
     inputs:
+      mode:
+        description: 'update = refresh existing records; create = add countries from data/seeds.json'
+        type: choice
+        options: [update, create]
+        default: update
+      region:
+        description: 'A group such as africa-east, or a region such as Oceania (blank = all; for create, give one group, and merge its pull request before the next create run, retries included)'
+        required: false
       only:
-        description: 'Comma-separated ISO3 codes to update (blank = all)'
+        description: 'Comma-separated ISO3 codes (blank = all in the region)'
         required: false
 
 permissions:
@@ -23,16 +34,76 @@ jobs:
         with:
           node-version: 22
       - run: npm install
-      - name: Refresh country data with Claude + web search
+      # Each create run gets its own branch, so a second region does not overwrite the first one's open pull request.
+      - name: Name the pull request
+        id: pr
+        env:
+          MODE: ${{ inputs.mode || 'update' }}
+          REGION: ${{ inputs.region }}
+          ONLY: ${{ inputs.only }}
+        run: |
+          if [ "$MODE" = create ]; then
+            what="${REGION:-$ONLY}"
+            slug=$(printf '%s' "${what:-all}" | tr 'A-Z' 'a-z' | tr -cs 'a-z0-9' '-' | sed 's/^-//; s/-$//' | cut -c1-40)
+            echo "branch=data-add-$slug" >> "$GITHUB_OUTPUT"
+            echo "title=Political Atlas: add $slug" >> "$GITHUB_OUTPUT"
+            echo "commit=chore(data): add ${slug} country records" >> "$GITHUB_OUTPUT"
+          else
+            echo "branch=data-update" >> "$GITHUB_OUTPUT"
+            echo "title=Monthly political data update" >> "$GITHUB_OUTPUT"
+            echo "commit=chore(data): monthly refresh" >> "$GITHUB_OUTPUT"
+          fi
+      # One create pull request at a time. Every run starts from main, so a second create run while one is open would
+      # research its countries again (a retry of the same group would replace the open pull request, and records already
+      # reviewed with it), and two create pull requests would conflict in data/manifest.json. Checked before any request
+      # is sent, so a refused run costs nothing.
+      - name: Refuse a create run while another create pull request is open
+        if: ${{ (inputs.mode || 'update') == 'create' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          open=$(gh pr list --repo "$GITHUB_REPOSITORY" --state open --json headRefName,url --jq '.[] | select(.headRefName | startswith("data-add-")) | .url')
+          if [ -n "$open" ]; then
+            echo "::error::A create pull request is still open: $open. Merge or close it first, then run this again (countries that already have a record are skipped)."
+            exit 1
+          fi
+      # Inputs reach the shell as environment variables, never pasted into the script. A create run that reaches its
+      # time limit or fails part-way still opens a pull request with the records it finished (each one is written as soon
+      # as it passes its checks); the monthly refresh fails the job as before.
+      - name: Refresh or create country data with Claude + web search
+        id: research
+        timeout-minutes: 100
+        continue-on-error: ${{ (inputs.mode || 'update') == 'create' }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: node scripts/update-data.mjs ${{ inputs.only && format('--only={0}', inputs.only) || '' }}
+          MODE: ${{ inputs.mode || 'update' }}
+          REGION: ${{ inputs.region }}
+          ONLY: ${{ inputs.only }}
+        run: |
+          set -- "--mode=$MODE"
+          if [ -n "$REGION" ]; then set -- "$@" "--region=$REGION"; fi
+          if [ -n "$ONLY" ]; then set -- "$@" "--only=$ONLY"; fi
+          node scripts/update-data.mjs "$@"
+      - name: Note a create run that stopped early
+        if: ${{ steps.research.outcome == 'failure' }}
+        run: |
+          [ -f update-report.md ] || printf '# New country records\n\nThe run stopped before it wrote its report (time limit or error); the records in this pull request are the ones it finished.\n' > update-report.md
+          printf '\n\n⚠️ The research step did not finish cleanly: see the Actions log. Rerun the group after merging to add the rest.\n' >> update-report.md
+      # A create run that failed and wrote nothing has no pull request to open: fail the job so the run shows red.
+      - name: Fail a create run that wrote nothing
+        if: ${{ steps.research.outcome == 'failure' }}
+        run: |
+          if [ -z "$(git status --porcelain -- data/)" ]; then
+            echo "::error::The research step failed and no record was written."
+            exit 1
+          fi
+      # Create mode has already checked each new record against the data tests' rules before writing it.
       - run: node scripts/validate.mjs
       # Changes land as a pull request so a human can review them before they go live.
       - uses: peter-evans/create-pull-request@v7
         with:
-          branch: data-update
-          title: 'Monthly political data update'
-          commit-message: 'chore(data): monthly refresh'
+          branch: ${{ steps.pr.outputs.branch }}
+          title: ${{ steps.pr.outputs.title }}
+          commit-message: ${{ steps.pr.outputs.commit }}
           body-path: update-report.md
           add-paths: data/

@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Interactive map of political leadership in Europe, North America, Russia, China, Japan, Israel and Saudi Arabia",
+  "description": "Interactive world map of political leadership: who holds power, the branches of government and the next elections, country by country",
   "scripts": {
     "start": "npx --yes serve@14.2.4 -l 8080 .",
     "update-data": "node scripts/update-data.mjs",
     "validate": "node scripts/validate.mjs",
-    "test": "node --test --test-concurrency=1 tests/data.test.mjs tests/e2e.test.mjs"
+    "test": "node --test --test-concurrency=1 tests/data.test.mjs tests/create.test.mjs tests/e2e.test.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.110.0",

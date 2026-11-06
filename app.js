@@ -5,12 +5,21 @@
 const WORLD_URL = 'https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-50m.json';
 const DAY = 86400000;
 
-// Countries too small to click at world scale get a marker dot (lon, lat).
+// Countries too small to click at world scale get a marker dot (lon, lat). A dot is drawn only once the country has a
+// record, so the list can name countries still to be added. Tuvalu has no shape at all in the 50m boundaries, so its
+// dot is the only way to reach it; Kiribati's dot is on Tarawa, its capital, not on Kiritimati, its largest island.
 const MARKERS = {
   VAT: [12.45, 41.9], MCO: [7.42, 43.74], SMR: [12.46, 43.94], LIE: [9.55, 47.16],
   AND: [1.52, 42.51], MLT: [14.44, 35.9], LUX: [6.13, 49.61], XKX: [20.9, 42.6],
   ATG: [-61.8, 17.08], KNA: [-62.75, 17.33], DMA: [-61.37, 15.42], LCA: [-60.98, 13.9],
-  VCT: [-61.2, 13.25], GRD: [-61.68, 12.12], BRB: [-59.55, 13.17], TTO: [-61.25, 10.6]
+  VCT: [-61.2, 13.25], GRD: [-61.68, 12.12], BRB: [-59.55, 13.17], TTO: [-61.25, 10.6],
+  // Africa
+  CPV: [-23.6, 15.1], GMB: [-15.4, 13.45], STP: [6.61, 0.25], COM: [43.33, -11.7], MUS: [57.56, -20.25], SYC: [55.46, -4.67],
+  // Middle East and Asia
+  BHR: [50.54, 26.03], PSE: [35.22, 31.94], LBN: [35.85, 33.88], SGP: [103.82, 1.35], BRN: [114.6, 4.5], MDV: [73.5, 4.2],
+  // Oceania
+  TUV: [179.2, -8.5], NRU: [166.93, -0.52], KIR: [173, 1.4], MHL: [171.2, 7.1], FSM: [158.2, 6.9], PLW: [134.58, 7.5],
+  TON: [-175.2, -21.17], WSM: [-172.1, -13.75]
 };
 
 // On the map, systems fold into three families (three categorical colours is the most a map can carry and stay
@@ -18,7 +27,7 @@ const MARKERS = {
 const FAMILIES = {
   parl: { label: 'Parliamentary', note: 'republic or constitutional monarchy', color: 'var(--c-parl)' },
   pres: { label: 'Presidential or semi-presidential', note: '', color: 'var(--c-pres)' },
-  auto: { label: 'One-party or absolute rule', note: '', color: 'var(--c-auto)' },
+  auto: { label: 'One-party or absolute rule', note: 'including theocratic and military rule', color: 'var(--c-auto)' },
   other: { label: 'Other', note: 'directorial, transitional, territory', color: 'var(--c-other)' }
 };
 const SYSTEM_TYPES = {
@@ -29,7 +38,9 @@ const SYSTEM_TYPES = {
   'absolute-monarchy': { label: 'Absolute monarchy', family: 'auto' },
   'one-party': { label: 'One-party state', family: 'auto' },
   'directorial': { label: 'Directorial', family: 'other' },
-  'theocratic': { label: 'Theocratic monarchy', family: 'auto' },
+  // The Holy See (an elective monarchy) and Iran (a republic under a supreme leader) are both theocracies.
+  'theocratic': { label: 'Theocracy', family: 'auto' },
+  'military': { label: 'Military government', family: 'auto' },
   'transitional': { label: 'Transitional', family: 'other' },
   'dependent-territory': { label: 'Autonomous territory', family: 'other' }
 };
@@ -55,7 +66,11 @@ const CAPTIONS = {
   status: 'Countries coloured by government stability. “In flux” means a government is being formed, is a caretaker, or an election or count is under way.'
 };
 
-const state = { countries: new Map(), byNumeric: new Map(), byName: new Map(), mode: 'system', selected: null, manifest: null, view: 'map', sort: { key: 'name', dir: 1 } };
+const state = { countries: new Map(), byNumeric: new Map(), byName: new Map(), mode: 'system', selected: null, manifest: null, view: 'map', sort: { key: 'name', dir: 1 }, region: '' };
+
+// The region filter groups "Europe (transcontinental)" (Russia, Turkey, the South Caucasus) with Europe.
+const regionOf = c => c.region.replace(/\s*\(.*\)$/, '');
+const inRegion = c => !state.region || regionOf(c) === state.region;
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
@@ -179,8 +194,10 @@ async function drawMap() {
   // Linear interpolation avoids d3's default fly-out/fly-in on long programmatic pans.
   zoom = d3.zoom().scaleExtent([1, 40]).interpolate(d3.interpolate).on('zoom', ev => {
     g.attr('transform', ev.transform);
-    // Keep microstate markers a constant ~4px on screen at every zoom level.
-    g.selectAll('circle.microstate').attr('r', 4 / Math.max(1, ev.transform.k));
+    // Keep microstate markers a constant ~4px on screen at every zoom level. Until the map is zoomed in they are marked
+    // "far": on a phone the browser snaps a tap on a small country (Germany) to a nearby dot (Luxembourg), so styles.css
+    // lets taps pass through far dots on narrow screens.
+    g.selectAll('circle.microstate').attr('r', 4 / Math.max(1, ev.transform.k)).classed('far', ev.transform.k < 2);
   });
   svg.call(zoom);
 
@@ -188,18 +205,106 @@ async function drawMap() {
   document.getElementById('zoom-out').onclick = () => svg.transition().call(zoom.scaleBy, 1 / 1.6);
   document.getElementById('zoom-reset').onclick = () => svg.transition().duration(600).call(zoom.transform, d3.zoomIdentity);
 
-  // Open on the northern hemisphere band from North America to Japan.
-  focusBounds([[-170, 5], [150, 72]], 0);
+  // Open on the whole world, or on the region the address names (?region=Africa).
+  svg.call(zoom.transform, d3.zoomIdentity);
+  markRegion();
+  if (state.region) focusRegion(0);
   recolor();
 }
 
-function focusBounds([[x0, y0], [x1, y1]], duration = 750) {
+// A box in degrees ([[west, south], [east, north]]) as a box in the map's own (projected) coordinates. The box is first
+// kept inside the map (±180°, ±85°): a padded box round a country near the 180° line (Fiji, Tonga, the United States'
+// west) would otherwise wrap to the far side of the map and the view would land somewhere else. Its edges are then
+// projected point by point, because Natural Earth's meridians curve, so two corners alone do not bound it.
+function projectBounds([[x0, y0], [x1, y1]]) {
+  const lon = x => Math.max(-180, Math.min(180, x)), lat = y => Math.max(-85, Math.min(85, y));
+  [x0, x1, y0, y1] = [lon(x0), lon(x1), lat(y0), lat(y1)];
+  const edge = [];
+  for (let i = 0; i <= 8; i++) {
+    const x = x0 + ((x1 - x0) * i) / 8, y = y0 + ((y1 - y0) * i) / 8;
+    edge.push([x, y0], [x, y1], [x0, y], [x1, y]);
+  }
+  const p = edge.map(projection);
+  return [[d3.min(p, q => q[0]), d3.min(p, q => q[1])], [d3.max(p, q => q[0]), d3.max(p, q => q[1])]];
+}
+function focusBounds(bounds, duration = 750) { focusBox(projectBounds(bounds), duration); }
+
+// The transform that makes a box in the map's own (projected) coordinates fill 90% of the view.
+function boxTransform([[px0, py0], [px1, py1]]) {
   const { width, height } = svg.node().viewBox.baseVal;
-  const [[px0, py0], [px1, py1]] = [projection([x0, y1]), projection([x1, y0])];
-  const k = Math.min(40, 0.9 / Math.max((px1 - px0) / width, (py1 - py0) / height));
-  const t = d3.zoomIdentity.translate(width / 2, height / 2).scale(k).translate(-(px0 + px1) / 2, -(py0 + py1) / 2);
+  const k = Math.max(1, Math.min(40, 0.9 / Math.max((px1 - px0) / width, (py1 - py0) / height)));
+  return d3.zoomIdentity.translate(width / 2, height / 2).scale(k).translate(-(px0 + px1) / 2, -(py0 + py1) / 2);
+}
+
+// Zoom so a box in the map's own (projected) coordinates fills 90% of the view.
+function focusBox(box, duration = 750) {
+  const t = boxTransform(box);
   if (duration) svg.transition().duration(duration).call(zoom.transform, t);
   else svg.call(zoom.transform, t);
+}
+
+// A country's largest polygon, so overseas territories don't stretch a zoom to the whole globe.
+function mainPolygon(f) {
+  return f.geometry.type === 'MultiPolygon'
+    ? { type: 'Polygon', coordinates: f.geometry.coordinates.reduce((a, b) => (d3.geoArea({ type: 'Polygon', coordinates: b }) > d3.geoArea({ type: 'Polygon', coordinates: a }) ? b : a)) }
+    : f.geometry;
+}
+
+/* ---------------------------------------------------------------- region filter */
+// The list is built from the records, so a region appears as soon as its first country has a record.
+function setupRegions() {
+  const select = document.getElementById('region');
+  const counts = new Map();
+  for (const c of state.countries.values()) counts.set(regionOf(c), (counts.get(regionOf(c)) || 0) + 1);
+  const names = [...counts.keys()].sort((a, b) => a.localeCompare(b));
+  select.innerHTML = `<option value="">All regions (${state.countries.size})</option>` +
+    names.map(n => `<option value="${esc(n)}">${esc(n)} (${counts.get(n)})</option>`).join('');
+  const asked = new URLSearchParams(location.search).get('region');
+  state.region = names.find(n => n.toLowerCase() === (asked || '').toLowerCase()) || '';
+  select.value = state.region;
+  select.onchange = () => {
+    state.region = select.value;
+    const params = new URLSearchParams(location.search);
+    if (state.region) params.set('region', state.region); else params.delete('region');
+    const query = params.toString();
+    history.replaceState(null, '', `${location.pathname}${query ? `?${query}` : ''}${location.hash}`);
+    markRegion();
+    if (state.view === 'table') { renderTable(); markTableRow(); }
+    if (!state.selected) renderUpcoming();
+    if (state.region) focusRegion();
+    else svg.transition().duration(600).call(zoom.transform, d3.zoomIdentity);
+  };
+}
+
+function markRegion() {
+  if (!g) return;
+  g.selectAll('path.country.active').classed('out-region', f => !inRegion(countryForFeature(f)));
+  g.selectAll('circle.microstate').classed('out-region', d => !inRegion(state.countries.get(d[0])));
+}
+
+// Zoom to the region's countries. Europe's box leaves out the transcontinental states, whose Asian territory (Russia's
+// above all) would otherwise stretch it across the continent.
+function focusRegion(duration = 750) {
+  const members = [...state.countries.values()].filter(inRegion);
+  const core = members.filter(c => c.region === state.region);
+  let boxes = [];
+  for (const c of core.length ? core : members) {
+    const node = g.select(`path.country[data-iso="${c.iso3}"]`);
+    if (!node.empty()) boxes.push(path.bounds(mainPolygon(node.datum())));
+    else if (MARKERS[c.iso3]) { const p = projection(MARKERS[c.iso3]); boxes.push([p, p]); }
+  }
+  const union = list => list.reduce(([[a, b], [c, d]], [[e, f], [h, i]]) => [[Math.min(a, e), Math.min(b, f)], [Math.max(c, h), Math.max(d, i)]]);
+  if (!boxes.length) return;
+  // A region that wraps round the edge of the map (Oceania: Tonga and Samoa lie west of the 180° line, Australia east
+  // of it) would fill the whole width, so it is shown from the side that holds most of its countries.
+  const { width } = svg.node().viewBox.baseVal;
+  const [[x0], [x1]] = union(boxes);
+  if (x1 - x0 > 0.6 * width) {
+    const west = boxes.filter(([[a], [c]]) => (a + c) / 2 < width / 2), east = boxes.filter(b => !west.includes(b));
+    boxes = west.length > east.length ? west : east;
+  }
+  const [[bx0, by0], [bx1, by1]] = union(boxes);
+  focusBox([[bx0 - 10, by0 - 10], [bx1 + 10, by1 + 10]], duration);
 }
 
 function showTip(ev, c, fallbackName) {
@@ -259,22 +364,25 @@ function select(iso3, fromMap = false) {
   if (!fromMap) zoomTo(iso3);
 }
 
+// The box in degrees that a selection frames: round a country's largest polygon (so overseas territories don't zoom out
+// to the whole globe), or round its marker dot.
+function shapeBounds(f) {
+  let [[x0, y0], [x1, y1]] = d3.geoBounds(mainPolygon(f));
+  // A polygon that crosses the 180° line (Russia's mainland reaches Chukotka) comes back with its east edge west of its
+  // west edge: keep the side of the line that holds more of it.
+  if (x1 < x0) { if (180 - x0 >= x1 + 180) x1 = 180; else x0 = -180; }
+  // Room round the country: 1.2 times its width, at least 8° and at most 25° a side, so a large country (the United
+  // States, Australia) still fills the view rather than a hemisphere.
+  const pad = Math.max(8, Math.min(25, (x1 - x0) * 1.2));
+  return [[x0 - pad, y0 - pad / 2], [x1 + pad, y1 + pad / 2]];
+}
+// projectBounds keeps the box inside ±180°, or a box round Tuvalu (179.2°E) would wrap to the far side of the map.
+const markerBounds = ([lon, lat]) => [[lon - 4, lat - 3], [lon + 4, lat + 3]];
+
 function zoomTo(iso3) {
   const node = g.select(`path.country[data-iso="${iso3}"]`);
-  if (!node.empty()) {
-    // Use the largest polygon so overseas territories don't zoom out to the whole globe.
-    const f = node.datum();
-    const geom = f.geometry.type === 'MultiPolygon'
-      ? { type: 'Polygon', coordinates: f.geometry.coordinates.reduce((a, b) => (d3.geoArea({ type: 'Polygon', coordinates: b }) > d3.geoArea({ type: 'Polygon', coordinates: a }) ? b : a)) }
-      : f.geometry;
-    const [[x0, y0], [x1, y1]] = d3.geoBounds(geom);
-    const pad = Math.max(8, (x1 - x0) * 1.2);
-    return focusBounds([[x0 - pad, y0 - pad / 2], [x1 + pad, y1 + pad / 2]]);
-  }
-  if (MARKERS[iso3]) {
-    const [lon, lat] = MARKERS[iso3];
-    focusBounds([[lon - 4, lat - 3], [lon + 4, lat + 3]]);
-  }
+  if (!node.empty()) return focusBounds(shapeBounds(node.datum()));
+  if (MARKERS[iso3]) focusBounds(markerBounds(MARKERS[iso3]));
 }
 
 function personCard(role, p, extraClass = '') {
@@ -368,6 +476,7 @@ function renderUpcoming() {
   const now = Date.now();
   const rows = [];
   for (const c of state.countries.values()) {
+    if (!inRegion(c)) continue;
     for (const e of c.elections) {
       const dt = parseDate(e.date);
       if (e.status === 'upcoming' && dt && dt.getTime() >= now - DAY && dt.getTime() - now < 400 * DAY) rows.push({ c, e, dt });
@@ -399,7 +508,7 @@ function renderTable() {
   const { key, dir } = state.sort;
   const value = COLUMNS.find(col => col[0] === key)[2];
   const cmp = (x, y) => (typeof x === 'number' ? (x === y ? 0 : x < y ? -1 : 1) : String(x).localeCompare(String(y)));
-  const rows = [...state.countries.values()].sort((a, b) => cmp(value(a), value(b)) * dir || a.name.localeCompare(b.name));
+  const rows = [...state.countries.values()].filter(inRegion).sort((a, b) => cmp(value(a), value(b)) * dir || a.name.localeCompare(b.name));
   table.tHead.innerHTML = `<tr>${COLUMNS.map(([k, label]) => `<th scope="col"${k === key ? ` aria-sort="${dir > 0 ? 'ascending' : 'descending'}"` : ''}>` +
     `<button type="button" class="sort" data-sort="${k}">${label}<span class="arrow" aria-hidden="true">${k === key ? (dir > 0 ? '↑' : '↓') : '↕'}</span></button></th>`).join('')}</tr>`;
   table.tBodies[0].innerHTML = rows.map(c => {
@@ -481,10 +590,13 @@ function setupSearch() {
   let active = 0, results = [];
   const render = () => {
     const q = input.value.trim().toLowerCase();
+    // A country whose name or code matches comes first, then one where the person found is the leader the tooltip names,
+    // then one where they hold the other office: "Macron" opens France before Andorra, where he is co-prince.
+    const rank = c => (c.name.toLowerCase().includes(q) || c.iso3.toLowerCase() === q ? 0 : leaderOf(c).name.toLowerCase().includes(q) ? 1 : 2);
     results = q ? [...state.countries.values()]
       .filter(c => c.name.toLowerCase().includes(q) || c.iso3.toLowerCase() === q
         || c.executive.headOfGovernment.name.toLowerCase().includes(q) || c.executive.headOfState.name.toLowerCase().includes(q))
-      .sort((a, b) => a.name.localeCompare(b.name)).slice(0, 10) : [];
+      .sort((a, b) => rank(a) - rank(b) || a.name.localeCompare(b.name)).slice(0, 10) : [];
     active = 0;
     list.hidden = !results.length;
     list.innerHTML = results.map((c, i) => `<li role="option" data-iso="${c.iso3}" aria-selected="${i === active}">
@@ -523,6 +635,7 @@ function setupModes() {
 (async function init() {
   try {
     await loadData();
+    setupRegions();
     renderUpcoming();
     setupSearch();
     setupTable();
