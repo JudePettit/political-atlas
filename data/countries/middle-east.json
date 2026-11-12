@@ -1,0 +1,798 @@
+[
+  {
+    "iso3": "ARE",
+    "iso2": "ae",
+    "numeric": "784",
+    "name": "United Arab Emirates",
+    "region": "Middle East",
+    "system": "Federation of seven hereditary emirates. The Federal Supreme Council of the seven rulers elects the president, and the Federal National Council is a consultative body.",
+    "systemType": "absolute-monarchy",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Mohamed bin Zayed Al Nahyan",
+        "title": "President of the United Arab Emirates and Ruler of Abu Dhabi",
+        "since": "2022-05-14"
+      },
+      "headOfGovernment": {
+        "name": "Mohammed bin Rashid Al Maktoum",
+        "title": "Vice President, Prime Minister and Ruler of Dubai",
+        "since": "2006-02-11"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "Federal National Council",
+        "control": "No political parties. Half the members are chosen by emirate-level electoral colleges and half are appointed by the rulers of the seven emirates. The council is consultative and has no binding legislative power. Its speaker is Saqr Ghobash.",
+        "detail": "40 seats: 20 elected by electoral colleges on 7 October 2023 and 20 appointed. By emirate: Abu Dhabi 8, Dubai 8, Sharjah 6, Ras Al Khaimah 6, Ajman 4, Fujairah 4, Umm Al Quwain 4."
+      }
+    ],
+    "judiciary": "The Federal Supreme Court in Abu Dhabi is the highest federal court. Its chief justice and judges are appointed by presidential decree after the Federal Supreme Council approves them, and its judgments are final and binding. Some emirates, including Dubai and Ras Al Khaimah, run their own court systems with local courts of cassation. The judiciary does not act as an independent check on the rulers.",
+    "elections": [
+      {
+        "name": "Federal National Council election (indirect, electoral college)",
+        "date": "2023-10-07",
+        "status": "held",
+        "note": "Electoral colleges chose 20 of the 40 council members. The vote was held fully electronically, with turnout of about 44% of electoral college members. No parties took part."
+      },
+      {
+        "name": "Federal National Council election (indirect, electoral college)",
+        "date": "2027",
+        "status": "upcoming",
+        "note": "The next election for the 20 elected seats is expected by October 2027."
+      }
+    ],
+    "synopsis": "The United Arab Emirates is a federation of seven hereditary monarchies. Power rests with the rulers' Federal Supreme Council, led by President Mohamed bin Zayed Al Nahyan, the Ruler of Abu Dhabi. Dubai's ruler, Mohammed bin Rashid Al Maktoum, serves as vice president and prime minister and chairs the federal cabinet. In 2026 the country was drawn into the regional war that followed US-Israeli strikes on Iran, coming under Iranian missile and drone attacks.",
+    "policies": [
+      "Diversifying the economy away from oil through trade, finance, tourism, technology and artificial intelligence",
+      "Long-term government development plans, reviewed at the annual UAE Government Meetings",
+      "Building up air defence and national security after the Iranian attacks in 2026",
+      "An active foreign policy built on close security and economic ties with the United States and other partners",
+      "Limited, gradual political participation through partly elected Federal National Council seats"
+    ],
+    "challenges": [
+      "Iranian missile and drone attacks during the 2026 Iran war, including strikes after the 8 April 2026 ceasefire",
+      "International accusations, which the UAE denies, that it supports the Rapid Support Forces in Sudan's civil war",
+      "Growing rivalry with Saudi Arabia over Yemen, Sudan and the Red Sea",
+      "Human rights groups' criticism of limits on political freedoms and free expression",
+      "Exposure to regional instability and oil-market swings, including disruption around the Strait of Hormuz"
+    ],
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "iso3": "BHR",
+    "iso2": "bh",
+    "numeric": "048",
+    "name": "Bahrain",
+    "region": "Middle East",
+    "system": "Hereditary monarchy with an elected lower house and an appointed upper house, in which the king holds broad executive, legislative and judicial appointment powers",
+    "systemType": "absolute-monarchy",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Hamad bin Isa Al Khalifa",
+        "title": "King",
+        "since": "1999-03-06"
+      },
+      "headOfGovernment": {
+        "name": "Salman bin Hamad Al Khalifa",
+        "title": "Crown Prince and Prime Minister",
+        "since": "2020-11-11"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "Council of Representatives (Majlis an-Nuwab)",
+        "control": "Mostly independents who back the government; the main opposition societies are dissolved and their members barred from running",
+        "detail": "40 seats elected in single-member constituencies by a two-round vote (12 and 19 November 2022); Speaker Ahmed bin Salman Al-Musallam. A royal order of 29 April 2026 extended the term by one year from 12 December 2026."
+      },
+      {
+        "name": "Shura Council (Majlis ash-Shura)",
+        "control": "All members are appointed by the King",
+        "detail": "40 appointed members; term extended by one year from 12 December 2026 by the same royal order"
+      }
+    ],
+    "judiciary": "The Court of Cassation is the highest court of appeal, and a Constitutional Court rules on whether laws are constitutional. Judges are appointed by royal decree, and the Supreme Judicial Council is headed by the King. International human rights groups have criticised mass trials of opposition figures and the courts' role in revoking citizenship since the 2011 unrest.",
+    "elections": [
+      {
+        "name": "Council of Representatives election",
+        "date": "2022-11-12",
+        "status": "held",
+        "note": "First round on 12 November and runoffs on 19 November 2022 filled all 40 seats, mostly with independent candidates. Dissolved opposition groups such as Al-Wefaq could not take part, and critics called the vote a sham."
+      },
+      {
+        "name": "Council of Representatives election",
+        "date": "2027",
+        "status": "upcoming",
+        "note": "Originally due in November 2026. Royal Order No. 13 of 29 April 2026 extended the sixth legislative term to December 2027, so the vote is expected in late 2027."
+      }
+    ],
+    "synopsis": "Bahrain is a hereditary monarchy ruled by the Al Khalifa family. King Hamad bin Isa Al Khalifa holds wide powers, and his son, Crown Prince Salman bin Hamad, has run the government as Prime Minister since November 2020. In April 2026, citing the wartime situation, the King extended the elected parliament's term by one year and postponed the election due in November 2026 to late 2027. Iran has struck Bahrain with missiles and drones throughout the 2026 Iran war.",
+    "policies": [
+      "Close security partnership with the United States, which bases its Fifth Fleet naval headquarters in Bahrain",
+      "Moving the economy away from oil under Economic Vision 2030, with a focus on finance, logistics and tourism",
+      "Restoring the public finances and reducing public debt under a fiscal balance programme backed by Gulf partners",
+      "Normalised relations with Israel under the 2020 Abraham Accords"
+    ],
+    "challenges": [
+      "Iranian missile and drone strikes on Bahrain, including on US military sites and civilian infrastructure, during the 2026 Iran war",
+      "High public debt and budget deficits that depend on oil prices",
+      "Long-running political tension with the opposition and the Shia community since the 2011 protests, including the ban on opposition societies",
+      "International criticism of the human rights record, including the treatment of political prisoners and revoked citizenship",
+      "Delaying the parliamentary election beyond the normal four-year cycle"
+    ],
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "iso3": "IRN",
+    "iso2": "ir",
+    "numeric": "364",
+    "name": "Iran",
+    "region": "Middle East",
+    "system": "Islamic republic; unitary theocratic system in which an unelected Supreme Leader stands above an elected president and parliament",
+    "systemType": "theocratic",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Mojtaba Khamenei",
+        "title": "Supreme Leader",
+        "since": "2026-03-08"
+      },
+      "headOfGovernment": {
+        "name": "Masoud Pezeshkian",
+        "title": "President",
+        "since": "2024-07-28"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "Islamic Consultative Assembly (Majlis)",
+        "control": "Conservative (principlist) majority",
+        "detail": "290 seats, elected in March and May 2024. Speaker Mohammad Bagher Ghalibaf, a former Revolutionary Guards commander, was re-elected for a seventh consecutive term in May 2026 with 235 of 271 votes cast. Laws must be approved by the unelected Guardian Council."
+      }
+    ],
+    "judiciary": "The judiciary is headed by Gholam-Hossein Mohseni-Eje'i, appointed by and answerable to the Supreme Leader, who reappointed him for a further five-year term in July 2026. The Guardian Council of clerics and jurists reviews legislation and vets election candidates. Rights groups accuse the judiciary of a central role in prosecuting dissent, and it called for harsh treatment of protesters in early 2026.",
+    "elections": [
+      {
+        "name": "Presidential election",
+        "date": "2024-07-05",
+        "status": "held",
+        "note": "Snap election after the death of President Ebrahim Raisi. In the runoff, Masoud Pezeshkian, backed by reformists, defeated Saeed Jalili with about 54% of the vote."
+      },
+      {
+        "name": "Parliamentary election",
+        "date": "2028",
+        "status": "upcoming",
+        "note": "Due by law at the end of the four-year term of the parliament elected in 2024."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2028",
+        "status": "upcoming",
+        "note": "Due by law at the end of the four-year presidential term."
+      }
+    ],
+    "synopsis": "Iran is an Islamic republic where the Supreme Leader holds final authority over the armed forces, judiciary and state policy. The second Supreme Leader, Ali Khamenei, was killed on 28 February 2026, when the United States and Israel went to war with Iran. After a brief interim leadership council, the Assembly of Experts chose his son Mojtaba Khamenei as successor. A Pakistan-brokered ceasefire took effect in April 2026, but the dispute over the Strait of Hormuz and the US blockade remains unresolved, and talks continue only intermittently through mediators.",
+    "policies": [
+      "Keeping the Strait of Hormuz closed until the United States accepts Iran's seven conditions for ending the war",
+      "Indirect negotiations with the United States through Pakistani and Qatari mediators, led by Parliament Speaker Ghalibaf",
+      "Standing orders from the Supreme Leader for an immediate and geographically unrestricted military response to any new attack",
+      "Seeking to return to talks on the nuclear programme as part of any settlement",
+      "Strengthening ties with China, including Ghalibaf's role as special envoy to Beijing"
+    ],
+    "challenges": [
+      "Unresolved war with the United States and Israel under a fragile ceasefire, with continuing threats of renewed strikes",
+      "US naval blockade and economic isolation campaign, deepening economic pressure and sanctions",
+      "Wartime losses among senior officials and commanders, including the Supreme Leader, the defence and intelligence ministers, and Supreme National Security Council secretary Ali Larijani",
+      "Domestic unrest and rights concerns following the protests of early 2026",
+      "City and village council elections, due in May 2026, postponed indefinitely until after the war; any new date requires Supreme National Security Council approval"
+    ],
+    "lastVerified": "2026-11-12",
+    "reviewNote": "Seat counts by bloc in the Majlis from the 2024 election could not be confirmed. The new date for the postponed seventh city and village council elections is not known. Some reports give 9 March 2026 as the date of Mojtaba Khamenei's appointment because of when it was announced."
+  },
+  {
+    "iso3": "IRQ",
+    "iso2": "iq",
+    "numeric": "368",
+    "name": "Iraq",
+    "region": "Middle East",
+    "system": "Federal parliamentary republic; the president is elected by parliament and top offices are shared among communities by informal quota (muhasasa)",
+    "systemType": "parliamentary-republic",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Nizar Amidi",
+        "title": "President",
+        "party": "Patriotic Union of Kurdistan",
+        "since": "2026-04-11"
+      },
+      "headOfGovernment": {
+        "name": "Ali al-Zaidi",
+        "title": "Prime Minister",
+        "since": "2026-05-14"
+      },
+      "governingParties": [
+        "Coordination Framework",
+        "Reconstruction and Development Coalition",
+        "State of Law Coalition",
+        "Sadiqoun (Asaib Ahl al-Haq)",
+        "Kurdistan Democratic Party",
+        "Patriotic Union of Kurdistan",
+        "Taqaddum (Progress Party)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Council of Representatives",
+        "control": "Broad governing coalition led by the Shia Coordination Framework (about 165 seats) together with Kurdish and Sunni parties; Speaker Haibat al-Halbousi (elected 2025-12-29)",
+        "detail": "329 seats (November 2025 election): Reconstruction and Development Coalition 46, State of Law 29, Sadiqoun 27, Taqaddum 27; 9 seats reserved for minorities"
+      }
+    ],
+    "judiciary": "The Federal Supreme Court interprets the constitution, rules on disputes between federal and regional authorities, and ratifies election results. The Supreme Judicial Council runs the courts. The Federal Supreme Court's rulings on the caretaker government's powers, parliament's power to oversee the executive, and the Kurdistan Region's salaries and finances have often shaped relations between Baghdad, Erbil and the other branches.",
+    "elections": [
+      {
+        "name": "Council of Representatives election",
+        "date": "2025-11-11",
+        "status": "held",
+        "note": "No bloc won a majority. Mohammed Shia al-Sudani's Reconstruction and Development Coalition came first with 46 of 329 seats, ahead of State of Law with 29. Parliament elected the president in April 2026, and Ali al-Zaidi's government won its confidence vote on 2026-05-14."
+      },
+      {
+        "name": "Presidential election (by the Council of Representatives)",
+        "date": "2026-04-11",
+        "status": "held",
+        "note": "Nizar Amidi (Patriotic Union of Kurdistan) was elected with 227 votes after five months of deadlock."
+      },
+      {
+        "name": "Council of Representatives election",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due by law at the end of the four-year parliamentary term; no date set."
+      }
+    ],
+    "synopsis": "Iraq is governed by Prime Minister Ali al-Zaidi, a businessman with no party. The Shia Coordination Framework nominated him as a compromise candidate after the November 2025 election left no bloc with a majority. His government took office in May 2026 with only part of its cabinet, and parliament filled most of the rest, including defence and interior, in October 2026. It governs while trying to keep Iraq out of the conflict between the United States and Iran.",
+    "policies": [
+      "Economic reform and attracting foreign investment under an 'Invest with Iraq' agenda",
+      "Fighting corruption and strengthening state institutions",
+      "Bringing Iran-aligned armed groups under state control step by step through dialogue, with a new target of June 2027",
+      "Stopping Iraqi territory from being used to launch attacks on neighbouring states"
+    ],
+    "challenges": [
+      "Disarming or bringing in Iran-aligned armed factions, some of which now have cabinet posts",
+      "Fallout from the United States–Iran conflict and pressure from Washington, Tehran and Gulf states",
+      "An oil-dependent economy hit by regional instability",
+      "Long-standing corruption and a quota-based system that slows forming governments",
+      "Disputes between Baghdad and the Kurdistan Regional Government over budgets and powers"
+    ],
+    "lastVerified": "2026-11-12",
+    "reviewNote": "Sources disagree on some 2025 seat counts. The KDP is given 26 or 27, the PUK 15 to 18, and Taqaddum 27 or 30 (the record uses 27). The KDP and PUK figures are left out. Exactly which parties are in government could not be confirmed. As of October 2026, the vote on the migration and displacement minister was still postponed."
+  },
+  {
+    "iso3": "JOR",
+    "iso2": "jo",
+    "numeric": "400",
+    "name": "Jordan",
+    "region": "Middle East",
+    "system": "Hereditary constitutional monarchy in which the king holds broad executive power, with a partly elected bicameral parliament",
+    "systemType": "absolute-monarchy",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Abdullah II",
+        "title": "King",
+        "since": "1999-02-07"
+      },
+      "headOfGovernment": {
+        "name": "Jafar Hassan",
+        "title": "Prime Minister",
+        "since": "2024-09"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "House of Representatives (Majlis al-Nuwab)",
+        "control": "No party majority; the house is dominated by independents and parties seen as loyal to the government, and the Islamist Umma Party (formerly the Islamic Action Front) is the largest single party and leads the opposition",
+        "detail": "138 seats, elected 10 September 2024: Islamic Action Front (renamed Umma Party in 2026) 31, National Charter Party 21, Eradah Party 19, Progress (Taqadum) Party 8, National Islamic Party 7, others and independents the rest. Ibrahim Al-Tarawneh was elected Speaker in November 2026 at the start of the 20th Parliament's third ordinary session."
+      },
+      {
+        "name": "Senate (Majlis al-Aayan)",
+        "control": "All members are appointed by the King",
+        "detail": "The King reappointed Faisal Al-Fayez as Senate President from 25 October 2026."
+      }
+    ],
+    "judiciary": "The Court of Cassation heads the ordinary courts, and its president also chairs the Judicial Council. A Constitutional Court rules on whether laws are constitutional. Judges are appointed by royal decree, and the courts are generally not seen as a check on the monarchy's executive power.",
+    "elections": [
+      {
+        "name": "House of Representatives election",
+        "date": "2024-09-10",
+        "status": "held",
+        "note": "This was the first election under the 2022 reforms that set aside 41 seats for national party lists. The Islamic Action Front won the most seats (31 of 138), followed by the National Charter Party (21), Eradah (19) and Taqadum (8)."
+      },
+      {
+        "name": "House of Representatives election",
+        "date": "2028",
+        "status": "upcoming",
+        "note": "Due by law at the end of the four-year term; the King may dissolve parliament earlier."
+      }
+    ],
+    "synopsis": "Jordan is a Hashemite monarchy in which King Abdullah II, on the throne since 1999, appoints the prime minister, the cabinet and the Senate and sets national policy. Prime Minister Jafar Hassan, a former chief of the Royal Court, has led an appointed government since September 2024. The 138-seat House of Representatives was elected in 2024 under reforms meant to expand party politics. The Islamist Islamic Action Front won the most seats in that election and was renamed the Umma Party in 2026.",
+    "policies": [
+      "Carrying out the Economic Modernisation Vision through its second executive programme (2026-2029), focused on megaprojects, investment and job creation",
+      "Gradual political modernisation, with a growing share of parliamentary seats elected from national party lists",
+      "Security crackdown on the Muslim Brotherhood, whose activities were banned in April 2025",
+      "Diplomacy in support of a Palestinian state and Jordan's custodianship of holy sites in Jerusalem",
+      "Close security and economic partnership with the United States and Gulf states"
+    ],
+    "challenges": [
+      "High unemployment, especially among young people, together with public debt and dependence on foreign aid",
+      "Regional conflict spilling over, including the effects of the Gaza war and missile and drone threats in its airspace",
+      "Militant violence, including the 23 October 2026 shooting at a church funeral in Karak governorate that killed nine people",
+      "Instability and smuggling along the Syrian border",
+      "Hosting large refugee populations while water resources are scarce"
+    ],
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "iso3": "KWT",
+    "iso2": "kw",
+    "numeric": "414",
+    "name": "Kuwait",
+    "region": "Middle East",
+    "system": "Hereditary emirate under the 1962 constitution, ruled by emiri decree since the elected National Assembly was suspended in May 2024",
+    "systemType": "absolute-monarchy",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Sheikh Mishal Al-Ahmad Al-Jaber Al-Sabah",
+        "title": "Emir",
+        "since": "2023-12-16"
+      },
+      "headOfGovernment": {
+        "name": "Sheikh Ahmad Abdullah Al-Ahmad Al-Sabah",
+        "title": "Prime Minister",
+        "since": "2024-04-15"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "National Assembly (Majlis al-Umma)",
+        "control": "Dissolved and suspended by emiri decree on 10 May 2024 for up to four years, along with several articles of the constitution. Laws are now issued as emiri decree-laws. Political parties are not legal, so all candidates run as independents.",
+        "detail": "Last elected on 4 April 2024: 50 elected seats, plus cabinet ministers who sit ex officio. Opposition candidates won 29 of the 50 seats. Shia candidates won 8 seats and the Islamic Constitutional Movement won 1."
+      }
+    ],
+    "judiciary": "The Constitutional Court rules on whether laws are constitutional, and the Court of Cassation is the highest court of appeal. In September 2026 the Court of Cassation issued final rulings convicting and sentencing a group of former National Assembly members, activists and bloggers, which human rights groups criticised.",
+    "elections": [
+      {
+        "name": "National Assembly election",
+        "date": "2024-04-04",
+        "status": "held",
+        "note": "This snap election was the fourth in four years. Opposition candidates kept 29 of the 50 elected seats. The emir dissolved and suspended the new Assembly in May 2024 for up to four years. No national election is scheduled while the suspension lasts."
+      }
+    ],
+    "synopsis": "Kuwait is a hereditary emirate ruled by the Al-Sabah family. Emir Mishal Al-Ahmad Al-Jaber Al-Sabah dissolved the elected National Assembly in May 2024 and suspended parts of the constitution for up to four years, and he has governed by decree since then through a cabinet led by Prime Minister Sheikh Ahmad Abdullah Al-Ahmad Al-Sabah. In 2026 the country faced Iranian missile and drone strikes during the regional Iran war, along with a widening budget deficit.",
+    "policies": [
+      "Governing by emiri decree-law while parliament is suspended, including a February 2026 cabinet reshuffle that changed seven ministries",
+      "A broad review of nationality that has stripped citizenship from thousands of people, with further revocation decrees through 2026",
+      "Speeding up major development and digital-government projects under a ministerial follow-up committee",
+      "Increased government borrowing to cover budget deficits, with a projected deficit of about KD 9.8 billion for 2026-27",
+      "Keeping a close security alliance with the United States, which has military bases in Kuwait"
+    ],
+    "challenges": [
+      "Iranian missile and drone attacks on US bases and Kuwaiti infrastructure, including power and water plants, during the 2026 Iran war",
+      "Heavy reliance on oil revenue and growing fiscal deficits",
+      "Uncertainty over whether and when the National Assembly will return; a promised constitutional review committee had not been formed as of late 2025",
+      "Rights concerns over citizenship revocations and the prosecution of former MPs and critics",
+      "The health and age of the emir and the succession; the emir travelled to the United States for medical checkups in November 2026"
+    ],
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "iso3": "LBN",
+    "iso2": "lb",
+    "numeric": "422",
+    "name": "Lebanon",
+    "region": "Middle East",
+    "system": "Unitary parliamentary republic with confessional power-sharing (Maronite president, Sunni prime minister, Shia speaker)",
+    "systemType": "parliamentary-republic",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Joseph Aoun",
+        "title": "President",
+        "since": "2025-01-09"
+      },
+      "headOfGovernment": {
+        "name": "Nawaf Salam",
+        "title": "Prime Minister",
+        "since": "2025-02-08"
+      },
+      "governingParties": [
+        "Lebanese Forces",
+        "Amal Movement",
+        "Hezbollah",
+        "Progressive Socialist Party",
+        "Kataeb Party"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Parliament (Majlis al-Nuwab)",
+        "control": "No single party or bloc has a majority; parliament is split between groups. The Salam government kept its confidence on 16 September 2026 by 68 votes to 12, with 2 abstentions. Speaker: Nabih Berri (Amal Movement).",
+        "detail": "128 seats, elected 15 May 2022. Largest blocs: Strong Republic (Lebanese Forces-led) 19, Strong Lebanon (Free Patriotic Movement-led) 18, Development and Liberation (Amal) 15, Loyalty to the Resistance (Hezbollah) 15; the rest are smaller parties, reformist/civil-society MPs and independents. On 9 March 2026 parliament extended its own term by two years, to 31 May 2028 (76 for, 41 against, 4 abstentions)."
+      }
+    ],
+    "judiciary": "The Constitutional Council reviews whether laws are constitutional, the Court of Cassation is the highest ordinary court and the Council of State is the top administrative court. On 7 April 2026 the Constitutional Council rejected an appeal by Christian parties and upheld the law extending parliament's term, but said parliament has a duty to hold elections once the war conditions end.",
+    "elections": [
+      {
+        "name": "Parliamentary election",
+        "date": "2022-05-15",
+        "status": "held",
+        "note": "Hezbollah and its allies lost their majority. The Lebanese Forces became the largest bloc (19 seats); the Free Patriotic Movement-led bloc fell to 18; Amal and Hezbollah held 15 each and kept all the Shia seats; about a dozen or more reformist newcomers won seats."
+      },
+      {
+        "name": "Presidential election (by parliament)",
+        "date": "2025-01-09",
+        "status": "held",
+        "note": "Army commander Joseph Aoun was elected in the second round, ending a presidential vacancy that began in October 2022."
+      },
+      {
+        "name": "Parliamentary election",
+        "date": "2028",
+        "status": "upcoming",
+        "note": "Originally due in May 2026 but postponed when parliament extended its term to 31 May 2028 because of the war. No date has been set."
+      }
+    ],
+    "synopsis": "Lebanon is governed under a confessional power-sharing system. President Joseph Aoun, elected in January 2025, and Prime Minister Nawaf Salam, whose 24-minister cabinet was formed in February 2025, lead the state. Lebanon was drawn into the regional war in March 2026; a temporary Israel-Lebanon ceasefire has applied since 16 April 2026, though Israeli strikes continue and Israel occupies parts of the south. Parliament has postponed elections to 2028.",
+    "policies": [
+      "Bringing all weapons under state control: the cabinet approved a US-backed roadmap and welcomed an army plan to disarm Hezbollah",
+      "Direct US-mediated talks with Israel; the eighth round took place in the United States on 20 October 2026",
+      "Upholding the ceasefire of 16 April 2026 and the conditional ceasefire framework agreed in Washington in June 2026",
+      "Financial and administrative reform, including a forensic audit tied to the Finance Ministry, plus negotiations on the minimum wage"
+    ],
+    "challenges": [
+      "Continuing Israeli air strikes and shelling, and Israel's occupation of parts of southern Lebanon",
+      "Hezbollah refuses to give up its weapons; Shia ministers have walked out of cabinet sessions on disarmament",
+      "Tension inside the cabinet: Lebanese Forces ministers walked out of a cabinet session on 22 October 2026",
+      "Disputed postponement of the 2026 parliamentary elections to 2028",
+      "Economic and financial collapse since 2019, plus war damage, displacement and reconstruction needs"
+    ],
+    "lastVerified": "2026-11-12",
+    "reviewNote": "Lebanese Forces ministers walked out of the cabinet on 22 October 2026. Sources describe strained relations with PM Salam, but none confirm whether the party has formally left the government, so it is still listed as governing. Several ministers were nominated by parties but are presented as non-partisan technocrats."
+  },
+  {
+    "iso3": "OMN",
+    "iso2": "om",
+    "numeric": "512",
+    "name": "Oman",
+    "region": "Middle East",
+    "system": "Absolute monarchy (sultanate) with a partly elected advisory bicameral Council of Oman",
+    "systemType": "absolute-monarchy",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Haitham bin Tariq Al Said",
+        "title": "Sultan",
+        "since": "2020-01-11"
+      },
+      "headOfGovernment": {
+        "name": "Haitham bin Tariq Al Said",
+        "title": "Prime Minister",
+        "since": "2020-01-11"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "Majlis al-Shura (Shura Council / Consultative Assembly)",
+        "control": "Non-partisan; political parties are not permitted. Members are elected as independents, and the chamber advises and has limited legislative powers.",
+        "detail": "90 elected members, chosen on 29 October 2023 for the 2023-2027 term; no women were elected. In June 2026 the Sultan directed that 11 more seats be reserved for women, one per governorate. Chairman: Khalid Al Mawali."
+      },
+      {
+        "name": "Majlis al-Dawla (State Council)",
+        "control": "All members appointed by the Sultan",
+        "detail": "Members for the current term were appointed by Royal Decree 75/2023 in November 2023, including 18 women. Speaker: Abdul Malik bin Abdullah Al Khalili."
+      }
+    ],
+    "judiciary": "The courts, headed by the Supreme Court, are overseen by the Supreme Judicial Council, which the Sultan chairs. They sit outside the Ministry of Justice and Legal Affairs, but final authority rests with the monarch.",
+    "elections": [
+      {
+        "name": "Majlis al-Shura election",
+        "date": "2023-10-29",
+        "status": "held",
+        "note": "90 non-partisan members were elected to the tenth term (2023-2027), with voting held through an app. Reported turnout was a record 65.88%. No woman won a seat."
+      },
+      {
+        "name": "Municipal council elections (fourth term)",
+        "date": "2026-12-27",
+        "status": "upcoming",
+        "note": "Voting inside Oman is on 27 December 2026, and voting abroad is on 20 December 2026. 763 candidates are reported."
+      },
+      {
+        "name": "Majlis al-Shura election",
+        "date": "2027",
+        "status": "upcoming",
+        "note": "Due at the end of the 2023-2027 term. The IPU gives 31 October 2027 as the expected date. This will be the first election with 11 seats reserved for women."
+      }
+    ],
+    "synopsis": "Oman is a hereditary sultanate. Sultan Haitham bin Tariq has ruled since January 2020 and is also prime minister, and he holds the defence, foreign-policy and finance portfolios. Crown Prince Theyazin bin Haitham is a deputy prime minister. The partly elected Council of Oman advises the Sultan and has limited legislative powers, and no political parties exist. Since March 2026 the country has been caught up in the regional war involving Iran and the Strait of Hormuz crisis.",
+    "policies": [
+      "Economic diversification and reform under the Oman Vision 2040 plan",
+      "Fiscal consolidation and new sources of revenue; the budget was in surplus for the first nine months of 2026",
+      "Mediation and neutral diplomacy, including talks on reopening the Strait of Hormuz",
+      "Gradual widening of political participation, such as seats in the Shura Council reserved for women",
+      "Large state-led housing and urban projects such as Sultan Haitham City"
+    ],
+    "challenges": [
+      "Iranian drone and missile strikes since March 2026 on Omani ports, including Duqm and Salalah",
+      "The Strait of Hormuz crisis and its effect on shipping and energy exports",
+      "Uncertain relations with the United States during the Iran conflict",
+      "Continued dependence on oil and gas revenue",
+      "Creating jobs for a young national workforce"
+    ],
+    "lastVerified": "2026-11-12",
+    "reviewNote": "The total number of State Council members appointed in 2023 could not be confirmed. The exact date of the 2027 Shura Council election has not been officially set."
+  },
+  {
+    "iso3": "PSE",
+    "iso2": "ps",
+    "numeric": "275",
+    "name": "Palestine",
+    "region": "Middle East",
+    "system": "Semi-presidential system under the Palestinian Authority, with the president ruling by decree since the legislature stopped meeting in 2007",
+    "systemType": "semi-presidential",
+    "status": "in-flux",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Mahmoud Abbas",
+        "title": "President of the State of Palestine and of the Palestinian Authority; Chairman of the PLO",
+        "party": "Fatah",
+        "since": "2005-01-15"
+      },
+      "headOfGovernment": {
+        "name": "Mohammad Mustafa",
+        "title": "Prime Minister",
+        "since": "2024-03-31"
+      },
+      "governingParties": [
+        "Fatah"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Palestinian Legislative Council",
+        "control": "Not functioning: it has not met since 2007 and was ordered dissolved by the Supreme Constitutional Court in 2018. The president governs by decree.",
+        "detail": "Last elected in 2006 (132 seats): Hamas's Change and Reform list 74, Fatah 45, others 13. The election due in November 2026 was postponed to 11 September 2027."
+      }
+    ],
+    "judiciary": "The top courts are the Supreme Constitutional Court and the High Court under the High Judicial Council. The Constitutional Court's 2018 ruling to dissolve the Legislative Council, and presidential decrees reorganising the judiciary, have drawn criticism that the courts are not independent of the presidency.",
+    "elections": [
+      {
+        "name": "Local elections",
+        "date": "2026-04-25",
+        "status": "held",
+        "note": "First local elections to include part of Gaza since 2006: 183 councils in the West Bank plus Deir al-Balah. Turnout was 56% in the West Bank and 23% in Deir al-Balah. Fatah said it won most councils, including Jenin. Most other PLO groups did not take part."
+      },
+      {
+        "name": "Presidential and Legislative Council elections",
+        "date": "2027-09-11",
+        "status": "upcoming",
+        "note": "A decree of 10 October 2026 postponed the Legislative Council vote set for 28 November 2026 and combined it with the presidential election, which had been expected in early 2027. Abbas blamed Israeli obstacles. Israel's foreign minister accused him of evading elections."
+      }
+    ],
+    "synopsis": "The State of Palestine is governed in the West Bank by the Ramallah-based Palestinian Authority, led by President Mahmoud Abbas, who has ruled by decree since his term was due to end in 2009, with Mohammad Mustafa as prime minister. Gaza is under a separate interim arrangement set by the US-backed peace plan and UN Security Council Resolution 2803, with a technocratic National Committee for the Administration of Gaza under Ali Shaath, while Hamas and Israeli forces still control parts of the Strip. Abbas named 2026 a year of elections, but the national votes have been pushed back to September 2027.",
+    "policies": [
+      "Seeking international recognition of Palestinian statehood and an end to Israeli occupation",
+      "Reforms tied to the Gaza peace plan, including renewing Fatah's leadership at its eighth conference in May 2026",
+      "Staged elections: local councils in April 2026, then joint presidential and legislative elections set for September 2027",
+      "Pressing for a role for the Palestinian Authority in governing and rebuilding Gaza, and opposing displacement of its population"
+    ],
+    "challenges": [
+      "Humanitarian crisis and reconstruction in Gaza, with disputes over Hamas disarmament holding up the peace plan",
+      "Divided authority: Hamas, the Gaza administration committee and Israeli forces each control parts of Gaza, separate from the PA",
+      "Israel withholding tax revenues, causing a fiscal crisis for the Palestinian Authority",
+      "No elected legislature since 2007, long-delayed national elections and questions over who will succeed the 90-year-old Abbas",
+      "Israeli military raids and settler violence in the West Bank"
+    ],
+    "lastVerified": "2026-11-12",
+    "reviewNote": "In flux: control of Gaza is contested between Hamas, Israeli forces and the internationally backed interim administration committee, and the national elections were postponed in October 2026 to 2027. Not confirmed: whether the PNC elections set for 1 November 2026 were held or postponed (a June 2026 report said the presidential election would be early 2027), so they are not listed. Also not confirmed: whether the Mustafa cabinet changed in 2026. The 2006 seat counts and the details on the judiciary come from background knowledge, not from searches made for this record."
+  },
+  {
+    "iso3": "QAT",
+    "iso2": "qa",
+    "numeric": "634",
+    "name": "Qatar",
+    "region": "Middle East",
+    "system": "Hereditary emirate in which the Emir rules through an appointed prime minister and cabinet, with an appointed advisory Shura Council",
+    "systemType": "absolute-monarchy",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Sheikh Tamim bin Hamad Al Thani",
+        "title": "Emir (Amir) of the State of Qatar",
+        "since": "2013-06-25"
+      },
+      "headOfGovernment": {
+        "name": "Sheikh Mohammed bin Abdulrahman bin Jassim Al Thani",
+        "title": "Prime Minister and Minister of Foreign Affairs",
+        "since": "2023-03-07"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "Shura Council (Majlis al-Shura)",
+        "control": "All members are appointed by the Emir by Amiri decree. There are no political parties.",
+        "detail": "Under the 2024 constitutional amendments the council must have at least 45 members, all appointed. Amiri Decision No. 42 of 2025 appointed 49 members for the second legislative term, which began on 2025-10-21. Speaker: Hassan bin Abdullah Al Ghanim. The only Shura Council election, in October 2021, filled 30 of the 45 seats, and future elections were abolished in 2024."
+      }
+    ],
+    "judiciary": "The Court of Cassation is the highest court in the ordinary court system, and the Supreme Constitutional Court rules on whether laws are constitutional. Both work under the Supreme Judiciary Council. Judges are appointed by Amiri decree, and no open conflict between the courts and the Emir has been reported.",
+    "elections": [
+      {
+        "name": "Constitutional referendum",
+        "date": "2024-11-05",
+        "status": "held",
+        "note": "Voters approved the constitutional amendments with 90.6% of valid votes. The amendments abolished elections to the Shura Council and made all its members appointed by the Emir, who ratified them on 2024-11-06. No national election is scheduled or required by law. Citizens still vote only in elections to the advisory Central Municipal Council, last held on 2023-06-23."
+      }
+    ],
+    "synopsis": "Qatar is a hereditary emirate ruled by the Al Thani family, where Emir Sheikh Tamim bin Hamad Al Thani holds supreme executive and legislative authority. He governs through Prime Minister and Foreign Minister Sheikh Mohammed bin Abdulrahman Al Thani, and since the 2024 referendum the advisory Shura Council has been wholly appointed. In 2026 Qatar has been struck repeatedly by Iran during the US-Israeli war with Iran, while also serving as a main mediator between Washington and Tehran.",
+    "policies": [
+      "Diplomatic mediation, including indirect US-Iran talks to end the 2026 war and earlier Israel-Hamas negotiations",
+      "Export of liquefied natural gas (LNG) through QatarEnergy and the Ras Laffan complex, and repair of facilities damaged in the war",
+      "Diversifying the economy under Qatar National Vision 2030, including a plan announced in 2026 for about $38.5 billion of new infrastructure projects over five years",
+      "Sovereign wealth investment abroad through the Qatar Investment Authority, whose board was reconstituted in March 2026",
+      "Close security partnership with the United States, which uses the Al Udeid Air Base"
+    ],
+    "challenges": [
+      "Iranian missile and drone strikes on Qatari territory since 2026-02-28, including attacks on Doha and on Al Udeid Air Base",
+      "Damage to Ras Laffan that QatarEnergy says has removed about 17% of its LNG export capacity for up to five years, with force majeure declared on some contracts",
+      "Disruption to shipping in the Strait of Hormuz and the Gulf, which carry Qatar's energy exports",
+      "Stalled US-Iran ceasefire talks in which Qatar is a lead mediator",
+      "Limited channels for citizens to take part in politics since Shura Council elections were abolished"
+    ],
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "iso3": "SYR",
+    "iso2": "sy",
+    "numeric": "760",
+    "name": "Syria",
+    "region": "Middle East",
+    "system": "Transitional presidential republic under the March 2025 Constitutional Declaration, with a president who also heads the government and a partly appointed interim legislature",
+    "systemType": "transitional",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Ahmed al-Sharaa",
+        "title": "President (transitional)",
+        "since": "2025-01-29"
+      },
+      "headOfGovernment": {
+        "name": "Ahmed al-Sharaa",
+        "title": "President (heads the transitional government; the post of prime minister was abolished)",
+        "since": "2025-03-29"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "People's Assembly",
+        "control": "Non-partisan interim assembly: two-thirds chosen by regional electoral colleges, one-third appointed by the president; most members are independents",
+        "detail": "210 seats: 140 chosen by electoral colleges in rounds from 5 October 2025 to 24 May 2026, and 70 appointed by President al-Sharaa. The 3 Suwayda seats are vacant. First session held 12 July 2026, when members elected Abdul Hamid al-Awak (independent) as speaker. 30-month term."
+      }
+    ],
+    "judiciary": "The Supreme Constitutional Court was dissolved and reconstituted by presidential Decree No. 149 of July 2026. The president appointed all seven members, with Issam Khaled al-Khalif as its head. The Supreme Judicial Council oversees the ordinary courts. Under the Constitutional Declaration, the president appoints the judges of the top court.",
+    "elections": [
+      {
+        "name": "People's Assembly (indirect, electoral-college) election",
+        "date": "2025-10-05",
+        "status": "held",
+        "note": "The first legislative vote after the fall of Assad. Regional electoral colleges, not the general public, chose 140 of the 210 members. Later rounds were held on 23 October 2025, 17 March 2026 and 24 May 2026, the last in the former SDF-held areas of Hasakah and Ain al-Arab. Suwayda's 3 seats are still unfilled. Most members chosen are independents. The president appointed the other 70 members."
+      },
+      {
+        "name": "People's Assembly election",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "The year follows from the assembly's 30-month term, which began in July 2026. No date has been announced. A presidential election is expected when the five-year transition set by the March 2025 Constitutional Declaration ends."
+      }
+    ],
+    "synopsis": "Ahmed al-Sharaa, who led the offensive that ended Bashar al-Assad's rule in December 2024, governs as transitional president and head of government. He rules under a March 2025 Constitutional Declaration that sets a five-year transition. A partly appointed People's Assembly first met in July 2026, and Damascus has extended its authority over the former SDF-held northeast. Parts of Suwayda remain outside government control.",
+    "policies": [
+      "Integrating former armed groups, including the now-dissolved Kurdish-led SDF, into the defence and interior ministries",
+      "Seeking economic recovery and reconstruction after the removal of most US and other sanctions",
+      "Negotiating a security arrangement with Israel through US-backed talks",
+      "Rebuilding regional ties, including with Saudi Arabia, Turkey and Iraq",
+      "Rebuilding state institutions, including a new parliament, a reconstituted constitutional court and a May 2026 cabinet reshuffle"
+    ],
+    "challenges": [
+      "Armed tensions with Druze groups in Suwayda, parts of which are outside Damascus's control",
+      "Unresolved questions over command and deployment as former SDF forces are integrated",
+      "Widespread poverty, with around 90 percent of the population reported below the poverty line, and limited reconstruction",
+      "Continued Israeli military activity in southwest Syria",
+      "Sectarian violence since 2025 and criticism of how representative the indirect elections were"
+    ],
+    "lastVerified": "2026-11-12",
+    "reviewNote": "The date of the next People's Assembly election (2029) is inferred from the 30-month term that began in July 2026. No official election date was confirmed, and the date of the next presidential election under the five-year transition was not confirmed either. The party breakdown of the assembly is not given because the sources disagree."
+  },
+  {
+    "iso3": "YEM",
+    "iso2": "ye",
+    "numeric": "887",
+    "name": "Yemen",
+    "region": "Middle East",
+    "system": "Internationally recognised government led by a collective Presidential Leadership Council and an appointed cabinet, contested by a rival Houthi-led administration in Sanaa",
+    "systemType": "transitional",
+    "status": "in-flux",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Rashad al-Alimi",
+        "title": "Chairman of the Presidential Leadership Council",
+        "since": "2022-04-07"
+      },
+      "headOfGovernment": {
+        "name": "Shaya Mohsen al-Zindani",
+        "title": "Prime Minister",
+        "since": "2026-01-15"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "House of Representatives (Majlis al-Nuwaab)",
+        "control": "Split by the war: members aligned with the internationally recognised government sit under Speaker Sultan al-Barakani (General People's Congress), while a separate body meets in Houthi-held Sanaa; the General People's Congress won a majority in the last election, in 2003",
+        "detail": "No election has been held since 2003, and the term has been extended indefinitely. In September 2026 the government-aligned chamber held an expanded virtual meeting and approved the Presidential Leadership Council's request for general mobilisation against the Houthis."
+      },
+      {
+        "name": "Shura Council (Majlis al-Shura)",
+        "control": "Appointed by the president; advisory upper chamber"
+      }
+    ],
+    "judiciary": "The Supreme Court heads the judiciary, but the court system is split between institutions under the internationally recognised government in Aden and Houthi-run courts in Sanaa, each operating under its rival authority.",
+    "elections": [
+      {
+        "name": "Parliamentary election",
+        "date": "2003-04-27",
+        "status": "held",
+        "note": "The General People's Congress won a large majority and Islah came second. This is the last parliamentary election; the House's term has been extended indefinitely because of the conflict."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2012-02-21",
+        "status": "held",
+        "note": "Abd Rabbuh Mansur Hadi was elected as the only candidate. He handed his powers to the Presidential Leadership Council in April 2022. No national election is scheduled while the war continues."
+      }
+    ],
+    "synopsis": "Yemen is divided between the internationally recognised government, led by the Saudi-backed Presidential Leadership Council and based in Aden, and the Houthi movement (Ansar Allah), which has held Sanaa and much of the north since 2014 under Abdul-Malik al-Houthi and its Supreme Political Council, chaired by Mahdi al-Mashat, with Muhammad Ahmed Miftah as acting prime minister. In January 2026, after a confrontation with the Southern Transitional Council, the Presidential Leadership Council removed Aidarous al-Zubaidi and Faraj al-Bahsani from the council and appointed Shaya al-Zindani prime minister. In October 2026 it launched Operation Dawn of Yemen, an offensive backed by a Saudi-led coalition to retake Sanaa, returning the country to large-scale war.",
+    "policies": [
+      "Operation Dawn of Yemen, a military offensive launched in October 2026 to retake Sanaa and all Houthi-held territory",
+      "General mobilisation against the Houthis, approved by the House of Representatives in September 2026",
+      "Bringing anti-Houthi forces under a single command after the removal of Southern Transitional Council leaders from the Presidential Leadership Council",
+      "Restoring public services such as electricity in the interim capital, Aden",
+      "Close military and financial reliance on the Saudi-led coalition"
+    ],
+    "challenges": [
+      "Renewed full-scale war with the Houthis on several fronts, including Taiz, Lahj, al-Jawf and near the Bab al-Mandeb strait",
+      "Humanitarian crisis: the WHO reports more than 320,000 people displaced since August 2026",
+      "Houthi cross-border missile and drone strikes on Saudi Arabia and the risk of wider regional escalation involving Iran",
+      "Southern separatist tensions after the 2025–2026 confrontation with the Southern Transitional Council",
+      "Economic collapse, power shortages and divided state institutions"
+    ],
+    "lastVerified": "2026-11-12",
+    "reviewNote": "In flux: two rival governments claim the state. The internationally recognised Presidential Leadership Council and the Houthi-led Supreme Political Council in Sanaa have been fighting a full-scale war since the government launched Operation Dawn of Yemen in October 2026. Could not confirm: the party composition of the Zindani cabinet, so governingParties is left empty, though it is a coalition of anti-Houthi factions; party affiliations for al-Alimi and al-Zindani; seat counts from the 2003 parliamentary election; and the exact dates of the 2003 parliamentary and 2012 presidential elections. Wikipedia gives conflicting start dates for Zindani: 15 January 2026, the date of his appointment decree, and 6 February 2026, when his cabinet was formed."
+  }
+]
