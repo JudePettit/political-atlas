@@ -1,0 +1,384 @@
+[
+  {
+    "iso3": "ARG",
+    "iso2": "ar",
+    "numeric": "032",
+    "name": "Argentina",
+    "region": "South America",
+    "system": "Federal presidential republic with a bicameral National Congress",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Javier Milei",
+        "title": "President",
+        "party": "La Libertad Avanza",
+        "since": "2023-12-10"
+      },
+      "headOfGovernment": {
+        "name": "Javier Milei",
+        "title": "President",
+        "party": "La Libertad Avanza",
+        "since": "2023-12-10"
+      },
+      "governingParties": [
+        "La Libertad Avanza"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Chamber of Deputies",
+        "control": "No majority; La Libertad Avanza is the largest bloc and relies on allied and provincial blocs to pass legislation",
+        "detail": "257 seats. In the October 2025 midterm, La Libertad Avanza won about 40.8% and 64 of the 127 seats contested, and Fuerza Patria won about 24.5% and 31 seats. When the new chamber was sworn in in December 2025, La Libertad Avanza had 95 seats and Unión por la Patria 93."
+      },
+      {
+        "name": "Senate",
+        "control": "No majority; a La Libertad Avanza-led alliance with the UCR, PRO, Provincias Unidas and provincial senators gathered 44 of 72 votes in December 2025 to take the chamber's leadership posts, and the Peronist bloc remains the largest",
+        "detail": "72 seats. Projected composition from 10 December 2025: Peronist bloc (Fuerza Patria, now the Popular interbloc) 28, La Libertad Avanza 20, UCR 9, PRO 6, provincial parties 6, Provincias Unidas 3."
+      }
+    ],
+    "judiciary": "The Supreme Court of Justice is the highest court. Only three of its five seats are filled, by Horacio Rosatti, Carlos Rosenkrantz and Ricardo Lorenzetti. In 2026 President Milei put off nominating anyone to the two vacancies, and many lower federal judgeships are also vacant.",
+    "elections": [
+      {
+        "name": "Legislative midterm election (half of the Chamber of Deputies, one-third of the Senate)",
+        "date": "2025-10-26",
+        "status": "held",
+        "note": "La Libertad Avanza won about 40.8% of the national vote for the Chamber of Deputies and 64 seats, ahead of the Peronist Fuerza Patria at about 24.5% and 31 seats. This made it the largest bloc in the Chamber of Deputies and increased its seats in the Senate."
+      },
+      {
+        "name": "General election (president, vice-president and partial renewal of Congress)",
+        "date": "2027-10-24",
+        "status": "upcoming",
+        "note": "Under current law the election falls on the fourth Sunday of October, with a runoff in November if needed. The government is seeking to suspend the PASO primaries."
+      }
+    ],
+    "synopsis": "Libertarian economist Javier Milei of La Libertad Avanza has been president since December 2023. He has pursued deep spending cuts, deregulation and disinflation. His party became the largest force in Congress after winning the October 2025 midterms but still needs allies to pass laws, and Diego Santilli has been Chief of the Cabinet of Ministers since June 2026.",
+    "policies": [
+      "Fiscal austerity and a balanced-budget target, set out in the 2027 budget bill now before Congress",
+      "Disinflation and reform of the Central Bank",
+      "Labour market reform (Labour Modernisation Law passed in February 2026)",
+      "Deregulation and incentives for large investments, including data centres and AI",
+      "Changes to electoral rules, including suspending the PASO primaries"
+    ],
+    "challenges": [
+      "Inflation remains persistent: 2.2% month-on-month and 33.1% year-on-year in October 2026",
+      "Building legislative majorities with governors and allied blocs for the 2027 budget",
+      "Social pressure over spending cuts to universities, disability programmes and transport subsidies",
+      "Vacancies on the Supreme Court and throughout the federal judiciary",
+      "Corruption investigations touching officials, including the inquiry that preceded Chief of Cabinet Manuel Adorni's resignation in June 2026"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "BOL",
+    "iso2": "bo",
+    "numeric": "068",
+    "name": "Bolivia",
+    "region": "South America",
+    "system": "Presidential republic (Plurinational State) with a bicameral Plurinational Legislative Assembly",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Rodrigo Paz Pereira",
+        "title": "President",
+        "party": "Christian Democratic Party (PDC)",
+        "since": "2025-11-08"
+      },
+      "headOfGovernment": {
+        "name": "Rodrigo Paz Pereira",
+        "title": "President",
+        "party": "Christian Democratic Party (PDC)",
+        "since": "2025-11-08"
+      },
+      "governingParties": [
+        "Christian Democratic Party (PDC)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Chamber of Deputies",
+        "control": "No majority; the PDC is the largest group. The Unidad alliance ended its relationship with the government in July 2026 and calls itself a constructive opposition",
+        "detail": "130 seats (2025 election): PDC 49, Libre 39, Unidad 26, Alianza Popular 8, APB Súmate 5, MAS-IPSP 2, BIA-YUQUI 1; 66 needed for a majority. President: Roberto Castro (PDC)"
+      },
+      {
+        "name": "Chamber of Senators",
+        "control": "No majority; the PDC is the largest group",
+        "detail": "36 seats (2025 election): PDC 16, Libre 12, Unidad 7, APB Súmate 1. President: Diego Ávila (PDC), re-elected for the 2026-2027 session"
+      }
+    ],
+    "judiciary": "The highest courts are the Supreme Court of Justice and the Plurinational Constitutional Tribunal, whose judges are chosen by popular vote; the partial 2024 judicial elections left seats empty that have still not been filled. In its first year the Paz government also faced challenges over judicial matters.",
+    "elections": [
+      {
+        "name": "General election (president, vice president and Plurinational Legislative Assembly), runoff",
+        "date": "2025-10-19",
+        "status": "held",
+        "note": "First round held on 17 August 2025, when no party won a majority in either chamber. In the runoff, Rodrigo Paz (PDC) beat former president Jorge 'Tuto' Quiroga (Libre) with about 55% of the vote to 45%, ending nearly two decades of MAS governments."
+      },
+      {
+        "name": "Subnational elections (governors, mayors, councils and departmental assemblies)",
+        "date": "2026-03",
+        "status": "held",
+        "note": "The government-aligned Alianza Patria won no governorship in the first round; it came first in La Paz department with about 20% but did not win there."
+      },
+      {
+        "name": "General election",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year term"
+      }
+    ],
+    "synopsis": "Rodrigo Paz of the centrist Christian Democratic Party took office on 8 November 2025 after winning Bolivia's first presidential runoff, ending nearly two decades of MAS rule. His government does not have a majority in the legislature. It came through weeks of protests and blockades against austerity in May and June 2026, and has had a long public falling-out with Vice President Edmand Lara.",
+    "policies": [
+      "Measures to stabilise the economy and address shortages of fuel and foreign currency",
+      "Austerity and fiscal adjustment measures",
+      "Moving the economy away from the state-led model of the MAS years",
+      "A nationwide state of emergency in June 2026 that let the armed forces clear road blockades"
+    ],
+    "challenges": [
+      "Economic crisis, with high living costs and an unfinished economic stabilisation",
+      "Social unrest: about 50 days of blockades and calls for the president to resign in May and June 2026",
+      "Open conflict between President Paz and Vice President Lara, who presides over the legislature",
+      "No legislative majority after the Unidad alliance broke with the government in July 2026",
+      "Empty seats on the top courts and delays to new judicial elections"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "The official runoff percentage could not be confirmed: sources give 54.57% or 54.96% for Paz, so the record says about 55%. The exact date of the 2026 subnational first round (believed to be 22 March 2026) was not confirmed. That Roberto Castro is still president of the Chamber of Deputies for 2026-2027 is based on a report naming 'Castro' at the opening of the session on 11 November 2026. The date of any judicial election in late 2026 was not confirmed."
+  },
+  {
+    "iso3": "BRA",
+    "iso2": "br",
+    "numeric": "076",
+    "name": "Brazil",
+    "region": "South America",
+    "system": "Federal presidential republic",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Luiz Inácio Lula da Silva",
+        "title": "President",
+        "party": "Workers' Party (PT)",
+        "since": "2023-01-01"
+      },
+      "headOfGovernment": {
+        "name": "Luiz Inácio Lula da Silva",
+        "title": "President",
+        "party": "Workers' Party (PT)",
+        "since": "2023-01-01"
+      },
+      "governingParties": [
+        "Workers' Party (PT)",
+        "Brazilian Socialist Party (PSB)",
+        "Communist Party of Brazil (PCdoB)",
+        "Green Party (PV)",
+        "Socialism and Liberty Party (PSOL)",
+        "Sustainability Network (REDE)",
+        "Democratic Labour Party (PDT)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Chamber of Deputies",
+        "control": "No single-party majority; centre-right and right-wing parties hold most seats. The largest party is the opposition Liberal Party (PL). The chamber is presided over by Hugo Motta (Republicanos).",
+        "detail": "The 4 October 2026 election filled all 513 seats for the term starting 1 February 2027. Results: Liberal Party (PL) 121; Brazil of Hope federation (PT-PCdoB-PV) 88 (70 of them PT); Progressive Union federation (União Brasil-PP) 87; PSD 43; Republicanos 41; MDB 36; Podemos 27; others 70."
+      },
+      {
+        "name": "Federal Senate",
+        "control": "No single-party majority; centre-right and right-wing parties hold most seats. The largest bloc is the opposition Liberal Party (PL). The Senate is presided over by Davi Alcolumbre (União Brasil).",
+        "detail": "The 4 October 2026 election filled 54 of the 81 seats, and the PL won 19 of them. From February 2027 the PL is reported to hold 28 or 29 seats (sources differ), against 9 for the PT and 8 for the MDB."
+      }
+    ],
+    "judiciary": "The Supreme Federal Court (STF), led by Chief Justice Edson Fachin, is the highest constitutional court. The Superior Electoral Court (TSE), presided over by Kassio Nunes Marques, runs elections. In 2026 the STF went through an internal crisis: justices clashed with each other over the Banco Master fraud scandal. A last-minute ruling by Justice Cristiano Zanin to extend voting hours in the October 2026 runoff became the basis of Flávio Bolsonaro's call to annul the result.",
+    "elections": [
+      {
+        "name": "General election (first round: president, Congress, governors)",
+        "date": "2026-10-04",
+        "status": "held",
+        "note": "Flávio Bolsonaro (PL) led the presidential vote with 47.03% to Lula's 45.16%. The PL won 121 Chamber seats and 19 of the 54 Senate seats contested."
+      },
+      {
+        "name": "Presidential runoff",
+        "date": "2026-10-25",
+        "status": "held",
+        "note": "Lula (PT) won a fourth, non-consecutive term with about 51.8% of valid votes to Flávio Bolsonaro's 48.2%. It is the first time a first-round runner-up has won a Brazilian presidential election. Bolsonaro refused to concede and said he would seek annulment, but the PL accepted the TSE-certified result. The inauguration is scheduled for 5 January 2027."
+      },
+      {
+        "name": "General election (president, Congress, governors)",
+        "date": "2030-10",
+        "status": "upcoming"
+      }
+    ],
+    "synopsis": "Lula da Silva of the Workers' Party won a fourth, non-consecutive term in the 25 October 2026 runoff, coming back after losing the first round to Flávio Bolsonaro, and is due to be sworn in for the new term on 5 January 2027. Bolsonaro's Liberal Party became the largest party in both houses of the Congress elected in October 2026, so Lula will need support from centrist parties. He is negotiating cabinet posts with the PSD, MDB, União Brasil, PP and Republicanos.",
+    "policies": [
+      "Fiscal plan seeking to address slow growth and high interest rates, relying mainly on revenue measures such as curbing tax breaks and raising levies on higher-income groups",
+      "Coalition-building with centrist parties through cabinet appointments ahead of the 2027 term",
+      "Cutting Amazon deforestation and climate diplomacy, including attending COP31, while also backing large oil exploration projects",
+      "Expanding Brazil's international role, including through BRICS"
+    ],
+    "challenges": [
+      "A Congress with a stronger right wing, where the opposition PL is the largest party in both chambers",
+      "Fiscal pressures from fast-growing mandatory spending, high debt-servicing costs and a weak real",
+      "Political polarisation, including Flávio Bolsonaro's refusal to accept the runoff result and his departure for the United States",
+      "An internal crisis at the Supreme Federal Court linked to the Banco Master fraud scandal",
+      "Strained relations with the United States after the 2025–2026 diplomatic dispute"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Not confirmed: which centrist parties (MDB, PSD, União Brasil, PP, Republicanos) still hold ministries in the current cabinet. governingParties lists only the PT and the left-wing parties sources describe as government members. The PL's Senate total from February 2027 is reported as 28 in some sources and 29 in others. It is also not confirmed whether a formal annulment petition was filed with the TSE or how it was decided."
+  },
+  {
+    "iso3": "CHL",
+    "iso2": "cl",
+    "numeric": "152",
+    "name": "Chile",
+    "region": "South America",
+    "system": "Unitary presidential republic with a bicameral National Congress",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "José Antonio Kast",
+        "title": "President of the Republic",
+        "party": "Republican Party",
+        "since": "2026-03-11"
+      },
+      "headOfGovernment": {
+        "name": "José Antonio Kast",
+        "title": "President of the Republic",
+        "party": "Republican Party",
+        "since": "2026-03-11"
+      },
+      "governingParties": [
+        "Republican Party",
+        "Independent Democratic Union",
+        "National Renewal",
+        "Evópoli",
+        "Demócratas",
+        "Christian Social Party"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Chamber of Deputies",
+        "control": "No single bloc has a majority. The left-wing Unidad por Chile is the largest bloc, and the right-wing blocs Cambio por Chile and Chile Grande y Unido together hold about half the seats.",
+        "detail": "155 seats (November 2025): Unidad por Chile 61, Cambio por Chile 42, Chile Grande y Unido 34, Party of the People 14, Greens, Regionalists and Humanists 3, independent 1. Largest party: Republican Party with 31."
+      },
+      {
+        "name": "Senate",
+        "control": "Evenly split. The right-wing blocs hold 25 of the 50 seats; Unidad por Chile and allied or independent senators hold the other 25.",
+        "detail": "50 seats (after the November 2025 partial renewal): Chile Grande y Unido 18, Cambio por Chile 7, Unidad por Chile 20, Greens, Regionalists and Humanists 3, independents 2. Senate President: Paulina Núñez (National Renewal), elected March 2026."
+      }
+    ],
+    "judiciary": "The Supreme Court heads the ordinary judiciary, and a separate Constitutional Court reviews whether laws are constitutional.",
+    "elections": [
+      {
+        "name": "Presidential election (runoff)",
+        "date": "2025-12-14",
+        "status": "held",
+        "note": "José Antonio Kast (Republican Party) defeated Jeannette Jara (Unidad por Chile) with about 58% of the vote to about 42%. He took office on 11 March 2026 for the 2026-2030 term."
+      },
+      {
+        "name": "General election (presidential first round, Chamber of Deputies and partial Senate)",
+        "date": "2025-11-16",
+        "status": "held",
+        "note": "Unidad por Chile won the most Chamber seats (61 of 155), but the right-wing blocs together came close to a majority. The Senate ended up split 25-25 between right and left."
+      },
+      {
+        "name": "Regional and municipal elections",
+        "date": "2028-10-29",
+        "status": "upcoming"
+      },
+      {
+        "name": "General election (presidential, Chamber of Deputies and partial Senate)",
+        "date": "2029-11",
+        "status": "upcoming",
+        "note": "A possible presidential runoff would follow in December 2029."
+      }
+    ],
+    "synopsis": "José Antonio Kast of the right-wing Republican Party won the December 2025 runoff and took office on 11 March 2026. He calls his administration an emergency government, and its cabinet is mostly independents, together with ministers from the Republicans and the traditional right. Congress is closely divided: the left-wing Unidad por Chile is the largest bloc in the Chamber of Deputies, and the Senate is split evenly between right and left.",
+    "policies": [
+      "Priority on immigration control and border security",
+      "Public security and crime reduction under an 'emergency government' agenda",
+      "Corporate tax cuts and lighter regulation to revive growth",
+      "A broad cabinet of independents and ministers from several parties, presented as national unity"
+    ],
+    "challenges": [
+      "An economy in recession, made worse by a crisis in copper mining",
+      "Passing legislation without a clear majority in either chamber",
+      "Keeping together a coalition that runs from the far right to the centre-right",
+      "Public concern over crime and irregular migration"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Not confirmed: (1) which parties are in the cabinet after the May 2026 reshuffle and any later changes, including whether Evópoli is still represented. A Radical Party member was also in the cabinet, but it is unclear whether the party itself is in government. (2) Whether the National Libertarian Party, which is part of Cambio por Chile, is in government. (3) Whether Kast still formally belongs to the Republican Party. (4) The exact final Servel runoff share: sources give 58.16% or 58.61%. (5) Seat counts are the November 2025 election results and do not reflect later defections. Sources also disagree on whether the right-wing blocs won 76 or 77 Chamber seats."
+  },
+  {
+    "iso3": "GUY",
+    "iso2": "gy",
+    "numeric": "328",
+    "name": "Guyana",
+    "region": "South America",
+    "system": "Unitary presidential republic with an executive president who is elected through the winning party list, and a unicameral National Assembly",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Mohamed Irfaan Ali",
+        "title": "President",
+        "party": "People's Progressive Party/Civic",
+        "since": "2020-08-02"
+      },
+      "headOfGovernment": {
+        "name": "Mark Phillips",
+        "title": "Prime Minister",
+        "party": "People's Progressive Party/Civic",
+        "since": "2020-08-02"
+      },
+      "governingParties": [
+        "People's Progressive Party/Civic"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "People's Progressive Party/Civic (majority)",
+        "detail": "65 seats after the 1 September 2025 election: PPP/C 36, We Invest in Nationhood (WIN) 16, A Partnership for National Unity (APNU) 12, Forward Guyana Movement (FGM) 1. WIN leader Azruddin Mohamed has been Leader of the Opposition since 26 January 2026."
+      }
+    ],
+    "judiciary": "The Court of Appeal and the High Court make up the Supreme Court of Judicature, and the Caribbean Court of Justice is the final court of appeal. Roxane George-Wiltshire (acting Chancellor) and Navindra Singh (acting Chief Justice) have led the judiciary in acting roles since August 2025. In July 2026 the Caribbean Court of Justice dismissed an appeal by Opposition Leader Azruddin Mohamed and allowed US extradition proceedings against him to continue.",
+    "elections": [
+      {
+        "name": "General and regional elections",
+        "date": "2025-09-01",
+        "status": "held",
+        "note": "PPP/C won 36 of 65 seats and President Irfaan Ali was re-elected; the new WIN party came second with 16 seats, ahead of APNU with 12 and FGM with 1. GECOM declared the result on 6 September 2025, and Ali was sworn in for a second term on 7 September 2025."
+      },
+      {
+        "name": "General and regional elections",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Due by law; presidential and legislative terms are five years."
+      }
+    ],
+    "synopsis": "Guyana is a presidential republic. President Irfaan Ali of the People's Progressive Party/Civic won a second five-year term in September 2025 with a majority in the National Assembly. The new We Invest in Nationhood party replaced APNU as the main opposition. Its leader, Azruddin Mohamed, faces US extradition proceedings and has been held on remand since late October 2026. The economy is being reshaped by fast-growing offshore oil production, while the long-running border case with Venezuela over the Essequibo region awaits a final judgment from the International Court of Justice.",
+    "policies": [
+      "Using offshore oil revenue to fund infrastructure, housing and public services",
+      "Expanding power generation, including the Wales gas-to-energy project",
+      "Seeking a binding ICJ ruling that upholds the 1899 Arbitral Award boundary with Venezuela",
+      "Opening housing and infrastructure to foreign investors",
+      "Promoting payment for forest conservation in international climate talks"
+    ],
+    "challenges": [
+      "The territorial claim by Venezuela to the Essequibo region, with the ICJ judgment expected between November 2026 and January 2027",
+      "Political tension over the arrest, remand and US extradition proceedings against Opposition Leader Azruddin Mohamed",
+      "Deadlock over the make-up of the Guyana Elections Commission, which puts the statutory local government elections at risk",
+      "Managing rapid oil-driven growth and electricity supply that falls short of peak demand",
+      "Illegal gold mining and security incidents along the borders"
+    ],
+    "lastVerified": "2026-11-13"
+  }
+]
