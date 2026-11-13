@@ -15,6 +15,7 @@
     "countries/africa-east.json",
     "countries/africa-west.json",
     "countries/africa-central-south.json",
-    "countries/south-america.json"
+    "countries/south-america.json",
+    "countries/oceania.json"
   ]
 }

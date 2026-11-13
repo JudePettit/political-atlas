@@ -175,7 +175,10 @@ const centreInView = () => page.evaluate(async () => {
   const off = [];
   // Every record, and every country still to be added (as its shape will be once it has a record).
   for (const c of [...state.countries.values(), ...seedRows]) {
-    const f = state.countries.has(c.iso3) ? g.select(`path.country[data-iso="${c.iso3}"]`).datum() : feats.find(x => x.id === c.numeric);
+    // A record with no shape at all in the boundaries (Tuvalu) is reached by its dot alone, as zoomTo does: an empty
+    // selection has no datum to read.
+    const drawn = g.select(`path.country[data-iso="${c.iso3}"]`);
+    const f = state.countries.has(c.iso3) ? (drawn.empty() ? undefined : drawn.datum()) : feats.find(x => x.id === c.numeric);
     if (!f && !MARKERS[c.iso3]) continue; // checked by the "can be drawn" test
     const box = f ? shapeBounds(f) : markerBounds(MARKERS[c.iso3]);
     const [x, y] = boxTransform(projectBounds(box)).apply(f ? path.centroid(mainPolygon(f)) : projection(MARKERS[c.iso3]));
@@ -197,6 +200,12 @@ test('selecting a country frames it on the map, near the 180° line too', async 
     }, iso);
     assert.ok(where[0] >= 0 && where[0] <= 1000 && where[1] >= 0 && where[1] <= 600, `${iso} lands at ${where.map(Math.round)}`);
   }
+  // Tuvalu has no shape, only a dot at 179.2°E: the box round it must not wrap to the far side of the map, so the
+  // view zooms in on the dot instead of out to the whole world.
+  await open('#TUV');
+  await page.waitForTimeout(1000);
+  const dot = await page.evaluate(() => { const t = d3.zoomTransform(svg.node()); return [...t.apply(projection(MARKERS.TUV)), t.k]; });
+  assert.ok(dot[0] >= 0 && dot[0] <= 1000 && dot[1] >= 0 && dot[1] <= 600 && dot[2] > 4, `TUV lands at ${dot.map(Math.round)} (the last number is the zoom)`);
 });
 
 test('upcoming elections list is in date order and opens countries', async () => {

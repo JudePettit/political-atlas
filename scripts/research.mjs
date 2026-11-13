@@ -37,7 +37,8 @@ export const NO_ELECTION_TYPES = ['absolute-monarchy', 'theocratic', 'military',
 export const NO_ELECTION_COUNTRIES = ['ERI'];
 // Jude, 13 November 2026: a monarchy is a ruling monarchy (absolute-monarchy) where the map names its monarch or regent
 // as the leader, and a parliamentary-monarchy where it names the head of government. The records that break that rule,
-// named one by one with the reason, until it is decided what they should be.
+// named one by one with the reason. Saudi Arabia is kept as the one exception (settled on 13 November 2026: its record
+// is accurate as it stands).
 export const MONARCHY_RULE_EXCEPTIONS = {
   SAU: 'a ruling monarchy whose crown prince, Mohammed bin Salman, governs as prime minister, so the map names the head of government'
 };
