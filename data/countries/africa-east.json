@@ -232,6 +232,64 @@
     "reviewNote": "A Dawan Africa report of 22 October 2026 calls Ali Hassan Bahdon, the Minister of Justice, 'interim Prime Minister'. No other source reports a change of prime minister: Abdoulkader Kamil Mohamed was reappointed in May 2026 and is reported acting as Prime Minister on 21 September 2026, so Bahdon was most likely standing in during an absence, but this is not confirmed. If Kamil has left office, update the head of government and consider setting the status to in-flux. Kamil's party could not be confirmed."
   },
   {
+    "iso3": "ERI",
+    "iso2": "er",
+    "numeric": "232",
+    "name": "Eritrea",
+    "region": "Africa",
+    "system": "One-party presidential state ruled by decree; the 1997 constitution has never been implemented",
+    "systemType": "one-party",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Isaias Afwerki",
+        "title": "President",
+        "party": "People's Front for Democracy and Justice",
+        "since": "1993-05-24"
+      },
+      "headOfGovernment": {
+        "name": "Isaias Afwerki",
+        "title": "President",
+        "party": "People's Front for Democracy and Justice",
+        "since": "1993-05-24"
+      },
+      "governingParties": [
+        "People's Front for Democracy and Justice"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly (Hagerawi Baito)",
+        "control": "Not functioning: the transitional assembly has not met since 2002, and the president governs by decree",
+        "detail": "Transitional body of 150 members: 75 from the ruling front's central committee and 75 chosen by regional assemblies; never directly elected"
+      }
+    ],
+    "judiciary": "The Supreme Court called for in the 1997 constitution has never been set up, so the High Court in Asmara is the court of last appeal. The judiciary is not independent of the executive, and a separate Special Court outside the regular courts handles cases the government sends to it.",
+    "elections": [
+      {
+        "name": "Independence referendum",
+        "date": "1993-04",
+        "status": "held",
+        "note": "Held 23-25 April 1993; 99.83% voted for independence from Ethiopia, which was declared on 27 April 1993. No national legislative or presidential election has been held since independence, and none is scheduled."
+      }
+    ],
+    "synopsis": "Isaias Afwerki has led Eritrea since independence in 1993. He rules through the People's Front for Democracy and Justice, the only legal party, without an implemented constitution or a functioning legislature. In 2026 relations with Ethiopia broke down: Eritrea cut diplomatic ties on 1 October, and the two states accuse each other of hostile acts along the border.",
+    "policies": [
+      "A development strategy built on self-reliance, with emphasis on agriculture and infrastructure",
+      "Mandatory national service, often for an indefinite period",
+      "Diplomacy aimed at winning outside support in the dispute with Ethiopia, including talks with Egypt and Russia",
+      "Re-engaging with the United States, which lifted sanctions on Eritrea in September 2026"
+    ],
+    "challenges": [
+      "Risk of war with Ethiopia over the border, Tigray and Ethiopia's push for access to the Red Sea, including the port of Assab",
+      "No elections, no implemented constitution and no functioning legislature",
+      "Arbitrary detention, restrictions on rights and large numbers of people leaving the country",
+      "Succession uncertainty, as the president turned 80 in February 2026"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
     "iso3": "ETH",
     "iso2": "et",
     "numeric": "231",
