@@ -1,0 +1,1228 @@
+[
+  {
+    "iso3": "BDI",
+    "iso2": "bi",
+    "numeric": "108",
+    "name": "Burundi",
+    "region": "Africa",
+    "system": "Presidential republic with a prime minister, dominated by the ruling CNDD-FDD",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Évariste Ndayishimiye",
+        "title": "President",
+        "party": "CNDD-FDD",
+        "since": "2020-06-18"
+      },
+      "headOfGovernment": {
+        "name": "Nestor Ntahontuye",
+        "title": "Prime Minister",
+        "party": "CNDD-FDD",
+        "since": "2025-08-05"
+      },
+      "governingParties": [
+        "National Council for the Defense of Democracy – Forces for the Defense of Democracy (CNDD-FDD)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "CNDD-FDD (all directly elected seats)",
+        "detail": "June 2025 election: CNDD-FDD won all 100 directly elected seats with about 96.5% of the vote. The chamber has 111 members: CNDD-FDD 108 and 3 co-opted Twa members."
+      },
+      {
+        "name": "Senate",
+        "control": "CNDD-FDD (all elected seats)",
+        "detail": "Indirect election of 23 July 2025: CNDD-FDD won every elected seat (10), plus 3 co-opted Twa members. No opposition senators."
+      }
+    ],
+    "judiciary": "The Supreme Court is the highest ordinary court and the Constitutional Court rules on constitutional matters. Their judges are appointed through the executive, and opposition parties and rights groups say the courts lack independence from the ruling party.",
+    "elections": [
+      {
+        "name": "National Assembly and communal elections",
+        "date": "2025-06-05",
+        "status": "held",
+        "note": "CNDD-FDD won all 100 directly elected National Assembly seats with about 96.5% of the vote. Opposition parties rejected the result."
+      },
+      {
+        "name": "Senate election (indirect)",
+        "date": "2025-07-23",
+        "status": "held",
+        "note": "CNDD-FDD won all elected seats, so no opposition senators remain."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2027-05",
+        "status": "upcoming",
+        "note": "The election commission has planned the vote for May 2027 with a budget of 115.87 billion Burundian francs. CNDD-FDD has named President Ndayishimiye as its candidate. The presidential term is seven years."
+      },
+      {
+        "name": "National Assembly election",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Next election due by law in 2030."
+      }
+    ],
+    "synopsis": "Burundi is a presidential republic ruled by the CNDD-FDD since 2005. President Évariste Ndayishimiye has been in office since 2020 and is the party's candidate for the 2027 presidential election. After the 2025 legislative and Senate elections, the ruling party holds every elected seat in both chambers of parliament. Ndayishimiye has also chaired the African Union since February 2026.",
+    "policies": [
+      "Long-term development plan aiming for Burundi to be an emerging country by 2040 and a developed one by 2060",
+      "Territorial reform that cut the number of provinces and communes in 2025",
+      "Military cooperation with the Democratic Republic of the Congo against the M23 rebels in the east of that country",
+      "Frequent cabinet reshuffles, including in January and April 2026, ahead of the 2027 presidential election",
+      "Chairing the African Union in 2026"
+    ],
+    "challenges": [
+      "Severe poverty, a shortage of foreign currency, fuel shortages and high inflation",
+      "Spillover from the conflict in eastern DR Congo and tense relations with Rwanda",
+      "Little room for opposition parties and civil society, and a parliament with no opposition",
+      "Rapid population growth and food insecurity in a largely farming economy"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "COM",
+    "iso2": "km",
+    "numeric": "174",
+    "name": "Comoros",
+    "region": "Africa",
+    "system": "Federal presidential republic with a unicameral legislature",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Azali Assoumani",
+        "title": "President of the Union of the Comoros",
+        "party": "Convention for the Renewal of the Comoros (CRC)",
+        "since": "2019-04-03"
+      },
+      "headOfGovernment": {
+        "name": "Azali Assoumani",
+        "title": "President of the Union of the Comoros",
+        "party": "Convention for the Renewal of the Comoros (CRC)",
+        "since": "2019-04-03"
+      },
+      "governingParties": [
+        "Convention for the Renewal of the Comoros (CRC)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Assembly of the Union",
+        "control": "Convention for the Renewal of the Comoros (CRC)",
+        "detail": "CRC 31 of 33 seats after the January–February 2025 election, which several opposition parties boycotted; Speaker Moustadroine Abdou (CRC), re-elected 4 April 2025"
+      }
+    ],
+    "judiciary": "The Supreme Court is the highest court. Since the 2018 constitutional referendum abolished the Constitutional Court, it has also ruled on constitutional and electoral matters. Opposition candidates have accused it of being politicised, including when it confirmed the 2024 presidential result.",
+    "elections": [
+      {
+        "name": "Presidential election",
+        "date": "2024-01-14",
+        "status": "held",
+        "note": "Azali Assoumani was re-elected in the first round with about 57% of the vote according to Supreme Court figures. Opposition candidates rejected the result, alleging fraud, and deadly protests followed. He was sworn in on 26 May 2024."
+      },
+      {
+        "name": "Parliamentary election (Assembly of the Union)",
+        "date": "2025-01-12",
+        "status": "held",
+        "note": "The first round was re-run in four constituencies on 30 January after the Supreme Court annulled their results, and the second round was held on 16 February 2025. The ruling CRC won 31 of 33 seats amid a partial opposition boycott and fraud allegations."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due at the end of the five-year term that began in May 2024"
+      },
+      {
+        "name": "Parliamentary election (Assembly of the Union)",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Due at the end of the five-year legislative term"
+      }
+    ],
+    "synopsis": "Comoros is a three-island federal presidential republic in the Indian Ocean led by President Azali Assoumani, who first took power in a 1999 coup and has led the country without interruption since 2016 apart from a short break in 2019. His Convention for the Renewal of the Comoros dominates parliament. In 2024 his son Nour El Fath Azali was named secretary general of the government and given wide powers to oversee ministers, which raised questions about succession.",
+    "policies": [
+      "Infrastructure and economic growth programme aimed at making Comoros an emerging economy",
+      "Preparing infrastructure to host the 2027 Indian Ocean Island Games",
+      "Keeping up the claim to Mayotte, which France administers, and marking Maore Day each year",
+      "Seeking aid and development partners and joining regional bodies, while pressing small-island and climate concerns at the UN"
+    ],
+    "challenges": [
+      "Opposition and observers dispute the elections; the 2024 presidential vote was followed by deadly protests",
+      "Concerns about political succession and about concentration of power in the president's family",
+      "Claims of corruption against the ruling party, including a 2026 dispute with former minister Mahamoud Salim Hafi",
+      "Poverty, reliance on imports and high fuel prices",
+      "Dangerous migration by boat toward Mayotte"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "DJI",
+    "iso2": "dj",
+    "numeric": "262",
+    "name": "Djibouti",
+    "region": "Africa",
+    "system": "Presidential republic with a prime minister appointed by the president",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Ismaïl Omar Guelleh",
+        "title": "President",
+        "party": "People's Rally for Progress (RPP)",
+        "since": "1999-05-08"
+      },
+      "headOfGovernment": {
+        "name": "Abdoulkader Kamil Mohamed",
+        "title": "Prime Minister",
+        "since": "2013-03"
+      },
+      "governingParties": [
+        "Union for the Presidential Majority (UMP)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "Union for the Presidential Majority (UMP), the coalition backing President Guelleh",
+        "detail": "February 2023 election: UMP 58, Djiboutian Union for Democracy and Justice (UDJ) 7, of 65 seats; most main opposition parties boycotted"
+      }
+    ],
+    "judiciary": "Under the constitution, judicial power belongs to the Supreme Court and lower courts, and the Constitutional Council rules on constitutional and electoral disputes. Independent assessments say the judiciary is heavily influenced by the executive, especially the president, who controls judicial appointments.",
+    "elections": [
+      {
+        "name": "Presidential election",
+        "date": "2026-04-10",
+        "status": "held",
+        "note": "Incumbent Ismaïl Omar Guelleh won a sixth term. The Constitutional Council confirmed 97.01% for him against 2.99% for Mohamed Farah Samatar (Unified Democratic Centre); preliminary results had given 97.8%. Most opposition parties boycotted or backed Guelleh. A constitutional amendment passed unanimously by the National Assembly in late 2025 had removed the presidential age limit of 75. Guelleh was sworn in on 9 May 2026."
+      },
+      {
+        "name": "National Assembly election",
+        "date": "2028-02",
+        "status": "upcoming",
+        "note": "Due on expiry of the five-year term; the IPU gives an expected date of 25 February 2028."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2031",
+        "status": "upcoming",
+        "note": "Due at the end of the five-year presidential term that began in 2026."
+      }
+    ],
+    "synopsis": "Ismaïl Omar Guelleh has been president since 1999. He won a sixth term in April 2026 with about 97% of the vote, after parliament removed the presidential age limit and most of the opposition boycotted. His coalition, the Union for the Presidential Majority, holds 58 of the 65 seats in the National Assembly, and Prime Minister Abdoulkader Kamil Mohamed, in office since 2013, was reappointed in May 2026.",
+    "policies": [
+      "Developing ports, free zones and logistics as the main trade outlet for Ethiopia",
+      "Hosting foreign military bases, including those of the United States, France, China, Japan and Italy",
+      "A government roadmap urging ministries to speed up reforms and improve delivery",
+      "Moving all public procurement onto a digital system to improve transparency",
+      "A 26-member cabinet named in May 2026, including eight women"
+    ],
+    "challenges": [
+      "High external debt, much of it owed to China for the Addis Ababa railway and other infrastructure",
+      "Revenue shortfalls, which led to a 2.2% cut in the 2026 budget in October 2026",
+      "Uncertainty over who will succeed a 78-year-old president who has held power since 1999",
+      "Restrictions on the media and the opposition, and limited political competition",
+      "Instability in the Horn of Africa and the Red Sea that affects port trade"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "A Dawan Africa report dated 21 October 2026 calls Ali Hassan Bahdon 'interim Prime Minister'. The reason, and whether Abdoulkader Kamil Mohamed is still in office, could not be confirmed. If he has left office, update the head of government and consider setting the status to in-flux. His party (RPP) could not be confirmed."
+  },
+  {
+    "iso3": "ETH",
+    "iso2": "et",
+    "numeric": "231",
+    "name": "Ethiopia",
+    "region": "Africa",
+    "system": "Federal parliamentary republic with a largely ceremonial president elected by parliament",
+    "systemType": "parliamentary-republic",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Taye Atske Selassie",
+        "title": "President",
+        "since": "2024-10-07"
+      },
+      "headOfGovernment": {
+        "name": "Abiy Ahmed",
+        "title": "Prime Minister",
+        "party": "Prosperity Party",
+        "since": "2018-04-02"
+      },
+      "governingParties": [
+        "Prosperity Party"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "House of Peoples' Representatives",
+        "control": "Prosperity Party (supermajority)",
+        "detail": "547 seats. 1 June 2026 election, results certified for 486 constituencies: Prosperity Party 438, Ethiopian Citizens for Social Justice (Ezema) 13, National Movement of Amhara 6, Medrek 3, independents 8, other opposition parties the rest. No vote yet in the remaining constituencies, including Tigray. Speaker: Ahmed Shide."
+      },
+      {
+        "name": "House of the Federation",
+        "control": "Indirectly chosen by regional state councils, which the Prosperity Party dominates"
+      }
+    ],
+    "judiciary": "The Federal Supreme Court heads the federal courts. Constitutional interpretation belongs to the House of the Federation, advised by the Council of Constitutional Inquiry, not to the courts.",
+    "elections": [
+      {
+        "name": "General election (7th), House of Peoples' Representatives and regional councils",
+        "date": "2026-06-01",
+        "status": "held",
+        "note": "Prosperity Party won 438 of the 486 seats certified by the election board; Ezema won 13, NaMA 6 and independents 8. Tigray did not vote and insecurity disrupted the vote elsewhere. Abiy Ahmed was sworn in for a new five-year term on 5 October 2026."
+      },
+      {
+        "name": "Presidential election (indirect, by joint session of parliament)",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Due at the end of President Taye's six-year term."
+      },
+      {
+        "name": "General election (8th)",
+        "date": "2031",
+        "status": "upcoming",
+        "note": "Due by law five years after the 2026 election."
+      }
+    ],
+    "synopsis": "Ethiopia is a federal parliamentary republic. Prime Minister Abiy Ahmed's Prosperity Party holds an overwhelming majority after the June 2026 general election, and Abiy began a new five-year term in October 2026. His government faces renewed fighting in Tigray, insurgencies in Amhara and Oromia, and strained relations with Eritrea and Sudan.",
+    "policies": [
+      "Economic reforms that keep liberalising the economy and attracting investment",
+      "Seeking access to the Red Sea for landlocked Ethiopia",
+      "Large infrastructure and energy projects, including the Grand Ethiopian Renaissance Dam",
+      "Preparing to host the COP32 climate summit and calling for more climate finance",
+      "The 'Medemer' agenda of national unity under the Prosperity Party"
+    ],
+    "challenges": [
+      "Renewed fighting between federal forces and Tigrayan forces, and a new federal-backed interim administration in Tigray",
+      "Insurgencies in Amhara and Oromia regions and attacks on civilians, including drone strikes",
+      "Diplomatic rupture with Eritrea, and Ethiopia and Sudan closing each other's consulates",
+      "Restrictions on the press and opposition, including the suspension of a leading independent newspaper's registration",
+      "Humanitarian needs and displacement in the north"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Not confirmed: the current size and speaker of the House of the Federation, how the remaining 19 non-Prosperity Party seats are split, whether opposition figures sit in the new cabinet, and who presides over the Federal Supreme Court."
+  },
+  {
+    "iso3": "KEN",
+    "iso2": "ke",
+    "numeric": "404",
+    "name": "Kenya",
+    "region": "Africa",
+    "system": "Presidential republic with a bicameral parliament and devolved county governments",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "William Ruto",
+        "title": "President",
+        "party": "United Democratic Alliance (UDA)",
+        "since": "2022-09-13"
+      },
+      "headOfGovernment": {
+        "name": "William Ruto",
+        "title": "President",
+        "party": "United Democratic Alliance (UDA)",
+        "since": "2022-09-13"
+      },
+      "governingParties": [
+        "United Democratic Alliance (UDA)",
+        "Orange Democratic Movement (ODM)",
+        "FORD-Kenya"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "Kenya Kwanza (led by UDA), with support from ODM under the broad-based government arrangement",
+        "detail": "349 seats. 2022 election: UDA 145, ODM 86, Jubilee 28, others and independents the rest. In 2022 the Speaker ruled that Kenya Kwanza had 179 members and Azimio la Umoja 157. The High Court overturned that ruling in February 2025, but Kenya Kwanza's Kimani Ichung'wah is still Majority Leader."
+      },
+      {
+        "name": "Senate",
+        "control": "Kenya Kwanza (led by UDA), with ODM cooperating under the broad-based arrangement",
+        "detail": "67 seats. 2022 election: Kenya Kwanza 33, Azimio la Umoja-One Kenya 32, National Reconstruction Alliance 1. Majority Leader: Aaron Cheruiyot (UDA)."
+      }
+    ],
+    "judiciary": "The Supreme Court, headed by Chief Justice Martha Koome, is the top court, above the Court of Appeal and the High Court. The courts have repeatedly ruled against other branches: in February 2025 the High Court overturned the Speaker's ruling that Kenya Kwanza is the majority in the National Assembly, and in November 2026 a court blocked changes by the Salaries and Remuneration Commission to judges' benefits.",
+    "elections": [
+      {
+        "name": "General election (presidential, parliamentary and county)",
+        "date": "2022-08-09",
+        "status": "held",
+        "note": "William Ruto (UDA, Kenya Kwanza) won the presidency, defeating Raila Odinga (Azimio la Umoja). UDA won the most National Assembly seats (145), ahead of ODM (86) and Jubilee (28)."
+      },
+      {
+        "name": "General election (presidential, parliamentary and county)",
+        "date": "2027-08-10",
+        "status": "upcoming",
+        "note": "Date confirmed by the IEBC; the campaign period runs from late May to 7 August 2027. Ruto is seeking re-election, and opposition leaders including Kalonzo Musyoka, Rigathi Gachagua and Fred Matiang'i plan to field a single candidate."
+      }
+    ],
+    "synopsis": "Kenya is a presidential republic led by President William Ruto, who took office in 2022 and governs through a 'broad-based government' in which his UDA cooperates with the ODM, now led by Oburu Oginga. The ruling parties won all parliamentary seats in the November 2025 by-elections. Politics is now focused on the general election of 10 August 2027, where a coalition of opposition leaders aims to field one candidate against Ruto.",
+    "policies": [
+      "UDA-ODM cooperation under the broad-based government, including joint parliamentary group meetings and talks on the 2027 elections",
+      "Local manufacturing, including a plan for domestic producers to supply leather shoes to Kenya's 14 million school children",
+      "Infrastructure spending, including dualling the Nairobi-Mombasa highway",
+      "Judicial reform, including a new High Court division for international and organised crimes that began work in October 2026"
+    ],
+    "challenges": [
+      "Public doubts about the broad-based government: a TIFA survey in November 2026 found 43% opposed and 32% in support",
+      "A competitive run-up to the 2027 election against an opposition that is still choosing its single presidential candidate",
+      "Strains within the ruling camp, including public debate over whether Deputy President Kithure Kindiki will stay on Ruto's 2027 ticket",
+      "Disputes between the branches of government, including court rulings against parliamentary and executive decisions"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "MDG",
+    "iso2": "mg",
+    "numeric": "450",
+    "name": "Madagascar",
+    "region": "Africa",
+    "system": "Military-led transitional government under a colonel installed after the October 2025 overthrow of the president; the constitution is suspended pending a new one",
+    "systemType": "military",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Michael Randrianirina",
+        "title": "President of the Refoundation of the Republic of Madagascar",
+        "since": "2025-10-17"
+      },
+      "headOfGovernment": {
+        "name": "Mamitiana Rajaonarison",
+        "title": "Prime Minister",
+        "since": "2026-03-15"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "Elected before the October 2025 change of power and kept by the transitional authorities as the only national institution not dissolved; it now sits as a single chamber. No current majority bloc has been confirmed.",
+        "detail": "163 seats; elected in 2024"
+      }
+    ],
+    "judiciary": "The High Constitutional Court (HCC) confirmed Colonel Michael Randrianirina as the country's leader in October 2025. Since then it has advised on the transition, and on 4 November 2026 it gave an opinion that a constitutional referendum before the presidential election is legally possible.",
+    "elections": [
+      {
+        "name": "National Assembly election",
+        "date": "2024",
+        "status": "held",
+        "note": "Elected the current 163-member National Assembly, which the transitional authorities kept after the October 2025 change of power."
+      },
+      {
+        "name": "Constitutional referendum",
+        "date": "2027-06",
+        "status": "upcoming",
+        "note": "In May 2026 the Independent National Electoral Commission (CENI) set the referendum for June 2027, to approve a new constitution for a Fifth Republic. In November 2026 consultations still favoured holding the referendum before the presidential election, possibly with several constitutional options on the ballot."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2027-10",
+        "status": "upcoming",
+        "note": "Scheduled by CENI to follow the constitutional referendum."
+      }
+    ],
+    "synopsis": "In October 2025, mass Gen Z-led protests ended with Colonel Michael Randrianirina and the CAPSAT military unit taking power. President Andry Rajoelina fled the country, and the High Constitutional Court confirmed Randrianirina, who was sworn in on 17 October 2025. He leads a transitional government and has named anti-corruption official Mamitiana Rajaonarison prime minister. Under the current timetable, the transition is due to end with a constitutional referendum and a presidential election in 2027.",
+    "policies": [
+      "Drafting a new constitution for a Fifth Republic, to be put to a referendum",
+      "Holding national consultations on the transition roadmap and the order of the elections",
+      "Fighting corruption and the capture of the state by private interests",
+      "Restoring stability after the 2025 unrest and keeping working relations with the Southern African Development Community (SADC)"
+    ],
+    "challenges": [
+      "Keeping to the 2027 election timetable and returning to civilian constitutional rule",
+      "Shortages of water and electricity, poverty and the cost of living, which drove the 2025 protests",
+      "Entrenched corruption and state capture",
+      "Questions abroad about Russia's growing influence around the transitional leadership"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Unconfirmed: the party or coalition breakdown of the 163 National Assembly seats and which bloc now holds a majority; the exact date of the 2024 legislative election; and whether the Senate is still dissolved. The June 2027 referendum date set by CENI may change, because consultations on the order of the votes were still going on in November 2026."
+  },
+  {
+    "iso3": "MWI",
+    "iso2": "mw",
+    "numeric": "454",
+    "name": "Malawi",
+    "region": "Africa",
+    "system": "Unitary presidential republic with a directly elected executive president",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Peter Mutharika",
+        "title": "President",
+        "party": "Democratic Progressive Party",
+        "since": "2025-10-04"
+      },
+      "headOfGovernment": {
+        "name": "Peter Mutharika",
+        "title": "President",
+        "party": "Democratic Progressive Party",
+        "since": "2025-10-04"
+      },
+      "governingParties": [
+        "Democratic Progressive Party",
+        "Alliance for Democracy"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "Democratic Progressive Party is the largest party but has no outright majority on its own; a large bloc of independents holds the balance",
+        "detail": "229 seats (2025 election): DPP 78, independents 73, MCP 52, UTM 8, UDF 4, AFORD 3, PP 3, NDP 1, PDP 1, FP 1, 5 not filled at the general election. Speaker: Sameer Suleman (DPP), elected 29 October 2025."
+      }
+    ],
+    "judiciary": "The Supreme Court of Appeal is the highest court, and the High Court hears constitutional and electoral cases; Rizine Mzikamanda was the most recently confirmed Chief Justice. The judiciary has a record of independence, including annulling the 2019 presidential election. In late 2026 there was public debate over whether the President could put off a sitting of Parliament.",
+    "elections": [
+      {
+        "name": "General election (presidential, parliamentary and local)",
+        "date": "2025-09-16",
+        "status": "held",
+        "note": "Peter Mutharika (DPP) won the presidency with 56.76% of valid votes against incumbent Lazarus Chakwera (MCP) with 33.01%; the DPP won 78 of 229 National Assembly seats, independents 73 and the MCP 52."
+      },
+      {
+        "name": "Parliamentary by-elections and fresh elections",
+        "date": "2026-06-30",
+        "status": "held",
+        "note": "By-elections in Lilongwe City Bwaila and Machinga Mikoko and a fresh election in Balaka Mulunguzi, among other by-polls held in 2026."
+      },
+      {
+        "name": "General election (presidential, parliamentary and local)",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Due by law five years after the 2025 general election."
+      }
+    ],
+    "synopsis": "Peter Mutharika of the Democratic Progressive Party returned to the presidency in October 2025 after defeating incumbent Lazarus Chakwera, whose Malawi Congress Party now leads the opposition. The DPP is the largest party in a National Assembly with an unusually large independent bloc. The government faces shortages of fuel, power and foreign exchange.",
+    "policies": [
+      "Anti-corruption pledge to end the looting of public resources",
+      "Economic stabilisation, including a fuel price rise of more than 40% in January 2026",
+      "Ending fuel shortages and electricity blackouts by fixing supply logistics",
+      "Redirecting public spending to urgent national needs, including postponing a parliamentary meeting in late 2026"
+    ],
+    "challenges": [
+      "Long-running fuel shortages and electricity blackouts",
+      "Foreign-exchange shortages and high living costs",
+      "Questions about the 86-year-old president's health and his long private stays in South Africa",
+      "Dispute over the executive's postponement of the National Assembly's November–December 2026 meeting",
+      "Food insecurity and vulnerability to climate shocks"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "National Assembly seat counts are from the September 2025 election; the current breakdown after the 2026 by-elections and fresh elections is not confirmed. AFORD's place in government rests on Enoch Chihana's appointment as Second Vice-President in October 2025; whether other parties are also in government is not confirmed. It is not confirmed that Rizine Mzikamanda is still Chief Justice."
+  },
+  {
+    "iso3": "MUS",
+    "iso2": "mu",
+    "numeric": "480",
+    "name": "Mauritius",
+    "region": "Africa",
+    "system": "Unitary parliamentary republic with a president elected by the National Assembly",
+    "systemType": "parliamentary-republic",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Dharam Gokhool",
+        "title": "President",
+        "since": "2024-12-06"
+      },
+      "headOfGovernment": {
+        "name": "Navin Ramgoolam",
+        "title": "Prime Minister",
+        "party": "Labour Party",
+        "since": "2024-11-13"
+      },
+      "governingParties": [
+        "Labour Party",
+        "Mauritian Militant Movement",
+        "New Democrats",
+        "Rezistans ek Alternativ"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "Prime Minister Ramgoolam's governing coalition (Labour Party, Mauritian Militant Movement, New Democrats, Rezistans ek Alternativ), elected as the Alliance du Changement, holds a large majority",
+        "detail": "2024 election: Alliance du Changement won all 60 elected seats on the main island of Mauritius; the Rodrigues People's Organisation won the 2 Rodrigues seats; 2 best-loser seats went to the MSM and the PMSD. In April 2026 Paul Bérenger and other MPs left the MMM and later formed the Fron Militan Progresis (FMP). The FMP's Chetan Baboolall became Leader of the Opposition on 6 August 2026, and Labour MP Sydney Pierre joined the FMP in October 2026."
+      }
+    ],
+    "judiciary": "The Supreme Court of Mauritius heads the judiciary, and final appeals go to the Judicial Committee of the Privy Council in London. The courts are generally regarded as independent.",
+    "elections": [
+      {
+        "name": "General election (National Assembly)",
+        "date": "2024-11-10",
+        "status": "held",
+        "note": "The opposition Alliance du Changement led by Navin Ramgoolam won a landslide with about 62.6% of the vote and all 60 directly elected seats on the main island; the outgoing MSM-led Alliance Lepep won no elected seat. Turnout was about 79%."
+      },
+      {
+        "name": "Municipal elections",
+        "date": "2025-05-04",
+        "status": "held",
+        "note": "First municipal elections since 2015; the governing Alliance du Changement won in a landslide."
+      },
+      {
+        "name": "General election (National Assembly)",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due when the five-year parliament elected in November 2024 ends; no date has been set."
+      }
+    ],
+    "synopsis": "Mauritius is a stable multiparty parliamentary democracy. Navin Ramgoolam's Alliance du Changement won every elected seat on the main island in the November 2024 election. In 2026 Deputy Prime Minister Paul Bérenger resigned and formed the opposition Fron Militan Progresis while his former party, the MMM, stayed in government, and in October riots over a police shooting led to a curfew.",
+    "policies": [
+      "Electoral reform adding 20 seats filled by proportional representation and ending the requirement for candidates to declare their community",
+      "Fiscal consolidation, including higher taxes on high incomes and large profits and a gradual rise in the basic retirement pension age to 65",
+      "Pursuing Mauritian sovereignty over the Chagos Archipelago, including a 2026 suspension of diplomatic ties with the Maldives over the issue",
+      "Electricity-saving measures introduced in 2026 in response to an international energy crisis"
+    ],
+    "challenges": [
+      "Cost of living and water shortages, which led to protests and the October 2026 riots",
+      "Weaker growth and higher inflation linked to the Middle East conflict",
+      "Strains in the governing coalition after Bérenger's resignation and the MMM split",
+      "Public finances and pension reform, which some coalition partners criticise",
+      "Police conduct and public order after the October 2026 shooting"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Current seat totals by party after the 2026 defections could not be confirmed, so the detail gives the 2024 result. One source says the Rodrigues People's Organisation and Alliance Liberation joined the government; this could not be confirmed, so they are not listed among the governing parties. The next general election year is derived from the five-year term, not from an official announcement."
+  },
+  {
+    "iso3": "MOZ",
+    "iso2": "mz",
+    "numeric": "508",
+    "name": "Mozambique",
+    "region": "Africa",
+    "system": "Unitary presidential republic with a president-appointed prime minister, dominated by Frelimo since independence",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Daniel Chapo",
+        "title": "President",
+        "party": "Frelimo",
+        "since": "2025-01-15"
+      },
+      "headOfGovernment": {
+        "name": "Maria Benvinda Levy",
+        "title": "Prime Minister",
+        "party": "Frelimo",
+        "since": "2025-01"
+      },
+      "governingParties": [
+        "Frelimo"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Assembly of the Republic",
+        "control": "Frelimo (two-thirds majority)",
+        "detail": "250 seats (October 2024 election): Frelimo 171, Podemos 43, Renamo 28, MDM 8"
+      }
+    ],
+    "judiciary": "The Constitutional Council, led by Lúcia da Luz Ribeiro, is the highest body on constitutional and electoral law, and the Supreme Court heads the ordinary courts. The Constitutional Council's handling of the disputed 2024 election results was widely criticised, but in July 2026 it struck down government telecommunications regulations that allowed surveillance and service shutdowns, ruling that the executive had bypassed parliament.",
+    "elections": [
+      {
+        "name": "General election (presidential, legislative and provincial)",
+        "date": "2024-10-09",
+        "status": "held",
+        "note": "Daniel Chapo of Frelimo was declared president. Frelimo won 171 of 250 seats, Podemos 43, Renamo 28 and MDM 8. The opposition disputed the results, and months of deadly protests followed."
+      },
+      {
+        "name": "Municipal elections",
+        "date": "2028-10",
+        "status": "upcoming",
+        "note": "Scheduled for October 2028. The National Elections Commission is studying whether to hold municipal, legislative and presidential elections on a single day."
+      },
+      {
+        "name": "General election (presidential, legislative and provincial)",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due by October 2029."
+      }
+    ],
+    "synopsis": "Mozambique has been governed by Frelimo since independence in 1975. President Daniel Chapo took office in January 2025 after a disputed election and a wave of deadly protests. His government is running an inclusive national dialogue with opposition parties that includes possible constitutional revision, while fighting an Islamic State-linked insurgency in Cabo Delgado and trying to revive the economy.",
+    "policies": [
+      "An inclusive national dialogue, set by a 2025 law, on constitutional revision, presidential powers and electoral reform, due to conclude by early 2027",
+      "Investment of about US$7.5 billion to upgrade the Maputo, Beira and Nacala logistics corridors and ports",
+      "Raising agricultural and fisheries production to cut import dependence and the cost of living",
+      "Developing liquefied natural gas projects in Cabo Delgado alongside security operations",
+      "Pressing for international climate finance for vulnerable countries"
+    ],
+    "challenges": [
+      "Islamic State-linked insurgency in Cabo Delgado, with continued attacks, kidnappings and displacement",
+      "Political tension after the disputed 2024 election, including attacks on members of Venâncio Mondlane's opposition party ANAMOLA",
+      "High public debt, cost-of-living pressures and youth unemployment",
+      "Vulnerability to cyclones and other climate shocks",
+      "Concerns over civil liberties, including internet restrictions and accountability for security forces"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "RWA",
+    "iso2": "rw",
+    "numeric": "646",
+    "name": "Rwanda",
+    "region": "Africa",
+    "system": "Unitary presidential republic with a dominant party and a president-appointed prime minister",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Paul Kagame",
+        "title": "President",
+        "party": "Rwandan Patriotic Front",
+        "since": "2000-04-22"
+      },
+      "headOfGovernment": {
+        "name": "Justin Nsengiyumva",
+        "title": "Prime Minister",
+        "since": "2025-07-25"
+      },
+      "governingParties": [
+        "Rwandan Patriotic Front"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Chamber of Deputies",
+        "control": "Rwandan Patriotic Front and allied parties (majority)",
+        "detail": "80 seats. 53 are directly elected (July 2024): the RPF and its allies won 37, the Liberal Party 5 and the Social Democratic Party 5, with the rest going to smaller parties. The other 27 are indirectly elected (women, youth and persons with disabilities). Speaker: Gertrude Kazarwa (Liberal Party), since 14 August 2024."
+      },
+      {
+        "name": "Senate",
+        "control": "Non-partisan: senators are indirectly elected by local councils or appointed by the President and the National Consultative Forum for Political Organisations",
+        "detail": "26 senators serving five-year terms; the latest Senate elections were held in September 2024. Speaker: François-Xavier Kalinda."
+      }
+    ],
+    "judiciary": "The Supreme Court is the highest court in the land and is led by Chief Justice Domitilla Mukantaganzwa; below it are ordinary and specialised courts under the 2003 constitution, revised in 2023. Rights groups have questioned how independent the courts are from the executive, especially in politically sensitive cases.",
+    "elections": [
+      {
+        "name": "Presidential and Chamber of Deputies elections",
+        "date": "2024-07-15",
+        "status": "held",
+        "note": "Paul Kagame (RPF) was re-elected with about 99.2% of the vote and inaugurated for a fourth term on 11 August 2024. In the Chamber, the RPF and its allies won 37 of the 53 directly elected seats, down from 40 in 2018; the Liberal Party and the Social Democratic Party won 5 each."
+      },
+      {
+        "name": "Senate elections (indirect)",
+        "date": "2024-09",
+        "status": "held",
+        "note": "Indirect election of senators for the fourth Senate legislature, which serves a five-year term."
+      },
+      {
+        "name": "Presidential and Chamber of Deputies elections",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year terms that began in 2024."
+      }
+    ],
+    "synopsis": "Paul Kagame and the Rwandan Patriotic Front (RPF) have dominated Rwandan politics since the end of the 1994 genocide against the Tutsi. Kagame won a fourth term in July 2024 and in July 2025 appointed banker Justin Nsengiyumva as Prime Minister in place of Édouard Ngirente. Rwanda's relations with the Democratic Republic of the Congo remain the main foreign-policy issue as the two countries try to carry out the US-brokered Washington Accords.",
+    "policies": [
+      "State-led development under Vision 2050, aiming to make Rwanda a services, investment and conference hub",
+      "Implementing the Washington Accords with the DRC, signed in December 2025, which provide for the withdrawal of Rwandan troops and for action against the FDLR militia",
+      "Building diplomatic and trade ties beyond the region, including through the Commonwealth and partnerships in the Caribbean and Asia",
+      "Contributing troops to UN peacekeeping and to bilateral security deployments in other African countries",
+      "Periodic cabinet reshuffles to bring in technocrats; the latest was in June 2026"
+    ],
+    "challenges": [
+      "Continued fighting in eastern DRC between Congolese forces and M23 rebels, whom the UN and others say Rwanda backs, despite the Washington and Doha peace frameworks",
+      "Criticism from Western partners and rights groups, and the risk of sanctions or aid cuts, over Rwanda's role in eastern DRC",
+      "Little room for political opposition, and concerns over media freedom",
+      "Creating jobs for a young, fast-growing population and reducing dependence on aid and debt",
+      "Risks to health and the economy in the region from the Ebola outbreak in neighbouring DRC"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Could not confirm: whether Prime Minister Justin Nsengiyumva belongs to a party; the full seat breakdown of the 53 directly elected Chamber seats beyond the RPF and allies (37), the Liberal Party (5) and the Social Democratic Party (5); which smaller parties beyond the RPF hold cabinet posts; and the exact date Kagame first took office (given here as 22 April 2000)."
+  },
+  {
+    "iso3": "SYC",
+    "iso2": "sc",
+    "numeric": "690",
+    "name": "Seychelles",
+    "region": "Africa",
+    "system": "Presidential republic with an executive president and a unicameral National Assembly",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Patrick Herminie",
+        "title": "President",
+        "party": "United Seychelles",
+        "since": "2025-10-26"
+      },
+      "headOfGovernment": {
+        "name": "Patrick Herminie",
+        "title": "President",
+        "party": "United Seychelles",
+        "since": "2025-10-26"
+      },
+      "governingParties": [
+        "United Seychelles"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "United Seychelles (majority)",
+        "detail": "34 seats after the 27 September 2025 election (26 constituency seats and 8 proportional compensatory seats): United Seychelles 19 (15 constituency, 4 proportional), Linyon Demokratik Seselwa 15. Speaker Azarel Ernesta (United Seychelles), elected 28 October 2025 as the first woman in the post."
+      }
+    ],
+    "judiciary": "The Court of Appeal is the highest court, above the Supreme Court, which also sits as the Constitutional Court; judges are appointed by the President on the proposal of the Constitutional Appointments Authority. Chief Justice Rony Govinden resigned in November 2026 and was appointed a Justice of Appeal, and Supreme Court judge Mohan Burhan was named Acting Chief Justice on 13 November 2026.",
+    "elections": [
+      {
+        "name": "Presidential election (runoff)",
+        "date": "2025-10-11",
+        "status": "held",
+        "note": "Patrick Herminie (United Seychelles) beat incumbent Wavel Ramkalawan (Linyon Demokratik Seselwa) with about 52.7% to 47.3%. In the first round on 27 September 2025, Herminie took 48.83% and Ramkalawan 46.44%."
+      },
+      {
+        "name": "National Assembly election",
+        "date": "2025-09-27",
+        "status": "held",
+        "note": "Held alongside the first round of the presidential election. United Seychelles won 19 of 34 seats, up from 10, and Linyon Demokratik Seselwa won 15, down from 25."
+      },
+      {
+        "name": "Presidential and National Assembly elections",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year terms; no date has been set."
+      }
+    ],
+    "synopsis": "Seychelles is a presidential republic in which the elected president is both head of state and head of government. Patrick Herminie of United Seychelles, the party that ruled from 1977 to 2020, defeated President Wavel Ramkalawan in an October 2025 runoff, and his party also regained a majority in the National Assembly. Ramkalawan's Linyon Demokratik Seselwa is now the opposition.",
+    "policies": [
+      "Tackling the cost of living, housing shortages and the quality of health and education services",
+      "Economic diversification and a push on science, technology and AI, including the Seychelles Digital and AI Strategy 2026-2031",
+      "Inquiries into decisions of the previous administration, including the Travizory contract and the proposed lease of Assumption Island",
+      "Maritime security cooperation with India, including a Seychelles Coast Guard base, while stating that leasing Assumption Island for a military base was not discussed",
+      "Modernising public services, including a Government Service Centre and a sovereign government cloud"
+    ],
+    "challenges": [
+      "High rates of drug addiction, especially heroin",
+      "Cost of living pressures and dependence on imported food and fuel",
+      "Political debate over foreign military and security arrangements, including Assumption Island",
+      "Foreign-policy controversy, including the April 2026 withdrawal of overflight permission for Taiwanese President Lai Ching-te's aircraft, which the opposition condemned",
+      "Vulnerability of a tourism-dependent small-island economy to external shocks"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "SOM",
+    "iso2": "so",
+    "numeric": "706",
+    "name": "Somalia",
+    "region": "Africa",
+    "system": "Federal republic with a president elected by parliament and a prime minister accountable to parliament; the president's mandate is currently disputed",
+    "systemType": "semi-presidential",
+    "status": "in-flux",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Hassan Sheikh Mohamud",
+        "title": "President",
+        "since": "2022-05-23"
+      },
+      "headOfGovernment": {
+        "name": "Hamza Abdi Barre",
+        "title": "Prime Minister",
+        "since": "2022-06-25"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "House of the People",
+        "control": "No party majority; members were chosen in 2021-22 by clan delegates under the clan power-sharing formula. On 5 November 2026 the Supreme Court ruled that its mandate expired on 14 April 2026; the government says amendments passed in March 2026 extended it to April 2027"
+      },
+      {
+        "name": "Upper House",
+        "control": "No party majority; members were chosen in 2021-22 by the federal member states' assemblies. The Supreme Court ruled that its mandate expired on 14 April 2026; the government says it runs to April 2027"
+      }
+    ],
+    "judiciary": "The Supreme Court is the highest court, and its Constitutional Division has been ruling on constitutional disputes. On 5 November 2026 it ruled that the president's and parliament's terms had expired and ordered elections within 90 days. It also voided the president's dismissal, a day earlier, of Chief Justice Baashe Yusuf Ahmed, whom the president had replaced with former Chief Justice Ibrahim Idle Suleiman. There were reports that government troops were deployed around the court.",
+    "elections": [
+      {
+        "name": "Presidential election (indirect, by parliament)",
+        "date": "2022-05-15",
+        "status": "held",
+        "note": "Hassan Sheikh Mohamud was elected by a joint sitting of both chambers, defeating incumbent Mohamed Abdullahi Farmaajo in the third round."
+      },
+      {
+        "name": "Parliamentary elections (House of the People and Upper House)",
+        "date": "2027-04-15",
+        "status": "upcoming",
+        "note": "Set by the federal government's timetable of October 2026, with registration of political organisations and voters from 1 November 2026; the opposition rejects it as unilateral. The Supreme Court's 5 November 2026 ruling ordered elections within 90 days."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2027-05-15",
+        "status": "upcoming",
+        "note": "Scheduled under the government's timetable to follow the inauguration of the newly elected parliament; disputed by the opposition and affected by the Supreme Court's ruling."
+      }
+    ],
+    "synopsis": "Somalia's federal government is in a constitutional crisis over the mandates of the president and parliament. In March 2026 parliament passed amendments extending terms from four to five years, and the president says he stays in office until May 2027. On 5 November 2026 the Supreme Court ruled that the mandates had expired in April and May 2026 and ordered elections within 90 days. The government and the opposition are trying to agree on an electoral framework while fighting al-Shabaab continues.",
+    "policies": [
+      "Moving from indirect clan-based selection to direct one-person-one-vote elections",
+      "Putting into effect the revised constitution adopted in March 2026",
+      "Military campaign against al-Shabaab with African Union support",
+      "Judicial reform, which the presidency cited when it dismissed the chief justice"
+    ],
+    "challenges": [
+      "Disputed legitimacy of the president and parliament after the Supreme Court ruling",
+      "Open confrontation between the presidency and the Supreme Court",
+      "Lack of consensus with opposition leaders and some federal member states on the electoral model and timetable",
+      "Al-Shabaab insurgency and reports of political and clan pressure splitting the national army",
+      "Armed clashes in Mogadishu linked to the election dispute"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "In flux: the Supreme Court ruled on 5 November 2026 that the president's term expired on 15 May 2026 and parliament's on 14 April 2026, and ordered elections within 90 days. The president rejects this, holds that his term runs to 15 May 2027 under the March 2026 amendments, and remains in office; a government-opposition conference is planned for 14-18 November 2026. Not confirmed: the parties of the president and prime minister, which party or parties govern, current seat counts and speakers of both chambers, the vote totals of the 2022 presidential election, the year of the 15 April parliamentary election date (taken as 2027 from the timetable), and an online claim that House Speaker Aden Madobe has been acting president since 15 May 2026."
+  },
+  {
+    "iso3": "SSD",
+    "iso2": "ss",
+    "numeric": "728",
+    "name": "South Sudan",
+    "region": "Africa",
+    "system": "Presidential republic under a transitional constitution; caretaker administration pending first post-independence general elections",
+    "systemType": "presidential",
+    "status": "in-flux",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Salva Kiir Mayardit",
+        "title": "President",
+        "party": "Sudan People's Liberation Movement (SPLM)",
+        "since": "2011-07-09"
+      },
+      "headOfGovernment": {
+        "name": "Salva Kiir Mayardit",
+        "title": "President",
+        "party": "Sudan People's Liberation Movement (SPLM)",
+        "since": "2011-07-09"
+      },
+      "governingParties": [
+        "Sudan People's Liberation Movement (SPLM)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Transitional National Legislative Assembly",
+        "control": "Dissolved by presidential order in September 2026 ahead of the 22 December 2026 elections; its members had been appointed under the 2018 peace agreement, and the incumbent government's share was a majority",
+        "detail": "550 appointed members (May 2021): incumbent Transitional Government of National Unity 332, SPLM/A-IO 128, South Sudan Opposition Alliance 50, other political parties 30, former detainees 10"
+      },
+      {
+        "name": "Council of States",
+        "control": "Dissolved along with the rest of the national legislature in September 2026 ahead of the 22 December 2026 elections",
+        "detail": "100 seats"
+      }
+    ],
+    "judiciary": "The Supreme Court is headed by Chief Justice Benjamin Baak Deng, sworn in in June 2025 after President Kiir dismissed Chan Reec Madut, who had served since 2011; the new appointments were not approved by the legislature as the constitution requires. Riek Machar is being tried for treason and other charges before a Special Court in Juba, and his SPLM-IO faction says election disputes cannot be fairly contested before the current judiciary.",
+    "elections": [
+      {
+        "name": "Southern Sudan independence referendum",
+        "date": "2011-01",
+        "status": "held",
+        "note": "Voters chose independence from Sudan; South Sudan has held no national election since independence in July 2011."
+      },
+      {
+        "name": "General election (presidential and legislative)",
+        "date": "2026-12-22",
+        "status": "upcoming",
+        "note": "First election since independence, postponed several times since 2015. President Kiir is expected to be the SPLM candidate. The Machar-led SPLM-IO is not a registered party; a breakaway faction led by Stephen Par Kuol registered as the IO Party."
+      }
+    ],
+    "synopsis": "Salva Kiir has led South Sudan since independence in 2011. A power-sharing unity government formed under the 2018 peace agreement lasted until September 2026, when Kiir dissolved it, removed all vice-presidents and dissolved the national and state legislatures. He now leads a caretaker administration ahead of the country's first general election on 22 December 2026. Former First Vice President and SPLM-IO leader Riek Machar has been detained since March 2025 and is on trial on treason and other charges.",
+    "policies": [
+      "Holding the general election on 22 December 2026 despite calls from opposition parties to postpone and renegotiate",
+      "Amendments to the National Elections Act keeping the president in office during the election period",
+      "Caretaker ministers running key ministries until an elected government takes office",
+      "Prosecution of Riek Machar and seven co-accused over the March 2025 Nasir attack",
+      "Electricity consumption limits introduced in March 2026 because of an international energy crisis"
+    ],
+    "challenges": [
+      "Shortfalls in election funding and logistics; the AU envoy says the government cannot pay for the vote alone",
+      "Armed clashes, including in Upper Nile, where more than 35,000 people have been displaced",
+      "Severe food insecurity, with about 2.5 million people facing emergency-level hunger",
+      "Split in the SPLM-IO, and the Machar-loyal faction left out of the electoral process",
+      "Concerns from the UN and others that the conditions for credible elections are not yet in place"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "In flux: the transitional unity government and national legislature were dissolved by presidential order announced on 22 September 2026 (some sources give 21 September), and a caretaker administration governs until the 22 December 2026 general election. Not confirmed: the party make-up of the caretaker cabinet (SPLM is listed as governing), whether voter registration has started, and the seat breakdown of the 100-member Council of States."
+  },
+  {
+    "iso3": "TZA",
+    "iso2": "tz",
+    "numeric": "834",
+    "name": "Tanzania",
+    "region": "Africa",
+    "system": "Unitary presidential republic with an executive president and an appointed prime minister, dominated by one party; Zanzibar is semi-autonomous with its own president and House of Representatives",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Samia Suluhu Hassan",
+        "title": "President",
+        "party": "Chama Cha Mapinduzi (CCM)",
+        "since": "2021-03-19"
+      },
+      "headOfGovernment": {
+        "name": "Mwigulu Nchemba",
+        "title": "Prime Minister",
+        "party": "Chama Cha Mapinduzi (CCM)",
+        "since": "2025-11-13"
+      },
+      "governingParties": [
+        "Chama Cha Mapinduzi (CCM)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly (Bunge)",
+        "control": "Chama Cha Mapinduzi (CCM) (overwhelming majority)",
+        "detail": "403 seats. In the 29 October 2025 election CCM won 270 of the 272 directly elected seats and ACT-Wazalendo won 2. The other members fill seats reserved for women, presidential appointees and members chosen by Zanzibar's House of Representatives. Speaker: Mussa Zungu (CCM), since 11 November 2025."
+      }
+    ],
+    "judiciary": "The Court of Appeal is the highest court, and the High Court sits below it. Chief Justice George Masaju was appointed by President Samia Suluhu Hassan in June 2025. On 6 November 2026 the High Court acquitted Chadema leader Tundu Lissu of treason but convicted him of incitement and sentenced him to four years in prison. Many observers have criticised the prosecution as politically motivated.",
+    "elections": [
+      {
+        "name": "General election (presidential and National Assembly)",
+        "date": "2025-10-29",
+        "status": "held",
+        "note": "The electoral commission (INEC) declared President Samia Suluhu Hassan (CCM) re-elected with 97.66% of the vote. CCM won 270 of the 272 directly elected seats. The main opposition party, Chadema, was barred from the election, and its leader Tundu Lissu was on trial for treason. Protests and unrest followed the vote. A government commission reported at least 518 deaths, a figure the opposition rejected. In Zanzibar, Hussein Ali Mwinyi (CCM) was re-elected with about 74% of the vote."
+      },
+      {
+        "name": "General election (presidential and National Assembly)",
+        "date": "2030-10",
+        "status": "upcoming",
+        "note": "Due by law in 2030."
+      }
+    ],
+    "synopsis": "Tanzania is a presidential republic. Chama Cha Mapinduzi (CCM) and its predecessors have governed since independence. President Samia Suluhu Hassan, in office since 2021, was declared re-elected with 97.66% of the vote in the October 2025 election. Chadema was barred from that election, and the vote was followed by deadly unrest. In August 2026 Vice President Emmanuel Nchimbi resigned. Deogratius Ndejembi replaced him, and Prime Minister Mwigulu Nchemba continues to lead the government.",
+    "policies": [
+      "Telling ministries and public institutions to favour locally made products in public purchasing",
+      "Keeping fuel subsidies while adjusting price caps",
+      "Promoting investment, infrastructure and economic growth under the national development plan",
+      "Fighting corruption and negligence in the public service, which the prime minister has made a stated priority"
+    ],
+    "challenges": [
+      "Fallout from the violence after the October 2025 election, which a government commission said killed at least 518 people; the opposition rejected the report and called for an international inquiry",
+      "Political restrictions and the conviction of opposition leader Tundu Lissu, which have drawn international criticism",
+      "Concerns over media freedom, including the suspension of a newspaper that reported divisions within the government",
+      "Reports of divisions within the government, highlighted by the vice president's resignation in August 2026",
+      "Pressure on public spending and living costs"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "UGA",
+    "iso2": "ug",
+    "numeric": "800",
+    "name": "Uganda",
+    "region": "Africa",
+    "system": "Unitary presidential republic with a dominant ruling party",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Yoweri Museveni",
+        "title": "President",
+        "party": "National Resistance Movement",
+        "since": "1986-01-29"
+      },
+      "headOfGovernment": {
+        "name": "Robinah Nabbanja",
+        "title": "Prime Minister",
+        "party": "National Resistance Movement",
+        "since": "2021-06-21"
+      },
+      "governingParties": [
+        "National Resistance Movement"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Parliament",
+        "control": "National Resistance Movement (two-thirds majority)",
+        "detail": "529 seats (12th Parliament, elected 15 January 2026). Seats: National Resistance Movement 371 and National Unity Platform 50 (IPU Parline); other sources give 372 and 49. Other parties each won fewer than 10 seats, and the army holds 10 seats. Speaker: Jacob Oboth-Oboth (NRM), since 25 May 2026. Leader of the Opposition: Joel Ssenyonyi (NUP)."
+      }
+    ],
+    "judiciary": "The Supreme Court is the highest court and hears presidential election petitions. It is led by Chief Justice Flavian Zeija, in office since January 2026. Before Museveni's inauguration the court heard a petition by former candidate Robert Kasibante against the 2026 presidential result. Opposition leader Kizza Besigye's treason trial in the High Court has drawn concern about fair-trial guarantees.",
+    "elections": [
+      {
+        "name": "General election (presidential and parliamentary)",
+        "date": "2026-01-15",
+        "status": "held",
+        "note": "Yoweri Museveni (NRM) was declared winner with 71.65% of the vote; Robert Kyagulanyi (Bobi Wine, NUP) was second with 24.72% and rejected the result as fake. Turnout was about 52.5%. The NRM kept a two-thirds majority in Parliament."
+      },
+      {
+        "name": "General election (presidential and parliamentary)",
+        "date": "2031",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year term."
+      }
+    ],
+    "synopsis": "Yoweri Museveni, president since 1986, won a seventh term in the January 2026 election and was sworn in on 12 May 2026; the opposition rejected the result. His National Resistance Movement holds a two-thirds majority in the 12th Parliament, and Robinah Nabbanja was reappointed prime minister for 2026-2031. The National Unity Platform, led by Bobi Wine, is the main opposition party.",
+    "policies": [
+      "Growth strategy aiming for a US$500 billion economy",
+      "Industrialisation and expanding manufacturing",
+      "Preparing for commercial oil production in the Albertine (Bunyoro) region",
+      "Agricultural modernisation, including solar-powered support for farmers",
+      "East African regional integration"
+    ],
+    "challenges": [
+      "Disputed 2026 election, with opposition claims of rigging and reports of intimidation and abductions",
+      "Treason trial of opposition leader Kizza Besigye",
+      "Pressure on the opposition: Bobi Wine went into hiding after the election and later left the country",
+      "Unanswered questions about long-term succession after four decades of Museveni's rule",
+      "Unemployment and job creation"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Sources give slightly different seat counts for the 2026 Parliament: IPU Parline says NRM 371 and NUP 50, while Wikipedia and an EISA journal say NRM 372 and NUP 49."
+  },
+  {
+    "iso3": "ZMB",
+    "iso2": "zm",
+    "numeric": "894",
+    "name": "Zambia",
+    "region": "Africa",
+    "system": "Unitary presidential republic with a directly elected executive president",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Hakainde Hichilema",
+        "title": "President",
+        "party": "United Party for National Development (UPND)",
+        "since": "2021-08-24"
+      },
+      "headOfGovernment": {
+        "name": "Hakainde Hichilema",
+        "title": "President",
+        "party": "United Party for National Development (UPND)",
+        "since": "2021-08-24"
+      },
+      "governingParties": [
+        "United Party for National Development (UPND)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "United Party for National Development (UPND) majority",
+        "detail": "Expanded chamber of up to 280 members (226 constituency seats, 40 reserved proportional seats for women, youth and persons with disabilities, presidential nominees and ex-officio members), first elected under this system on 13 August 2026. Of 224 constituency seats announced after the election: UPND 137, National Reconciliation Party for Unity and Prosperity (NRPUP) 59, independents 20, Resolute Party 5, Citizens First 2, Zambia Must Prosper 1. UPND won Lumezi North unopposed on 8 October 2026 after the opposition withdrew from the by-election. Speaker Nelly Mutti (UPND) was re-elected on 2 October 2026; NRPUP's Ezra Tembo leads the opposition."
+      }
+    ],
+    "judiciary": "The Supreme Court, headed by Chief Justice Mumba Malila, is the final court of appeal, and the Constitutional Court, under President Margaret Munalula, hears constitutional and presidential election disputes. Courts in Lusaka and other cities closed for 'security reasons' on 24 August 2026, the last day for filing a presidential election petition. The Law Association of Zambia and the opposition criticised the closure, and the losing candidate filed no petition.",
+    "elections": [
+      {
+        "name": "General election (president, National Assembly, local councils)",
+        "date": "2026-08-13",
+        "status": "held",
+        "note": "Incumbent Hakainde Hichilema (UPND) was re-elected in the first round with about 60.5% of the vote, according to the Electoral Commission of Zambia. Brian Mundubile (NRPUP, Tonse alliance) took about 38%. The UPND won a majority of constituency seats. Mundubile rejected the result. International observers called the vote transparent but criticised misuse of state resources and restrictions on the opposition. Hichilema and Vice President Mutale Nalumango were sworn in on 1 September 2026."
+      },
+      {
+        "name": "General election (president, National Assembly, local councils)",
+        "date": "2031-08",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year term. Hichilema is not eligible to run again under the two-term limit."
+      }
+    ],
+    "synopsis": "Zambia is a presidential republic in which the directly elected president is both head of state and head of government. President Hakainde Hichilema of the UPND, in office since 2021, won a second and final five-year term in the disputed August 2026 general election. The election was the first held for an enlarged National Assembly, in which the UPND has a majority. After the vote, runner-up Brian Mundubile and his running mate were detained and charged with treason.",
+    "policies": [
+      "Grow Zambia Agenda: moving from economic stabilisation to growth, job creation and wealth creation",
+      "Expanding mining output, especially copper, and attracting foreign investment",
+      "Free education, larger Constituency Development Fund allocations and expanded social protection",
+      "Fiscal consolidation after the restructuring of external debt",
+      "Anti-corruption measures and institutional reform"
+    ],
+    "challenges": [
+      "Post-election tensions: the treason, sedition and terrorism case against opposition leaders Brian Mundubile and Makebi Zulu and 16 others, held since August 2026",
+      "Human rights groups' allegations of repression and of restrictions on political space after the election",
+      "High public debt and cost-of-living pressures",
+      "Dependence on copper exports and vulnerability to commodity prices",
+      "Regional political divisions, with the opposition strong in urban Copperbelt and Lusaka constituencies"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Final seat totals for the National Assembly could not be confirmed. Sources disagree on how the 40 reserved proportional seats were allocated and on overall party totals including nominated members, so only the constituency figures reported by the Zambia Daily Mail are given. Those figures were reported with 224 of 226 constituencies announced."
+  },
+  {
+    "iso3": "ZWE",
+    "iso2": "zw",
+    "numeric": "716",
+    "name": "Zimbabwe",
+    "region": "Africa",
+    "system": "Presidential republic with an executive president who is both head of state and head of government; under the 2026 Constitution Amendment No. 3 the president is to be elected by a joint sitting of Parliament",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Emmerson Mnangagwa",
+        "title": "President",
+        "party": "ZANU-PF",
+        "since": "2017-11-24"
+      },
+      "headOfGovernment": {
+        "name": "Emmerson Mnangagwa",
+        "title": "President",
+        "party": "ZANU-PF",
+        "since": "2017-11-24"
+      },
+      "governingParties": [
+        "ZANU-PF"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "ZANU-PF (two-thirds majority)",
+        "detail": "280 seats. 2023 election: ZANU-PF 177, Citizens Coalition for Change (CCC) 103. After a disputed CCC leadership figure recalled CCC MPs, ZANU-PF won the resulting by-elections and had 190 seats by February 2024, giving it a two-thirds majority."
+      },
+      {
+        "name": "Senate",
+        "control": "ZANU-PF",
+        "detail": "Before the 2026 amendment, 80 seats in total. In 2023 the 60 proportionally elected seats went ZANU-PF 33 and CCC 27; the other seats are held by traditional chiefs and representatives of people with disabilities. Constitution Amendment No. 3 (2026) enlarges the Senate and lets the President appoint ten more senators."
+      }
+    ],
+    "judiciary": "The Constitutional Court is the highest court on constitutional matters and the Supreme Court is the final court of appeal on other matters. The Constitutional Court is hearing challenges to the 2026 term-extension amendment, which critics say needed a referendum. Hearings were postponed to 18 November 2026 amid a dispute over how the bench is made up.",
+    "elections": [
+      {
+        "name": "General (harmonised) election",
+        "date": "2023-08-23",
+        "status": "held",
+        "note": "Mnangagwa was re-elected with 52.6% of the presidential vote in a disputed election. ZANU-PF won 177 of 280 National Assembly seats and the CCC won 103."
+      },
+      {
+        "name": "General (harmonised) election",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Originally due in 2028. Constitution Amendment No. 3 (2026) extends presidential, parliamentary and local terms from five to seven years, moving the next harmonised election to 2030, when Parliament rather than voters will elect the president. Court challenges to the amendment are pending."
+      }
+    ],
+    "synopsis": "ZANU-PF has governed Zimbabwe since independence in 1980. Emmerson Mnangagwa took power after Robert Mugabe was removed in 2017 and was re-elected in 2018 and in the disputed 2023 election. In July 2026 he signed Constitution Amendment No. 3, which extends his term to 2030 and has Parliament elect future presidents; the amendment is being challenged in court and is a source of tension inside ZANU-PF.",
+    "policies": [
+      "Vision 2030 development agenda aimed at upper-middle-income status",
+      "Constitution Amendment No. 3: seven-year terms, president elected by Parliament, a larger Senate and changes to how elections are run",
+      "De-dollarisation and promotion of the local currency, with a goal of ending use of the US dollar by 2030",
+      "Mining-led growth and closer ties with BRICS countries, including preparing an application to join"
+    ],
+    "challenges": [
+      "Legal and political disputes over the 2026 term-extension amendment and the lack of a referendum",
+      "Factional rivalry within ZANU-PF between supporters of Mnangagwa and of Vice-President Constantino Chiwenga",
+      "Economic instability, including inflation and currency volatility",
+      "Strained relations with Western governments, including US sanctions imposed on Mnangagwa in 2024",
+      "Weak and divided opposition, and concerns about political freedoms"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Not confirmed: the current Senate composition, including whether the ten extra presidential appointees under Amendment No. 3 have been named; the current National Assembly party breakdown after any by-elections since February 2024; and the exact date in 2030 of the next election."
+  }
+]
