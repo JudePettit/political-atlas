@@ -316,6 +316,192 @@
     "reviewNote": "Not confirmed: (1) which parties are in the cabinet after the May 2026 reshuffle and any later changes, including whether Evópoli is still represented. A Radical Party member was also in the cabinet, but it is unclear whether the party itself is in government. (2) Whether the National Libertarian Party, which is part of Cambio por Chile, is in government. (3) Seat counts are the November 2025 election results and do not reflect later defections. Sources also disagree on whether the right-wing blocs won 76 or 77 Chamber seats."
   },
   {
+    "iso3": "COL",
+    "iso2": "co",
+    "numeric": "170",
+    "name": "Colombia",
+    "region": "South America",
+    "system": "Unitary presidential republic with a bicameral Congress",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Abelardo de la Espriella",
+        "title": "President",
+        "party": "Defensores de la Patria",
+        "since": "2026-08-07"
+      },
+      "headOfGovernment": {
+        "name": "Abelardo de la Espriella",
+        "title": "President",
+        "party": "Defensores de la Patria",
+        "since": "2026-08-07"
+      },
+      "governingParties": [
+        "Defensores de la Patria",
+        "National Salvation Movement",
+        "Democratic Centre",
+        "Liberal Party",
+        "Radical Change",
+        "Conservative Party",
+        "Party of the U",
+        "Creemos"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Senate",
+        "control": "Pro-government coalition majority: parties holding about 61% of seats joined President de la Espriella's coalition; Historic Pact is the largest single party and leads the opposition",
+        "detail": "103 seats (March 2026 election): Historic Pact 25, Democratic Centre 17, Liberal Party 13, Conservative Party 10; remaining seats split among smaller parties and reserved seats"
+      },
+      {
+        "name": "Chamber of Representatives",
+        "control": "Pro-government coalition majority: parties holding about two-thirds of seats joined the governing coalition; Historic Pact is the largest single party and leads the opposition",
+        "detail": "183 seats (March 2026 election); Historic Pact the largest party, followed by Democratic Centre, Liberal Party and Conservative Party; exact counts differ between sources"
+      }
+    ],
+    "judiciary": "The Constitutional Court, the Supreme Court of Justice and the Council of State head the judiciary. In November 2026 the Constitutional Court upheld, with conditions, the economic emergency President de la Espriella declared after the August 2026 earthquake, and lower courts have ruled against him in cases over campaign use of national symbols and his attendance at religious ceremonies as president.",
+    "elections": [
+      {
+        "name": "Congressional election",
+        "date": "2026-03-08",
+        "status": "held",
+        "note": "Fragmented result: Historic Pact came first in both chambers (25 of 103 Senate seats) and Democratic Centre second (17 Senate seats)."
+      },
+      {
+        "name": "Presidential election, first round",
+        "date": "2026-05-31",
+        "status": "held",
+        "note": "Abelardo de la Espriella 43.7%, Iván Cepeda (Historic Pact) 40.9%."
+      },
+      {
+        "name": "Presidential election, runoff",
+        "date": "2026-06-21",
+        "status": "held",
+        "note": "Abelardo de la Espriella won with 49.66% against Iván Cepeda's 48.70%, the narrowest margin recorded in a Colombian presidential election."
+      },
+      {
+        "name": "Regional and municipal elections",
+        "date": "2027-10-31",
+        "status": "upcoming",
+        "note": "Elections for governors, departmental assemblies, mayors and councils (not national offices)."
+      },
+      {
+        "name": "Congressional election",
+        "date": "2030-03",
+        "status": "upcoming"
+      },
+      {
+        "name": "Presidential election",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Due by law at the end of the 2026-2030 presidential term."
+      }
+    ],
+    "synopsis": "Right-wing lawyer Abelardo de la Espriella took office as president on 7 August 2026 after narrowly beating leftist Iván Cepeda in the June runoff, succeeding Gustavo Petro. He governs with a broad coalition of traditional and right-wing parties in a fragmented Congress in which Petro's Historic Pact is the largest single party and leads the opposition.",
+    "policies": [
+      "A hardline security strategy against armed groups and drug trafficking, replacing the previous government's \"total peace\" talks",
+      "The Submission Law, passed in November 2026, which requires illegal armed groups to submit to the ordinary criminal justice system",
+      "Fiscal austerity, including an Economic Rescue Bill that cuts spending and raises taxes",
+      "A planned overhaul that would eliminate or merge about half of the national executive branch's agencies",
+      "Closer alignment with the United States"
+    ],
+    "challenges": [
+      "Rising violence, including extortion, kidnappings, homicides and attacks on security forces, in conflict regions",
+      "Strained public finances and investor concern about the fiscal outlook",
+      "Recovery from the August 2026 earthquake and the economic emergency declared afterwards",
+      "Keeping a fragmented congressional coalition together; Historic Pact and Democratic Centre combined in July 2026 to defeat the president's preferred candidate for Senate president",
+      "Deep political polarisation after the narrowest presidential result on record"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Seat counts in the Chamber of Representatives differ between sources (for example, Historic Pact 36, 42 or 43 seats; Democratic Centre 28, 30 or 32), so exact House figures are left out. The exact party make-up of the governing coalition is not confirmed: sources name Democratic Centre, Liberal Party, Radical Change, Creemos and National Salvation Movement, and some list the Conservative Party and Party of the U. The President's party is given as Defensores de la Patria; some sources say he ran under the National Salvation Movement."
+  },
+  {
+    "iso3": "ECU",
+    "iso2": "ec",
+    "numeric": "218",
+    "name": "Ecuador",
+    "region": "South America",
+    "system": "Unitary presidential republic with a unicameral National Assembly",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Daniel Noboa",
+        "title": "President",
+        "party": "National Democratic Action (ADN)",
+        "since": "2023-11-23"
+      },
+      "headOfGovernment": {
+        "name": "Daniel Noboa",
+        "title": "President",
+        "party": "National Democratic Action (ADN)",
+        "since": "2023-11-23"
+      },
+      "governingParties": [
+        "National Democratic Action (ADN)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly (Asamblea Nacional)",
+        "control": "National Democratic Action (ADN) and allied legislators (working majority); Assembly President Mishel Mancheno (ADN) since 8 June 2026",
+        "detail": "151 seats; February 2025 election: Citizen Revolution–RETO 67, ADN 66, Pachakutik 9, Social Christian Party 4, others 5. ADN and its allies won the Assembly presidency with support from non-aligned members. The pro-government bloc has since grown to about 78 members."
+      }
+    ],
+    "judiciary": "The Constitutional Court reviews laws, states of exception and proposed referendums and constitutional amendments, and the National Court of Justice is the highest court for ordinary cases. The Constitutional Court has repeatedly been in tension with the Noboa government: it has suspended or set conditions on security measures and curfews, admitted challenges to urgent economic laws, and accepted only some of the government's proposed constitutional amendments.",
+    "elections": [
+      {
+        "name": "Presidential runoff election",
+        "date": "2025-04-13",
+        "status": "held",
+        "note": "Daniel Noboa (ADN) defeated Luisa González (Citizen Revolution) with about 55.6% of the vote to 44.4% and began a full four-year term in May 2025."
+      },
+      {
+        "name": "General election (first round and National Assembly)",
+        "date": "2025-02-09",
+        "status": "held",
+        "note": "Citizen Revolution–RETO won 67 of 151 Assembly seats and ADN 66; Noboa and González went through to the runoff."
+      },
+      {
+        "name": "Referendum and popular consultation",
+        "date": "2025-11-16",
+        "status": "held",
+        "note": "Voters rejected all four questions put forward by Noboa, including a Constituent Assembly to write a new constitution (about 61.8% No) and allowing foreign military bases."
+      },
+      {
+        "name": "Local (sectional) elections and Citizen Participation and Social Control Council (CPCCS) election",
+        "date": "2026-11-29",
+        "status": "upcoming",
+        "note": "Brought forward from 14 February 2027. Voters elect 23 prefects, 222 mayors, councillors, parish boards and seven CPCCS councillors; the campaign runs from 12 to 26 November 2026."
+      },
+      {
+        "name": "General election (president and National Assembly)",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Next presidential and legislative election due by law at the end of the 2025–2029 term."
+      }
+    ],
+    "synopsis": "Daniel Noboa of National Democratic Action, first elected in a 2023 snap election, won a full term in April 2025 and governs with a working majority in the National Assembly. His government has focused on a militarized response to organized crime, including repeated states of exception, but voters rejected all four of his referendum questions in November 2025, including a call for a new constitution. Nationwide local elections are scheduled for 29 November 2026.",
+    "policies": [
+      "Militarized security policy against organized crime and drug-trafficking gangs, including repeated states of exception, curfews and a larger military role in internal security",
+      "Building new maximum-security prisons, such as El Encuentro in Santa Elena, opened in November 2025",
+      "Economic reforms passed through urgent economic bills sent to the National Assembly",
+      "Constitutional amendments to take the power to appoint officials away from the Citizen Participation and Social Control Council (CPCCS)"
+    ],
+    "challenges": [
+      "High levels of violent crime and gang activity, with states of exception renewed across several provinces",
+      "Legal disputes with the Constitutional Court over security measures and urgent laws",
+      "Voters' rejection of the government's November 2025 referendum proposals, including a new constitution",
+      "Human rights concerns raised about the use of the military in internal security",
+      "Frequent elections: the November 2026 local vote is the sixth electoral process in less than four years"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Not reconfirmed in this research session: the April 2025 runoff vote shares, the 24 May 2025 date Noboa began his full term, the start date of Vice President María José Pinto, and the February 2025 seat counts for Pachakutik (9) and the Social Christian Party (4)."
+  },
+  {
     "iso3": "GUY",
     "iso2": "gy",
     "numeric": "328",
@@ -380,5 +566,376 @@
       "Illegal gold mining and security incidents along the borders"
     ],
     "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "PER",
+    "iso2": "pe",
+    "numeric": "604",
+    "name": "Peru",
+    "region": "South America",
+    "system": "Unitary presidential republic with a bicameral Congress (restored in 2026)",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Keiko Fujimori",
+        "title": "President of the Republic",
+        "party": "Popular Force",
+        "since": "2026-07-28"
+      },
+      "headOfGovernment": {
+        "name": "Keiko Fujimori",
+        "title": "President of the Republic",
+        "party": "Popular Force",
+        "since": "2026-07-28"
+      },
+      "governingParties": [
+        "Popular Force"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Senate",
+        "control": "No single-party majority; Popular Force is the largest party, and government-aligned senators hold half the seats",
+        "detail": "60 seats (2026 election): Popular Force 22, Together for Peru 14, Popular Renewal 8, Party of Good Government 7, Works Civic Party 5, Now Nation 4. Speaker: Miki Torres (Popular Force), since 26 July 2026."
+      },
+      {
+        "name": "Chamber of Deputies",
+        "control": "No majority; Popular Force is the largest party",
+        "detail": "130 seats (2026 election), 66 needed for a majority: Popular Force 41, Together for Peru 32, Party of Good Government 18; other parties' seats not confirmed. Speaker: Óscar Reto (Party of Good Government), since 26 July 2026."
+      }
+    ],
+    "judiciary": "The Constitutional Tribunal, whose members Congress elects, rules on constitutional questions; the Supreme Court of Justice heads the ordinary courts. In recent years Congress has repeatedly clashed with judicial and prosecutorial bodies, and in December 2023 the Tribunal ordered Alberto Fujimori's release despite objections from the Inter-American Court of Human Rights.",
+    "elections": [
+      {
+        "name": "General election (president first round, Senate and Chamber of Deputies)",
+        "date": "2026-04-12",
+        "status": "held",
+        "note": "Keiko Fujimori (Popular Force) won 17.2% and Roberto Sánchez (Together for Peru) 12.0%, so the two went to a runoff. Popular Force became the largest party in both chambers of the restored bicameral Congress."
+      },
+      {
+        "name": "Presidential runoff",
+        "date": "2026-06-07",
+        "status": "held",
+        "note": "Keiko Fujimori won with 50.14% to 49.87% for Roberto Sánchez, a margin of about 50,000 votes. The National Elections Board (JNE) proclaimed her the winner."
+      },
+      {
+        "name": "General election (president and Congress)",
+        "date": "2031",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year term."
+      }
+    ],
+    "synopsis": "Keiko Fujimori, leader of the conservative Popular Force, became president on 28 July 2026 after narrowly beating leftist Roberto Sánchez in the runoff. She took office after a decade in which Peru had nine presidents. The 2026 election also restored a two-chamber Congress, in which her party is the largest group but has no majority of its own.",
+    "policies": [
+      "A tough approach to crime and extortion, which Fujimori has called an \"iron fist\"",
+      "Promoting economic growth and investment, with economist Elmer Cuba as economy minister",
+      "Closer security and trade ties with the United States",
+      "Emergency measures for the expected El Niño floods; the Senate has granted the executive emergency powers"
+    ],
+    "challenges": [
+      "High levels of crime and extortion",
+      "Long-running political instability and frequent clashes between the president and Congress",
+      "A society split by the very close 2026 runoff",
+      "A Congress where the government has no majority of its own",
+      "Falling public approval: Ipsos found 53% disapproval after 100 days"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Chamber of Deputies: seat counts for parties other than Popular Force (41), Together for Peru (32, per IPU; one source gives 31 now) and Party of Good Government (18) could not be confirmed. The Senate's even split between government-aligned and opposition senators comes from a single source. Whether Luis Galarreta is still President of the Council of Ministers (prime minister) in November 2026 could not be confirmed in recent news."
+  },
+  {
+    "iso3": "PRY",
+    "iso2": "py",
+    "numeric": "600",
+    "name": "Paraguay",
+    "region": "South America",
+    "system": "Unitary presidential republic with a bicameral Congress",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Pedro Alliana",
+        "title": "President",
+        "party": "Colorado Party (Asociación Nacional Republicana)",
+        "since": "2026-11-06"
+      },
+      "headOfGovernment": {
+        "name": "Pedro Alliana",
+        "title": "President",
+        "party": "Colorado Party (Asociación Nacional Republicana)",
+        "since": "2026-11-06"
+      },
+      "governingParties": [
+        "Colorado Party (Asociación Nacional Republicana)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Chamber of Senators",
+        "control": "Colorado Party (ANR) majority, led by the Honor Colorado faction; some Colorado senators sit in separate dissident or independent blocs",
+        "detail": "45 seats, elected in April 2023. On 2026-11-06 all 44 senators present voted to remove President Santiago Peña from office."
+      },
+      {
+        "name": "Chamber of Deputies",
+        "control": "Colorado Party (ANR) majority, led by the Honor Colorado faction",
+        "detail": "80 seats, elected in April 2023. On 2026-11-05 it approved the impeachment charges against Peña by 78 votes."
+      }
+    ],
+    "judiciary": "The Supreme Court of Justice is the highest court and also rules on constitutional challenges. The Superior Tribunal of Electoral Justice (TSJE) runs and adjudicates elections. After Santiago Peña was removed, prosecutors charged him over the Ueno Bank collapse and he was placed under house arrest.",
+    "elections": [
+      {
+        "name": "General election (president, Congress, governors)",
+        "date": "2023-04-30",
+        "status": "held",
+        "note": "Santiago Peña of the Colorado Party won the presidency (a single round, decided by plurality), with Pedro Alliana as vice-president. The Colorado Party won majorities in both chambers. Peña was removed by impeachment on 2026-11-06, and Alliana is completing the term, which ends in August 2028."
+      },
+      {
+        "name": "Municipal elections",
+        "date": "2026-10-04",
+        "status": "held",
+        "note": "Nationwide local elections. The Colorado Party won a record 187 of 263 mayoralties but lost Asunción to Soledad Núñez (Alianza Juntos por Asunción). It also failed to win Ciudad del Este, where Daniel Pereira Mujica of Yo Creo won."
+      },
+      {
+        "name": "Simultaneous party primaries for the 2028 general election",
+        "date": "2027",
+        "status": "upcoming",
+        "note": "Legally due between 2027-12-12 and 2028-02-13. The TSJE has not yet set the exact date."
+      },
+      {
+        "name": "General election (president, Congress, governors)",
+        "date": "2028",
+        "status": "upcoming",
+        "note": "Due between mid-April and mid-May 2028. The TSJE has not yet set the exact date. The new president takes office in August 2028."
+      }
+    ],
+    "synopsis": "Paraguay is a presidential republic long dominated by the conservative Colorado Party, which holds the presidency and majorities in both chambers of Congress. In November 2026, after the collapse of Ueno Bank, President Santiago Peña resigned. Congress impeached and removed him anyway, and Vice-President Pedro Alliana was sworn in on 6 November to finish the term to August 2028. Congress chose Senator Antonio Barrios as the new vice-president.",
+    "policies": [
+      "Alliana has pledged to fully compensate savers affected by the Ueno Bank collapse",
+      "Rebuilding the cabinet with a mix of new appointees and members of the previous government, including a new interior minister and a new head of the Civil Cabinet",
+      "Promising institutional stability, transparency and a 'pacification' process after Peña's removal",
+      "Continuing the market-friendly economic approach of the Colorado governments and close ties with the United States"
+    ],
+    "challenges": [
+      "Fallout from the Ueno Bank collapse, which accusers in the impeachment trial said cost about 1.2 billion US dollars, and the recovery of savers' deposits",
+      "A criminal case against former president Peña over the collapse, with charges of breach of trust and influence peddling",
+      "Allegations of conflicts of interest and of mismanaged funds at public bodies, including the social security institute (IPS)",
+      "Factional splits within the Colorado Party in Congress, and opposition gains in the largest cities in the 2026 municipal elections",
+      "Building political stability before the 2027–28 primary and general election cycle"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Party seat totals in both chambers from the 2023 election could not be confirmed, so only the chamber sizes and the impeachment votes are given. Developments after about 10 November 2026 could not be checked, including any court challenge to Peña's removal and any action against Alliana (opposition deputies had first drafted impeachment charges against both Peña and Alliana)."
+  },
+  {
+    "iso3": "SUR",
+    "iso2": "sr",
+    "numeric": "740",
+    "name": "Suriname",
+    "region": "South America",
+    "system": "Unitary republic with an executive president elected by the National Assembly; the president is both head of state and head of government",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Jennifer Geerlings-Simons",
+        "title": "President",
+        "party": "National Democratic Party (NDP)",
+        "since": "2025-07-16"
+      },
+      "headOfGovernment": {
+        "name": "Jennifer Geerlings-Simons",
+        "title": "President",
+        "party": "National Democratic Party (NDP)",
+        "since": "2025-07-16"
+      },
+      "governingParties": [
+        "National Democratic Party (NDP)",
+        "General Liberation and Development Party (ABOP)",
+        "National Party of Suriname (NPS)",
+        "Pertjajah Luhur (PL)",
+        "Brotherhood and Unity in Politics (BEP)",
+        "Alternative 2020 (A20)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly (De Nationale Assemblée)",
+        "control": "Six-party coalition led by the NDP (34 of 51 seats, a two-thirds majority); the Progressive Reform Party (VHP) is the only opposition party",
+        "detail": "51 seats after the 25 May 2025 election: NDP 18, VHP 17, ABOP 6, NPS 6, PL 2, BEP 1, A20 1. Chairman: Ashwin Adhin (NDP); vice-chairman: Ronnie Brunswijk (ABOP), both since 28 June 2025."
+      }
+    ],
+    "judiciary": "The High Court of Justice (Hof van Justitie) heads the ordinary courts, and a Constitutional Court set up in 2019 reviews laws against the constitution. Most of the Constitutional Court's members have been serving on expired terms since May 2025, and in November 2026 President Simons called for the court to be re-staffed and for its law to be changed so that its rulings can be appealed.",
+    "elections": [
+      {
+        "name": "General election (National Assembly)",
+        "date": "2025-05-25",
+        "status": "held",
+        "note": "No party won a majority. The NDP won 18 seats and the governing VHP 17. The NDP then formed a coalition with ABOP, NPS, PL, BEP and A20, which together hold 34 seats. On 6 July 2025 the Assembly elected Jennifer Geerlings-Simons unopposed as the country's first woman president, with Gregory Rusland (NPS) as vice-president. This was the first election under the 2023 electoral reform, which uses proportional representation in a single national constituency."
+      },
+      {
+        "name": "General election (National Assembly)",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Due by law in 2030, five years after the 2025 election; the Assembly then elects the president and vice-president."
+      }
+    ],
+    "synopsis": "Suriname is a republic whose 51-member National Assembly elects the president, who leads both the state and the government. Jennifer Geerlings-Simons of the NDP has been president since 16 July 2025 and leads a six-party coalition that holds exactly the two-thirds majority needed to elect a president. The VHP of former president Chan Santokhi, who died in March 2026, is the only opposition party. The government's main focus is preparing for expected offshore oil and gas revenue.",
+    "policies": [
+      "Preparing the state for offshore oil and gas production and planning how to use the revenue for long-term savings, national development, healthcare and housing",
+      "Digitising government services, presented as a way to reduce corruption",
+      "Setting up a presidential working group on land rights and decentralisation affecting Indigenous and Maroon communities",
+      "Reforming tax collection and tightening regulation of the gold sector and its money flows",
+      "Seeking investment through diplomacy and expanding regional and international partnerships"
+    ],
+    "challenges": [
+      "Keeping together a six-party coalition whose two-thirds margin is thin, after strains such as the October 2026 dispute over the head of the telecoms regulator",
+      "A Constitutional Court that cannot work fully because most of its members are serving on expired terms",
+      "Power-generation shortfalls and financial pressure on state companies such as Surinam Airways",
+      "Managing public finances and expectations ahead of oil income",
+      "Crime, public security and informal gold mining in the interior"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "URY",
+    "iso2": "uy",
+    "numeric": "858",
+    "name": "Uruguay",
+    "region": "South America",
+    "system": "Unitary presidential republic with a bicameral General Assembly",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Yamandú Orsi",
+        "title": "President",
+        "party": "Frente Amplio (Broad Front)",
+        "since": "2025-03-01"
+      },
+      "headOfGovernment": {
+        "name": "Yamandú Orsi",
+        "title": "President",
+        "party": "Frente Amplio (Broad Front)",
+        "since": "2025-03-01"
+      },
+      "governingParties": [
+        "Frente Amplio (Broad Front)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Chamber of Senators",
+        "control": "Frente Amplio (majority)",
+        "detail": "30 elected seats (2024): Frente Amplio 16, National Party 9, Colorado Party 5. Vice President Carolina Cosse (Frente Amplio) presides."
+      },
+      {
+        "name": "Chamber of Representatives",
+        "control": "No majority: Frente Amplio is the largest party, and the opposition together holds a majority",
+        "detail": "99 seats (2024): Frente Amplio 48, National Party 29, Colorado Party 17, Identidad Soberana 2, Cabildo Abierto 2, Independent Party 1"
+      }
+    ],
+    "judiciary": "The Supreme Court of Justice is the highest court and also rules on whether laws are constitutional. Its five members are elected by a two-thirds vote of the General Assembly, so the government and the opposition have to agree on them, as they did when Álvaro França was appointed in 2026.",
+    "elections": [
+      {
+        "name": "General election (presidential run-off)",
+        "date": "2024-11-24",
+        "status": "held",
+        "note": "Yamandú Orsi (Frente Amplio) beat Álvaro Delgado (National Party) with 52.08% to 47.92%. In the 27 October 2024 first round, Frente Amplio won a Senate majority (16 of 30) and 48 of 99 seats in the Chamber of Representatives."
+      },
+      {
+        "name": "General election (president and General Assembly)",
+        "date": "2029-10",
+        "status": "upcoming",
+        "note": "Due by law in October 2029, with a presidential run-off in November if needed"
+      }
+    ],
+    "synopsis": "Uruguay is a presidential republic in which the president is both head of state and head of government. Yamandú Orsi of the centre-left Frente Amplio took office on 1 March 2025 after winning the November 2024 run-off. His coalition holds a Senate majority but needs opposition votes in the Chamber of Representatives.",
+    "policies": [
+      "Encouraging large foreign investment, including renewable-energy projects by Spain's Solaria",
+      "Raising pension contributions under the reformed professionals' pension fund (CJPPU), set by decree in November 2026",
+      "Buying new offshore patrol vessels under a defence agreement with France",
+      "Coordinating policy through regular Councils of Ministers with the governing Frente Amplio"
+    ],
+    "challenges": [
+      "Low public approval of the government: 19% approve and 52% disapprove in a November 2026 Opción poll",
+      "No majority in the Chamber of Representatives, so laws need opposition support",
+      "Financing defence purchases and other spending while keeping public finances under control"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "VEN",
+    "iso2": "ve",
+    "numeric": "862",
+    "name": "Venezuela",
+    "region": "South America",
+    "system": "Federal presidential republic under an acting president, in a transition overseen by the United States after Nicolás Maduro was captured by US forces in January 2026",
+    "systemType": "transitional",
+    "status": "in-flux",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Delcy Rodríguez",
+        "title": "Acting President",
+        "party": "United Socialist Party of Venezuela (PSUV)",
+        "since": "2026-01-05"
+      },
+      "headOfGovernment": {
+        "name": "Delcy Rodríguez",
+        "title": "Acting President",
+        "party": "United Socialist Party of Venezuela (PSUV)",
+        "since": "2026-01-05"
+      },
+      "governingParties": [
+        "United Socialist Party of Venezuela (PSUV)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly (Asamblea Nacional)",
+        "control": "PSUV-led Great Patriotic Pole Simón Bolívar (GPPSB) majority; president Jorge Rodríguez (PSUV), re-elected to the post on 5 January 2026",
+        "detail": "Unicameral, 285 seats; elected 25 May 2025, when the main opposition faction led by María Corina Machado boycotted the vote. The current term began on 5 January 2026."
+      }
+    ],
+    "judiciary": "The Supreme Tribunal of Justice (TSJ, 32 seats) is the top court. It has long been seen as aligned with the chavista government, and a rival TSJ appointed by the opposition-led legislature in 2017 sits in exile. Under an August 2026 agreement between the government and part of the opposition, the National Assembly reformed the TSJ law, gave civil society a majority on the judicial nominations committee and began replacing all the justices; nominations close on 18 November 2026, and the US Secretary of State has said the new justices should be in place by mid-December.",
+    "elections": [
+      {
+        "name": "National Assembly and regional elections",
+        "date": "2025-05-25",
+        "status": "held",
+        "note": "The PSUV-led Great Patriotic Pole won a large majority. The main opposition faction led by María Corina Machado boycotted the vote. This is the most recent national vote; the July 2024 presidential result, which declared Maduro the winner, was disputed by the opposition and many foreign governments."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2027",
+        "status": "upcoming",
+        "note": "Not yet scheduled. US Secretary of State Marco Rubio has said elections should ideally be held in 2027, after the Supreme Court and the National Electoral Council have been renewed. María Corina Machado is calling for elections in 2027."
+      },
+      {
+        "name": "National Assembly election",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year term that began in January 2026; no date has been set."
+      }
+    ],
+    "synopsis": "Delcy Rodríguez, Nicolás Maduro's vice president, has been acting president since 5 January 2026, two days after US forces captured Maduro, and she continued past the 90-day limit the Supreme Tribunal set for her role. Her PSUV government is following a phased transition plan backed by the United States: an amnesty law, renewal of the Supreme Court and the electoral council, and then elections, for which no date has been set. Opposition leader María Corina Machado returned from exile in October 2026.",
+    "policies": [
+      "Opening the oil sector to US companies, including an Exxon Mobil memorandum of understanding signed in November 2026 to explore seven sites",
+      "Amnesty Law for Democratic Coexistence (February 2026) and the release of political prisoners",
+      "Replacing all Supreme Court justices and creating a new National Electoral Council under an August 2026 agreement between the government and part of the opposition",
+      "Diplomatic and security cooperation with the United States, including the appointment of Oliver Blanco as foreign minister in October 2026"
+    ],
+    "challenges": [
+      "No date set for a presidential election, and disputes over the pace and legitimacy of the transition",
+      "Economic hardship and public-sector pay disputes, including a teachers' and health workers' strike called for 16 November 2026",
+      "Accountability for human rights abuses documented by the UN Fact-Finding Mission",
+      "Rebuilding judicial and electoral independence after decades of political control",
+      "Armed groups such as the ELN, and recovery from the June 2026 earthquakes"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "In flux: Delcy Rodríguez is serving as acting president after the US captured Nicolás Maduro in January 2026; a US-backed transition is under way, with the Supreme Court and electoral council being renewed and no election date set. Not confirmed: the seat counts from the 25 May 2025 National Assembly election; whether Rodríguez still holds the Vice Presidency or has named a new executive vice president; and whether she has formally become PSUV president."
   }
 ]
