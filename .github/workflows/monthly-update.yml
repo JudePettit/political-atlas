@@ -24,6 +24,16 @@ permissions:
   contents: write
   pull-requests: write
 
+# Create runs go one after another, never side by side. On 13 November 2026 one group was started twice, twenty
+# seconds apart: neither run saw a pull request yet, so both passed the guard below, both did the whole research, and
+# the second replaced the first one's pull request. Now the second start waits for the first to end, then finds its
+# pull request open and stops at the guard before any request is sent, so it costs nothing. (If a third is started
+# while one waits, GitHub drops the waiting one and keeps the newest.) Update runs are not queued: each has a group of
+# its own.
+concurrency:
+  group: ${{ (inputs.mode || 'update') == 'create' && 'atlas-create' || format('atlas-update-{0}', github.run_id) }}
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest

@@ -4,7 +4,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import Ajv from 'ajv/dist/2020.js';
-import { seedRows, checkRecord, NO_ELECTION_TYPES, IDENTITY } from '../scripts/research.mjs';
+import { seedRows, checkRecord, NO_ELECTION_TYPES, NO_ELECTION_COUNTRIES, IDENTITY } from '../scripts/research.mjs';
 
 const read = p => JSON.parse(readFileSync(new URL(`../data/${p}`, import.meta.url), 'utf8'));
 const manifest = read('manifest.json');
@@ -95,10 +95,15 @@ test('every country has an upcoming election or a stated reason', () => {
   const none = countries.filter(c => !c.elections.some(e => e.status === 'upcoming'))
     .map(c => c.iso3);
   // Ruling monarchies (some hold no national vote at all), the Holy See, military governments and civilian
-  // transitions may have no national vote to schedule (the rule create mode applies too).
-  const exempt = new Set(countries.filter(c => NO_ELECTION_TYPES.includes(c.systemType)).map(c => c.iso3));
+  // transitions may have no national vote to schedule (the rule create mode applies too). So may the few countries
+  // create mode names one by one (Eritrea, a one-party state that has held no national election since independence).
+  const exempt = new Set(countries
+    .filter(c => NO_ELECTION_TYPES.includes(c.systemType) || NO_ELECTION_COUNTRIES.includes(c.iso3)).map(c => c.iso3));
   assert.deepEqual(none.filter(c => !exempt.has(c)), []);
   assert.ok(exempt.has('SAU') && exempt.has('VAT'), 'Saudi Arabia and the Holy See are exempt');
+  // The one-party type itself is not exempt: every one-party record other than the named countries lists a vote to come.
+  const onePartyWithout = countries.filter(c => c.systemType === 'one-party' && none.includes(c.iso3)).map(c => c.iso3);
+  assert.deepEqual(onePartyWithout.filter(c => !NO_ELECTION_COUNTRIES.includes(c)), []);
 });
 
 test('seeds are well formed and agree with the records made from them', () => {
@@ -149,4 +154,20 @@ test('text fields are filled and links-free plain text', () => {
     if (/<[a-z]/i.test(JSON.stringify(c))) problems.push(`${c.iso3}: contains HTML`);
   }
   assert.deepEqual(problems, []);
+});
+
+// The workflow's guard against a double start. On 13 November 2026 one group was started twice, twenty seconds apart,
+// and both runs did the whole research. Create runs now share one concurrency group, so a second start waits for the
+// first and then stops at the open-pull-request guard, which must therefore come before the research step.
+test('create runs queue behind one another, and the open-pull-request guard comes before the research', () => {
+  const yml = readFileSync(new URL('../.github/workflows/monthly-update.yml', import.meta.url), 'utf8').replace(/\r\n/g, '\n');
+  const head = yml.slice(0, yml.indexOf('\njobs:'));
+  const block = head.match(/\nconcurrency:\n  group: (.+)\n  cancel-in-progress: (\w+)\n/);
+  assert.ok(block, 'a workflow-level concurrency block with a group and cancel-in-progress');
+  assert.match(block[1], /== 'create' && 'atlas-create'/, 'every create run is in the one group atlas-create');
+  assert.match(block[1], /github\.run_id/, 'update runs each get a group of their own, so they never queue');
+  assert.equal(block[2], 'false', 'a create run that is under way is never cancelled by a second start');
+  const guard = yml.indexOf('Refuse a create run while another create pull request is open');
+  const research = yml.indexOf('Refresh or create country data');
+  assert.ok(guard > 0 && research > guard, 'the guard runs before any request is sent');
 });

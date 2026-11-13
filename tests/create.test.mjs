@@ -166,6 +166,11 @@ test('checkRecord applies the data tests\' rules', () => {
   assert.match(problems({ elections: [ok.elections[0]] }), /no upcoming national election/);
   // A military government need not have a vote scheduled.
   assert.deepEqual(checkRecord({ ...ok, systemType: 'military', elections: [ok.elections[0]] }, TODAY), []);
+  // A one-party state must still give its next vote; only a country named in NO_ELECTION_COUNTRIES need not (Eritrea
+  // has held no national election since independence, and three create runs refused its record for saying so).
+  assert.match(problems({ systemType: 'one-party', elections: [ok.elections[0]] }), /no upcoming national election/);
+  const eritrea = { ...ok, ...Object.fromEntries(IDENTITY.map(k => [k, seed('ERI')[k]])), systemType: 'one-party', elections: [ok.elections[0]] };
+  assert.deepEqual(checkRecord(eritrea, TODAY), []);
   assert.match(problems({ status: 'in-flux' }), /needs a reviewNote/);
   assert.match(problems({ legislature: [] }), /legislature needs at least one entry/);
   assert.match(problems({ policies: ['Only one'] }), /at least 2 policies/);

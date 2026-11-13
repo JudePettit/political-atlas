@@ -29,6 +29,12 @@ export const PRICES = { inputPerMTok: 4, outputPerMTok: 20, perSearch: 0.01 };
 export const IDENTITY = ['iso3', 'iso2', 'numeric', 'name', 'region'];
 // Systems with no national vote to schedule: these may have no upcoming election (Saudi Arabia, the Holy See, juntas).
 export const NO_ELECTION_TYPES = ['absolute-monarchy', 'theocratic', 'military', 'transitional'];
+// Countries of another type where no national vote is due either, named one by one so that the rule stays in force for
+// the rest of their type (China, Cuba, Vietnam, Laos and North Korea all schedule votes). Eritrea: a one-party state
+// that has held no national election since independence in 1993; the vote planned for 2001 was put off without a date
+// and none is scheduled. Three create runs on 13 November 2026 refused its record for telling the truth about that.
+// Its record still needs one "elections" entry, the last national vote held.
+export const NO_ELECTION_COUNTRIES = ['ERI'];
 export const DATE = /^(\d{4})(-\d{2})?(-\d{2})?$|^TBD$/;
 
 export const todayISO = () => new Date().toISOString().slice(0, 10);
@@ -284,7 +290,8 @@ export function checkRecord(c, today = todayISO()) {
     if (full && e.status === 'upcoming' && full < today) problems.push(`election "${e.name}": "upcoming" but ${full} has passed`);
     if (full && e.status === 'held' && full > today) problems.push(`election "${e.name}": "held" but ${full} is in the future`);
   }
-  if (elections.length && !elections.some(e => e.status === 'upcoming') && !NO_ELECTION_TYPES.includes(c.systemType)) {
+  if (elections.length && !elections.some(e => e.status === 'upcoming') && !NO_ELECTION_TYPES.includes(c.systemType)
+    && !NO_ELECTION_COUNTRIES.includes(c.iso3)) {
     problems.push(`no upcoming national election: give the next one due (the year is enough), or a systemType of ${NO_ELECTION_TYPES.join(', ')} where none is due`);
   }
   if (c.status === 'in-flux' && !c.reviewNote) problems.push('an in-flux record needs a reviewNote saying why');
