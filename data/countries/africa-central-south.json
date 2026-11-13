@@ -1,0 +1,1045 @@
+[
+  {
+    "iso3": "AGO",
+    "iso2": "ao",
+    "numeric": "024",
+    "name": "Angola",
+    "region": "Africa",
+    "system": "Unitary presidential republic in which the leader of the party that wins the general election becomes president",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "João Lourenço",
+        "title": "President",
+        "party": "MPLA",
+        "since": "2017-09-26"
+      },
+      "headOfGovernment": {
+        "name": "João Lourenço",
+        "title": "President",
+        "party": "MPLA",
+        "since": "2017-09-26"
+      },
+      "governingParties": [
+        "MPLA"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "MPLA (majority)",
+        "detail": "220 seats after the August 2022 election: MPLA 124, UNITA 90, PRS 2, FNLA 2, PHA 2; 111 needed for a majority"
+      }
+    ],
+    "judiciary": "The Constitutional Court, led by Laurinda Prazeres (Laurinda Cardoso), rules on constitutional and electoral disputes, and the Supreme Court is the top court for ordinary cases. The opposition has accused the Constitutional Court of political bias over rulings such as its 2021 annulment of UNITA's 2019 congress and its dismissal of UNITA's challenge to the 2022 results; Supreme Court president Joel Leonardo was reported in 2025 to have been pressed to resign before his term ended.",
+    "elections": [
+      {
+        "name": "General election (president and National Assembly)",
+        "date": "2022-08-24",
+        "status": "held",
+        "note": "MPLA won 51.17% and 124 of 220 seats, giving João Lourenço a second term; UNITA won 43.95% and 90 seats, the closest result in Angola's history. The Constitutional Court dismissed UNITA's challenge to the result."
+      },
+      {
+        "name": "General election (president and National Assembly)",
+        "date": "2027-08",
+        "status": "upcoming",
+        "note": "Due by August 2027; the exact date has not been set. Lourenço has served two terms; the MPLA had not named its presidential candidate by November 2026. UNITA's Adalberto Costa Júnior is its candidate."
+      }
+    ],
+    "synopsis": "Angola has been governed without a break by the MPLA since independence in 1975, and President João Lourenço has led the country since 2017. The MPLA's majority shrank sharply in the 2022 election. Lourenço is the only validated candidate for the MPLA leadership at the party's 9th congress on 9-10 December 2026, ahead of general elections due by August 2027.",
+    "policies": [
+      "Diversifying the economy away from oil and attracting foreign investment, including in the Lobito transport corridor",
+      "Reducing public and oil-backed external debt",
+      "Phasing out fuel subsidies; further cuts were put off after the unrest of July 2025",
+      "An anti-corruption drive launched after Lourenço took office in 2017"
+    ],
+    "challenges": [
+      "Heavy reliance on oil and a large debt-service burden",
+      "Rising fuel subsidy costs, projected at up to 3.8 trillion kwanzas in 2026, about twice the budgeted amount",
+      "Social discontent over living costs, seen in the deadly fuel-price protests of July 2025",
+      "Local elections required by the constitution still not held",
+      "Succession within the MPLA and a closely fought 2027 election with UNITA"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "The name of the current Supreme Court president could not be confirmed after Joel Leonardo's reported resignation in 2025. The exact date of the 2027 general election has not been set."
+  },
+  {
+    "iso3": "CMR",
+    "iso2": "cm",
+    "numeric": "120",
+    "name": "Cameroon",
+    "region": "Africa",
+    "system": "Unitary presidential republic with a dominant ruling party and an appointed prime minister",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Paul Biya",
+        "title": "President",
+        "party": "Cameroon People's Democratic Movement (RDPC/CPDM)",
+        "since": "1982-11-06"
+      },
+      "headOfGovernment": {
+        "name": "Joseph Dion Ngute",
+        "title": "Prime Minister",
+        "party": "Cameroon People's Democratic Movement (RDPC/CPDM)",
+        "since": "2019-01-04"
+      },
+      "governingParties": [
+        "Cameroon People's Democratic Movement (RDPC/CPDM)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "Cameroon People's Democratic Movement (RDPC/CPDM) majority",
+        "detail": "180 seats. In the 2020 election the RDPC won 139, UNDP 7, SDF 5, PCRN 5 and UDC 4. The term has been extended to 20 December 2026. President of the Assembly: Théodore Datouo (RDPC), since 17 March 2026."
+      },
+      {
+        "name": "Senate",
+        "control": "Cameroon People's Democratic Movement (RDPC/CPDM) majority",
+        "detail": "100 seats: 70 indirectly elected (last in March 2023) and 30 appointed by the president. The RDPC holds 94 according to the BTI 2026 report. President of the Senate: Aboubakary Abdoulaye (RDPC), since 17 March 2026."
+      }
+    ],
+    "judiciary": "The Supreme Court heads the ordinary courts, and the Constitutional Council rules on constitutional matters and on disputes over presidential and legislative elections; it rejected the challenges to the 2025 presidential result. Both courts' members are appointed by the president, and opposition parties and rights groups question whether they are independent of the executive.",
+    "elections": [
+      {
+        "name": "Presidential election",
+        "date": "2025-10-12",
+        "status": "held",
+        "note": "The Constitutional Council declared Paul Biya re-elected to an eighth term, ahead of Issa Tchiroma Bakary. Tchiroma claimed victory and there were deadly protests. Biya was sworn in on 6 November 2025."
+      },
+      {
+        "name": "Legislative and municipal elections",
+        "date": "2027-02-07",
+        "status": "upcoming",
+        "note": "Set by presidential decree in November 2026 after two postponements from 2025 and early 2026. MPs' terms run to 20 December 2026 and municipal councillors' terms to 28 February 2027."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2032",
+        "status": "upcoming",
+        "note": "Next presidential election due by law at the end of the seven-year term."
+      }
+    ],
+    "synopsis": "Paul Biya, 93, has ruled Cameroon since 1982 and began an eighth term in November 2025 after a disputed election. His RDPC dominates both chambers of parliament. A constitutional amendment in April 2026 brought back an appointed vice-presidency for succession, but the post was still vacant in November 2026. No new government has been named since the election, and Biya's long absences abroad have raised questions about who exercises power day to day.",
+    "policies": [
+      "Constitutional amendment of April 2026 restoring a vice-president appointed by the president, who would take over if the presidency falls vacant",
+      "Legislative and municipal elections postponed twice and now set for 7 February 2027",
+      "Military operations against separatists in the English-speaking North-West and South-West regions and against Boko Haram in the Far North",
+      "Development of oil, gas and minerals, including new production-sharing contracts and a cross-border gas agreement with Equatorial Guinea"
+    ],
+    "challenges": [
+      "Uncertain succession: a 93-year-old president, long absences abroad, and the vice-presidency still unfilled",
+      "Contested legitimacy after the 2025 election, with opposition protests and restrictions on opponents",
+      "The separatist conflict in the English-speaking regions and jihadist attacks in the Far North",
+      "Repeated extension of elected bodies' terms because of election delays",
+      "Questions over press freedom and the independence of the courts"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Could not confirm the current status of Prime Minister Joseph Dion Ngute and his cabinet. Reports say no new government has been appointed since the 2025 election, and one February 2026 report mentions an announced dissolution of the government that I could not verify. Could not confirm the current National Assembly seat counts after the 2020 by-election reruns and later changes (one source gives 149 for the RDPC), or whether allied parties such as the UNDP still have ministers in government. Could not confirm the full 2025 presidential vote shares or the 2023 Senate breakdown."
+  },
+  {
+    "iso3": "CAF",
+    "iso2": "cf",
+    "numeric": "140",
+    "name": "Central African Republic",
+    "region": "Africa",
+    "system": "Presidential republic with an appointed prime minister under the 2023 constitution",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Faustin-Archange Touadéra",
+        "title": "President",
+        "party": "United Hearts Movement (MCU)",
+        "since": "2016-03-30"
+      },
+      "headOfGovernment": {
+        "name": "Félix Moloua",
+        "title": "Prime Minister",
+        "party": "United Hearts Movement (MCU)",
+        "since": "2022-02-07"
+      },
+      "governingParties": [
+        "United Hearts Movement (MCU)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "United Hearts Movement (MCU), President Touadéra's party, and its allies",
+        "detail": "144 seats, elected in two rounds (28 December 2025 and 26 April 2026). 90 deputies were declared elected in the first round, including 50 from the MCU in the provisional results. The second round filled 48 of the 54 remaining seats. Speaker: Simplice Mathieu Sarandji, re-elected 7 May 2026."
+      }
+    ],
+    "judiciary": "The Constitutional Council rules on constitutional questions and confirms election results; it validated Touadéra's 2025 re-election and turned down the opposition's challenges. The Court of Cassation and the Council of State are the top ordinary and administrative courts, and a Special Criminal Court in Bangui with national and international judges tries serious crimes from the armed conflicts.",
+    "elections": [
+      {
+        "name": "General election (presidential, legislative first round, local)",
+        "date": "2025-12-28",
+        "status": "held",
+        "note": "The Constitutional Council confirmed Touadéra's third term with 77.90% on 19 January 2026; provisional figures had Anicet-Georges Dologuélé on 14.66% and Henri-Marie Dondra on 3.19%. Turnout was about 52%. The opposition alleged fraud. The MCU led the legislative first round."
+      },
+      {
+        "name": "Legislative election, second round",
+        "date": "2026-04-26",
+        "status": "held",
+        "note": "Run-offs and partial re-runs. The National Elections Authority (ANE) announced results on 9 May 2026: 48 of the 54 open seats were filled. The new Assembly was installed in May 2026."
+      },
+      {
+        "name": "Presidential and legislative elections",
+        "date": "2032",
+        "status": "upcoming",
+        "note": "Due by law at the end of the seven-year terms; no date set."
+      }
+    ],
+    "synopsis": "President Faustin-Archange Touadéra, in power since 2016, began a third term on 30 March 2026. A 2023 referendum had removed the two-term limit and extended the mandate to seven years. His United Hearts Movement dominates the new National Assembly, and he reappointed Félix Moloua as prime minister in May 2026. The UN peacekeeping mission MINUSCA was renewed on 13 November 2026 until 15 November 2027.",
+    "policies": [
+      "Restoring state authority and security through peace deals with armed groups and the reintegration of their fighters",
+      "Security partnership with Russia alongside the UN peacekeeping mission MINUSCA",
+      "Opening up the mining sector and seeking investment and support from donors",
+      "Rolling out the 2023 constitution and its new institutions after the 2025-2026 election cycle"
+    ],
+    "challenges": [
+      "Armed groups remain active in parts of the country, and civilians are attacked and displaced",
+      "Widespread poverty and dependence on humanitarian aid",
+      "Opposition rejection of the 2023 constitution and the disputed 2025 election results",
+      "Weak public finances, including salary arrears that delayed the release of election results",
+      "Political tension and protests in Bangui"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Final party seat counts in the 144-seat National Assembly were not confirmed. The MCU won 50 seats in the first-round provisional results, and the second-round results were published without party affiliation. Whether the six seats still vacant after the second round have been filled was not confirmed."
+  },
+  {
+    "iso3": "TCD",
+    "iso2": "td",
+    "numeric": "148",
+    "name": "Chad",
+    "region": "Africa",
+    "system": "Presidential republic with an appointed prime minister and a two-chamber parliament, dominated by the president and his party",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Mahamat Idriss Déby Itno",
+        "title": "President of the Republic",
+        "party": "Patriotic Salvation Movement (MPS)",
+        "since": "2021-04-20"
+      },
+      "headOfGovernment": {
+        "name": "Allah-Maye Halina",
+        "title": "Prime Minister",
+        "since": "2024-05-23"
+      },
+      "governingParties": [
+        "Patriotic Salvation Movement (MPS)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "Patriotic Salvation Movement (MPS) and allies",
+        "detail": "188 seats; elected 29 December 2024; the MPS holds a large majority"
+      },
+      {
+        "name": "Senate",
+        "control": "Patriotic Salvation Movement (MPS); some senators are chosen by indirect election and the rest are appointed by the president",
+        "detail": "First elected in 2025 under the 2023 constitution"
+      }
+    ],
+    "judiciary": "The Supreme Court is the highest court for ordinary matters and the Constitutional Council rules on constitutional questions and election disputes. Critics say the courts lack independence from the executive; in May 2026 the Supreme Court rejected opposition leader Succès Masra's appeal against his 20-year sentence, and the president pardoned him in August 2026.",
+    "elections": [
+      {
+        "name": "Presidential election",
+        "date": "2024-05-06",
+        "status": "held",
+        "note": "Transitional president Mahamat Idriss Déby Itno (MPS) won, defeating Succès Masra and Albert Pahimi Padacké, and was sworn in on 23 May 2024, ending the military-led transition."
+      },
+      {
+        "name": "Parliamentary election",
+        "date": "2024-12-29",
+        "status": "held",
+        "note": "Held for all 188 National Assembly seats together with regional and local elections; the MPS won a large majority."
+      },
+      {
+        "name": "Next presidential election",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year term won in 2024. The October 2025 constitutional revision made the presidential term seven years and removed term limits for future terms."
+      },
+      {
+        "name": "Next parliamentary election",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Due by law; the 2025 constitutional revision lengthened deputies' term to six years."
+      }
+    ],
+    "synopsis": "Mahamat Idriss Déby Itno took power at the head of a military council after his father, Idriss Déby, was killed in April 2021, and was elected president in May 2024. His Patriotic Salvation Movement dominates both chambers of parliament, and a 2025 constitutional revision made the presidential term seven years and removed term limits. Prime Minister Allah-Maye Halina leads a government that was reshuffled in April 2026 and includes some opposition figures.",
+    "policies": [
+      "Constitutional revision giving a seven-year presidential term with no limit on renewals",
+      "Diversifying security partnerships after ending the defence cooperation agreement with France in 2024",
+      "Hosting large numbers of refugees from the war in Sudan",
+      "Developing mining and hydrocarbons in line with the government's Vision 2030 programme",
+      "Opening the government to opposition figures, including in the April 2026 reshuffle"
+    ],
+    "challenges": [
+      "Spillover from Sudan's civil war, including deadly border clashes and the closure of the eastern border in February 2026",
+      "Large refugee population and severe humanitarian needs",
+      "Opposition and rights groups criticise the jailing of opposition leaders, including Succès Masra, who was pardoned in August 2026",
+      "Armed groups and local clashes, including disputes over gold mining in Tibesti",
+      "Widespread poverty and dependence on oil revenue"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Unconfirmed: the parties' seat counts in the National Assembly from the December 2024 election and the composition of the Senate (how many senators are elected and appointed, and how many seats each party holds); whether the October 2025 revision moves the next presidential election from 2029 and the next parliamentary election to 2030; Prime Minister Halina's party membership."
+  },
+  {
+    "iso3": "COG",
+    "iso2": "cg",
+    "numeric": "178",
+    "name": "Republic of the Congo",
+    "region": "Africa",
+    "system": "Presidential republic with a prime minister appointed by the president, dominated by the ruling Congolese Party of Labour",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Denis Sassou Nguesso",
+        "title": "President",
+        "party": "Congolese Party of Labour (PCT)",
+        "since": "1997-10-25"
+      },
+      "headOfGovernment": {
+        "name": "Anatole Collinet Makosso",
+        "title": "Prime Minister, Head of Government",
+        "party": "Congolese Party of Labour (PCT)",
+        "since": "2021-05-12"
+      },
+      "governingParties": [
+        "Congolese Party of Labour (PCT)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "Congolese Party of Labour (PCT) and allies",
+        "detail": "151 seats (July 2022 election): PCT 112, PCT allies 12, UPADS 7, UDH-YUKI 7, others and independents the rest"
+      },
+      {
+        "name": "Senate",
+        "control": "Congolese Party of Labour (PCT) and allies; senators are elected indirectly by departmental and local councillors",
+        "detail": "72 seats (August 2023 election): PCT 52, allied parties 12, independents 7"
+      }
+    ],
+    "judiciary": "The Constitutional Court rules on whether laws are constitutional and settles election disputes; the Supreme Court is the highest court for ordinary cases. In March 2026 the Constitutional Court, under its president Auguste Iloki, confirmed the president's re-election and rejected the opposition's challenges. Critics say the courts are not independent of the executive.",
+    "elections": [
+      {
+        "name": "Presidential election",
+        "date": "2026-03-15",
+        "status": "held",
+        "note": "Denis Sassou Nguesso won a fifth consecutive term in the first round with 94.90% of the vote, according to the Constitutional Court's final results of 28 March 2026. Official turnout was about 84.65%. Seven candidates ran, parts of the opposition boycotted the vote, and opposition challenges were rejected. Security forces voted in advance on 12 March."
+      },
+      {
+        "name": "National Assembly and local elections",
+        "date": "2027",
+        "status": "upcoming",
+        "note": "Electoral officials began preparing for the 2027 legislative and local elections on 4 September 2026. No date has been set."
+      }
+    ],
+    "synopsis": "Denis Sassou Nguesso has led the Republic of the Congo since 1997, and earlier from 1979 to 1992. He was re-elected for a fifth consecutive term in March 2026 and sworn in on 16 April 2026. He reappointed Anatole Collinet Makosso as prime minister on 23 April 2026, and a 41-member government was named the next day. The ruling Congolese Party of Labour has large majorities in both chambers of parliament.",
+    "policies": [
+      "Diversifying an oil-dependent economy and speeding up the national development agenda",
+      "Managing public debt and stabilising public finances",
+      "Developing infrastructure and public services",
+      "Preparing the 2027 legislative and local elections"
+    ],
+    "challenges": [
+      "Heavy dependence on oil revenue and a high public debt burden",
+      "Weak opposition participation, with boycotts and disputes over the credibility of elections",
+      "Questions about the succession of a long-serving octogenarian president",
+      "Poverty, unemployment and unreliable basic services such as electricity and water"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "COD",
+    "iso2": "cd",
+    "numeric": "180",
+    "name": "DR Congo",
+    "region": "Africa",
+    "system": "Semi-presidential republic dominated by the president",
+    "systemType": "semi-presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Félix Tshisekedi",
+        "title": "President",
+        "party": "Union for Democracy and Social Progress (UDPS)",
+        "since": "2019-01-24"
+      },
+      "headOfGovernment": {
+        "name": "Judith Suminwa Tuluka",
+        "title": "Prime Minister",
+        "party": "Union for Democracy and Social Progress (UDPS)",
+        "since": "2024-06-12"
+      },
+      "governingParties": [
+        "Union for Democracy and Social Progress (UDPS)",
+        "Sacred Union of the Nation (presidential coalition)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "Sacred Union of the Nation (pro-Tshisekedi coalition)",
+        "detail": "500 seats. In the December 2023 election the UDPS won 69 seats, more than any other party. As of December 2024 the Sacred Union's member parties held 454 seats. Speaker: Aimé Boji Sangara, elected 13 November 2025 after Vital Kamerhe resigned."
+      },
+      {
+        "name": "Senate",
+        "control": "Sacred Union of the Nation (pro-Tshisekedi coalition)",
+        "detail": "As of December 2024 the Sacred Union held 95 seats. President of the Senate: Jean-Michel Sama Lukonde."
+      }
+    ],
+    "judiciary": "The Constitutional Court, the Court of Cassation and the Council of State are the highest courts. On 28 July 2026 the Constitutional Court ruled that the law on organising a referendum was constitutional, with reservations on a number of its articles. The opposition says the law is meant to open the way for a third presidential term.",
+    "elections": [
+      {
+        "name": "General election (presidential, legislative and provincial)",
+        "date": "2023-12-20",
+        "status": "held",
+        "note": "Félix Tshisekedi (UDPS) was re-elected with 73.47% of the vote. Moïse Katumbi (Ensemble) came second with 18.32%. In the National Assembly vote, parties of the Sacred Union won a large majority."
+      },
+      {
+        "name": "General election (presidential and legislative)",
+        "date": "2028",
+        "status": "upcoming",
+        "note": "Due in late 2028, at the end of Tshisekedi's second term. In May 2026 Tshisekedi said the elections might not go ahead on schedule if the conflict in the east continues. He signed a referendum law on 10 November 2026 that would allow constitutional changes to be put to a vote, but no referendum date has been announced."
+      }
+    ],
+    "synopsis": "Félix Tshisekedi has been president since January 2019 and was re-elected in December 2023. He governs with Prime Minister Judith Suminwa Tuluka and the Sacred Union coalition, which holds a large majority in both chambers of parliament. Politics is shaped by the conflict with the Rwanda-backed AFC/M23 rebels in the east, a major Ebola outbreak, and a contested plan to change the constitution by referendum.",
+    "policies": [
+      "Peace talks with Rwanda (Washington agreement, June 2025) and with AFC/M23 under the Qatar-mediated Doha framework, including a roadmap agreed in August 2026",
+      "A referendum law signed in November 2026 so that constitutional changes can be put to a public vote",
+      "An offer of national dialogue, which the main opposition parties have rejected",
+      "Pressing for responsible sourcing of minerals and against the trade in conflict minerals"
+    ],
+    "challenges": [
+      "Fighting in North and South Kivu, where parts of the territory are held by AFC/M23",
+      "The Bundibugyo-virus Ebola outbreak declared in May 2026, with more than 9,500 confirmed cases by October 2026",
+      "Opposition protests and accusations that the referendum is aimed at a third term for Tshisekedi",
+      "Uncertainty over whether the 2028 elections will be held on time",
+      "Mass displacement and a large humanitarian crisis in the east"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "GNQ",
+    "iso2": "gq",
+    "numeric": "226",
+    "name": "Equatorial Guinea",
+    "region": "Africa",
+    "system": "Presidential republic dominated by the ruling Democratic Party of Equatorial Guinea; the president appoints the prime minister and government",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Teodoro Obiang Nguema Mbasogo",
+        "title": "President",
+        "party": "Democratic Party of Equatorial Guinea (PDGE)",
+        "since": "1979-08-03"
+      },
+      "headOfGovernment": {
+        "name": "Manuel Osa Nsue Nsua",
+        "title": "Prime Minister, in charge of Administrative Coordination",
+        "party": "Democratic Party of Equatorial Guinea (PDGE)",
+        "since": "2024-08-17"
+      },
+      "governingParties": [
+        "Democratic Party of Equatorial Guinea (PDGE)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Chamber of Deputies",
+        "control": "Democratic Party of Equatorial Guinea (PDGE) and allied parties",
+        "detail": "2022 election: PDGE and allies 100 of 100 seats; opposition 0"
+      },
+      {
+        "name": "Senate",
+        "control": "Democratic Party of Equatorial Guinea (PDGE) and allied parties",
+        "detail": "70 seats: 55 elected, all won by PDGE and allies in 2022; the other 15 are appointed by the president"
+      }
+    ],
+    "judiciary": "The Supreme Court of Justice is the highest court, and a Constitutional Court rules on constitutional questions. The president appoints the Supreme Court's members, and outside observers have long reported that the judiciary is not independent of the executive.",
+    "elections": [
+      {
+        "name": "General election (presidential, Chamber of Deputies, Senate and municipal)",
+        "date": "2022-11-20",
+        "status": "held",
+        "note": "President Obiang was officially re-elected to a sixth term. The PDGE and its allies won all 100 Chamber seats, all 55 elected Senate seats and all municipal council seats. Opposition parties and observers disputed the fairness of the vote."
+      },
+      {
+        "name": "Parliamentary election (Chamber of Deputies and Senate)",
+        "date": "2027",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year term; no date has been announced."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due by law at the end of the seven-year presidential term."
+      }
+    ],
+    "synopsis": "President Teodoro Obiang Nguema Mbasogo has ruled Equatorial Guinea since 1979, making him the world's longest-serving head of state, and his PDGE holds every elected seat in parliament. In June 2026 the government resigned after missing performance targets; Obiang reappointed Prime Minister Manuel Osa Nsue Nsua, and a new cabinet was sworn in on 24 June. Vice President Teodoro Nguema Obiang Mangue, the president's son, is widely seen as his likely successor.",
+    "policies": [
+      "Moving the capital from Malabo to Ciudad de la Paz on the mainland, announced in January 2026",
+      "Diversifying an oil- and gas-dependent economy under a structural reform agenda",
+      "Cross-border gas development with Cameroon under an agreement signed in February 2026",
+      "Pressing territorial claims after the International Court of Justice's 2025 ruling on Mbanie and nearby islands, which Gabon has occupied"
+    ],
+    "challenges": [
+      "Falling oil and gas output and the economy's heavy dependence on hydrocarbons",
+      "Corruption allegations and international legal cases, including arbitration claims against the state",
+      "Human rights concerns, including restrictions on the opposition and the press",
+      "Uncertainty over who will succeed the long-serving president"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "GAB",
+    "iso2": "ga",
+    "numeric": "266",
+    "name": "Gabon",
+    "region": "Africa",
+    "system": "Presidential republic under the 2024 constitution; the president is both head of state and head of government, assisted by a vice-president of the Republic and a vice-president of the government",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Brice Clotaire Oligui Nguema",
+        "title": "President of the Republic",
+        "party": "Democratic Union of Builders (UDB)",
+        "since": "2025-05-03"
+      },
+      "headOfGovernment": {
+        "name": "Brice Clotaire Oligui Nguema",
+        "title": "President of the Republic (head of government); Hermann Immongault coordinates the government as Vice-President of the Government since 2026-01-01",
+        "party": "Democratic Union of Builders (UDB)",
+        "since": "2025-05-03"
+      },
+      "governingParties": [
+        "Democratic Union of Builders (UDB)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "Democratic Union of Builders (UDB) majority",
+        "detail": "145 seats; 2025 election (official results): UDB 101, Gabonese Democratic Party (PDG) 17, the rest independents and smaller parties. President: Michel Régis Onanga Ndiaye (UDB), elected 17 November 2025"
+      },
+      {
+        "name": "Senate",
+        "control": "Democratic Union of Builders (UDB) majority",
+        "detail": "70 seats, indirectly elected in November 2025; UDB 46 seats according to the final results proclaimed by the Constitutional Court. President: Huguette Nyana Ekoume (UDB), elected 17 December 2025"
+      }
+    ],
+    "judiciary": "The Constitutional Court has nine members and rules on constitutional matters and election disputes, including proclaiming final results. Its president is Dieudonné Aba'a Owono, elected by his peers on 27 December 2025 for a single eight-year term. Opposition figures have accused the justice system of serving the government.",
+    "elections": [
+      {
+        "name": "Presidential election",
+        "date": "2025-04-12",
+        "status": "held",
+        "note": "This was the first presidential election after the 2023 coup. Transitional leader Brice Clotaire Oligui Nguema won about 90% of the vote and was sworn in on 3 May 2025."
+      },
+      {
+        "name": "National Assembly election",
+        "date": "2025-09-27",
+        "status": "held",
+        "note": "The first round was on 27 September and the second on 11 October 2025. The UDB won 101 of 145 seats and the PDG 17. First-round turnout was 44.3%."
+      },
+      {
+        "name": "Senate election (indirect)",
+        "date": "2025-11-08",
+        "status": "held",
+        "note": "The first round filled 68 of 70 seats and two went to a second round. The UDB won 46 seats according to the final results."
+      },
+      {
+        "name": "National Assembly election",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year term"
+      },
+      {
+        "name": "Presidential election",
+        "date": "2032",
+        "status": "upcoming",
+        "note": "Due by law at the end of the seven-year term"
+      }
+    ],
+    "synopsis": "Gabon returned to constitutional rule after the military coup of August 2023 that ended the Bongo family's long rule. Coup leader Brice Clotaire Oligui Nguema won the April 2025 presidential election under a new presidential constitution, which abolished the post of prime minister. His party, the Democratic Union of Builders (UDB), won large majorities in both chambers of parliament in late 2025.",
+    "policies": [
+      "Infrastructure and housing programmes, including the presidential housing scheme \"Un Gabonais, un toit\"",
+      "Attracting foreign investment, including from China, for infrastructure and local processing of raw materials",
+      "Economic diversification away from oil and towards job creation",
+      "Consolidating the institutions of the Fifth Republic after the transition"
+    ],
+    "challenges": [
+      "High public debt and budget deficits",
+      "Income inequality despite high GDP per capita",
+      "Opposition criticism of authoritarian drift and judicial independence, and low voter turnout",
+      "Social unrest, including teacher strikes"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Not confirmed: whether parties other than the UDB hold posts in the government reshuffled on 11 October 2026. The exact certified share of the 2025 presidential vote was not checked against an official source. The years of the next elections come from the length of the terms, not from announced dates."
+  },
+  {
+    "iso3": "STP",
+    "iso2": "st",
+    "numeric": "678",
+    "name": "São Tomé and Príncipe",
+    "region": "Africa",
+    "system": "Semi-presidential republic with an elected president and a prime minister responsible to a unicameral National Assembly",
+    "systemType": "semi-presidential",
+    "status": "in-flux",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Carlos Vila Nova",
+        "title": "President",
+        "party": "Independent",
+        "since": "2021-10-02"
+      },
+      "headOfGovernment": {
+        "name": "Américo Ramos",
+        "title": "Prime Minister",
+        "party": "Independent Democratic Action (ADI)",
+        "since": "2025-01-12"
+      },
+      "governingParties": [
+        "Independent Democratic Action (ADI)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "No single-party majority; ADI (23) and the MCI-PS/PUN coalition (6) together hold 29 of 55 seats under a parliamentary support agreement, with MCI-PS/PUN staying outside the government",
+        "detail": "September 2026 election, final results confirmed by the Constitutional Court: MLSTP 24, ADI 23, MCI-PS/PUN 6, Basta Movement 2 (55 seats; 28 needed for a majority). The new legislature opened on 10 November 2026 and elected Nilda Borges da Mata as Speaker."
+      }
+    ],
+    "judiciary": "The Constitutional Court, presided over by Artur Vera Cruz, certifies national election results and in 2026 confirmed both the presidential and legislative outcomes and recognised Américo Ramos as ADI leader amid that party's internal split; the Supreme Court of Justice heads the ordinary courts.",
+    "elections": [
+      {
+        "name": "Presidential election",
+        "date": "2026-07-19",
+        "status": "held",
+        "note": "Incumbent Carlos Vila Nova, running as an independent backed by MLSTP, won in the first round with 55.88% against ADI's Nito Abreu (41.46%), per the Constitutional Court's final count; turnout was a record low. He began his second five-year term on 3 September 2026."
+      },
+      {
+        "name": "National Assembly election",
+        "date": "2026-09-27",
+        "status": "held",
+        "note": "MLSTP placed first with 24 of 55 seats, ADI took 23, MCI-PS/PUN 6 and the Basta Movement 2; abstention was a record 62.92%. ADI then reached a support deal with MCI-PS/PUN for a 29-seat majority."
+      },
+      {
+        "name": "National Assembly election",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Next due by law at the end of the four-year legislature; no date set."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2031",
+        "status": "upcoming",
+        "note": "Next due by law at the end of the five-year presidential term; no date set."
+      }
+    ],
+    "synopsis": "President Carlos Vila Nova dismissed Patrice Trovoada's ADI government in January 2025 and installed Américo Ramos, who later took control of ADI after a split in the party; Vila Nova was re-elected as an independent in July 2026. MLSTP placed first in the September 2026 legislative election without a majority, but on 12 November 2026 the president re-appointed Ramos as prime minister on the strength of an ADI parliamentary agreement with MCI-PS/PUN, a decision MLSTP disputes.",
+    "policies": [
+      "Plans for a São Tomé Financial Centre free zone to attract international service companies, announced in March 2026",
+      "An ADI-led government backed by a four-year parliamentary support agreement with the MCI-PS/PUN coalition",
+      "Continued cooperation with international partners, including Portugal, on budget and development support"
+    ],
+    "challenges": [
+      "Disputed government formation after the first-placed MLSTP was passed over for prime minister",
+      "Split within ADI between factions loyal to Patrice Trovoada and to Américo Ramos",
+      "Record-low voter turnout in both 2026 national elections",
+      "A small, aid-dependent economy with limited fiscal space"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "In flux: Américo Ramos was re-appointed prime minister on 12 November 2026 after the September 2026 legislative election, and the swearing-in of his new government had not been confirmed as of 2026-11-13; MLSTP, which placed first, is contesting the appointment. Not confirmed: the date of Ramos's swearing-in for the new term, and the party of Speaker Nilda Borges da Mata."
+  },
+  {
+    "iso3": "BWA",
+    "iso2": "bw",
+    "numeric": "072",
+    "name": "Botswana",
+    "region": "Africa",
+    "system": "Unitary parliamentary republic with an executive president elected by the National Assembly",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Duma Boko",
+        "title": "President",
+        "party": "Umbrella for Democratic Change (Botswana National Front)",
+        "since": "2024-11-01"
+      },
+      "headOfGovernment": {
+        "name": "Duma Boko",
+        "title": "President",
+        "party": "Umbrella for Democratic Change (Botswana National Front)",
+        "since": "2024-11-01"
+      },
+      "governingParties": [
+        "Umbrella for Democratic Change",
+        "Botswana National Front",
+        "Alliance for Progressives",
+        "Botswana People's Party"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "Umbrella for Democratic Change (majority)",
+        "detail": "69 members: 61 directly elected plus specially elected and ex officio members. 2024 election (61 elected seats): Umbrella for Democratic Change 36, Botswana Congress Party 15, Botswana Patriotic Front 5, Botswana Democratic Party 4. Botswana Congress Party is the official opposition."
+      }
+    ],
+    "judiciary": "The Court of Appeal, headed by President of the Court of Appeal Tebogo Tau, is the highest court, above the High Court. In 2026 the UDC majority in Parliament passed President Boko's legislation creating a separate Constitutional Court, despite public hesitation over the reform.",
+    "elections": [
+      {
+        "name": "General election (National Assembly and local councils)",
+        "date": "2024-10-30",
+        "status": "held",
+        "note": "The Umbrella for Democratic Change won 36 of 61 elected seats, ending 58 years of Botswana Democratic Party rule, which fell to 4 seats; the Botswana Congress Party won 15 and became the main opposition. The National Assembly then elected Duma Boko president."
+      },
+      {
+        "name": "General election (National Assembly and local councils)",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due by law after the 13th Parliament's term ends; must be held no later than early January 2030."
+      }
+    ],
+    "synopsis": "Botswana changed government for the first time since independence when the Umbrella for Democratic Change coalition defeated the long-ruling Botswana Democratic Party in October 2024, and Duma Boko became president. His administration faces a weak, diamond-dependent economy, and the coalition has internal tensions and has lost recent local by-elections to the opposition Botswana Congress Party.",
+    "policies": [
+      "Target of creating 100,000 jobs",
+      "Economic diversification away from dependence on diamonds and raw resource exports",
+      "Investment partnerships with Gulf states such as Oman and the United Arab Emirates",
+      "Judicial reform, including creation of a Constitutional Court",
+      "Fiscal tightening measures under Vice President and Finance Minister Ndaba Gaolathe"
+    ],
+    "challenges": [
+      "Weak economy and fiscal pressure linked to the diamond downturn",
+      "Foot-and-mouth disease outbreak affecting the livestock sector",
+      "Delivering costly campaign promises such as a higher minimum wage and old-age pension",
+      "Factional tensions within the UDC coalition and recent by-election losses"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Not confirmed: who holds the 61st elected seat from 2024 (the party totals cover 60); each party's current seat count after any by-elections or defections; and whether the Botswana Patriotic Front, which has a member in cabinet, is formally part of the governing arrangement."
+  },
+  {
+    "iso3": "SWZ",
+    "iso2": "sz",
+    "numeric": "748",
+    "name": "Eswatini",
+    "region": "Africa",
+    "system": "Absolute monarchy under the non-party Tinkhundla system, with a king-appointed prime minister and a partly elected parliament",
+    "systemType": "absolute-monarchy",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Mswati III",
+        "title": "King (Ngwenyama)",
+        "since": "1986-04-25"
+      },
+      "headOfGovernment": {
+        "name": "Russell Mmiso Dlamini",
+        "title": "Prime Minister",
+        "since": "2023-11"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "House of Assembly",
+        "control": "Non-partisan; members elected as individuals under the Tinkhundla system (political parties may not contest), plus members appointed by the King; pro-royalist candidates dominate",
+        "detail": "74 members after the 29 September 2023 election: 59 elected from Tinkhundla constituencies, up to 10 appointed by the King, and 4 women elected under the constitutional gender provision"
+      },
+      {
+        "name": "Senate",
+        "control": "Non-partisan; 20 members appointed by the King and 10 elected by the House of Assembly",
+        "detail": "30 members, constituted in November 2023"
+      }
+    ],
+    "judiciary": "The Supreme Court is the final court of appeal, above the High Court, alongside a separate system of traditional Swazi courts; judges are appointed by the King. After Chief Justice Bheki Maphalala died in September 2026, Judge Mumcy Dlamini was sworn in as Acting Chief Justice in November 2026, and critics have long questioned how independent the courts are from the Crown.",
+    "elections": [
+      {
+        "name": "House of Assembly election",
+        "date": "2023-09-29",
+        "status": "held",
+        "note": "Non-party Tinkhundla election in which 59 members were elected (51 men and 8 women), with a strong showing for pro-royalist candidates; banned groups including PUDEMO boycotted it."
+      },
+      {
+        "name": "General (Tinkhundla) election",
+        "date": "2028",
+        "status": "upcoming",
+        "note": "Voter registration for the 2028 national elections began in September 2026."
+      }
+    ],
+    "synopsis": "Eswatini is Africa's last absolute monarchy, ruled by King Mswati III since 1986. The King appoints the prime minister, cabinet and judges, and parliament is elected on a non-party basis under the Tinkhundla system, with political parties barred from contesting elections. Prime Minister Russell Dlamini has led the government since November 2023.",
+    "policies": [
+      "Government delivery agenda under the theme 'Transforming Eswatini Through Effective Execution', adopted at the February 2026 cabinet retreat",
+      "Accepting third-country deportees from the United States under a bilateral agreement",
+      "Maintaining diplomatic relations with Taiwan, including reciprocal visits by President Lai Ching-te and King Mswati III in 2026",
+      "Preparing for the 2028 Tinkhundla elections, including voter registration"
+    ],
+    "challenges": [
+      "Pro-democracy groups, including the banned PUDEMO, campaign for multiparty democracy, and their activists report arrests and prosecutions",
+      "Restricted civic space and use of anti-terrorism legislation against critics",
+      "Domestic and regional criticism of the US deportee agreement and the detention of deportees",
+      "Limited access to international financing and vulnerability to climate and economic shocks",
+      "Leadership change in the judiciary after the death of the Chief Justice"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "LSO",
+    "iso2": "ls",
+    "numeric": "426",
+    "name": "Lesotho",
+    "region": "Africa",
+    "system": "Parliamentary constitutional monarchy with a coalition government",
+    "systemType": "parliamentary-monarchy",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Letsie III",
+        "title": "King",
+        "since": "1996-02-07"
+      },
+      "headOfGovernment": {
+        "name": "Sam Matekane",
+        "title": "Prime Minister",
+        "party": "Revolution for Prosperity",
+        "since": "2022-10-28"
+      },
+      "governingParties": [
+        "Revolution for Prosperity",
+        "Alliance of Democrats",
+        "Movement for Economic Change"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "Coalition led by Revolution for Prosperity",
+        "detail": "120 seats (80 by first-past-the-post in constituencies, 40 by proportional representation). Result of the October 2022 election: Revolution for Prosperity 57, Democratic Congress 29, All Basotho Convention 8, Basotho Action Party 6, Alliance of Democrats 5, Movement for Economic Change 4, Lesotho Congress for Democracy 3, Socialist Revolutionaries 2, and one seat each for six other parties"
+      },
+      {
+        "name": "Senate",
+        "control": "Not elected or organised by party: the 22 principal chiefs plus 11 senators nominated by the King",
+        "detail": "33 members"
+      }
+    ],
+    "judiciary": "The Court of Appeal is the highest court, and the High Court, led by Chief Justice Sakoane Sakoane, also sits as the Constitutional Court. In 2023 a court challenge halted an opposition no-confidence motion against the Prime Minister, and the judiciary has been shaken by the Chief Justice's suspension of Justice 'Maseforo Mahase in November 2025, a dispute that is being heard by foreign judges.",
+    "elections": [
+      {
+        "name": "National Assembly general election",
+        "date": "2022-10-07",
+        "status": "held",
+        "note": "Revolution for Prosperity, a newly formed party, won 57 of 120 seats with about 38.9% of the vote, ahead of the Democratic Congress on 29. Sam Matekane formed a coalition with the Alliance of Democrats and the Movement for Economic Change. Turnout was about 37.8%."
+      },
+      {
+        "name": "National Assembly general election",
+        "date": "2027",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year term. The IPU gives 31 October 2027 as the expected date, but no date has been announced."
+      }
+    ],
+    "synopsis": "Lesotho is a constitutional monarchy surrounded by South Africa. King Letsie III is head of state and Prime Minister Sam Matekane leads a coalition government formed after his Revolution for Prosperity won the most seats in the 2022 election. The government has focused on long-delayed constitutional and security-sector reforms meant to end a history of unstable coalitions and no-confidence motions, ahead of a general election due in 2027.",
+    "policies": [
+      "National reforms, including the Tenth Amendment to the Constitution (Act No. 2 of 2025), which changes the Prime Minister's tenure and the functions of Parliament",
+      "Economic growth and private-sector job creation, including a cabinet reshuffle in April 2026 framed as improving service delivery",
+      "Water and energy development through Phase II of the Lesotho Highlands Water Project",
+      "Seeking international climate finance and development partnerships, including with the United States and China"
+    ],
+    "challenges": [
+      "High unemployment: the Prime Minister told the UN in September 2026 that youth unemployment stood at 38 percent",
+      "Unstable coalitions and frequent no-confidence motions; few prime ministers have completed a full term",
+      "The role of the security forces in politics, which in 2023 publicly backed the government against a no-confidence motion",
+      "Heavy economic dependence on South Africa and on money sent home by migrant workers",
+      "Exposure to floods, drought and land erosion, and a backlog of court cases"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Current coalition membership could not be fully confirmed. The Revolution for Prosperity, Alliance of Democrats and Movement for Economic Change formed the government in 2022, and the Movement for Economic Change's leader was still in cabinet after the April 2026 reshuffle. Further partners joined in October 2023; the Basotho Action Party has since left, but whether the others are still in government is unconfirmed. National Assembly seat counts are from the 2022 election and may not reflect later floor-crossings."
+  },
+  {
+    "iso3": "NAM",
+    "iso2": "na",
+    "numeric": "516",
+    "name": "Namibia",
+    "region": "Africa",
+    "system": "Unitary presidential republic with a bicameral parliament; the executive president is both head of state and head of government",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Netumbo Nandi-Ndaitwah",
+        "title": "President",
+        "party": "SWAPO Party",
+        "since": "2025-03-21"
+      },
+      "headOfGovernment": {
+        "name": "Netumbo Nandi-Ndaitwah",
+        "title": "President",
+        "party": "SWAPO Party",
+        "since": "2025-03-21"
+      },
+      "governingParties": [
+        "SWAPO Party"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "SWAPO Party (majority)",
+        "detail": "104 members: 96 elected in November 2024 plus 8 non-voting members appointed by the president. SWAPO 51, Independent Patriots for Change (IPC) 20, Affirmative Repositioning 6, Popular Democratic Movement 5, Landless People's Movement 5, smaller parties 9. IPC's Imms Nashinge is leader of the official opposition."
+      },
+      {
+        "name": "National Council",
+        "control": "SWAPO Party (majority)",
+        "detail": "42 members, three chosen by each of the 14 regional councils. The seventh National Council was sworn in in December 2025 after the November 2025 regional elections, in which SWAPO won 105 constituencies. Reported split: SWAPO 39, Popular Democratic Movement 2, United Democratic Front 1. Chairperson: Lukas Sinimbo Muha (SWAPO), re-elected."
+      }
+    ],
+    "judiciary": "The Supreme Court, led by Chief Justice Peter Shivute, is the highest court; the High Court is led by Deputy Chief Justice and Judge President Petrus Damaseb. On 28 February 2025 the Supreme Court dismissed the opposition challenge to the 2024 election results, brought by Panduleni Itula (IPC) and Bernadus Swartbooi (LPM).",
+    "elections": [
+      {
+        "name": "Regional council and local authority elections",
+        "date": "2025-11-26",
+        "status": "held",
+        "note": "SWAPO won 105 constituencies in the regional council vote (up from 88 in 2020) with 63.4% of the national vote. Turnout was 36.3% (regional) and 40.6% (local authority)."
+      },
+      {
+        "name": "Presidential and National Assembly elections",
+        "date": "2029-11",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year term, which runs to March 2030. In the last vote, in November 2024, Netumbo Nandi-Ndaitwah (SWAPO) won the presidency with about 58% to 25.5% for Panduleni Itula (IPC), and SWAPO won 51 of 96 elected National Assembly seats, down from 63."
+      }
+    ],
+    "synopsis": "Namibia has been governed by the SWAPO Party since independence in 1990. Netumbo Nandi-Ndaitwah, the country's first female president, took office in March 2025 after winning the November 2024 election, though SWAPO's National Assembly majority fell to 51 of 96 elected seats. Elijah Ngurare serves as prime minister and Lucia Witbooi as vice president, and SWAPO strengthened its position in the November 2025 regional and local elections.",
+    "policies": [
+      "Speeding up the Sixth National Development Plan (NDP6) toward Vision 2030 goals",
+      "Developing the offshore oil sector, including a Petroleum Amendment Bill",
+      "Reviving the national airline Air Namibia",
+      "Containing a foot-and-mouth disease outbreak while protecting meat export markets",
+      "A non-aligned foreign policy balancing partners including China, the United States and the EU over uranium, oil and green hydrogen"
+    ],
+    "challenges": [
+      "High unemployment and inequality, and public frustration over service delivery",
+      "Opposition allegations about the oil sector, which the presidency has rejected",
+      "A foot-and-mouth disease outbreak threatening livestock farmers and exports",
+      "Land reform and the unresolved genocide reconciliation agreement with Germany",
+      "Low voter turnout in subnational elections"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "The National Council party split (SWAPO 39, PDM 2, UDF 1) comes from a single secondary source and has not been confirmed against Electoral Commission of Namibia or Parliament records. The smaller National Assembly parties holding the remaining 9 seats are not listed individually because sources differ."
+  },
+  {
+    "iso3": "ZAF",
+    "iso2": "za",
+    "numeric": "710",
+    "name": "South Africa",
+    "region": "Africa",
+    "system": "Parliamentary republic with an executive president elected by the National Assembly",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Cyril Ramaphosa",
+        "title": "President",
+        "party": "African National Congress",
+        "since": "2018-02-15"
+      },
+      "headOfGovernment": {
+        "name": "Cyril Ramaphosa",
+        "title": "President",
+        "party": "African National Congress",
+        "since": "2018-02-15"
+      },
+      "governingParties": [
+        "African National Congress",
+        "Democratic Alliance",
+        "Inkatha Freedom Party",
+        "Patriotic Alliance",
+        "GOOD",
+        "Pan Africanist Congress of Azania",
+        "Freedom Front Plus",
+        "United Democratic Movement",
+        "Rise Mzansi",
+        "Al Jama-ah"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "Government of National Unity coalition led by the African National Congress (no single-party majority)",
+        "detail": "400 seats (2024 election): ANC 159, DA 87, MK 58, EFF 39, IFP 17, PA 9, FF Plus 6, ActionSA 6, ACDP 3, UDM 3, ATM 2, Rise Mzansi 2, BOSA 2, Al Jama-ah 2, NCC 2, PAC 1, UAT 1, GOOD 1"
+      },
+      {
+        "name": "National Council of Provinces",
+        "control": "Government of National Unity parties, led by the African National Congress",
+        "detail": "90 delegates, 10 from each of the nine provincial legislatures"
+      }
+    ],
+    "judiciary": "The Constitutional Court, led by Chief Justice Mandisa Maya, is the highest court, with the Supreme Court of Appeal below it. A Constitutional Court ruling on the Phala Phala case led Parliament to set up an impeachment inquiry into President Ramaphosa in 2026. The Western Cape High Court has paused the inquiry's hearings while it decides his challenge to the independent panel report, on which it has reserved judgment.",
+    "elections": [
+      {
+        "name": "General election (National Assembly and provincial legislatures)",
+        "date": "2024-05-29",
+        "status": "held",
+        "note": "The ANC won about 40% of the vote and lost its majority for the first time since 1994. It formed a Government of National Unity with the DA and other parties, and the National Assembly re-elected Ramaphosa president."
+      },
+      {
+        "name": "Local government elections",
+        "date": "2026-11-04",
+        "status": "held",
+        "note": "The ANC came first nationally with about 30-31% of the proportional-representation vote, its worst result. The DA took about 25% and leads in five of the eight metros. The MK Party took about 10% and came first in eThekwini. Many councils are hung and coalition talks are under way."
+      },
+      {
+        "name": "General election",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due by law in 2029; no date set."
+      }
+    ],
+    "synopsis": "South Africa has been governed since 2024 by a Government of National Unity of ten parties led by President Cyril Ramaphosa's ANC, with the Democratic Alliance as its largest partner. In the November 2026 local elections the ANC's vote fell to about 30%. The ANC is now debating whether to stay in its national coalition with the DA, while a parliamentary impeachment inquiry over the Phala Phala affair is on hold pending a court ruling.",
+    "policies": [
+      "Economic reforms to raise growth, including in electricity, logistics and ports",
+      "Fiscal consolidation and stabilising public debt",
+      "Coalition government through a multi-party Government of National Unity",
+      "Measures against crime and corruption, and rebuilding state capacity",
+      "Expanding social grants and service delivery"
+    ],
+    "challenges": [
+      "Tensions within the ANC-DA coalition after the 2026 local election losses",
+      "Parliamentary impeachment inquiry into President Ramaphosa over Phala Phala, paused pending court review",
+      "High unemployment, inequality and slow economic growth",
+      "Violent crime, political violence and xenophobic tensions",
+      "Weak municipal finances and hung councils needing coalitions"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "The National Assembly seat counts are the official 2024 result but were not confirmed against a source in this session. The National Council of Provinces control was also not confirmed. It was not confirmed whether any party has formally left the Government of National Unity since the November 2026 local elections; the ANC was reported to be considering ending its national coalition with the DA."
+  }
+]
