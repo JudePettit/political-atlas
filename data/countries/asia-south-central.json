@@ -1,0 +1,1006 @@
+[
+  {
+    "iso3": "AFG",
+    "iso2": "af",
+    "numeric": "004",
+    "name": "Afghanistan",
+    "region": "Asia",
+    "system": "Taliban-run Islamic Emirate under a supreme leader who rules by decree; no constitution in force, parliament or elections",
+    "systemType": "theocratic",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Hibatullah Akhundzada",
+        "title": "Supreme Leader (Amir al-Mu'minin)",
+        "party": "Taliban",
+        "since": "2021-08-15"
+      },
+      "headOfGovernment": {
+        "name": "Mohammad Hasan Akhund",
+        "title": "Prime Minister",
+        "party": "Taliban",
+        "since": "2021-09-07"
+      },
+      "governingParties": [
+        "Taliban"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly (Wolesi Jirga and Meshrano Jirga)",
+        "control": "Effectively dissolved after the Taliban takeover in August 2021; the supreme leader governs by decree and there is no functioning legislature"
+      }
+    ],
+    "judiciary": "The Supreme Court, headed by Chief Justice Abdul Hakim Haqqani, applies the Taliban's interpretation of Sharia and answers to the supreme leader rather than acting as an independent branch. The International Criminal Court has sought the arrest of both the chief justice and the supreme leader.",
+    "elections": [
+      {
+        "name": "Presidential election",
+        "date": "2019-09-28",
+        "status": "held",
+        "note": "Ashraf Ghani was declared the winner with 50.64% against 39.52% for Abdullah Abdullah, who disputed the result. This was the last national election before the Taliban took power in 2021. The Taliban dissolved the election commission in December 2021, and no national election is scheduled."
+      }
+    ],
+    "synopsis": "The Taliban have governed Afghanistan as the Islamic Emirate since taking Kabul in August 2021. Supreme leader Hibatullah Akhundzada rules by decree from Kandahar, and a cabinet led by Prime Minister Mohammad Hasan Akhund runs the government in Kabul. Russia is the only country that formally recognises the government, and Afghanistan's UN seat remains with a representative of the former republic.",
+    "policies": [
+      "Rule by decree under the Taliban's interpretation of Sharia, with no parliament or elections",
+      "Bans on secondary and university education for girls and women, and limits on women's work and public life",
+      "Seeking formal international recognition while expanding trade and security ties with Russia, China and other regional states",
+      "Drawing foreign investment into mining, transit and infrastructure projects",
+      "Campaigns against narcotics and against the Islamic State's regional branch"
+    ],
+    "challenges": [
+      "Armed conflict and border closures with Pakistan since October 2025, with ceasefire talks mediated by Qatar, Turkey and China so far failing to produce a formal settlement",
+      "Lack of international recognition; most countries do not recognise the government, and the UN seat is still held by a representative of the former republic",
+      "International criticism and ICC arrest warrants over restrictions on women and girls and over press freedom",
+      "Humanitarian and economic pressure, including returnees from Pakistan and Iran",
+      "Security threats from the Islamic State's regional branch and disputes over militant groups operating across the border"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "BGD",
+    "iso2": "bd",
+    "numeric": "050",
+    "name": "Bangladesh",
+    "region": "Asia",
+    "system": "Unitary parliamentary republic with a president elected by parliament",
+    "systemType": "parliamentary-republic",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Mirza Fakhrul Islam Alamgir",
+        "title": "President",
+        "party": "Bangladesh Nationalist Party",
+        "since": "2026-08-21"
+      },
+      "headOfGovernment": {
+        "name": "Tarique Rahman",
+        "title": "Prime Minister",
+        "party": "Bangladesh Nationalist Party",
+        "since": "2026-02-17"
+      },
+      "governingParties": [
+        "Bangladesh Nationalist Party"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Jatiya Sangsad (National Parliament)",
+        "control": "Bangladesh Nationalist Party (two-thirds majority with allies); Jamaat-e-Islami leads the opposition",
+        "detail": "350 seats: 300 directly elected and 50 reserved for women. February 2026 election: BNP 209 of 299 contested seats (212 with allies), Jamaat-e-Islami 68 (77 for its 11-party alliance), National Citizen Party 6. Reserved women's seats filled in 2026: BNP-led alliance 36, Jamaat-led alliance 13, independents 1."
+      }
+    ],
+    "judiciary": "The Supreme Court has an Appellate Division and a High Court Division and is headed by Chief Justice Zubayer Rahman Chowdhury, appointed in December 2025. The International Crimes Tribunal is trying cases over the 2024 crackdown on protesters, including in absentia proceedings against former Prime Minister Sheikh Hasina.",
+    "elections": [
+      {
+        "name": "General election and July Charter constitutional referendum",
+        "date": "2026-02-12",
+        "status": "held",
+        "note": "The BNP won a two-thirds majority, and Jamaat-e-Islami became the main opposition. The Awami League was barred from taking part. The referendum approved the July National Charter reforms, with about 68% voting Yes."
+      },
+      {
+        "name": "Presidential election (by parliament)",
+        "date": "2026-08-20",
+        "status": "held",
+        "note": "Mirza Fakhrul Islam Alamgir (BNP) won with 255 votes. Oli Ahmed, candidate of the opposition 11-party alliance, won 88. The vote followed President Mohammed Shahabuddin's resignation on 24 July 2026."
+      },
+      {
+        "name": "Next general election",
+        "date": "2031",
+        "status": "upcoming",
+        "note": "Due by law at the end of the parliament's five-year term. Union parishad (rural council) elections are scheduled in five phases from 21 January to 27 May 2027."
+      }
+    ],
+    "synopsis": "Bangladesh returned to elected government in February 2026 after an interim administration under Muhammad Yunus, which took over when the 2024 uprising ousted Sheikh Hasina. The BNP under Tarique Rahman won a two-thirds majority, Jamaat-e-Islami leads the opposition, and the Awami League's activities remain banned. Implementing the July Charter constitutional reforms approved in the referendum is the main dispute between the government and the opposition.",
+    "policies": [
+      "Constitutional amendments to implement the July Charter, drafted by a special parliamentary committee set up in July 2026",
+      "Laws on enforced disappearances and a national human rights commission, passed in September 2026",
+      "Foreign policy based on sovereign equality, with warmer ties with Pakistan",
+      "Seeking renewed international support for Rohingya refugees",
+      "Preparing phased local elections for 2027"
+    ],
+    "challenges": [
+      "Dispute with the opposition, which is boycotting the process, over how to implement the July Charter reforms",
+      "A wave of makeshift bomb attacks that the government blames on the banned Awami League",
+      "Strained relations with India, including over Sheikh Hasina's presence there and border push-ins",
+      "Energy crisis",
+      "Hosting Rohingya refugees from Myanmar"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Seat totals differ slightly by source: BNP won 209 of 299 contested seats per most reports, but 210 of 300 per IPU Parline. The current party breakdown after the reserved-seat allocation and any by-elections, including for Thakurgaon-1, which Mirza Fakhrul vacated, could not be confirmed. It is also unconfirmed whether any BNP allies hold cabinet posts, and when the constitutional amendment bill will be put to parliament."
+  },
+  {
+    "iso3": "BTN",
+    "iso2": "bt",
+    "numeric": "064",
+    "name": "Bhutan",
+    "region": "Asia",
+    "system": "Constitutional monarchy with a bicameral parliament and a two-party National Assembly",
+    "systemType": "parliamentary-monarchy",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Jigme Khesar Namgyel Wangchuck",
+        "title": "Druk Gyalpo (King of Bhutan)",
+        "since": "2006-12-09"
+      },
+      "headOfGovernment": {
+        "name": "Tshering Tobgay",
+        "title": "Prime Minister (Lyonchhen)",
+        "party": "People's Democratic Party",
+        "since": "2024-01-28"
+      },
+      "governingParties": [
+        "People's Democratic Party"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly (Tshogdu)",
+        "control": "People's Democratic Party (majority, 31 of 47 seats); Bhutan Tendrel Party in opposition (16)",
+        "detail": "47 seats; 2023-24 election: People's Democratic Party 30, Bhutan Tendrel Party 17. The PDP won the Nubi-Tangsibji by-election in September 2025, taking the seat from the BTP. Speaker: Tempa Dorji, an opposition MP, elected in August 2026 after Lungten Dorji (PDP) resigned; he is the first opposition member to hold the post."
+      },
+      {
+        "name": "National Council (Gyelyong Tshogde)",
+        "control": "Non-partisan: 20 members elected as independents, one per dzongkhag (district), and 5 appointed by the King",
+        "detail": "25 members; last elected 20 April 2023"
+      }
+    ],
+    "judiciary": "The Supreme Court, led by Chief Justice Norbu Tshering (appointed in July 2025) and four Drangpons (justices), is the highest appellate court and guardian of the Constitution, above the High Court and dzongkhag and dungkhag courts. No notable conflict with the other branches has been reported.",
+    "elections": [
+      {
+        "name": "National Council election",
+        "date": "2023-04-20",
+        "status": "held",
+        "note": "20 non-partisan councillors elected with a 54.64% turnout, the highest ever recorded for a National Council election."
+      },
+      {
+        "name": "National Assembly general election (second round)",
+        "date": "2024-01-09",
+        "status": "held",
+        "note": "People's Democratic Party won 30 of 47 seats and Bhutan Tendrel Party 17. Tshering Tobgay became prime minister. The primary round was held on 30 November 2023."
+      },
+      {
+        "name": "National Assembly by-election (Nubi-Tangsibji)",
+        "date": "2025-09-04",
+        "status": "held",
+        "note": "Held after the BTP member for the constituency resigned. The PDP's Phuntsho Dendup won, raising the PDP to 31 of 47 seats."
+      },
+      {
+        "name": "Local government elections: Dzongkhag Thromde Tshogde (first phase)",
+        "date": "2026-07-15",
+        "status": "held",
+        "note": "First phase of the fourth local government elections, held for the Thimphu and Phuentshogling thromdes (municipalities). Further phases are pending."
+      },
+      {
+        "name": "National Council election",
+        "date": "2028",
+        "status": "upcoming",
+        "note": "Due by law at the end of the council's five-year term. Date not yet set."
+      },
+      {
+        "name": "National Assembly general election",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year term of the parliament elected in 2023-24. It could be held in late 2028 or early 2029. Date not yet set."
+      }
+    ],
+    "synopsis": "Bhutan is a constitutional monarchy that has held democratic elections since 2008. Prime Minister Tshering Tobgay's People's Democratic Party has governed since January 2024 and holds 31 of 47 National Assembly seats after a 2025 by-election, and the Bhutan Tendrel Party is the opposition. King Jigme Khesar Namgyel Wangchuck remains highly influential, notably through royal initiatives such as the Gelephu Mindfulness City.",
+    "policies": [
+      "Economic revival and private-sector growth to create jobs and slow emigration",
+      "Development of the Gelephu Mindfulness City special administrative region",
+      "Gross National Happiness as the guiding development framework",
+      "Hydropower expansion and clean-energy exports, mainly to India",
+      "Close partnership with India alongside boundary talks with China"
+    ],
+    "challenges": [
+      "Large-scale emigration of young and skilled workers, especially to Australia",
+      "Youth unemployment and limited private-sector jobs",
+      "Fiscal pressures and heavy dependence on hydropower revenue",
+      "Unresolved boundary with China",
+      "Falling voter turnout and a pattern of ruling parties being voted out"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Unconfirmed: reports that two cabinet ministers resigned in 2026, and who succeeded them; the exact date of Tempa Dorji's election as Speaker (Lungten Dorji's term is listed as ending on 19 August 2026). Exact dates for the next National Council and National Assembly elections have not been announced."
+  },
+  {
+    "iso3": "IND",
+    "iso2": "in",
+    "numeric": "356",
+    "name": "India",
+    "region": "Asia",
+    "system": "Federal parliamentary republic with an indirectly elected president and a prime minister responsible to the Lok Sabha",
+    "systemType": "parliamentary-republic",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Droupadi Murmu",
+        "title": "President",
+        "since": "2022-07-25"
+      },
+      "headOfGovernment": {
+        "name": "Narendra Modi",
+        "title": "Prime Minister",
+        "party": "Bharatiya Janata Party",
+        "since": "2014-05-26"
+      },
+      "governingParties": [
+        "Bharatiya Janata Party",
+        "Telugu Desam Party",
+        "Janata Dal (United)",
+        "Shiv Sena",
+        "Lok Janshakti Party (Ram Vilas)",
+        "Nationalist Citizens Party of India",
+        "Janata Dal (Secular)",
+        "Janasena Party",
+        "other National Democratic Alliance partners"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Lok Sabha (House of the People)",
+        "control": "National Democratic Alliance (BJP-led) majority",
+        "detail": "543 seats. The 2024 election gave the BJP 240 seats and the NDA 293; Congress won 99. As of late October 2026 the NDA has 319 seats (BJP 241, Nationalist Citizens Party of India 20, TDP 16, Shiv Sena 13, JD(U) 12). Opposition: Congress 98, Samajwadi Party 37, DMK 22. The NDA's gain came mainly from 20 Trinamool Congress MPs who joined the Nationalist Citizens Party of India in June 2026, and from six Shiv Sena (UBT) MPs whose merger with the Shinde-led Shiv Sena the Speaker approved."
+      },
+      {
+        "name": "Rajya Sabha (Council of States)",
+        "control": "National Democratic Alliance (BJP-led) majority",
+        "detail": "245 seats (233 elected by state legislatures, 12 nominated). Rajya Sabha elections were held in stages through 2026, and the NDA kept its majority; reported at about 153 of 245 seats."
+      }
+    ],
+    "judiciary": "The Supreme Court of India sits at the top of an integrated judiciary and has the power to review whether laws are constitutional; Chief Justice Surya Kant has led it since 24 November 2025. Judges are appointed through a collegium of senior judges, which has been a long-running source of friction with the executive. The 2026 Trinamool Congress defections have also raised fresh questions about how the anti-defection law (the Tenth Schedule of the Constitution) is applied.",
+    "elections": [
+      {
+        "name": "General election (Lok Sabha)",
+        "date": "2024-06",
+        "status": "held",
+        "note": "Voting ran from 19 April to 1 June 2024 and results came on 4 June. The BJP won 240 seats and lost its single-party majority; the NDA won 293 of 543, and Narendra Modi began a third term."
+      },
+      {
+        "name": "Presidential election (indirect, by MPs and state legislators)",
+        "date": "2027",
+        "status": "upcoming",
+        "note": "Due before President Murmu's five-year term ends in July 2027."
+      },
+      {
+        "name": "General election (Lok Sabha)",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due by law by 2029, at the end of the 18th Lok Sabha's five-year term."
+      }
+    ],
+    "synopsis": "India is a federal parliamentary republic governed by the BJP-led National Democratic Alliance under Prime Minister Narendra Modi, who began a third term in June 2024 after the BJP lost its single-party majority. In 2026 the BJP won the West Bengal assembly for the first time, after which the Trinamool Congress split. Twenty of its MPs moved to the governing coalition; with six Shiv Sena (UBT) MPs who joined the Shinde-led Shiv Sena, this raised the NDA's strength in the Lok Sabha to 319 seats.",
+    "policies": [
+      "Viksit Bharat 2047 goal of making India a developed country by its centenary of independence",
+      "Large public investment in infrastructure such as roads, railways and ports",
+      "Manufacturing and investment incentives under Make in India and production-linked incentive schemes",
+      "Expanding digital public infrastructure and welfare delivered by direct benefit transfers",
+      "Pursuing trade agreements and a multi-aligned foreign policy"
+    ],
+    "challenges": [
+      "Creating jobs for a large, young workforce",
+      "Security tensions with Pakistan and on the border with China",
+      "Ethnic unrest in Manipur and other internal security problems",
+      "Relations between the central government and opposition-run states, including disputes over funding and federal powers",
+      "Disputes over party defections and the anti-defection law after the 2026 Trinamool Congress split"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "The Rajya Sabha party tallies, including the NDA's figure of about 153 of 245 seats, come from secondary tallies and were not confirmed against Rajya Sabha Secretariat data. The Lok Sabha party-by-party figures behind the NDA's reported 319 seats were also not confirmed against Lok Sabha Secretariat data."
+  },
+  {
+    "iso3": "MDV",
+    "iso2": "mv",
+    "numeric": "462",
+    "name": "Maldives",
+    "region": "Asia",
+    "system": "Unitary presidential republic with a unicameral parliament",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Mohamed Muizzu",
+        "title": "President",
+        "party": "People's National Congress",
+        "since": "2023-11-17"
+      },
+      "headOfGovernment": {
+        "name": "Mohamed Muizzu",
+        "title": "President",
+        "party": "People's National Congress",
+        "since": "2023-11-17"
+      },
+      "governingParties": [
+        "People's National Congress"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "People's Majlis",
+        "control": "People's National Congress (supermajority)",
+        "detail": "93 seats; in February 2026, 72 of the 73 MPs who voted backed the government's constitutional amendment on holding presidential and parliamentary elections together"
+      }
+    ],
+    "judiciary": "The Supreme Court, headed by Chief Justice Abdul Ghanee Mohamed, is the highest court, above the High Court. The bench was reorganised in 2025, when several justices left office, and in April 2026 it upheld a challenged constitutional amendment, amid opposition concerns about judicial independence.",
+    "elections": [
+      {
+        "name": "Constitutional referendum and local council elections",
+        "date": "2026-04-04",
+        "status": "held",
+        "note": "Voters rejected the government's amendment to hold presidential and parliamentary elections together, with about 68% voting No in provisional results. This was the first national referendum under the 2008 constitution. In the same-day local council and Women's Development Committee elections (turnout about 73%), the PNC won the most seats in the final gazetted results (584 to the MDP's 563), while the opposition MDP won all five city mayoralties."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2028",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year presidential term"
+      },
+      {
+        "name": "People's Majlis election",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year parliamentary term elected in 2024"
+      }
+    ],
+    "synopsis": "President Mohamed Muizzu of the People's National Congress has led the Maldives since November 2023, and his party holds a supermajority in the People's Majlis. In April 2026 voters rejected his proposal to hold presidential and parliamentary elections together. The opposition Maldivian Democratic Party is divided but has kept a strong local base, including the Malé mayoralty.",
+    "policies": [
+      "Reducing the public debt and seeking economic independence, which the President describes as the country's main task",
+      "Large foreign-investment and development projects, including a contested deal with the Gulf developer Eagle Hills",
+      "Reshaping the constitution and institutions, including a failed attempt to hold presidential and parliamentary elections together",
+      "Lobbying for climate adaptation and climate finance in international forums"
+    ],
+    "challenges": [
+      "High public and external debt and pressure on foreign-currency reserves",
+      "Opposition and press-freedom groups' concerns about power concentrated in the executive, protest restrictions and media freedom",
+      "Public controversy over transparency and foreign control of land in the Eagle Hills deal",
+      "Sea-level rise and climate vulnerability",
+      "Political divisions, including a split between the MDP and The Democrats"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Not confirmed: the current seat count by party in the People's Majlis (elected April 2024) and the current members of the governing coalition beyond the People's National Congress. Also not confirmed: the referendum's final certified percentage (provisional results gave about 68% No), and the exact dates of the next presidential (2028) and parliamentary (2029) elections."
+  },
+  {
+    "iso3": "NPL",
+    "iso2": "np",
+    "numeric": "524",
+    "name": "Nepal",
+    "region": "Asia",
+    "system": "Federal parliamentary republic with a bicameral Federal Parliament",
+    "systemType": "parliamentary-republic",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Ram Chandra Paudel",
+        "title": "President",
+        "since": "2023-03-13"
+      },
+      "headOfGovernment": {
+        "name": "Balendra (Balen) Shah",
+        "title": "Prime Minister",
+        "party": "Rastriya Swatantra Party",
+        "since": "2026-03-27"
+      },
+      "governingParties": [
+        "Rastriya Swatantra Party"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "House of Representatives (Pratinidhi Sabha)",
+        "control": "Rastriya Swatantra Party (single-party majority)",
+        "detail": "275 seats (165 first-past-the-post, 110 proportional). 5 March 2026 result: Rastriya Swatantra Party 182, Nepali Congress 38, CPN (UML) 25, Nepal Communist Party 17, Shram Sanskriti Party 7, Rastriya Prajatantra Party 5, independent 1 (Mahabir Pun). Speaker: Dol Prasad Aryal (Rastriya Swatantra Party), elected unopposed on 5 April 2026. Leader of the Opposition: Bhishma Raj Angdembe (Nepali Congress), since April 2026."
+      },
+      {
+        "name": "National Assembly (Rashtriya Sabha)",
+        "control": "No single-party majority; opposition parties hold most seats, with the Nepali Congress the largest group",
+        "detail": "59 seats (56 elected by provincial electoral colleges, 3 nominated). Composition reported in March 2026: Nepali Congress 24, Nepal Communist Party 17, CPN (UML) 10, Janata Samajbadi Party-Nepal 3, Rastriya Janamorcha 1, nominated 2 (including the chair), vacant 2. Chairperson: Narayan Prasad Dahal."
+      }
+    ],
+    "judiciary": "The Supreme Court heads the judiciary. Manoj Kumar Sharma has been Chief Justice since 19 May 2026, and a parliamentary hearing committee cleared further judicial nominees in November 2026 before their appointment by the President.",
+    "elections": [
+      {
+        "name": "National Assembly election (one-third renewal)",
+        "date": "2026-01-25",
+        "status": "held",
+        "note": "Indirect election to replace retiring Class I members. Members took office on 4 March 2026 and Narayan Prasad Dahal remained chairperson."
+      },
+      {
+        "name": "House of Representatives general election",
+        "date": "2026-03-05",
+        "status": "held",
+        "note": "Early election after the September 2025 Gen Z protests and the dissolution of the House. The Rastriya Swatantra Party won 182 of 275 seats with 47.84% of the proportional vote. Nepali Congress won 38 and CPN (UML) 25. Final results were announced on 12 March."
+      },
+      {
+        "name": "Local elections (nationwide)",
+        "date": "2027",
+        "status": "upcoming",
+        "note": "Local representatives' terms end on 13 May 2027. Parties have said the vote could come as early as February 2027, but no date has been confirmed."
+      },
+      {
+        "name": "Presidential election (electoral college)",
+        "date": "2028",
+        "status": "upcoming",
+        "note": "Due by law when the President's five-year term ends."
+      },
+      {
+        "name": "House of Representatives general election",
+        "date": "2031",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year term, unless the House is dissolved earlier."
+      }
+    ],
+    "synopsis": "After youth-led Gen Z protests toppled K.P. Sharma Oli's government in September 2025, interim Prime Minister Sushila Karki held early elections in March 2026. The Rastriya Swatantra Party, a party formed in 2022, won an outright majority, and former Kathmandu mayor Balen Shah became prime minister on 27 March 2026. The established parties, now in opposition in the lower house, still hold most seats in the National Assembly.",
+    "policies": [
+      "Anti-corruption and governance reform agenda promised after the 2025 protests",
+      "Job creation and economic revival, led by Finance Minister Swarnim Wagle",
+      "Ministries told to carry out the fiscal year 2026/27 annual work plan, with domestic products prioritised in public procurement",
+      "Public release of ministers' asset declarations"
+    ],
+    "challenges": [
+      "Restoring political stability and public trust after the deadly 2025 unrest",
+      "Unemployment and large-scale youth labour migration",
+      "Controversies over government decisions, including a passport-printing deal and alleged pressure on the anti-corruption agency",
+      "An upper house in which the opposition holds most seats",
+      "Local and provincial elections due in 2027"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Not confirmed in the latest sources: the current party breakdown of the National Assembly (sources differ slightly, the figures given are from March 2026, and it is unclear whether the two vacancies have since been filled). The dates of the 2027 local and 2028 presidential elections have not been set."
+  },
+  {
+    "iso3": "PAK",
+    "iso2": "pk",
+    "numeric": "586",
+    "name": "Pakistan",
+    "region": "Asia",
+    "system": "Federal parliamentary republic with a strong military role",
+    "systemType": "parliamentary-republic",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Asif Ali Zardari",
+        "title": "President",
+        "party": "Pakistan Peoples Party",
+        "since": "2024-03-10"
+      },
+      "headOfGovernment": {
+        "name": "Shehbaz Sharif",
+        "title": "Prime Minister",
+        "party": "Pakistan Muslim League (N)",
+        "since": "2024-03-04"
+      },
+      "governingParties": [
+        "Pakistan Muslim League (N)",
+        "Pakistan Peoples Party",
+        "Muttahida Qaumi Movement – Pakistan",
+        "Pakistan Muslim League (Q)",
+        "Istehkam-e-Pakistan Party"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "Governing coalition led by the Pakistan Muslim League (N) with the Pakistan Peoples Party; the opposition is led by Mahmood Khan Achakzai (PkMAP), Leader of the Opposition since January 2026",
+        "detail": "336 seats; Speaker Ayaz Sadiq (PML-N)"
+      },
+      {
+        "name": "Senate",
+        "control": "Governing coalition (PML-N and PPP); Chairman Syed Yousuf Raza Gilani (PPP)"
+      }
+    ],
+    "judiciary": "The 27th Constitutional Amendment of November 2025 created a Federal Constitutional Court, led by its first Chief Justice, Aminuddin Khan, to hear constitutional cases. This left the Supreme Court of Pakistan, headed by Chief Justice Yahya Afridi since October 2024, mainly as the top court of appeal. Critics, including the opposition and parts of the legal community, have contested the change as reducing judicial independence.",
+    "elections": [
+      {
+        "name": "General election (National Assembly and provincial assemblies)",
+        "date": "2024-02-08",
+        "status": "held",
+        "note": "Independents backed by Imran Khan's Pakistan Tehreek-e-Insaf won the most seats, but the PML-N and PPP formed a coalition government, with Shehbaz Sharif as Prime Minister and Asif Ali Zardari as President."
+      },
+      {
+        "name": "Senate election (half of seats)",
+        "date": "2027",
+        "status": "upcoming",
+        "note": "Half of the Senate is elected every three years by the national and provincial assemblies."
+      },
+      {
+        "name": "General election",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due by law by February 2029."
+      }
+    ],
+    "synopsis": "Pakistan is governed by a coalition led by Prime Minister Shehbaz Sharif of the PML-N, with the PPP's Asif Ali Zardari as President. The armed forces remain highly influential: under the 27th Amendment, Field Marshal Asim Munir became the first Chief of Defence Forces in December 2025 while staying army chief. Former Prime Minister Imran Khan remains in prison, and his PTI is in opposition.",
+    "policies": [
+      "Economic stabilisation and structural reform under an IMF programme",
+      "Second phase of the China-Pakistan Economic Corridor (CPEC) and wider investment ties with China",
+      "Expansion of solar and nuclear power in the energy mix",
+      "Military command restructuring and constitutional court reform under the 27th Amendment",
+      "Counter-terrorism operations in Khyber Pakhtunkhwa and Balochistan"
+    ],
+    "challenges": [
+      "Militant violence in Khyber Pakhtunkhwa and Balochistan, and tensions with Afghanistan",
+      "Hostility with India after the May 2025 military conflict",
+      "Political confrontation over the imprisonment of Imran Khan and the PTI's place in politics",
+      "High public debt, fiscal pressure and dependence on external financing",
+      "Exposure to climate disasters such as floods"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Not confirmed in this research: the current party seat counts in the National Assembly and Senate, and the full list of smaller coalition partners (MQM-P, PML-Q and IPP are listed from earlier information)."
+  },
+  {
+    "iso3": "LKA",
+    "iso2": "lk",
+    "numeric": "144",
+    "name": "Sri Lanka",
+    "region": "Asia",
+    "system": "Unitary semi-presidential republic with an executive president who leads the cabinet",
+    "systemType": "semi-presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Anura Kumara Dissanayake",
+        "title": "President",
+        "party": "National People's Power (NPP)",
+        "since": "2024-09-23"
+      },
+      "headOfGovernment": {
+        "name": "Harini Amarasuriya",
+        "title": "Prime Minister",
+        "party": "National People's Power (NPP)",
+        "since": "2024-09-24"
+      },
+      "governingParties": [
+        "National People's Power (NPP)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Parliament",
+        "control": "National People's Power (two-thirds majority)",
+        "detail": "225 seats, 14 November 2024 election: NPP 159, Samagi Jana Balawegaya 40, Ilankai Tamil Arasu Kachchi 8, New Democratic Front 5, Sri Lanka Podujana Peramuna 3, Sri Lanka Muslim Congress 3, others 7. Speaker: Jagath Wickramaratne (NPP). Leader of the Opposition: Sajith Premadasa (SJB)."
+      }
+    ],
+    "judiciary": "The Supreme Court is the highest court and reviews whether bills are constitutional. It is headed by Chief Justice Padman Surasena, sworn in by President Dissanayake in July 2025. The Court of Appeal sits below it.",
+    "elections": [
+      {
+        "name": "Parliamentary election",
+        "date": "2024-11-14",
+        "status": "held",
+        "note": "The NPP won 159 of 225 seats, a two-thirds majority, up from 3 seats in 2020. The Samagi Jana Balawegaya came second with 40."
+      },
+      {
+        "name": "Local government elections",
+        "date": "2025-05-06",
+        "status": "held",
+        "note": "Elections to 339 of 341 local councils, for 8,793 seats."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year term that began after the September 2024 election."
+      },
+      {
+        "name": "Parliamentary election",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year term of the Parliament elected in November 2024."
+      }
+    ],
+    "synopsis": "Anura Kumara Dissanayake of the left-wing National People's Power won the presidency in September 2024, and the NPP then won a two-thirds majority in Parliament in November 2024. Dissanayake also serves as finance minister. His government is continuing an IMF-backed recovery from the 2022 debt crisis, and in November 2026 it presented its third budget, for 2027.",
+    "policies": [
+      "Economic recovery and fiscal consolidation under the IMF programme that followed the 2022 debt default",
+      "The 2027 budget: support for industrial output and exports, capital spending, some tax relief, and a new investment promotion agency",
+      "Anti-corruption measures and changes to how the state is run",
+      "A new constitution, including the long-promised abolition of the executive presidency; no timetable has been set, and the President said in August 2026 that he remains committed to it"
+    ],
+    "challenges": [
+      "Keeping a fragile economic recovery going while servicing restructured debt and facing global headwinds",
+      "Provincial council elections, last held more than a decade ago, remain postponed while a dispute over electoral boundaries is unresolved",
+      "Criticism from civil society that the government is retreating from its promise to abolish the executive presidency",
+      "Devolution of power and reconciliation with the Tamil and Muslim communities after the civil war"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "KAZ",
+    "iso2": "kz",
+    "numeric": "398",
+    "name": "Kazakhstan",
+    "region": "Asia",
+    "system": "Unitary presidential republic with a unicameral parliament (Kurultai) and a vice president, under the constitution adopted by referendum in March 2026",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Kassym-Jomart Tokayev",
+        "title": "President",
+        "since": "2019-03-20"
+      },
+      "headOfGovernment": {
+        "name": "Olzhas Bektenov",
+        "title": "Prime Minister",
+        "since": "2024-02"
+      },
+      "governingParties": [
+        "Adilet"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Kurultai",
+        "control": "Adilet (absolute majority)",
+        "detail": "145 seats, elected 23 August 2026: Adilet 110, Auyl 10, Respublica 9, Ak Zhol 8, Nationwide Social Democratic Party 8. Chairman: Aibek Dadebai (Adilet), elected 28 August 2026. The Kurultai replaced the bicameral Parliament (Senate and Mazhilis) when the new constitution took effect on 1 July 2026."
+      }
+    ],
+    "judiciary": "The Supreme Court is the highest court for civil and criminal cases, and the Constitutional Court reviews whether laws are constitutional. In 2026 the Constitutional Court ruled that the new constitution resets President Tokayev's term count, so he may run again when his term ends in 2029; critics see this as part of a wider concentration of presidential power.",
+    "elections": [
+      {
+        "name": "Constitutional referendum",
+        "date": "2026-03-15",
+        "status": "held",
+        "note": "The new constitution was approved with 87.15% of the vote on a 73.12% turnout. It took effect on 1 July 2026."
+      },
+      {
+        "name": "Kurultai (legislative) election",
+        "date": "2026-08-23",
+        "status": "held",
+        "note": "Adilet won 71.17% of the vote and 110 of 145 seats. Auyl (6.26%, 10 seats), Respublica (5.56%, 9), Ak Zhol (5.21%, 8) and the Nationwide Social Democratic Party (5.11%, 8) also passed the 5% threshold. Turnout was 74.08%."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due when President Tokayev's current seven-year term ends. The Constitutional Court has ruled that he may run again under the new constitution."
+      },
+      {
+        "name": "Kurultai (legislative) election",
+        "date": "2031",
+        "status": "upcoming",
+        "note": "Due by law when the Kurultai's five-year term ends."
+      }
+    ],
+    "synopsis": "Kazakhstan is a presidential republic led by President Kassym-Jomart Tokayev, who has been in office since 2019. A new constitution approved by referendum in March 2026 replaced the bicameral parliament with a unicameral Kurultai, created a People's Council (Halyk Kenesi) and revived the office of vice president, to which Erlan Karin was appointed in August 2026. The pro-government Adilet party, which absorbed the former ruling Amanat party, won 110 of 145 seats in the August 2026 election, and Olzhas Bektenov was kept on as prime minister.",
+    "policies": [
+      "Putting the 2026 constitution into practice, including the unicameral Kurultai, the vice presidency and the People's Council",
+      "Developing digital services and artificial intelligence",
+      "Diversifying the economy, with the core economic team kept in the government formed in September 2026",
+      "A multi-vector foreign policy that balances relations with Russia, China, the West and its Central Asian neighbours"
+    ],
+    "challenges": [
+      "Critics question how genuine the political competition is: the pro-government Adilet party holds a large majority, and opponents call the 2026 reforms a facade of democratisation",
+      "Managing presidential succession, since the term-count reset lets Tokayev seek another term in 2029",
+      "Economic dependence on oil and other raw materials",
+      "Strains on the electric power industry and ageing infrastructure"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "KGZ",
+    "iso2": "kg",
+    "numeric": "417",
+    "name": "Kyrgyzstan",
+    "region": "Asia",
+    "system": "Presidential republic; the president appoints and directs the Cabinet of Ministers, whose chairman also heads the Presidential Administration",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Sadyr Japarov",
+        "title": "President",
+        "since": "2021-01-28"
+      },
+      "headOfGovernment": {
+        "name": "Adylbek Kasymaliev",
+        "title": "Chairman of the Cabinet of Ministers and Head of the Presidential Administration",
+        "since": "2024-12-18"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "Jogorku Kenesh (Supreme Council)",
+        "control": "Pro-presidential majority made up of non-party deputies and parties allied with President Japarov; Speaker Marlen Mamataliev since 12 February 2026",
+        "detail": "90 seats, snap election of 30 November 2025 (OSCE/ODIHR preliminary figures): Ata-Jurt Kyrgyzstan 15, Ishenim 12, Yntymak 9, Aliance 7, Butun Kyrgyzstan 6, Yiman Nuru 5, deputies not nominated by parties 36"
+      }
+    ],
+    "judiciary": "The Supreme Court heads the ordinary courts and the Constitutional Court rules on constitutional questions. In early 2026 there was public debate over the constitution and whether President Japarov may seek a second term.",
+    "elections": [
+      {
+        "name": "Parliamentary election (snap)",
+        "date": "2025-11-30",
+        "status": "held",
+        "note": "Held early after parliament voted to dissolve itself in September 2025. A new electoral law meant most candidates ran as self-nominated individuals. Allies of President Japarov won nearly all 90 seats. Parties won 54 seats and non-party candidates 36."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2027-01-27",
+        "status": "upcoming",
+        "note": "Parliament set the date. President Sadyr Japarov has applied to run for a second term."
+      }
+    ],
+    "synopsis": "Kyrgyzstan has had a strongly presidential system since constitutional changes in 2021, under President Sadyr Japarov, who came to power after the October 2020 unrest. In February 2026 Japarov dismissed security chief and deputy cabinet chairman Kamchybek Tashiev, which ended their informal ruling partnership and further concentrated power in the presidency. A snap parliamentary election in November 2025 returned a legislature dominated by the president's allies, and the next presidential election is set for 27 January 2027.",
+    "policies": [
+      "A government drive for industrialisation and new production and social facilities",
+      "Digital finance work, including a digital som and talks on a state crypto reserve",
+      "Settling borders with neighbours, including a 2025 agreement on where the Kyrgyz, Tajik and Uzbek borders meet",
+      "Attracting foreign investment and developing ties within Central Asia and the Organization of Turkic States"
+    ],
+    "challenges": [
+      "Uncertainty within the elite after Japarov's split with Tashiev, in the run-up to the 2027 presidential election",
+      "Constitutional debate over the length of the president's term and whether he can seek a second one",
+      "Rights groups' concerns about restrictions on civil society, the media and the opposition",
+      "Dependence on remittances from labour migrants and on trade with Russia and other neighbours"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "TJK",
+    "iso2": "tj",
+    "numeric": "762",
+    "name": "Tajikistan",
+    "region": "Asia",
+    "system": "Presidential republic with a dominant ruling party and a strongly centralised presidency",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Emomali Rahmon",
+        "title": "President",
+        "party": "People's Democratic Party of Tajikistan",
+        "since": "1994-11-16"
+      },
+      "headOfGovernment": {
+        "name": "Kokhir Rasulzoda",
+        "title": "Prime Minister",
+        "party": "People's Democratic Party of Tajikistan",
+        "since": "2013-11-23"
+      },
+      "governingParties": [
+        "People's Democratic Party of Tajikistan"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Assembly of Representatives (Majlisi Namoyandagon, lower house)",
+        "control": "People's Democratic Party of Tajikistan (majority)",
+        "detail": "63 seats (2 March 2025): People's Democratic Party of Tajikistan 49, Agrarian Party 7, Party of Economic Reforms 5, Socialist Party 1, Democratic Party 1. Speaker: Fayzali Idizoda (PDPT), elected 19 March 2025."
+      },
+      {
+        "name": "National Assembly (Majlisi Milli, upper house)",
+        "control": "Chosen without party competition: 25 members elected indirectly by regional and city assemblies and 8 appointed by the President; chaired by Rustam Emomali, the President's son",
+        "detail": "33 members; 25 elected indirectly on 28 March 2025, with presidential appointees named in April 2025. Rustam Emomali re-elected chairman on 11 April 2025."
+      }
+    ],
+    "judiciary": "The Constitutional Court and the Supreme Court are the top courts. Their judges are appointed on the President's nomination, and the courts do not act as an independent check on the executive.",
+    "elections": [
+      {
+        "name": "Assembly of Representatives election",
+        "date": "2025-03-02",
+        "status": "held",
+        "note": "The People's Democratic Party of Tajikistan won 49 of 63 seats, up from 47. The Agrarian Party won 7, the Party of Economic Reforms 5, and the Socialist and Democratic parties 1 each. The Communist Party did not pass the 5% threshold. No independent observers took part, and the OSCE cancelled its planned observation mission."
+      },
+      {
+        "name": "National Assembly (indirect) election",
+        "date": "2025-03-28",
+        "status": "held",
+        "note": "Regional and city assemblies elected 25 of the 33 members. The President appointed the remaining members in April 2025."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2027",
+        "status": "upcoming",
+        "note": "Due by October 2027 for a seven-year term. The exact date has not yet been set."
+      }
+    ],
+    "synopsis": "Tajikistan is a strongly centralised presidential republic. Emomali Rahmon has led the country for all but one year since independence, and his People's Democratic Party of Tajikistan dominates parliament. His son Rustam Emomali chairs the upper house and is widely expected to succeed him, ahead of a presidential election due in 2027.",
+    "policies": [
+      "Building large infrastructure projects, including the Rogun hydropower complex",
+      "Balancing security ties with Russia and growing economic dependence on China, its largest creditor",
+      "Moving towards leaving the International Criminal Court: the lower house considered a resolution ending the Rome Statute's application at an extraordinary sitting on 16 September 2026, after the Court found that Tajikistan had failed to arrest Vladimir Putin during his October 2025 visit; a withdrawal takes effect one year after formal notification to the UN",
+      "Tighter state oversight of civil society, framed as countering extremism and terrorism"
+    ],
+    "challenges": [
+      "Heavy dependence on remittances from migrant workers, mainly in Russia",
+      "Security threats from Afghanistan, including Islamic State-linked violence",
+      "International criticism of repression of government opponents, journalists and civil society, raised again at the November 2026 UN Universal Periodic Review",
+      "Managing a possible dynastic transfer of power from the President to his son",
+      "Poverty and high foreign debt"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Not confirmed: what the lower house decided on 16 September 2026 about leaving the International Criminal Court (its press service said only that the relevant decisions were adopted), and whether Tajikistan has formally notified the UN of a withdrawal. Rahmon's start date of 16 November 1994 (his inauguration as President; he had led the country as head of parliament since November 1992) was not found on an official Tajik government page."
+  },
+  {
+    "iso3": "TKM",
+    "iso2": "tm",
+    "numeric": "795",
+    "name": "Turkmenistan",
+    "region": "Asia",
+    "system": "Presidential republic under a personalist authoritarian system: power is shared by President Serdar Berdimuhamedov and his father, Gurbanguly Berdimuhamedov, who chairs the Halk Maslahaty, the highest representative body",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Serdar Berdimuhamedov",
+        "title": "President",
+        "party": "Democratic Party of Turkmenistan",
+        "since": "2022-03-19"
+      },
+      "headOfGovernment": {
+        "name": "Serdar Berdimuhamedov",
+        "title": "President (Chairman of the Cabinet of Ministers)",
+        "party": "Democratic Party of Turkmenistan",
+        "since": "2022-03-19"
+      },
+      "governingParties": [
+        "Democratic Party of Turkmenistan"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Mejlis (Assembly)",
+        "control": "Democratic Party of Turkmenistan (majority); the other parties and citizens' groups in the chamber support the government and there is no opposition",
+        "detail": "125 seats, March 2023 election: Democratic Party of Turkmenistan 65, Agrarian Party 24; the other 36 seats went to the Party of Industrialists and Entrepreneurs and candidates nominated by citizens' groups"
+      },
+      {
+        "name": "Halk Maslahaty (People's Council)",
+        "control": "Chaired by Gurbanguly Berdimuhamedov. Since the January 2023 constitutional changes it has been a non-partisan, supreme representative body above the Mejlis, made up of officials and appointed or delegated public representatives",
+        "detail": "Last met on 2026-09-23 in Ashgabat"
+      }
+    ],
+    "judiciary": "The Supreme Court is the highest court, and there is no constitutional court; judges are appointed by the president. Independent observers describe the judiciary, like the legislature, as dominated by the executive and the Halk Maslahaty.",
+    "elections": [
+      {
+        "name": "Presidential election (early)",
+        "date": "2022-03-12",
+        "status": "held",
+        "note": "Serdar Berdimuhamedov won with 72.97% on reported turnout of about 97%, succeeding his father. Like all previous Turkmen elections, it was not considered free or fair by international observers."
+      },
+      {
+        "name": "Mejlis (parliamentary) election",
+        "date": "2023-03-26",
+        "status": "held",
+        "note": "Democratic Party of Turkmenistan won 65 of 125 seats and the Agrarian Party 24; the remaining seats went to the Party of Industrialists and Entrepreneurs and candidates of citizens' groups. There was no genuine opposition."
+      },
+      {
+        "name": "Mejlis (parliamentary) election",
+        "date": "2028",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year term; the IPU gives 31 March 2028 as the expected date."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due by law at the end of the seven-year presidential term that began in 2022."
+      }
+    ],
+    "synopsis": "Turkmenistan is a tightly controlled authoritarian state run by the Berdimuhamedov family. President Serdar Berdimuhamedov succeeded his father, Gurbanguly, in 2022. Since 2023, Gurbanguly has held the title \"National Leader of the Turkmen people\" and chairs the Halk Maslahaty, which constitutional changes made the country's highest representative body. The legislature and courts are dominated by the executive, and no election has been judged free or fair by international observers.",
+    "policies": [
+      "A foreign policy of permanent neutrality, which the national motto for 2026, the 35th anniversary of independence, highlights",
+      "Growing natural gas exports and diversifying export routes, including the planned Turkmenistan–Afghanistan–Pakistan–India (TAPI) gas pipeline",
+      "A National Strategy for Industrial Development for 2030–2045, presented at the September 2026 Halk Maslahaty session, aimed at economic diversification",
+      "Controlled economic modernisation, including a January 2026 law regulating virtual assets and licensing cryptocurrency exchanges under the central bank"
+    ],
+    "challenges": [
+      "Severe restrictions on political freedoms, media and civil society; there is no organised opposition",
+      "Heavy economic dependence on natural gas exports, with a limited number of buyers",
+      "A closed, state-dominated economy with limited transparency and reliable statistics",
+      "Long-term questions over the Berdimuhamedov father-son arrangement for sharing power"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Sources do not agree on the full March 2023 Mejlis seat breakdown. The DPT's 65 and the Agrarian Party's 24 are confirmed. For the other 36 seats, the IPU gives the Party of Industrialists and Entrepreneurs 8 and citizens' groups 28, while Freedom House and ElectionGuide give the Party of Industrialists and Entrepreneurs 18. The President's party is listed as the DPT because the DPT nominated him in 2022; whether he is formally a party member is not confirmed."
+  },
+  {
+    "iso3": "UZB",
+    "iso2": "uz",
+    "numeric": "860",
+    "name": "Uzbekistan",
+    "region": "Asia",
+    "system": "Presidential republic with a dominant president and a bicameral parliament (Oliy Majlis) in which no opposition parties are represented",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Shavkat Mirziyoyev",
+        "title": "President",
+        "since": "2016-12-14"
+      },
+      "headOfGovernment": {
+        "name": "Abdulla Aripov",
+        "title": "Prime Minister",
+        "since": "2016-12-14"
+      },
+      "governingParties": [
+        "Movement of Entrepreneurs and Businesspeople – Liberal Democratic Party of Uzbekistan (UzLiDeP)",
+        "Milliy Tiklanish Democratic Party"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Legislative Chamber (lower house of the Oliy Majlis)",
+        "control": "UzLiDeP is the largest party; a government coalition with Milliy Tiklanish holds a majority (93 of 150). All five parties in the chamber support the president, and no opposition parties took part in the election.",
+        "detail": "October 2024 election, 150 seats (75 by party list, 75 from single-member constituencies): UzLiDeP 64, Milliy Tiklanish 29, Adolat Social Democratic Party 21, People's Democratic Party 20, Ecological Party 16."
+      },
+      {
+        "name": "Senate (upper house of the Oliy Majlis)",
+        "control": "Non-partisan. Senators are elected indirectly by regional councils or appointed by the president. Chaired by Tanzila Narbaeva.",
+        "detail": "65 members since the 2024 elections (cut from 100 by the 2023 constitutional amendments): 56 elected by local councils, four from each of 14 administrative units, plus members appointed by the president."
+      }
+    ],
+    "judiciary": "The top courts are the Constitutional Court and the Supreme Court. Their judges are elected by the Senate on the president's nomination, and observers describe the judiciary as having little independence from the executive.",
+    "elections": [
+      {
+        "name": "Presidential election (snap)",
+        "date": "2023-07-09",
+        "status": "held",
+        "note": "Shavkat Mirziyoyev won a new seven-year term. The election followed the 2023 constitutional referendum, which reset his term count."
+      },
+      {
+        "name": "Legislative Chamber election",
+        "date": "2024-10-27",
+        "status": "held",
+        "note": "UzLiDeP won 64 of 150 seats, Milliy Tiklanish 29, Adolat 21, the People's Democratic Party 20 and the Ecological Party 16. No opposition parties took part."
+      },
+      {
+        "name": "Legislative Chamber election",
+        "date": "2029-10",
+        "status": "upcoming",
+        "note": "Due at the end of the five-year term."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Due by law at the end of the seven-year term that began in 2023."
+      }
+    ],
+    "synopsis": "Uzbekistan is a presidential republic led by Shavkat Mirziyoyev, president since 2016. He won a new seven-year term in a 2023 snap election that followed a constitutional referendum resetting his term limits. All parties in parliament back the president, and an August 2026 constitutional law gave the Presidential Administration, headed by his daughter Saida Mirziyoyeva, a formal legal basis and broad powers.",
+    "policies": [
+      "Economic liberalisation, privatisation and attracting foreign investment, including the Tashkent International Financial Center",
+      "A foreign policy of close ties with Russia, China, Turkic states and Western partners, and an active role in the SCO and Central Asian bodies",
+      "Regional security cooperation, including proposals against cyber, AI-related and terrorist threats",
+      "Administrative reform under the 2023 constitution and the 2026 law on the Presidential Administration"
+    ],
+    "challenges": [
+      "Power concentrated in the presidency, with no opposition parties in parliament and tight limits on political competition and the media",
+      "Questions about succession, and more power held by the president's family through the Presidential Administration",
+      "Creating jobs for a young, fast-growing population and relying on remittances from labour migrants",
+      "Water scarcity and regional water management, including the effects of the Aral Sea disaster",
+      "Security risks linked to neighbouring Afghanistan"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Only Wikipedia confirms that UzLiDeP and Milliy Tiklanish formally govern as a coalition (93 seats); no official source was found. The party affiliations of President Mirziyoyev and Prime Minister Aripov were not confirmed and are left out: the IPU describes UzLiDeP as led by the president, while Wikipedia lists Aripov as its leader. The exact number of presidential appointees to the 65-member Senate was not confirmed."
+  }
+]
