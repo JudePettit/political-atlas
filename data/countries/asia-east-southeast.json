@@ -1,0 +1,1113 @@
+[
+  {
+    "iso3": "KOR",
+    "iso2": "kr",
+    "numeric": "410",
+    "name": "South Korea",
+    "region": "Asia",
+    "system": "Unitary presidential republic with a unicameral National Assembly and a prime minister appointed by the president",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Lee Jae-myung",
+        "title": "President",
+        "party": "Democratic Party of Korea",
+        "since": "2025-06-04"
+      },
+      "headOfGovernment": {
+        "name": "Han Seong-sook",
+        "title": "Prime Minister",
+        "since": "2026-07-01"
+      },
+      "governingParties": [
+        "Democratic Party of Korea"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "Democratic Party of Korea (majority)",
+        "detail": "300 seats (254 constituency, 46 proportional). After the June 2026 by-elections: Democratic Party 161, People Power Party 110; the rest are held by smaller parties and independents. Cho Jeong-sik became Speaker on 5 June 2026."
+      }
+    ],
+    "judiciary": "The top courts are the Supreme Court, led by Chief Justice Cho Hee-dae, and a separate Constitutional Court. Judicial reform laws passed by the Democratic Party majority took effect on 12 March 2026. They allow constitutional complaints against court judgments and make it a crime for judges to deliberately distort the law; a third law enlarges the Supreme Court from 14 to 26 justices in stages from March 2028. The changes have caused friction between the ruling party and the judiciary.",
+    "elections": [
+      {
+        "name": "Presidential election",
+        "date": "2025-06-03",
+        "status": "held",
+        "note": "Snap election after Yoon Suk Yeol was removed from office. Lee Jae-myung of the Democratic Party won (about 49.4%), defeating Kim Moon-soo of the People Power Party (about 41.2%)."
+      },
+      {
+        "name": "Local elections and National Assembly by-elections",
+        "date": "2026-06-03",
+        "status": "held",
+        "note": "The Democratic Party won 12 of the 16 metropolitan and provincial head posts. The People Power Party kept four, including Seoul, where Mayor Oh Se-hoon was re-elected. The by-elections did not change the balance of power in the National Assembly."
+      },
+      {
+        "name": "National Assembly election",
+        "date": "2028-04",
+        "status": "upcoming",
+        "note": "Due by law before the current four-year term ends in May 2028."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Due at the end of Lee Jae-myung's single five-year term. Lee has said he will not seek a second term even if the constitution is amended."
+      }
+    ],
+    "synopsis": "South Korea is a presidential republic. Lee Jae-myung of the Democratic Party won the snap election held after his predecessor was removed over the December 2024 martial law declaration, and took office in June 2025. His party holds a majority in the unicameral National Assembly. Former Naver chief executive Han Seong-sook became prime minister in July 2026, replacing Kim Min-seok, who left to lead the Democratic Party.",
+    "policies": [
+      "Judicial reform, including constitutional appeals against court rulings and a larger Supreme Court",
+      "A constitutional amendment: the ruling party has set up a task force and is aiming for a referendum in the first half of 2027",
+      "Promoting artificial intelligence and the technology industry",
+      "Pragmatic diplomacy with the United States, China and regional partners through ASEAN and APEC summits"
+    ],
+    "challenges": [
+      "Deep polarisation between the Democratic Party and the People Power Party after the 2024 martial law crisis",
+      "Strained relations between the ruling party and the judiciary over the reform laws",
+      "Tensions and security risks from North Korea",
+      "Trade pressure and economic uncertainty affecting the export-dependent economy",
+      "Low birth rate and a rapidly ageing population"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Not confirmed: whether Prime Minister Han Seong-sook belongs to a party, and the current seat totals of the smaller parties in the National Assembly."
+  },
+  {
+    "iso3": "MNG",
+    "iso2": "mn",
+    "numeric": "496",
+    "name": "Mongolia",
+    "region": "Asia",
+    "system": "Semi-presidential republic with a unicameral parliament; the prime minister and cabinet, accountable to parliament, direct the government, while a directly elected president serving a single six-year term holds a veto and leads on foreign affairs and defence",
+    "systemType": "semi-presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Ukhnaagiin Khurelsukh",
+        "title": "President",
+        "since": "2021-06-25"
+      },
+      "headOfGovernment": {
+        "name": "Nyam-Osoryn Uchral",
+        "title": "Prime Minister",
+        "party": "Mongolian People's Party",
+        "since": "2026-03-30"
+      },
+      "governingParties": [
+        "Mongolian People's Party",
+        "HUN Party",
+        "National Coalition"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "State Great Khural",
+        "control": "Mongolian People's Party majority, governing in coalition with the HUN Party and the National Coalition",
+        "detail": "126 seats (2024 election): Mongolian People's Party 68, Democratic Party 42, HUN Party 8, Civil Will-Green Party 4, National Coalition 4. Speaker: Sandagiin Byambatsogt (MPP), since 3 April 2026"
+      }
+    ],
+    "judiciary": "The Constitutional Court (Tsets) rules on constitutional questions, and the Supreme Court heads the ordinary courts. In October 2025 the Constitutional Court upheld the president's veto and ruled unconstitutional the parliamentary resolution dismissing Prime Minister Zandanshatar.",
+    "elections": [
+      {
+        "name": "Parliamentary election (State Great Khural)",
+        "date": "2024-06-28",
+        "status": "held",
+        "note": "Mongolian People's Party kept its majority with 68 of 126 seats; Democratic Party 42, HUN Party 8, Civil Will-Green Party 4, National Coalition 4. First election to the parliament enlarged to 126 seats under a mixed electoral system."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2027-06",
+        "status": "upcoming",
+        "note": "By law the election is normally held in June. The exact date has not yet been set. President Khurelsukh cannot run again because the presidency is limited to a single six-year term."
+      },
+      {
+        "name": "Parliamentary election (State Great Khural)",
+        "date": "2028",
+        "status": "upcoming",
+        "note": "Due at the end of the four-year term."
+      }
+    ],
+    "synopsis": "Mongolia is a multiparty democracy in which the Mongolian People's Party (MPP) holds a parliamentary majority. Since mid-2025 the country has had three prime ministers, driven by factional disputes within the MPP. These included a constitutional crisis in October 2025, when parliament's vote to dismiss Prime Minister Zandanshatar was vetoed by the president and ruled unconstitutional. MPP chairman Nyam-Osoryn Uchral became prime minister in March 2026 after Zandanshatar resigned. He leads a coalition of the MPP, the HUN Party and the National Coalition, with the Democratic Party in opposition.",
+    "policies": [
+      "A 2026-2030 five-year development plan focused on economic growth and diversification",
+      "Market-oriented economic reform, with the government stressing policy continuity and stability",
+      "Management of mining revenue, including how to use expected dividends from the Oyu Tolgoi copper mine from 2027",
+      "Balancing relations between Russia and China while building ties with other partners such as the United States, Japan and South Korea"
+    ],
+    "challenges": [
+      "Factional rivalry within the ruling MPP that has led to frequent changes of prime minister",
+      "Heavy economic dependence on mining exports, mostly to China",
+      "Public frustration over corruption, including the coal theft scandal",
+      "Stability of the financial sector, including a reported capital shortfall at the Bank of Mongolia",
+      "Political competition ahead of the 2027 presidential election"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "PRK",
+    "iso2": "kp",
+    "numeric": "408",
+    "name": "North Korea",
+    "region": "Asia",
+    "system": "Unitary one-party socialist state led by the Workers' Party of Korea",
+    "systemType": "one-party",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Kim Jong Un",
+        "title": "President of the State Affairs of the DPRK (General Secretary of the Workers' Party of Korea)",
+        "party": "Workers' Party of Korea",
+        "since": "2016-06-29"
+      },
+      "headOfGovernment": {
+        "name": "Pak Thae-song",
+        "title": "Premier of the Cabinet",
+        "party": "Workers' Party of Korea",
+        "since": "2024-12-29"
+      },
+      "governingParties": [
+        "Workers' Party of Korea"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Supreme People's Assembly",
+        "control": "Workers' Party of Korea, in a single-list front with the Korean Social Democratic Party, the Chondoist Chongu Party and mass organisations; no opposition",
+        "detail": "687 seats (15th convocation, elected 15 March 2026): Workers' Party of Korea 671, social organisations 10, allied parties and religious organisations 6. The chairmanship of the Assembly and its Standing Committee has been vacant since Jo Yong-won was recalled to a party post in June 2026; state media said it would be filled at a later session."
+      }
+    ],
+    "judiciary": "The top court, the Supreme Court, is elected by and accountable to the Supreme People's Assembly; the Assembly's Standing Committee elected its judges for the new term in June 2026. The courts operate under the direction of the Workers' Party and do not act as an independent check on the other branches.",
+    "elections": [
+      {
+        "name": "Supreme People's Assembly election",
+        "date": "2026-03-15",
+        "status": "held",
+        "note": "Single approved candidate in each of the 687 constituencies; all seats went to the Workers' Party-led front. State media reported 99.99% turnout and 99.93% approval, with 0.07% voting against, which is unusual. The new Assembly re-elected Kim Jong Un as President of the State Affairs and Pak Thae-song as Premier on 22 March 2026, and amended the constitution on 23 March."
+      },
+      {
+        "name": "Supreme People's Assembly election",
+        "date": "2031",
+        "status": "upcoming",
+        "note": "Due when the 15th Assembly's five-year term ends around March 2031; no date has been set."
+      }
+    ],
+    "synopsis": "North Korea is ruled by the Workers' Party of Korea under Kim Jong Un, who was re-elected party general secretary at the party's 9th Congress in February 2026 and re-elected President of the State Affairs by the newly elected Supreme People's Assembly in March 2026. Premier Pak Thae-song heads the cabinet, which carries out party policy. A constitution amended in March 2026 and republished in November 2026 adds a territorial clause naming the Republic of Korea as its neighbour to the south and drops the provisions on reunification.",
+    "policies": [
+      "Expanding nuclear forces and conventional armed forces at the same time, as set out at the 9th Party Congress",
+      "\"Two states\" policy toward South Korea, reflected in the revised constitution's new territorial clause, with continued fortification of the inter-Korean border",
+      "A new five-year economic plan focused on industry, coal and machinery, enforced by publicly dismissing officials judged to have failed",
+      "Closer ties with Russia and China, including high-level exchanges with Beijing in 2026",
+      "Tighter social control, including strengthening neighbourhood units and setting up a police force"
+    ],
+    "challenges": [
+      "International sanctions over nuclear and ballistic missile programmes",
+      "Chronic economic shortages and poor administrative discipline, which Kim Jong Un has criticised in public",
+      "High tension with South Korea, Japan and the United States after repeated missile tests in 2026",
+      "Leadership reshuffles and corruption investigations, including in the military",
+      "Diplomatic isolation and limited access to outside aid and trade"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "The 2026 seat breakdown (Workers' Party 671, social organisations 10, allied parties and religious organisations 6) was confirmed only by Wikipedia, not by a second reliable source."
+  },
+  {
+    "iso3": "TWN",
+    "iso2": "tw",
+    "numeric": "158",
+    "name": "Taiwan",
+    "region": "Asia",
+    "system": "Semi-presidential republic (Republic of China) with a directly elected president who appoints the premier",
+    "systemType": "semi-presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Lai Ching-te",
+        "title": "President",
+        "party": "Democratic Progressive Party",
+        "since": "2024-05-20"
+      },
+      "headOfGovernment": {
+        "name": "Cho Jung-tai",
+        "title": "Premier (President of the Executive Yuan)",
+        "party": "Democratic Progressive Party",
+        "since": "2024-05-20"
+      },
+      "governingParties": [
+        "Democratic Progressive Party"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Legislative Yuan",
+        "control": "Opposition majority: Kuomintang (with two aligned independents) and Taiwan People's Party; the governing DPP is in the minority",
+        "detail": "113 seats (2024 election): Kuomintang 52, Democratic Progressive Party 51, Taiwan People's Party 8, independents 2 (caucus with the Kuomintang). Speaker: Han Kuo-yu (Kuomintang)."
+      }
+    ],
+    "judiciary": "The Judicial Yuan oversees the courts, and its Constitutional Court rules on constitutional questions. Only 8 of the court's 15 seats are filled, because the opposition-led legislature rejected President Lai's nominees in December 2024 and July 2025. In December 2025 the court struck down the legislature's 2024 amendments to the Constitutional Court Procedure Act. Three sitting justices disputed that ruling, and the Kuomintang and Taiwan People's Party called it illegal.",
+    "elections": [
+      {
+        "name": "Presidential and legislative elections",
+        "date": "2024-01-13",
+        "status": "held",
+        "note": "Lai Ching-te (DPP) won the presidency. In the Legislative Yuan no party won a majority: Kuomintang 52 seats, DPP 51, TPP 8 and 2 independents who caucus with the Kuomintang."
+      },
+      {
+        "name": "Local elections (mayors, county magistrates and councils)",
+        "date": "2026-11-28",
+        "status": "upcoming",
+        "note": "Nationwide local elections, set by the Central Election Commission, for 22 cities and counties. These are not national elections."
+      },
+      {
+        "name": "Presidential and legislative elections",
+        "date": "2028",
+        "status": "upcoming",
+        "note": "Due by law at the end of the current four-year terms."
+      }
+    ],
+    "synopsis": "Taiwan is governed as the Republic of China by President Lai Ching-te of the Democratic Progressive Party, with Cho Jung-tai as premier. The People's Republic of China claims Taiwan as its territory. The government is divided: the opposition Kuomintang and Taiwan People's Party hold a majority in the Legislative Yuan, and in May 2026 they brought an impeachment motion against Lai, which failed.",
+    "policies": [
+      "Raising defence spending, including a multi-year special budget for US arms; the legislature passed NT$780 billion in May 2026, less than the executive proposed",
+      "Promoting 13 strategic industries, with a focus on semiconductors and other high-technology sectors",
+      "Countering pressure and disinformation from the People's Republic of China while keeping security ties with the United States",
+      "Resisting opposition-passed laws seen as weakening executive powers, including the premier's refusal to carry out some legislation"
+    ],
+    "challenges": [
+      "Military and political pressure from the People's Republic of China, which claims Taiwan",
+      "Deadlock between the executive and the opposition-controlled legislature, including the failed 2026 impeachment vote (56-50, short of two-thirds)",
+      "A Constitutional Court that has worked with only 8 of 15 justices since late 2024 and is disputed over its rulings",
+      "Fights over budget cuts and spending priorities, including defence procurement",
+      "Political fallout from the March 2026 conviction of TPP founder Ko Wen-je for corruption, which is under appeal"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "BRN",
+    "iso2": "bn",
+    "numeric": "096",
+    "name": "Brunei",
+    "region": "Asia",
+    "system": "Absolute Islamic monarchy (sultanate) with an appointed Legislative Council",
+    "systemType": "absolute-monarchy",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Hassanal Bolkiah",
+        "title": "Sultan and Yang Di-Pertuan of Brunei Darussalam",
+        "since": "1967-10-05"
+      },
+      "headOfGovernment": {
+        "name": "Hassanal Bolkiah",
+        "title": "Prime Minister",
+        "since": "1984-01-01"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "Legislative Council (Majlis Mesyuarat Negara)",
+        "control": "Non-partisan; all members, including the Speaker, are appointed by the Sultan",
+        "detail": "Unicameral advisory body made up of cabinet ministers who sit ex officio and other members appointed by the Sultan. No elections have been held since 1962. The First Meeting of the 22nd Session debated the 2026/2027 national budget in March 2026."
+      }
+    ],
+    "judiciary": "The Supreme Court is made up of the Court of Appeal and the High Court. It sits beside a separate system of Syariah courts. Judges are appointed by the Sultan, and in civil cases a final appeal can go to the Judicial Committee of the Privy Council in London. The judiciary does not act as a check on the monarch, who holds supreme executive authority.",
+    "elections": [
+      {
+        "name": "District council elections",
+        "date": "1962-08-30",
+        "status": "held",
+        "note": "This was the last national vote. The Brunei People's Party (Parti Rakyat Brunei) won it and was later banned. The constitutional rules on elections were suspended in 1962, and Legislative Council seats have been filled by royal appointment since 1963. No national election is scheduled."
+      }
+    ],
+    "synopsis": "Brunei is a sultanate where Sultan Hassanal Bolkiah, who has reigned since 1967, is both head of state and prime minister. He also holds the defence and finance portfolios and rules by decree with an appointed cabinet and Legislative Council. On 4 June 2026 he announced his first cabinet reshuffle since 2022. It created coordinating ministers, gave cabinet appointments fixed four-year terms and made his son Prince Abdul Mateen foreign minister, which observers see as succession planning.",
+    "policies": [
+      "Wawasan Brunei 2035 (Brunei Vision 2035) long-term development plan",
+      "Economic diversification away from oil and gas, including a new Ministry of Economy, Trade and Industry created in 2026",
+      "Malay Islamic Monarchy (Melayu Islam Beraja) as the state ideology, including the Syariah Penal Code",
+      "A cabinet restructured in 2026, with coordinating ministers and fixed four-year terms"
+    ],
+    "challenges": [
+      "Heavy dependence of state revenue on oil and gas exports",
+      "Exposure to swings in oil and gas prices: exports earned more during the 2026 Iran war, but state revenue still depends on them",
+      "Planning for succession under a long-reigning monarch, now aged 80",
+      "Diversifying the economy and creating private-sector jobs for young Bruneians"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "KHM",
+    "iso2": "kh",
+    "numeric": "116",
+    "name": "Cambodia",
+    "region": "Asia",
+    "system": "Constitutional monarchy with a parliamentary government, dominated by the Cambodian People's Party",
+    "systemType": "parliamentary-monarchy",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Norodom Sihamoni",
+        "title": "King",
+        "since": "2004-10-14"
+      },
+      "headOfGovernment": {
+        "name": "Hun Manet",
+        "title": "Prime Minister",
+        "party": "Cambodian People's Party",
+        "since": "2023-08-22"
+      },
+      "governingParties": [
+        "Cambodian People's Party"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "Cambodian People's Party",
+        "detail": "125 seats (2023 election): Cambodian People's Party 120, FUNCINPEC 5. President: Khuon Sudary (CPP) since 22 August 2023."
+      },
+      {
+        "name": "Senate",
+        "control": "Cambodian People's Party",
+        "detail": "62 seats: 58 indirectly elected in 2024 (Cambodian People's Party 55, Khmer Will Party 3) and 4 appointed (2 by the King, 2 by the National Assembly). President: Hun Sen (CPP) since 3 April 2024; as Senate President he acted as head of state while the King was in China for medical treatment in 2026."
+      }
+    ],
+    "judiciary": "The Supreme Court heads the ordinary courts, and a nine-member Constitutional Council rules on whether laws are constitutional and settles election disputes. Rights groups say the courts are used against the opposition, for example the 27-year treason sentence given to opposition leader Kem Sokha in 2023.",
+    "elections": [
+      {
+        "name": "National Assembly (general) election",
+        "date": "2023-07-23",
+        "status": "held",
+        "note": "The Cambodian People's Party won 120 of 125 seats and FUNCINPEC won 5. The main opposition Candlelight Party did not take part. Hun Sen then handed the premiership to his son Hun Manet."
+      },
+      {
+        "name": "Senate election",
+        "date": "2024-02-25",
+        "status": "held",
+        "note": "Indirect election: the CPP won 55 of the 58 elected seats and the Khmer Will Party won 3. Hun Sen became Senate President."
+      },
+      {
+        "name": "Commune/Sangkat council elections (nationwide local)",
+        "date": "2027-06-06",
+        "status": "upcoming",
+        "note": "Sixth-mandate elections for the commune and sangkat councils nationwide. The date was set by government decision on 19 January 2026."
+      },
+      {
+        "name": "National Assembly (general) election",
+        "date": "2028-07",
+        "status": "upcoming",
+        "note": "Due by law in July 2028. The exact date has not been set."
+      }
+    ],
+    "synopsis": "Cambodia is a constitutional monarchy under King Norodom Sihamoni. The Cambodian People's Party holds nearly all seats in both chambers of parliament. Prime Minister Hun Manet has led the government since August 2023, taking over from his father Hun Sen, who now leads the party and is Senate President. Since the 2025 border conflict with Thailand, the border has been an ongoing dispute, and the 2025 Kuala Lumpur Peace Accord has been followed by continued tension and closed crossings.",
+    "policies": [
+      "Crackdown on online scam networks, including action against the Prince Group",
+      "State institutional reform, restructuring and reducing departments across ministries",
+      "Close strategic ties with China, including a new China-Cambodia foreign and defence ministers' 2+2 dialogue in 2026",
+      "Diplomacy over the Thailand border dispute based on the 2025 Kuala Lumpur Peace Accord",
+      "Hosting the 20th Francophonie summit in Phnom Penh in November 2026"
+    ],
+    "challenges": [
+      "Unresolved border dispute with Thailand: crossings stay closed and Thailand revoked a 2001 maritime memorandum in 2026",
+      "International pressure over scam compounds and transnational crime",
+      "Restrictions on political space: opposition figures detained and dozens of people held whom rights groups count as political prisoners",
+      "The King's health after prostate cancer treatment in Beijing in 2026"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Not confirmed: whether FUNCINPEC or other parties hold posts in Hun Manet's government."
+  },
+  {
+    "iso3": "IDN",
+    "iso2": "id",
+    "numeric": "360",
+    "name": "Indonesia",
+    "region": "Asia",
+    "system": "Unitary presidential republic with a directly elected president who is both head of state and head of government",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Prabowo Subianto",
+        "title": "President",
+        "party": "Gerindra",
+        "since": "2024-10-20"
+      },
+      "headOfGovernment": {
+        "name": "Prabowo Subianto",
+        "title": "President",
+        "party": "Gerindra",
+        "since": "2024-10-20"
+      },
+      "governingParties": [
+        "Gerindra",
+        "Golkar",
+        "National Awakening Party (PKB)",
+        "National Mandate Party (PAN)",
+        "Democratic Party"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "People's Consultative Assembly (MPR)",
+        "control": "Joint sitting of all DPR and DPD members; Speaker Ahmad Muzani (Gerindra). It must elect a new vice-president from two candidates nominated by the president.",
+        "detail": "732 members: 580 DPR and 152 DPD"
+      },
+      {
+        "name": "House of Representatives (DPR)",
+        "control": "Prabowo's Advanced Indonesia Coalition (KIM) has a majority, and NasDem and PKS also support the government. PDI-P is outside the government and holds the Speaker's post (Puan Maharani).",
+        "detail": "580 seats (2024): PDI-P 110, Golkar 102, Gerindra 86, NasDem 69, PKB 68, PKS 53, PAN 48, Democratic 44"
+      },
+      {
+        "name": "Regional Representative Council (DPD)",
+        "control": "Non-partisan; four members are directly elected from each province",
+        "detail": "152 members"
+      }
+    ],
+    "judiciary": "Indonesia's top courts are the Supreme Court (Mahkamah Agung) and the Constitutional Court (Mahkamah Konstitusi). In 2026, rulings by both courts questioned whether Vice-President Gibran Rakabuming Raka's education documents met the eligibility requirements, which led to calls for his impeachment and his resignation in November 2026.",
+    "elections": [
+      {
+        "name": "General election (presidential, DPR, DPD and regional legislatures)",
+        "date": "2024-02-14",
+        "status": "held",
+        "note": "Prabowo Subianto and Gibran Rakabuming Raka won the presidency in the first round with about 58.6% of the vote. In the DPR, PDI-P won the most seats (110), followed by Golkar (102) and Gerindra (86)."
+      },
+      {
+        "name": "MPR election of a new vice-president",
+        "date": "2026-12-02",
+        "status": "upcoming",
+        "note": "This is an indirect vote, not a popular election. The MPR will choose one of two candidates nominated by President Prabowo to fill the vacancy left by Gibran's resignation on 12 November 2026."
+      },
+      {
+        "name": "General election (presidential, DPR and DPD)",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "The exact date has not been set. The winner will be sworn in on 2029-10-20. Under a 2025 Constitutional Court ruling, local elections will be held separately, two to two and a half years later."
+      }
+    ],
+    "synopsis": "President Prabowo Subianto (Gerindra) took office in October 2024 and governs through a broad coalition that holds a large majority in the DPR. PDI-P is the main party outside the government. In late 2026 his alliance with former president Joko Widodo came under strain. A wiretapping scandal led to the arrest of his chief of staff, and Widodo's son, Vice-President Gibran Rakabuming Raka, resigned on 12 November 2026 after court rulings on his eligibility. The MPR is due to elect a replacement on 2 December.",
+    "policies": [
+      "Free nutritious meals programme for schoolchildren",
+      "Downstreaming (domestic processing of natural resources) and energy transition",
+      "Cabinet reshuffles that gave coordinating-minister posts to coalition party leaders ahead of 2029",
+      "Food and energy self-sufficiency drives",
+      "Revision of the Election Law ahead of the 2029 elections"
+    ],
+    "challenges": [
+      "Filling the vice-presidential vacancy and managing coalition rivalries over the choice",
+      "Wiretapping scandal and treason investigation of former police chief Listyo Sigit Prabowo",
+      "Fiscal pressure, a weaker rupiah and a fuel price rise",
+      "Student-led protests over spending priorities and the military's expanded role in civilian affairs",
+      "Growing rift between Prabowo and former president Joko Widodo"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "I could not confirm whether NasDem and PKS hold cabinet posts in November 2026, so they are not in governingParties. One source describes them as giving the government confidence and supply."
+  },
+  {
+    "iso3": "LAO",
+    "iso2": "la",
+    "numeric": "418",
+    "name": "Laos",
+    "region": "Asia",
+    "system": "Marxist-Leninist one-party socialist republic led by the Lao People's Revolutionary Party",
+    "systemType": "one-party",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Thongloun Sisoulith",
+        "title": "President of the Lao PDR and General Secretary of the Lao People's Revolutionary Party",
+        "party": "Lao People's Revolutionary Party",
+        "since": "2021-03-22"
+      },
+      "headOfGovernment": {
+        "name": "Saleumxay Kommasith",
+        "title": "Prime Minister",
+        "party": "Lao People's Revolutionary Party",
+        "since": "2026-10-05"
+      },
+      "governingParties": [
+        "Lao People's Revolutionary Party"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "Lao People's Revolutionary Party (only legal party; all candidates pre-selected by the party)",
+        "detail": "175 seats, all won by the LPRP and candidates it approved in the 22 February 2026 election. Speaker: Sonexay Siphandone (since 5 October 2026)"
+      }
+    ],
+    "judiciary": "The People's Supreme Court is the highest court, led since 23 March 2026 by President Phaivy Siboualipha. Its head is appointed by the National Assembly, and the judiciary works under the leadership of the ruling party. There are no notable public disputes with the other branches.",
+    "elections": [
+      {
+        "name": "National Assembly election",
+        "date": "2026-02-22",
+        "status": "held",
+        "note": "The LPRP and candidates it approved won all 175 seats in the expanded 10th National Assembly, with official turnout of 98 percent. On 23 March 2026 the new assembly re-elected Thongloun Sisoulith as President."
+      },
+      {
+        "name": "National Assembly election",
+        "date": "2031",
+        "status": "upcoming",
+        "note": "Due at the end of the five-year legislative term; no date set."
+      }
+    ],
+    "synopsis": "Laos is a one-party state ruled by the Lao People's Revolutionary Party (LPRP), which has held power since 1975. The party's 12th Congress in January 2026 re-elected Thongloun Sisoulith as General Secretary, and the new National Assembly re-elected him as President in March 2026. In October 2026, after the death of Assembly President Xaysomphone Phomvihane, Saleumxay Kommasith became Prime Minister and outgoing Prime Minister Sonexay Siphandone became President of the National Assembly.",
+    "policies": [
+      "Stabilising the kip and keeping inflation down through monetary measures",
+      "Raising revenue collection and restructuring the public debt",
+      "Boosting food and agricultural production and rebuilding infrastructure",
+      "Managing mineral resources, major investment projects and tourism",
+      "Fighting crime and pushing digital transformation"
+    ],
+    "challenges": [
+      "High public and publicly guaranteed debt, much of it owed to China under opaque arrangements",
+      "Currency weakness and limited fiscal and foreign-exchange buffers",
+      "Inflation rising again in early 2026 after falling in 2025",
+      "Cyber-scam and drug-trafficking networks, especially in special economic zones",
+      "Pressure on health, education and social spending from tight budgets"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "MYS",
+    "iso2": "my",
+    "numeric": "458",
+    "name": "Malaysia",
+    "region": "Asia",
+    "system": "Federal parliamentary elective constitutional monarchy",
+    "systemType": "parliamentary-monarchy",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Sultan Ibrahim",
+        "title": "Yang di-Pertuan Agong (King)",
+        "since": "2024-01-31"
+      },
+      "headOfGovernment": {
+        "name": "Anwar Ibrahim",
+        "title": "Prime Minister",
+        "party": "People's Justice Party (PKR) / Pakatan Harapan",
+        "since": "2022-11-24"
+      },
+      "governingParties": [
+        "Pakatan Harapan (PKR, DAP, Amanah)",
+        "Barisan Nasional (UMNO, MCA, MIC)",
+        "Gabungan Parti Sarawak",
+        "Gabungan Rakyat Sabah"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Dewan Rakyat (House of Representatives)",
+        "control": "Unity government led by Pakatan Harapan with Barisan Nasional, Gabungan Parti Sarawak and Gabungan Rakyat Sabah (two-thirds majority)",
+        "detail": "222 seats, 218 serving MPs (four vacancies, October 2026). Government bloc: 149, including Pakatan Harapan 75, Barisan Nasional 30, Gabungan Parti Sarawak 23, Gabungan Rakyat Sabah 7, Warisan 3, three smaller parties with one MP each and 8 independents. The other 69 MPs are in opposition, PAS being the largest party. On 29 October 2026, six Bersatu MPs, including party president Muhyiddin Yassin, and Muar MP Syed Saddiq signed a confidence-and-supply agreement with the government."
+      },
+      {
+        "name": "Dewan Negara (Senate)",
+        "control": "Government parties (appointed and state-elected senators)",
+        "detail": "70 seats: 26 elected by the state assemblies and 44 appointed by the King on the government's advice"
+      }
+    ],
+    "judiciary": "The Federal Court is the apex court and is headed by Chief Justice Wan Ahmad Farid Wan Salleh, who was appointed in July 2025. In November 2026 the Kuala Lumpur High Court cleared the transfer of former prime minister Najib Razak to house arrest under a royal pardon. The palace had publicly rebuked the Attorney General's request on the case, and the ruling caused a split within the governing coalition.",
+    "elections": [
+      {
+        "name": "General election (15th)",
+        "date": "2022-11-19",
+        "status": "held",
+        "note": "Hung parliament. Pakatan Harapan won 82 seats, Perikatan Nasional 74, Barisan Nasional 30, Gabungan Parti Sarawak 23, Gabungan Rakyat Sabah 6 and Warisan 3. Anwar Ibrahim formed a unity government."
+      },
+      {
+        "name": "General election (16th)",
+        "date": "2028",
+        "status": "upcoming",
+        "note": "Not yet called. It must be held by February 2028; if Parliament runs its full term, the latest possible polling date is 17 February 2028."
+      }
+    ],
+    "synopsis": "Prime Minister Anwar Ibrahim has led a multi-coalition unity government since the hung parliament of November 2022. In October 2026 it gained more backing through a confidence-and-supply agreement with Bersatu president Muhyiddin Yassin and several other MPs. The coalition has been strained by the November 2026 move of former prime minister Najib Razak to house arrest, which led DAP secretary-general Anthony Loke to resign as Transport Minister; as of 13 November Anwar had not yet accepted the resignation. There is also open speculation about an early general election and a Malacca state election on 14 November 2026.",
+    "policies": [
+      "MADANI governance framework and Budget 2027",
+      "Attracting high-tech and semiconductor investment",
+      "Pledged reforms under the October 2026 agreement: a limit on a prime minister's time in office and separating the Attorney General's and Public Prosecutor's roles",
+      "Keeping the One-China policy while seeking to keep trade and investment ties with Taiwan"
+    ],
+    "challenges": [
+      "Tension between DAP and UMNO in the coalition over Najib Razak's house arrest, and Anthony Loke's resignation as Transport Minister",
+      "Speculation about an early general election, and Barisan Nasional saying it will leave the unity government once Parliament is dissolved",
+      "A run of state elections in 2026 (Johor in July, Malacca in November) testing support for the governing parties",
+      "Taiwan suspending bilateral investment talks after Anwar's remarks on China"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Not re-checked in this session: the party seat counts from the 2022 general election, and the current party breakdown of the Dewan Negara. Warisan's 3 MPs are counted in the government bloc in the Dewan Rakyat, but Warisan is not listed in governingParties because it is not confirmed to hold cabinet posts."
+  },
+  {
+    "iso3": "MMR",
+    "iso2": "mm",
+    "numeric": "104",
+    "name": "Myanmar",
+    "region": "Asia",
+    "system": "Military-dominated presidential republic under the 2008 constitution, with a president chosen by parliament and a quarter of parliamentary seats reserved for military appointees",
+    "systemType": "presidential",
+    "status": "in-flux",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Min Aung Hlaing",
+        "title": "President",
+        "party": "Union Solidarity and Development Party",
+        "since": "2026-04-10"
+      },
+      "headOfGovernment": {
+        "name": "Min Aung Hlaing",
+        "title": "President",
+        "party": "Union Solidarity and Development Party",
+        "since": "2026-04-10"
+      },
+      "governingParties": [
+        "Union Solidarity and Development Party"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Pyithu Hluttaw (House of Representatives)",
+        "control": "Union Solidarity and Development Party majority, supported by military appointees",
+        "detail": "440 seats: 330 elected, 110 appointed by the military. 2025-26 election: USDP 231 of the 263 constituencies declared; smaller parties and an independent hold the other 32; 67 elected seats vacant where voting did not take place. Speaker: Khin Yi (USDP) since 2026-03-16."
+      },
+      {
+        "name": "Amyotha Hluttaw (House of Nationalities)",
+        "control": "Union Solidarity and Development Party, with military appointees",
+        "detail": "224 seats: 168 elected, 56 appointed by the military. 2025-26 election: USDP 108 elected seats. Speaker: Aung Lin Dwe (USDP) since 2026-03-18; he also speaks for the joint Pyidaungsu Hluttaw."
+      }
+    ],
+    "judiciary": "The Supreme Court of the Union is the highest court of appeal, and a separate Constitutional Tribunal rules on constitutional questions; courts-martial lie outside their jurisdiction. Since the 2021 coup the courts have not been regarded as independent of the military-led authorities; they convicted deposed State Counsellor Aung San Suu Kyi on multiple charges.",
+    "elections": [
+      {
+        "name": "General election (Pyithu Hluttaw and Amyotha Hluttaw)",
+        "date": "2026-01",
+        "status": "held",
+        "note": "Held in three phases on 28 December 2025, 11 January 2026 and 25 January 2026, but not in many conflict-affected areas. The military-backed USDP won 739 of the 1,025 contested seats in national and regional assemblies. Critics widely called the vote a sham because major opposition parties had been dissolved."
+      },
+      {
+        "name": "Presidential election (indirect, by the Pyidaungsu Hluttaw)",
+        "date": "2026-04-03",
+        "status": "held",
+        "note": "Parliament's electoral college elected Min Aung Hlaing president, with Nyo Saw and Nan Ni Ni Aye as vice presidents."
+      },
+      {
+        "name": "Parliamentary by-elections",
+        "date": "2027-04-04",
+        "status": "upcoming",
+        "note": "To fill vacant seats in 55 constituencies, some of them in areas affected by the conflict."
+      }
+    ],
+    "synopsis": "Myanmar's military overthrew the elected government of Aung San Suu Kyi's National League for Democracy in February 2021, setting off a civil war that still continues. After phased elections in December 2025 and January 2026, won by the military-backed Union Solidarity and Development Party, parliament elected coup leader Min Aung Hlaing president in April 2026. Former MPs from the deposed government lead a rival administration in exile, the National Unity Government, and armed resistance groups and ethnic armed organisations control large parts of the country.",
+    "policies": [
+      "Moving from direct military rule to an elected, military-backed government under the 2008 constitution",
+      "Military offensives, including airstrikes, against resistance forces and ethnic armed organisations, backed by compulsory military conscription",
+      "Holding by-elections in April 2027 for seats left vacant in the 2025-26 election",
+      "Seeking regional re-engagement through ASEAN and close ties with China",
+      "Prisoner amnesties, including moving Aung San Suu Kyi from prison to house arrest in April 2026"
+    ],
+    "challenges": [
+      "Civil war against resistance forces and ethnic armed organisations that hold large parts of the country",
+      "Humanitarian crisis, with about 3.8 million people internally displaced (UNHCR, June 2026) and about 16.2 million needing aid (UN 2026 response plan)",
+      "Limited international legitimacy: Min Aung Hlaing was excluded from the ASEAN summit in May 2026, and ASEAN has not endorsed the election results",
+      "Economic strain, import restrictions and foreign companies leaving",
+      "Scam centres and cross-border crime in border areas"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Status set to in-flux because control of the country is contested: the National Unity Government disputes the new administration's legitimacy and armed groups hold large areas. Not confirmed: (1) the current Chief Justice of the Union, since sources disagree; (2) the year the next general election is legally due, so it is left out."
+  },
+  {
+    "iso3": "PHL",
+    "iso2": "ph",
+    "numeric": "608",
+    "name": "Philippines",
+    "region": "Asia",
+    "system": "Unitary presidential constitutional republic with a bicameral Congress",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Ferdinand Marcos Jr.",
+        "title": "President",
+        "party": "Partido Federal ng Pilipinas",
+        "since": "2022-06-30"
+      },
+      "headOfGovernment": {
+        "name": "Ferdinand Marcos Jr.",
+        "title": "President",
+        "party": "Partido Federal ng Pilipinas",
+        "since": "2022-06-30"
+      },
+      "governingParties": [
+        "Partido Federal ng Pilipinas",
+        "Lakas–CMD",
+        "Nationalist People's Coalition",
+        "National Unity Party",
+        "Nacionalista Party"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Senate",
+        "control": "Majority bloc led by Senate President Sherwin Gatchalian (NPC), who was elected on 17 June 2026",
+        "detail": "24 seats, half of them elected every three years; Gatchalian won with all 13 senators present, a bare majority, after Joel Villanueva joined his bloc and a weeks-long leadership dispute with Alan Peter Cayetano ended; Majority Leader Juan Miguel Zubiri"
+      },
+      {
+        "name": "House of Representatives",
+        "control": "Pro-administration majority led by Speaker Faustino \"Bojie\" Dy III (Partido Federal ng Pilipinas), Speaker since 17 September 2025",
+        "detail": "318 seats (254 districts and 64 party-list seats) after the May 2025 election; Dy was elected Speaker with 253 votes"
+      }
+    ],
+    "judiciary": "The Supreme Court, headed by Chief Justice Rodil Zalameda since 6 November 2026 (succeeding Alexander Gesmundo), sits at the top of the courts and has ruled on Congress's impeachment proceedings against Vice President Sara Duterte. The Senate has been sitting as an impeachment court in her trial since 6 July 2026.",
+    "elections": [
+      {
+        "name": "General (midterm) election: Senate (12 seats), House of Representatives and local offices",
+        "date": "2025-05-12",
+        "status": "held",
+        "note": "Half the Senate and all House seats were filled. Candidates of the administration's Alyansa para sa Bagong Pilipinas and of allies of former President Rodrigo Duterte both won Senate seats, and pro-administration parties kept control of the House."
+      },
+      {
+        "name": "Barangay and Sangguniang Kabataan (village and youth council) elections",
+        "date": "2028-11",
+        "status": "upcoming",
+        "note": "Moved from 2 November 2026 by Republic Act No. 12326, signed in September 2026, which sets them for the second Monday of November 2028; a challenge to the law has been filed at the Supreme Court."
+      },
+      {
+        "name": "General election: President, Vice President, Senate (12 seats), House of Representatives and local offices",
+        "date": "2028-05-08",
+        "status": "upcoming",
+        "note": "The Commission on Elections reopened voter registration on 10 November 2026; registration runs until 30 July 2027. President Marcos cannot stand for a second term."
+      }
+    ],
+    "synopsis": "President Ferdinand Marcos Jr., elected in 2022, leads the government in the second half of his single six-year term. He is in a bitter split with Vice President Sara Duterte, whom the House impeached for a second time in May 2026; her Senate trial has been under way since July 2026. The Senate changed leaders twice in 2026, and the Philippines is chairing ASEAN this year.",
+    "policies": [
+      "Holding the 2026 ASEAN chairmanship, including the East Asia Summit",
+      "Asserting Philippine maritime claims in the South China Sea and deepening security ties with the United States, Japan and other partners",
+      "Infrastructure spending, attracting investment and controlling inflation",
+      "Carrying out the Bangsamoro peace process, including the first BARMM parliamentary election in September 2026"
+    ],
+    "challenges": [
+      "Political rivalry between the Marcos and Duterte camps, centred on the Vice President's impeachment trial",
+      "Corruption allegations over flood-control and public works spending",
+      "Unstable leadership in the Senate, which changed hands twice in 2026",
+      "Maritime confrontations with China in the South China Sea",
+      "Exposure to typhoons, flooding and other natural disasters"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Not confirmed: the exact list of parties currently in the governing coalition (listed here from the 2025 Alyansa para sa Bagong Pilipinas lineup); the party breakdown of seats in the House and the full membership of the Senate majority bloc."
+  },
+  {
+    "iso3": "SGP",
+    "iso2": "sg",
+    "numeric": "702",
+    "name": "Singapore",
+    "region": "Asia",
+    "system": "Unitary parliamentary republic with an elected president and a long-dominant ruling party",
+    "systemType": "parliamentary-republic",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Tharman Shanmugaratnam",
+        "title": "President",
+        "since": "2023-09-14"
+      },
+      "headOfGovernment": {
+        "name": "Lawrence Wong",
+        "title": "Prime Minister",
+        "party": "People's Action Party",
+        "since": "2024-05-15"
+      },
+      "governingParties": [
+        "People's Action Party"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Parliament",
+        "control": "People's Action Party (large majority)",
+        "detail": "2025 general election: People's Action Party 87 and Workers' Party 10 of the 97 elected seats. The Workers' Party also holds 2 Non-Constituency MP seats, for 12 in total. The PAP now holds 86 elected seats because Faishal Ibrahim resigned as an MP for Marine Parade-Braddell Heights GRC in July 2026. Non-partisan Nominated Members also sit in the chamber."
+      }
+    ],
+    "judiciary": "The Supreme Court is made up of the Court of Appeal, the final appellate court, and the High Court. It is led by Chief Justice Sundaresh Menon, and Justice Sushil Nair is due to succeed him as Chief Justice on 26 February 2027. After opposition leader Pritam Singh was convicted of lying to a parliamentary committee, Parliament declared him unsuitable to be Leader of the Opposition in January 2026, and the Workers' Party accused the government of using the courts for political ends.",
+    "elections": [
+      {
+        "name": "General election",
+        "date": "2025-05-03",
+        "status": "held",
+        "note": "The People's Action Party won 87 of 97 elected seats with 65.57% of the vote. The Workers' Party won 10 elected seats with 14.99% and also received 2 Non-Constituency MP seats. Lawrence Wong stayed on as Prime Minister."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due by law at the end of the current six-year presidential term."
+      },
+      {
+        "name": "General election",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Due by law. The 15th Parliament first sat on 5 September 2025."
+      }
+    ],
+    "synopsis": "The People's Action Party has governed Singapore without a break since before independence, and Prime Minister Lawrence Wong won a stronger mandate in the May 2025 general election. The Workers' Party is the only opposition party in Parliament. The post of Leader of the Opposition has been vacant since January 2026, when Pritam Singh was removed from it after his conviction.",
+    "policies": [
+      "Leadership renewal through a July 2026 Cabinet reshuffle that promoted first-term ministers, with K. Shanmugam made a Senior Minister",
+      "Ministry of Trade and Industry renamed the Ministry of Energy, Trade and Industry from 1 October 2026, to link energy security with industrial policy",
+      "Economic Strategy Review to keep the economy competitive",
+      "Budget 2026 measures on cost of living and economic resilience"
+    ],
+    "challenges": [
+      "Global trade tensions and pressure on a highly trade-dependent economy",
+      "Cost of living and housing affordability",
+      "Integrity questions after Acting Minister-in-charge of Muslim Affairs Faishal Ibrahim resigned in July 2026 over his conduct",
+      "Strained relations between the government and the opposition over the Leader of the Opposition post",
+      "Ageing population and energy security"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "THA",
+    "iso2": "th",
+    "numeric": "764",
+    "name": "Thailand",
+    "region": "Asia",
+    "system": "Constitutional monarchy with a parliamentary government (2017 constitution)",
+    "systemType": "parliamentary-monarchy",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Vajiralongkorn (Rama X)",
+        "title": "King",
+        "since": "2016-10-13"
+      },
+      "headOfGovernment": {
+        "name": "Anutin Charnvirakul",
+        "title": "Prime Minister",
+        "party": "Bhumjaithai Party",
+        "since": "2025-09-07"
+      },
+      "governingParties": [
+        "Bhumjaithai Party",
+        "Pheu Thai Party",
+        "Palang Pracharath Party",
+        "Prachachart Party",
+        "Economic Party",
+        "Pheu Chart Thai Party",
+        "Thai Sang Thai Party",
+        "United Thai Nation Party",
+        "New Party",
+        "New Alternative Party",
+        "New Democracy Party",
+        "New Dimension Party",
+        "New Opportunity Party",
+        "Ruam Jai Thai Party",
+        "Thai Sub Thawee Party",
+        "People's Power Party"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "House of Representatives",
+        "control": "Coalition led by Bhumjaithai Party with Pheu Thai Party and smaller parties",
+        "detail": "500 seats (400 constituency, 100 party-list), election of 8 February 2026, certified results: Bhumjaithai 192, People's Party 120, Pheu Thai 74, Kla Tham 58, Democrat 21, others the remainder. Anutin was elected prime minister on 19 March 2026 with 293 votes. Speaker: Sophon Saram (Bhumjaithai) since 16 March 2026."
+      },
+      {
+        "name": "Senate",
+        "control": "Non-partisan; 200 members chosen in 2024 through an indirect selection among self-nominated candidates",
+        "detail": "200 seats; President of the Senate: Mongkol Surasajja since July 2024"
+      }
+    ],
+    "judiciary": "The Constitutional Court, the Supreme Court of Justice and the Supreme Administrative Court are the top courts. The Constitutional Court has often shaped politics: it removed Prime Minister Paetongtarn Shinawatra in August 2025, ruled on the government's 400-billion-baht emergency borrowing decree in July 2026, and in September 2026 dismissed a petition challenging the legality of the February 2026 election.",
+    "elections": [
+      {
+        "name": "House of Representatives general election",
+        "date": "2026-02-08",
+        "status": "held",
+        "note": "Bhumjaithai won 192 of 500 seats, People's Party 120, Pheu Thai 74, Kla Tham 58, Democrat 21; turnout 71.42%. Bhumjaithai formed a coalition with Pheu Thai and smaller parties, and Anutin Charnvirakul was re-elected prime minister on 19 March 2026."
+      },
+      {
+        "name": "Constitutional referendum on drafting a new constitution",
+        "date": "2026-02-08",
+        "status": "held",
+        "note": "Held alongside the general election, asking whether voters approve drafting a new constitution to replace the 2017 charter. About 60% voted yes."
+      },
+      {
+        "name": "Senate selection",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year term of the Senate chosen in June 2024"
+      },
+      {
+        "name": "House of Representatives general election",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Due by law at the end of the four-year term of the House elected in February 2026, unless the House is dissolved earlier"
+      }
+    ],
+    "synopsis": "Thailand is a constitutional monarchy under King Vajiralongkorn, governed by Prime Minister Anutin Charnvirakul of the conservative Bhumjaithai Party. Anutin first took office in September 2025 after the Constitutional Court removed Paetongtarn Shinawatra. Bhumjaithai then won the most seats in the February 2026 snap election, and Anutin was re-elected in March 2026 at the head of a coalition with Pheu Thai and smaller parties. The progressive People's Party leads the opposition.",
+    "policies": [
+      "Emergency borrowing of 400 billion baht to deal with the effects of the energy crisis and support the energy transition",
+      "A process to replace the 2017 constitution, following the February 2026 referendum",
+      "Amnesty under the 2026 Promoting a Peaceful Society law",
+      "Border security on the Cambodian and Myanmar frontiers",
+      "Amendments to House rules affecting committees that scrutinise the government"
+    ],
+    "challenges": [
+      "Slowing economy and the effects of the energy crisis",
+      "Border disputes with Cambodia after the 2025 conflict, and clashes near the Myanmar border",
+      "Opposition no-confidence debate scheduled for 7-11 December 2026",
+      "Legal challenges to the government and to the electoral process"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Not confirmed: the current stage of the constitution-drafting process (amendment bills to set up a drafting assembly were before Parliament in mid-2026); the full list of smaller coalition parties, which is from a single source. Reports of anti-government protests at Government House in November 2026 could not be confirmed and were removed."
+  },
+  {
+    "iso3": "TLS",
+    "iso2": "tl",
+    "numeric": "626",
+    "name": "Timor-Leste",
+    "region": "Asia",
+    "system": "Unitary semi-presidential republic with a directly elected president and a prime minister responsible to a unicameral National Parliament",
+    "systemType": "semi-presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "José Ramos-Horta",
+        "title": "President",
+        "since": "2022-05-20"
+      },
+      "headOfGovernment": {
+        "name": "Xanana Gusmão",
+        "title": "Prime Minister",
+        "party": "National Congress for Timorese Reconstruction (CNRT)",
+        "since": "2023-07-01"
+      },
+      "governingParties": [
+        "National Congress for Timorese Reconstruction (CNRT)",
+        "Democratic Party (PD)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Parliament",
+        "control": "CNRT–PD governing coalition (37 of 65 seats)",
+        "detail": "2023 election: CNRT 31, FRETILIN 19, PD 6, KHUNTO 5, PLP 4; government 37, opposition 28"
+      }
+    ],
+    "judiciary": "The Court of Appeal is the highest court in operation, because the Supreme Court of Justice set out in the constitution has not yet been established. Its president, Afonso Carmona, was sworn in in April 2025 after Parliament amended the judicial organisation law. The appointment was criticised as a threat to judicial independence. In 2026 four judges contested their transfer out of the Dili District Court, and judicial monitoring groups criticised how he handled it; he denies wrongdoing.",
+    "elections": [
+      {
+        "name": "Parliamentary election",
+        "date": "2023-05-21",
+        "status": "held",
+        "note": "CNRT won 31 of 65 seats and formed a coalition government with PD (6 seats) under Xanana Gusmão. FRETILIN won 19 seats, KHUNTO 5 and PLP 4."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2027",
+        "status": "upcoming",
+        "note": "Voter registration, including registration abroad, is under way. Reference sources point to March 2027, but the exact date is not confirmed."
+      },
+      {
+        "name": "Parliamentary election",
+        "date": "2028",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year term of the parliament elected in 2023."
+      }
+    ],
+    "synopsis": "Timor-Leste is a semi-presidential republic. Prime Minister Xanana Gusmão has led a CNRT–PD coalition government with a parliamentary majority since 2023, and President José Ramos-Horta has been in office since 2022. The country became a full member of ASEAN in 2025 and is preparing for a presidential election in 2027.",
+    "policies": [
+      "Integration into ASEAN as a full member, including accession to regional agreements such as the ASEAN visa-exemption framework",
+      "Developing the Greater Sunrise gas fields and diversifying an economy that depends on petroleum revenue",
+      "Deepening partnerships with Australia, including a 2026 joint declaration and defence cooperation framework, and closer ties with Singapore, Thailand and South Korea",
+      "Infrastructure, energy and public-service investment, including civil service career reforms"
+    ],
+    "challenges": [
+      "Heavy dependence on a petroleum fund that is being drawn down as oil and gas revenue falls",
+      "Poverty, youth unemployment and public anger over elite privileges, shown in the 2025 student protests over cars and pensions for MPs",
+      "Tension over judicial independence and a dispute between the Court of Appeal president and Dili judges",
+      "Debate over constitutional reform, including President Ramos-Horta's call for a fully presidential system"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "The exact date of the 2027 presidential election is not confirmed. Reference sources say March 2027, and IFES lists a tentative date of 30 April 2027. Whether Ramos-Horta will stand again is not confirmed; in November 2025 he said he was not motivated to seek another term."
+  },
+  {
+    "iso3": "VNM",
+    "iso2": "vn",
+    "numeric": "704",
+    "name": "Vietnam",
+    "region": "Asia",
+    "system": "Communist one-party socialist republic; the Communist Party general secretary is also state president",
+    "systemType": "one-party",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "To Lam",
+        "title": "President (also General Secretary of the Communist Party of Vietnam)",
+        "party": "Communist Party of Vietnam",
+        "since": "2026-04-07"
+      },
+      "headOfGovernment": {
+        "name": "Le Minh Hung",
+        "title": "Prime Minister",
+        "party": "Communist Party of Vietnam",
+        "since": "2026-04-07"
+      },
+      "governingParties": [
+        "Communist Party of Vietnam"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly (Quoc hoi), 16th term",
+        "control": "Communist Party of Vietnam (the only legal party)",
+        "detail": "500 seats; election of 15 March 2026: Communist Party of Vietnam members 482, non-party deputies 18. Chairman Tran Thanh Man, re-elected 6 April 2026."
+      }
+    ],
+    "judiciary": "The Supreme People's Court is the highest court, and the Supreme People's Procuracy oversees prosecutions; the National Assembly elects their leaders. The courts work under Communist Party leadership and are not an independent check on the other branches.",
+    "elections": [
+      {
+        "name": "National Assembly election",
+        "date": "2026-03-15",
+        "status": "held",
+        "note": "All 500 seats were filled. Communist Party of Vietnam members won 482 and non-party deputies 18 (up from 14 in 2021); turnout was reported at 99.7%. Results were announced on 21 March 2026. On 7 April 2026 the new Assembly unanimously elected To Lam as president and Le Minh Hung as prime minister."
+      },
+      {
+        "name": "National Assembly election",
+        "date": "2031",
+        "status": "upcoming",
+        "note": "Due at the end of the 2026-2031 five-year term."
+      }
+    ],
+    "synopsis": "Vietnam is a one-party state led by the Communist Party of Vietnam. In April 2026 Party General Secretary To Lam was also elected state president, combining the two posts and moving away from Vietnam's tradition of collective leadership. Le Minh Hung, a Politburo member and former head of the party's Central Organization Commission, replaced Pham Minh Chinh as prime minister for the 2026-2031 term.",
+    "policies": [
+      "Bringing decision-making under To Lam as party chief and head of state",
+      "Streamlining the administration, including mergers of provinces and ministries",
+      "Pursuing fast economic growth through investment, infrastructure and private-sector development",
+      "Continuing the party's anti-corruption campaign",
+      "Keeping a balanced foreign policy towards the major powers"
+    ],
+    "challenges": [
+      "Exposure to US tariffs and to changes in global trade as an export-dependent economy",
+      "South China Sea territorial disputes with China",
+      "Disruption from the restructuring of the bureaucracy and local government",
+      "Infrastructure, energy supply and environmental pressures from rapid growth",
+      "International criticism of limits on political dissent and press freedom"
+    ],
+    "lastVerified": "2026-11-13"
+  }
+]
