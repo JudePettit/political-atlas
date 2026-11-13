@@ -317,18 +317,25 @@ test('on a phone at world scale, a tap on Germany opens Germany, not the Luxembo
   await mobile.waitForSelector('path.country.active[data-iso="DEU"]');
   const dot = () => mobile.$eval('circle.microstate[data-iso="LUX"]', el => getComputedStyle(el).pointerEvents);
   assert.equal(await dot(), 'none', 'dots let taps through at world scale');
-  // Measure Germany once the layout has settled (fonts and lazy images can still move the map after network idle; in
-  // one full run a tap measured too early landed on nothing), and only when Germany is the element under that point.
-  const b = await mobile.waitForFunction(async () => {
-    await document.fonts.ready;
-    await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
-    const at = () => { const r = document.querySelector('path.country.active[data-iso="DEU"]').getBoundingClientRect(); return { x: r.left + r.width / 2, y: r.top + r.height / 2 }; };
-    const p = at();
-    await new Promise(r => setTimeout(r, 200));
-    const q = at();
-    const stable = Math.abs(p.x - q.x) < 0.5 && Math.abs(p.y - q.y) < 0.5;
-    return stable && document.elementFromPoint(q.x, q.y)?.getAttribute('data-iso') === 'DEU' ? q : false;
-  }, null, { timeout: 15000 }).then(h => h.jsonValue());
+  // Measure Germany once the layout has settled (fonts, lazy images and the VM return bar, which arrives from jdpi
+  // after network idle and pushes the map down 36 pixels, can still move the map; in one full run a tap measured too
+  // early landed on nothing), and only when Germany is the element under that point. The loop runs here and not in
+  // waitForFunction, which does not wait for an async function's answer: it took the first look even when that look
+  // was false, and the tap then had no point to aim at.
+  let b = false;
+  for (const end = Date.now() + 15000; !b && Date.now() < end;) {
+    b = await mobile.evaluate(async () => {
+      await document.fonts.ready;
+      await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
+      const at = () => { const r = document.querySelector('path.country.active[data-iso="DEU"]').getBoundingClientRect(); return { x: r.left + r.width / 2, y: r.top + r.height / 2 }; };
+      const p = at();
+      await new Promise(r => setTimeout(r, 200));
+      const q = at();
+      const stable = Math.abs(p.x - q.x) < 0.5 && Math.abs(p.y - q.y) < 0.5;
+      return stable && document.elementFromPoint(q.x, q.y)?.getAttribute('data-iso') === 'DEU' ? q : false;
+    });
+  }
+  assert.ok(b, 'Germany never settled under its own centre point within 15 seconds');
   await mobile.touchscreen.tap(b.x, b.y);
   await mobile.waitForSelector('.c-head h2', { timeout: 10000 }).catch(async () => {
     assert.fail(`the tap at (${b.x.toFixed(1)}, ${b.y.toFixed(1)}) opened nothing; address ${await mobile.evaluate(() => location.hash) || '(none)'}`);
