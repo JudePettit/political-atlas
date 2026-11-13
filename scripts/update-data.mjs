@@ -97,6 +97,7 @@ function summariseChange(before, after) {
   const changes = [];
   const pick = c => ({
     hos: c.executive?.headOfState?.name,
+    regent: c.executive?.regent?.name,
     hog: c.executive?.headOfGovernment?.name,
     leader: c.executive?.leader,
     parties: (c.executive?.governingParties || []).join(', '),

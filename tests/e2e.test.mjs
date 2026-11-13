@@ -108,6 +108,11 @@ test('the region filter narrows the table and upcoming list, and zooms the map',
   await page.selectOption('#region', '');
   assert.equal(await page.locator('#country-table tbody tr').count(), records.length);
   assert.doesNotMatch(page.url(), /region=/);
+  // A country with a regent names the regent under its head of state (Liechtenstein: Hereditary Prince Alois).
+  const lie = records.find(c => c.iso3 === 'LIE').executive;
+  const lieHos = (await page.textContent('#country-table tbody tr[data-iso="LIE"] td:nth-child(3)')).trim();
+  assert.ok(lieHos.includes(lie.headOfState.name) && lieHos.includes(`Regent: ${lie.regent.name}`), lieHos);
+  assert.ok(!(await page.textContent('#country-table tbody tr[data-iso="DEU"] td:nth-child(3)')).includes('Regent'), 'no regent line where there is none');
   await page.click('#tab-map');
 });
 
@@ -250,6 +255,18 @@ test('the tooltip names whoever holds the most power: the president of France, t
   const uk = await tip('GBR');
   assert.ok(uk.startsWith(`United Kingdom | ${gbr.headOfGovernment.name} | ${gbr.headOfGovernment.title}`), uk);
   assert.ok(!uk.includes(gbr.headOfState.name), 'not the monarch');
+  // Liechtenstein, a microstate drawn as a dot: the regent, Hereditary Prince Alois, not Prince Hans-Adam II.
+  const lie = records.LIE;
+  assert.equal(lie.leader, 'regent');
+  await page.evaluate(() => {
+    const el = document.querySelector('circle.microstate[data-iso="LIE"]') || document.querySelector('path.country.active[data-iso="LIE"]'), b = el.getBoundingClientRect();
+    el.dispatchEvent(new MouseEvent('mousemove', { bubbles: true, clientX: b.left + b.width / 2, clientY: b.top + b.height / 2 }));
+  });
+  const liechtenstein = await page.evaluate(() => {
+    const t = document.getElementById('tooltip');
+    return t.hidden ? null : [t.querySelector('strong').textContent, t.querySelector('strong').nextSibling.textContent, t.querySelector('.tip-role').textContent].join(' | ');
+  });
+  assert.equal(liechtenstein, `Liechtenstein | ${lie.regent.name} | ${lie.regent.title}`, 'the regent, not the Prince');
 });
 
 test('search finds countries and leaders', async () => {

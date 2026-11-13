@@ -21,14 +21,17 @@
       "type": "object",
       "required": ["leader", "headOfState", "headOfGovernment", "governingParties"],
       "additionalProperties": false,
+      "if": { "properties": { "leader": { "const": "regent" } }, "required": ["leader"] },
+      "then": { "required": ["regent"] },
       "properties": {
         "leader": {
           "type": "string",
-          "enum": ["headOfState", "headOfGovernment"],
-          "description": "Which of the two holds the most power in practice: the person the map names for the country. headOfGovernment in parliamentary systems, where the prime minister or chancellor governs and the monarch or president is mostly ceremonial. headOfState where the president, monarch or party leader directs the government: presidential systems; presidents who dominate their governments (France, Russia, Ukraine, Belarus, Azerbaijan, Moldova); one-party states whose party leader is head of state (China, Cuba); ruling monarchs, emirs and sultans (Monaco, Liechtenstein, Qatar, Oman) and the Pope; a supreme leader above the elected president (Iran); the head of a military government. Where a crown prince or premier who is not head of state governs, as in Saudi Arabia, it is headOfGovernment. Judge by practice, not by the constitution's wording alone, and say why in reviewNote when it changes."
+          "enum": ["headOfState", "headOfGovernment", "regent"],
+          "description": "Which of them holds the most power in practice: the person the map names for the country. regent: where a regent exercises the head of state's powers on his behalf while he stays head of state (Liechtenstein, where Hereditary Prince Alois has acted for Prince Hans-Adam II since 15 August 2004); the regent is then recorded in executive.regent, which this value requires. headOfGovernment in parliamentary systems, where the prime minister or chancellor governs and the monarch or president is mostly ceremonial. headOfState where the president, monarch or party leader directs the government: presidential systems; presidents who dominate their governments (France, Russia, Ukraine, Belarus, Azerbaijan, Moldova); one-party states whose party leader is head of state (China, Cuba); ruling monarchs, emirs and sultans (Monaco, Qatar, Oman) and the Pope; a supreme leader above the elected president (Iran); the head of a military government. Where a crown prince or premier who is not head of state governs, as in Saudi Arabia, it is headOfGovernment. Judge by practice, not by the constitution's wording alone, and say why in reviewNote when it changes."
         },
         "headOfState": { "$ref": "#/$defs/person" },
         "headOfGovernment": { "$ref": "#/$defs/person" },
+        "regent": { "$ref": "#/$defs/person", "description": "Only where someone exercises the head of state's powers on his behalf (a regent or permanent deputy), who stays head of state. Record it with executive.leader \"regent\" when the regent holds the most power in practice." },
         "governingParties": { "type": "array", "items": { "type": "string" } }
       }
     },

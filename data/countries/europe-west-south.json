@@ -217,9 +217,10 @@
     "iso3": "LIE", "iso2": "li", "numeric": "438", "name": "Liechtenstein", "region": "Europe",
     "system": "Constitutional monarchy with strong princely powers and direct democracy", "systemType": "parliamentary-monarchy", "status": "stable",
     "executive": {
-      "leader": "headOfState",
-      "headOfState": { "name": "Hans-Adam II (Hereditary Prince Alois as regent)", "title": "Prince", "since": "1989 (regent since 2004)" },
+      "leader": "regent",
+      "headOfState": { "name": "Hans-Adam II", "title": "Prince", "since": "1989-11-13" },
       "headOfGovernment": { "name": "Brigitte Haas", "title": "Prime Minister", "party": "Progressive Citizens' Party (FBP)", "since": "2025-04-10" },
+      "regent": { "name": "Hereditary Prince Alois", "title": "Regent for Prince Hans-Adam II", "since": "2004-08-15" },
       "governingParties": ["FBP", "Patriotic Union (VU)"]
     },
     "legislature": [{ "name": "Landtag (25)", "control": "FBP–VU coalition" }],
@@ -231,7 +232,8 @@
     "synopsis": "Liechtenstein's first female prime minister leads the traditional two-party coalition.",
     "policies": ["Economic stability and financial-sector regulation", "EEA relations"],
     "challenges": ["US tariffs on exports", "Housing costs"],
-    "lastVerified": "2026-10-25"
+    "lastVerified": "2026-11-13",
+    "reviewNote": "The map names Hereditary Prince Alois (executive.leader \"regent\", Jude's decision of 12 November 2026): Prince Hans-Adam II appointed him his deputy under Article 13bis of the Constitution on 15 August 2004, and he has carried out the duties of head of state since then, as the Princely House of Liechtenstein's own website says on its page about Alois; its page about Hans-Adam II gives him as the reigning prince, so he remains head of state. When Alois succeeds, record him as head of state and drop the regent."
   },
   {
     "iso3": "MCO", "iso2": "mc", "numeric": "492", "name": "Monaco", "region": "Europe",

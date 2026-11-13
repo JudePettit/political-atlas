@@ -114,7 +114,8 @@ function fillFor(c) {
 
 // The person who holds the most power in practice, whom the tooltip names: the head of government in parliamentary
 // systems, the head of state where the president, monarch or party leader directs the government (France's president,
-// not its prime minister). Each record says which of the two it is, in executive.leader.
+// not its prime minister), or a regent who exercises the head of state's powers for him (Liechtenstein's Hereditary
+// Prince Alois). Each record says which it is, in executive.leader.
 const leaderOf = c => c.executive[c.executive.leader] || c.executive.headOfGovernment;
 
 // What the current colour means for one country, in words (tooltip line).
@@ -393,7 +394,7 @@ function personCard(role, p, extraClass = '') {
 
 function renderCountry(c) {
   const panel = document.getElementById('panel');
-  const { headOfState: hos, headOfGovernment: hog, governingParties } = c.executive;
+  const { headOfState: hos, headOfGovernment: hog, regent, governingParties } = c.executive;
   const sameExec = hos.name === hog.name;
   const elections = [...c.elections].sort((a, b) => (parseDate(a.date) || Infinity) - (parseDate(b.date) || Infinity));
 
@@ -412,6 +413,7 @@ function renderCountry(c) {
     <div class="power-grid">
       ${sameExec ? personCard('Head of state & government', hos, 'full')
         : personCard('Head of state', hos) + personCard('Head of government', hog)}
+      ${regent ? personCard('Regent (exercises the head of state\'s powers)', regent, 'full') : ''}
       <div class="card full"><div class="role">Governing parties</div>
         <div class="chips">${governingParties.map(p => `<span class="chip">${esc(p)}</span>`).join('')}</div></div>
     </div>
@@ -512,13 +514,13 @@ function renderTable() {
   table.tHead.innerHTML = `<tr>${COLUMNS.map(([k, label]) => `<th scope="col"${k === key ? ` aria-sort="${dir > 0 ? 'ascending' : 'descending'}"` : ''}>` +
     `<button type="button" class="sort" data-sort="${k}">${label}<span class="arrow" aria-hidden="true">${k === key ? (dir > 0 ? '↑' : '↓') : '↕'}</span></button></th>`).join('')}</tr>`;
   table.tBodies[0].innerHTML = rows.map(c => {
-    const { headOfState: hos, headOfGovernment: hog } = c.executive;
+    const { headOfState: hos, headOfGovernment: hog, regent } = c.executive;
     const ne = nextElection(c);
     const soon = ne ? soonLabel(ne, daysUntil(ne.dt)) : '';
     return `<tr data-iso="${c.iso3}"${c.iso3 === state.selected ? ' class="selected"' : ''}>
       <td><span class="cell-name"><img src="https://flagcdn.com/w40/${esc(c.iso2)}.png" alt="" loading="lazy" onerror="this.remove()"><button type="button" class="row-link">${esc(c.name)}</button></span></td>
       <td><span class="cell-sys"><span class="swatch" style="background:${familyColor(c)}"></span>${esc(systemOf(c).label)}</span></td>
-      <td>${esc(hos.name)}<span class="cell-sub">${esc(hos.title)}</span></td>
+      <td>${esc(hos.name)}<span class="cell-sub">${esc(hos.title)}</span>${regent ? `<span class="cell-sub">Regent: ${esc(regent.name)}</span>` : ''}</td>
       <td>${esc(hog.name)}<span class="cell-sub">${esc(hog.party || hog.title)}</span></td>
       <td><span class="prp-status ${c.status === 'stable' ? 'good' : 'warn'}">${c.status === 'stable' ? 'Stable' : 'In flux'}</span></td>
       <td>${ne ? `<span class="cell-date">${esc(formatDate(ne.date))}${soon ? ` · ${soon}` : ''}</span><span class="cell-sub">${esc(ne.name)}</span>`
@@ -595,7 +597,8 @@ function setupSearch() {
     const rank = c => (c.name.toLowerCase().includes(q) || c.iso3.toLowerCase() === q ? 0 : leaderOf(c).name.toLowerCase().includes(q) ? 1 : 2);
     results = q ? [...state.countries.values()]
       .filter(c => c.name.toLowerCase().includes(q) || c.iso3.toLowerCase() === q
-        || c.executive.headOfGovernment.name.toLowerCase().includes(q) || c.executive.headOfState.name.toLowerCase().includes(q))
+        || c.executive.headOfGovernment.name.toLowerCase().includes(q) || c.executive.headOfState.name.toLowerCase().includes(q)
+        || (c.executive.regent?.name || '').toLowerCase().includes(q))
       .sort((a, b) => rank(a) - rank(b) || a.name.localeCompare(b.name)).slice(0, 10) : [];
     active = 0;
     list.hidden = !results.length;

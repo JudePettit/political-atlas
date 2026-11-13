@@ -57,6 +57,15 @@ test('each country names the office that holds the most power', () => {
   for (const iso of ['FRA', 'RUS', 'CHN', 'UKR', 'BLR', 'AZE', 'CUB', 'MCO', 'VAT', 'USA', 'MEX']) assert.equal(leader(iso), 'headOfState', iso);
   // …and in parliamentary systems the head of government (Saudi Arabia's crown prince governs as its prime minister).
   for (const iso of ['GBR', 'DEU', 'ITA', 'ESP', 'POL', 'CAN', 'JPN', 'ISR', 'SAU', 'IRL']) assert.equal(leader(iso), 'headOfGovernment', iso);
+  // …and in Liechtenstein the regent, Hereditary Prince Alois, who has exercised the Prince's powers since 15 August
+  // 2004, while Prince Hans-Adam II stays head of state (Jude, 12 November 2026).
+  const lie = countries.find(c => c.iso3 === 'LIE').executive;
+  assert.equal(lie.leader, 'regent');
+  assert.deepEqual([lie.regent.name, lie.regent.since, lie.headOfState.name], ['Hereditary Prince Alois', '2004-08-15', 'Hans-Adam II']);
+  // The note names its sources: the Princely House's pages about Alois and about Hans-Adam II.
+  assert.match(countries.find(c => c.iso3 === 'LIE').reviewNote, /page about Alois.*page about Hans-Adam II/);
+  // A regent is recorded only beside a head of state, and only Liechtenstein has one.
+  assert.deepEqual(countries.filter(c => c.executive.regent || c.executive.leader === 'regent').map(c => c.iso3), ['LIE']);
   for (const c of countries) {
     const { leader: which, headOfState: hos, headOfGovernment: hog } = c.executive;
     assert.ok(c.executive[which]?.name, `${c.iso3}: the leader has a name`);
