@@ -1,0 +1,956 @@
+[
+  {
+    "iso3": "AUS",
+    "iso2": "au",
+    "numeric": "036",
+    "name": "Australia",
+    "region": "Oceania",
+    "system": "Federal parliamentary constitutional monarchy (Commonwealth realm); the monarch is represented by a Governor-General, currently Sam Mostyn",
+    "systemType": "parliamentary-monarchy",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Charles III",
+        "title": "King of Australia",
+        "since": "2022-09-08"
+      },
+      "headOfGovernment": {
+        "name": "Anthony Albanese",
+        "title": "Prime Minister",
+        "party": "Australian Labor Party",
+        "since": "2022-05-23"
+      },
+      "governingParties": [
+        "Australian Labor Party"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "House of Representatives",
+        "control": "Australian Labor Party (majority government)",
+        "detail": "150 seats; 76 needed for a majority. Current composition: Labor 94; Liberal–National Coalition opposition 41 (Liberal 27, National 14); crossbench 15 (independents 8, One Nation 2, Community Strong 2, Greens 1, Katter's Australian Party 1, Centre Alliance 1). At the May 2025 election Labor won 94 seats with 34.56% of the primary vote. One Nation won its first House seat at the Farrer by-election on 9 May 2026."
+      },
+      {
+        "name": "Senate",
+        "control": "No majority; the Labor government (30) holds the most seats and can pass legislation with the Greens (10)",
+        "detail": "76 seats; 39 needed for a majority. Current composition: Labor 30; Liberal–National Coalition opposition 27 (Liberal 23, National 4); crossbench 19 (Greens 10, One Nation 4, Jacqui Lambie Network 1, United Australia Party 1, Australia's Voice 1, independents 2)."
+      }
+    ],
+    "judiciary": "The High Court of Australia, led by Chief Justice Stephen Gageler since November 2023, is the apex court and rules on constitutional disputes between the Commonwealth and the states. The Federal Court and the Federal Circuit and Family Court sit below it. There is no notable conflict between the courts and the other branches.",
+    "elections": [
+      {
+        "name": "Federal election (House of Representatives and half-Senate)",
+        "date": "2025-05-03",
+        "status": "held",
+        "note": "Prime Minister Anthony Albanese's Labor Party was re-elected with an increased majority. It won 94 of 150 House seats, up from 77, and took 34.56% of the primary vote. He was the first prime minister to win consecutive elections since 2004. The Liberal–National Coalition, led by Peter Dutton, stayed second. In the Senate, Labor and the Greens together won enough seats to pass legislation without other crossbenchers."
+      },
+      {
+        "name": "Federal election (House of Representatives and half-Senate)",
+        "date": "2028",
+        "status": "upcoming",
+        "note": "No date set. The Australian Electoral Commission says the next federal election is due between August 2027 and May 2028."
+      }
+    ],
+    "synopsis": "Australia is a federal parliamentary democracy and Commonwealth realm. Anthony Albanese's Labor government won a second term with a large majority in May 2025. Since then the opposition has gone through upheaval: the Liberal–National Coalition split and reunited, and Angus Taylor replaced Sussan Ley as Liberal leader in February 2026. Labor's polling has since fallen, with One Nation leading several national polls in late 2026 amid high inflation and interest-rate rises.",
+    "policies": [
+      "Cost-of-living and housing measures aimed at household budgets and housing supply",
+      "Energy transition towards renewable generation, with emissions-reduction targets",
+      "Defence build-up under the AUKUS partnership with the United States and United Kingdom, including nuclear-powered submarines",
+      "Regional engagement in the Indo-Pacific and Pacific Islands, alongside managing relations with China"
+    ],
+    "challenges": [
+      "High inflation and Reserve Bank interest-rate rises putting pressure on household budgets",
+      "Falling support for the government, with One Nation leading several national opinion polls",
+      "Instability on the centre-right, after repeated Liberal–National splits and leadership changes",
+      "Housing affordability and supply shortages",
+      "Balancing security ties with the United States against trade dependence on China"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "FJI",
+    "iso2": "fj",
+    "numeric": "242",
+    "name": "Fiji",
+    "region": "Oceania",
+    "system": "Unitary parliamentary republic with a president elected by Parliament",
+    "systemType": "parliamentary-republic",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Ratu Naiqama Lalabalavu",
+        "title": "President",
+        "since": "2024-11-12"
+      },
+      "headOfGovernment": {
+        "name": "Sitiveni Rabuka",
+        "title": "Prime Minister",
+        "party": "People's Alliance",
+        "since": "2022-12-24"
+      },
+      "governingParties": [
+        "People's Alliance",
+        "National Federation Party",
+        "Social Democratic Liberal Party (SODELPA)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Parliament of Fiji",
+        "control": "People's Coalition Government (People's Alliance, National Federation Party, SODELPA)",
+        "detail": "55 seats. 2022 election: FijiFirst 26, People's Alliance 21, National Federation Party 5, SODELPA 3. FijiFirst was deregistered in 2024, and ten former FijiFirst MPs led by Opposition Leader Inia Seruiratu formed the People First Party (registered January 2026). Current seats include People's Alliance 21, People First 10, NFP 5, SODELPA 3."
+      }
+    ],
+    "judiciary": "The Supreme Court is the top court, above the Court of Appeal and the High Court. A Supreme Court advisory opinion recognised the 2013 Constitution as legally effective but lowered the supermajorities needed to amend it. This opened the way for the government's 2026 constitutional rewrite, and in October 2026 the High Court refused to halt the referendum process.",
+    "elections": [
+      {
+        "name": "General election",
+        "date": "2022-12-14",
+        "status": "held",
+        "note": "Hung parliament: FijiFirst 26 seats, People's Alliance 21, National Federation Party 5, SODELPA 3. People's Alliance, NFP and SODELPA formed a coalition, and Sitiveni Rabuka became Prime Minister on 24 December 2022."
+      },
+      {
+        "name": "Constitutional referendum",
+        "date": "2026-12-09",
+        "status": "upcoming",
+        "note": "Provisionally scheduled vote on a new constitution to replace the 2013 Constitution. It depends on the Constitution (Amendment) Bill 2026 passing its third reading in Parliament. The bill passed its second reading on 2 October 2026 (38 for, 5 against, 9 abstaining), and the final vote has been put back to December."
+      },
+      {
+        "name": "General election",
+        "date": "2027",
+        "status": "upcoming",
+        "note": "All 55 seats. Must be held no later than 6 February 2027. No date had been announced as of early November 2026."
+      }
+    ],
+    "synopsis": "Fiji is a parliamentary republic governed since December 2022 by a three-party coalition led by Prime Minister Sitiveni Rabuka of the People's Alliance, which ended 16 years of FijiFirst government under Frank Bainimarama. The government is pursuing a rewrite of the 2013 Constitution through Fiji's first national referendum, which is planned ahead of a general election due by February 2027.",
+    "policies": [
+      "Replacing the 2013 Constitution through a constitutional amendment bill and a national referendum",
+      "Restoring media freedom, including repeal of the Media Industry Development Act",
+      "Holding municipal elections for the first time since 2005",
+      "Preparing for the general election due by early 2027"
+    ],
+    "challenges": [
+      "Strains within the coalition, after the Prime Minister warned NFP and SODELPA ministers they could lose their Cabinet posts if their parties oppose the constitution bill",
+      "Securing enough parliamentary votes to pass the constitution bill and holding the referendum in time",
+      "Criticism from the opposition and civil society groups that constitutional reform so close to the election deadline puts a timely vote at risk",
+      "A political landscape reshaped by the collapse of FijiFirst and a record number of registered parties"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "No general election date had been announced in sources up to early November 2026; check whether a writ has since been issued and the exact date. The 9 December 2026 referendum is provisional and depends on the bill's December third reading. Current seat counts other than People's Alliance 21, People First 10, NFP 5 and SODELPA 3 (the remaining former FijiFirst and independent MPs) could not be confirmed."
+  },
+  {
+    "iso3": "KIR",
+    "iso2": "ki",
+    "numeric": "296",
+    "name": "Kiribati",
+    "region": "Oceania",
+    "system": "Presidential republic: the president is head of state and government, elected by popular vote from candidates nominated by the unicameral parliament, and remains accountable to it",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Taneti Maamau",
+        "title": "President (Beretitenti)",
+        "party": "Tobwaan Kiribati Party",
+        "since": "2016-03-11"
+      },
+      "headOfGovernment": {
+        "name": "Taneti Maamau",
+        "title": "President (Beretitenti)",
+        "party": "Tobwaan Kiribati Party",
+        "since": "2016-03-11"
+      },
+      "governingParties": [
+        "Tobwaan Kiribati Party"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Maneaba ni Maungatabu (House of Assembly)",
+        "control": "Tobwaan Kiribati Party (majority)",
+        "detail": "45 members: 44 elected and 1 appointed representative of the Banaban community on Rabi Island. 2024 election: Tobwaan Kiribati Party 33 of the 44 elected seats, Boutokaan Kiribati Moa 8, independents for the rest. Speaker: Willie Tokataake (elected from outside parliament)."
+      }
+    ],
+    "judiciary": "The High Court and the Court of Appeal head the judiciary, and some cases can go on appeal to the Judicial Committee of the Privy Council. In 2022 the government suspended High Court Justice David Lambourne, Chief Justice Bill Hastings and three Court of Appeal judges and appointed Attorney General Tetiro Semilota as acting Chief Justice. The dispute over Lambourne has led to continuing legal proceedings and concerns about the separation of powers.",
+    "elections": [
+      {
+        "name": "Parliamentary election",
+        "date": "2024-08-14",
+        "status": "held",
+        "note": "First round on 14 August and second round on 19 August 2024. The Tobwaan Kiribati Party won 33 of the 44 elected seats and Boutokaan Kiribati Moa won 8."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2024-10-25",
+        "status": "held",
+        "note": "Taneti Maamau (Tobwaan Kiribati Party) was re-elected with about 55% of the vote against Kaotitaake Kokoria (about 42%). All candidates came from the ruling party because its majority in parliament controlled the nominations."
+      },
+      {
+        "name": "Parliamentary election",
+        "date": "2028",
+        "status": "upcoming",
+        "note": "Due by law at the end of the four-year term of the parliament elected in 2024. A presidential election follows."
+      }
+    ],
+    "synopsis": "Kiribati is a Pacific atoll nation whose president is both head of state and head of government. Taneti Maamau has held the office since 2016 and won a third term in October 2024, after his Tobwaan Kiribati Party took a large majority in parliament in August 2024. Climate change and sea-level rise dominate the country's national and foreign policy.",
+    "policies": [
+      "Climate adaptation, including plans to raise islands against sea-level rise and calls for international climate action",
+      "Kiribati 20-Year Vision (KV20) development plan, focused on fisheries and ocean resources",
+      "Foreign policy that balances ties with China, which Kiribati has recognised since 2019, with Australia, New Zealand and the United States",
+      "Advocacy for small island states, including chairing the Small Island States group until August 2026"
+    ],
+    "challenges": [
+      "Sea-level rise, coastal erosion and saltwater intrusion threaten the low-lying atolls",
+      "Dispute over judicial independence following the 2022 suspension of senior judges",
+      "Overcrowding and pressure on water and services in South Tarawa",
+      "Economy depends heavily on fishing licence revenue and foreign aid",
+      "Small opposition in a parliament dominated by the ruling party"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "MHL",
+    "iso2": "mh",
+    "numeric": "584",
+    "name": "Marshall Islands",
+    "region": "Oceania",
+    "system": "Parliamentary republic with an executive president elected by and accountable to a non-partisan unicameral parliament",
+    "systemType": "parliamentary-republic",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Hilda Heine",
+        "title": "President",
+        "since": "2024-01-03"
+      },
+      "headOfGovernment": {
+        "name": "Hilda Heine",
+        "title": "President",
+        "since": "2024-01-03"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "Nitijela",
+        "control": "Non-partisan; members are elected as independents, and a majority bloc elected President Hilda Heine and Speaker Brenson Wase",
+        "detail": "33 seats, all held by independents (2023 election). In January 2024 the Nitijela elected Heine president by 17 votes to 16 over outgoing president David Kabua, and elected Brenson Wase speaker by 18 votes to 15. The Council of Iroij, a body of traditional chiefs, has a consultative role."
+      }
+    ],
+    "judiciary": "Under the constitution, judicial power is independent of the legislature and executive. It is vested in a three-member Supreme Court, led by Chief Justice Daniel N. Cadra since 2003, and in a High Court, led by Chief Justice Carl B. Ingram, along with a Traditional Rights Court and lower courts. No notable tension with the other branches has been reported.",
+    "elections": [
+      {
+        "name": "General election (Nitijela)",
+        "date": "2023-11-20",
+        "status": "held",
+        "note": "All 33 seats were contested by non-partisan candidates, and 13 seats changed hands. A record four women were elected. On 2 January 2024 the new Nitijela elected Hilda Heine president by 17 votes to 16 over incumbent David Kabua."
+      },
+      {
+        "name": "Constitutional referendum",
+        "date": "2025-04-25",
+        "status": "held",
+        "note": "Six of seven constitutional amendments received more than the 67 percent needed for approval. Turnout was low."
+      },
+      {
+        "name": "General election (Nitijela)",
+        "date": "2027-11",
+        "status": "upcoming",
+        "note": "Due by November 2027 for all 33 seats. After the election, the new Nitijela elects the president."
+      }
+    ],
+    "synopsis": "The Marshall Islands is a Pacific island republic in free association with the United States. Its president is elected by the 33-member Nitijela from among its members and serves as both head of state and head of government. Hilda Heine has held the presidency since January 2024, her second time in the office, after narrowly defeating David Kabua in a parliamentary vote.",
+    "policies": [
+      "Implementing the renewed Compact of Free Association with the United States, which covers economic assistance and defence arrangements",
+      "Pressing internationally for climate action and adaptation financing to deal with sea-level rise",
+      "Keeping diplomatic relations with Taiwan",
+      "Seeking redress for the legacy of US nuclear testing",
+      "Rebuilding the Nitijela building after it was destroyed by fire in August 2025"
+    ],
+    "challenges": [
+      "Exposure of the low-lying atolls to sea-level rise",
+      "Emigration to the United States and the resulting fall in population",
+      "Heavy reliance on US assistance under the Compact, and managing relations with Washington",
+      "Governance and corruption concerns, including US sanctions imposed in February 2026 on a former Kili, Bikini and Ejit mayor over alleged embezzlement of a resettlement trust",
+      "Narrow parliamentary majorities, which have historically made presidents vulnerable to no-confidence motions"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "FSM",
+    "iso2": "fm",
+    "numeric": "583",
+    "name": "Micronesia",
+    "region": "Oceania",
+    "system": "Federal presidential republic without political parties; the president is elected by Congress from among its four-year state senators, in free association with the United States",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Wesley W. Simina",
+        "title": "President",
+        "since": "2023-05-11"
+      },
+      "headOfGovernment": {
+        "name": "Wesley W. Simina",
+        "title": "President",
+        "since": "2023-05-11"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "Congress of the Federated States of Micronesia",
+        "control": "Non-partisan; all 14 members are independents (there are no political parties). Speaker Esmond B. Moses, Vice-Speaker Robson Romolow",
+        "detail": "14 seats: 10 members elected for two-year terms in single-member districts (last filled on 4 March 2025) and 4 at-large senators, one per state, elected for four-year terms (the Yap four-year seat was filled by Andrew R. Yatilman in a special election on 12 November 2025)"
+      }
+    ],
+    "judiciary": "The FSM Supreme Court, with trial and appellate divisions, is the highest court. Its justices are nominated by the President and confirmed by Congress for life. The Pacific Judicial Council lists Beauleen Carl-Worswick as acting chief justice, with Associate Justices Larry M. Wentworth and Chang B. William. No notable conflict with the other branches has been reported.",
+    "elections": [
+      {
+        "name": "Congressional election (10 two-year seats)",
+        "date": "2025-03-04",
+        "status": "held",
+        "note": "All 10 two-year seats went to independent candidates, since there are no political parties. 31,122 votes were cast out of 108,568 registered voters."
+      },
+      {
+        "name": "Special election for the Yap four-year seat in Congress",
+        "date": "2025-11-12",
+        "status": "held",
+        "note": "Andrew R. Yatilman was certified as Senator-elect for Yap State's four-year seat."
+      },
+      {
+        "name": "General election (all 14 seats in Congress)",
+        "date": "2027-03-02",
+        "status": "upcoming",
+        "note": "In November 2026, 36 candidacy petitions had been filed, including one by incumbent President Wesley Simina. The list was still under review before certification."
+      },
+      {
+        "name": "Election of President and Vice President by the 25th Congress",
+        "date": "2027-05-11",
+        "status": "upcoming",
+        "note": "The new Congress convenes on 11 May 2027 and chooses the President and Vice President from among its members."
+      }
+    ],
+    "synopsis": "The Federated States of Micronesia is a federation of four island states (Yap, Chuuk, Pohnpei and Kosrae) with a non-partisan, unicameral Congress that elects the President from among its four-year senators. Wesley W. Simina has been President since May 2023, with Aren B. Palik as Vice President. The country is in free association with the United States, and all 14 seats in Congress are up for election on 2 March 2027.",
+    "policies": [
+      "Carrying out the 2023 amendments to the Compact of Free Association with the United States, including building up the Compact Trust Fund",
+      "Agricultural development under the National Agriculture Investment Plan, signed in July 2026",
+      "Expanding partnerships with development lenders, including an agreement with the Asian Development Bank to set up a North Pacific subregional office in the FSM",
+      "Building ties with regional and other partners such as Palau and Japan"
+    ],
+    "challenges": [
+      "Heavy reliance on Compact funding from the United States and on its trust funds for long-term revenue",
+      "Exposure to natural disasters and climate change; the United States approved a Compact disaster declaration for the FSM in June 2026",
+      "Balancing national and state interests across four widely dispersed island states",
+      "Strategic competition between the United States and China in the region"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "I could not confirm whether a permanent Chief Justice of the FSM Supreme Court was nominated or confirmed in 2026. A presidential communication to Congress in February 2026 mentions the post, but the Pacific Judicial Council still lists Beauleen Carl-Worswick as acting chief justice."
+  },
+  {
+    "iso3": "NRU",
+    "iso2": "nr",
+    "numeric": "520",
+    "name": "Nauru",
+    "region": "Oceania",
+    "system": "Non-partisan parliamentary republic with an executive president elected by Parliament",
+    "systemType": "parliamentary-republic",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "David Adeang",
+        "title": "President",
+        "since": "2023-10-30"
+      },
+      "headOfGovernment": {
+        "name": "David Adeang",
+        "title": "President",
+        "since": "2023-10-30"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "Parliament",
+        "control": "Non-partisan; all 19 members are independents. Every member now supports President Adeang's government, so Parliament has no opposition, a first since independence in 1968.",
+        "detail": "19 seats, all won by independents on 11 October 2025. Marcus Stephen was re-elected Speaker on 14 October 2025. Parliament changed the constitution in March 2026 to lengthen its term from three years to four."
+      }
+    ],
+    "judiciary": "The Nauru Court of Appeal, set up in 2018 to replace appeals to the High Court of Australia, is the highest court. The Supreme Court sits below it and hears cases at first instance and on appeal from the District Court. No notable conflicts with the other branches have been reported recently.",
+    "elections": [
+      {
+        "name": "Parliamentary election and constitutional referendum",
+        "date": "2025-10-11",
+        "status": "held",
+        "note": "Independents won all 19 seats. On 14 October 2025 the new Parliament re-elected David Adeang as President without a contest. In the referendum, 4,601 voted against and 3,714 for extending Parliament's term to four years, short of the two-thirds needed. Parliament then passed the extension itself in March 2026."
+      },
+      {
+        "name": "Parliamentary election",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due by law at the end of Parliament's four-year term. Parliament can be dissolved earlier."
+      }
+    ],
+    "synopsis": "Nauru is a small Pacific island republic with no political parties. Its 19-member Parliament elects a president who is both head of state and head of government. David Adeang has been president since October 2023, when a no-confidence motion removed his predecessor, and Parliament re-elected him unopposed after the October 2025 election. In 2026 Parliament extended its own term to four years, created the office of Vice President and adopted the name Naoero, and in November 2026 every member joined the government side.",
+    "policies": [
+      "Carrying out the December 2024 treaty with Australia, which gives budget and security support in return for agreeing jointly any third-country role in security, banking and telecommunications",
+      "Building ties with China since restoring diplomatic relations in 2024",
+      "Raising money for climate adaptation through the Economic and Climate Resilience Citizenship Program",
+      "Backing deep-sea mining as a way to fund development",
+      "Constitutional reform: a four-year parliamentary term, a new Vice President and the country's name changed to Naoero"
+    ],
+    "challenges": [
+      "Heavy reliance on outside sources of income, including Australian aid and the regional processing arrangements",
+      "A narrow economy since phosphate mining collapsed",
+      "Exposure to climate change and the cost of planned relocation and adaptation",
+      "No parliamentary opposition and only government-owned media, with corruption cited by monitors as a continuing problem",
+      "Balancing commitments to Australia against closer ties with China"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "NZL",
+    "iso2": "nz",
+    "numeric": "554",
+    "name": "New Zealand",
+    "region": "Oceania",
+    "system": "Unitary parliamentary constitutional monarchy with a unicameral parliament elected by mixed-member proportional (MMP) representation",
+    "systemType": "parliamentary-monarchy",
+    "status": "in-flux",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Charles III",
+        "title": "King of New Zealand (represented by Governor-General Dame Cindy Kiro since 2021-10-21)",
+        "since": "2022-09-08"
+      },
+      "headOfGovernment": {
+        "name": "Christopher Luxon",
+        "title": "Prime Minister (caretaker)",
+        "party": "National Party",
+        "since": "2023-11-27"
+      },
+      "governingParties": [
+        "National Party",
+        "ACT New Zealand",
+        "New Zealand First"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "House of Representatives",
+        "control": "The National–ACT–NZ First coalition has a narrow majority on preliminary results (67 of 131 seats); final control depends on the official count due 2026-11-27",
+        "detail": "Preliminary results of the 2026-11-07 election (131 seats, 66 for a majority): National 42, Labour 36, Green 16, ACT 13, NZ First 12, Opportunity 7, Te Pāti Māori 5. The 54th Parliament was dissolved on 2026-10-01."
+      }
+    ],
+    "judiciary": "The Supreme Court, led by Chief Justice Dame Helen Winkelmann since 2019, is the final court of appeal. The Court of Appeal and the High Court sit below it. New Zealand has no codified constitution, and the courts cannot strike down Acts of Parliament.",
+    "elections": [
+      {
+        "name": "General election",
+        "date": "2026-11-07",
+        "status": "held",
+        "note": "On preliminary results Labour won 29.4% of the party vote and National 29.2%, but National won more seats (42 to 36). The incumbent National–ACT–NZ First coalition won 67 of 131 seats, two more than needed for a majority. About 399,000 special votes are still being counted, and official results are due on 2026-11-27."
+      },
+      {
+        "name": "Next general election",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due by law within three years. No date has been set."
+      }
+    ],
+    "synopsis": "New Zealand is a parliamentary democracy with King Charles III as head of state, represented by a Governor-General, and the prime minister leading the government. The 7 November 2026 general election was very close. On preliminary results, Christopher Luxon's National–ACT–NZ First coalition kept a two-seat majority, while Labour narrowly won the most party votes. The government is acting under caretaker conventions until official results come out on 27 November.",
+    "policies": [
+      "Economic growth, a tighter budget and a return to surplus",
+      "Easing the cost of living, including food, housing, banking and energy costs",
+      "Stronger policing and tougher law and order",
+      "More spending on infrastructure, health and education",
+      "Proposed compulsory KiwiSaver (retirement savings) for workers, part of National's 2026 platform"
+    ],
+    "challenges": [
+      "Uncertain government formation, with the result depending on special votes and possible recounts",
+      "Minor parties, including the Opportunity Party, could decide which side governs",
+      "Cost-of-living pressures after years of high inflation and interest rates",
+      "Fiscal pressures and returning the budget to surplus",
+      "Tensions over Māori rights and Treaty of Waitangi issues"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "In flux: the 2026-11-07 general election produced a very close preliminary result. The Luxon government is acting under caretaker conventions while about 399,000 special votes are counted, with official results due 2026-11-27 and recounts possible. Seat counts are preliminary, and the makeup of the next government is not yet settled."
+  },
+  {
+    "iso3": "PLW",
+    "iso2": "pw",
+    "numeric": "585",
+    "name": "Palau",
+    "region": "Oceania",
+    "system": "Non-partisan presidential republic in free association with the United States",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Surangel Whipps Jr.",
+        "title": "President",
+        "since": "2021-01-21"
+      },
+      "headOfGovernment": {
+        "name": "Surangel Whipps Jr.",
+        "title": "President",
+        "since": "2021-01-21"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "Senate (Olbiil Era Kelulau)",
+        "control": "Non-partisan; members are elected as independents and there are no political parties",
+        "detail": "15 seats, all non-partisan, elected in one nationwide constituency in November 2024 (enlarged from 13 seats after the 2024 reapportionment). The Senate President is Hokkons Baules."
+      },
+      {
+        "name": "House of Delegates (Olbiil Era Kelulau)",
+        "control": "Non-partisan; one delegate is elected from each of the 16 states",
+        "detail": "16 seats, all non-partisan, elected in November 2024. On 5 October 2026 a new majority replaced Speaker Gibson Kanai with Mario Gulibert."
+      }
+    ],
+    "judiciary": "The Supreme Court, with an Appellate Division and a Trial Division, heads the judiciary and has been led by Chief Justice Oldiais Ngiraikelau since 2020. Below it sit the National Court, the Land Court and the Court of Common Pleas.",
+    "elections": [
+      {
+        "name": "General election (president, vice president, Senate and House of Delegates)",
+        "date": "2024-11-05",
+        "status": "held",
+        "note": "President Surangel Whipps Jr. won re-election against former president Tommy Remengesau Jr. by 5,626 votes to 4,103 in the certified result. All candidates for Congress ran as non-partisans, and the Senate grew to 15 seats."
+      },
+      {
+        "name": "General election (president, vice president, Senate and House of Delegates)",
+        "date": "2028-11-07",
+        "status": "upcoming",
+        "note": "By law the general election is held on the first Tuesday of November every four years."
+      }
+    ],
+    "synopsis": "Palau is a presidential republic with no political parties. It is in free association with the United States under the Compact of Free Association and recognises Taiwan. President Surangel Whipps Jr. began a second four-year term in January 2025 after defeating his brother-in-law, former president Tommy Remengesau Jr., and Palau chaired the Pacific Islands Forum after hosting its leaders' meeting in 2026.",
+    "policies": [
+      "Close security and economic ties with the United States under the Compact of Free Association, and continued diplomatic recognition of Taiwan",
+      "Proposal to 'rightsize' the Palau National Marine Sanctuary to restore fishing revenue, while promoting traditional 'bul' conservation",
+      "Post-pandemic economic recovery, rebuilding of infrastructure, and reforms to education and health services",
+      "Tighter border and law-enforcement controls, including screening of foreign nationals in cooperation with international partners",
+      "Regional leadership on climate and ocean issues as chair of the Pacific Islands Forum"
+    ],
+    "challenges": [
+      "Recovering a tourism-dependent economy after the COVID-19 collapse, and dependence on Compact funding",
+      "Disputes between the president and Congress over budgets and grant approvals, such as the deadlock over the FY2026 budget",
+      "Corruption allegations linked to China-based actors, including the US designation of Senate President Hokkons Baules, which he rejects",
+      "Climate change and sea-level rise, and pressure on marine and reef resources",
+      "Debate over reducing the marine sanctuary, opposed by some environmental groups and by former president Remengesau"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "PNG",
+    "iso2": "pg",
+    "numeric": "598",
+    "name": "Papua New Guinea",
+    "region": "Oceania",
+    "system": "Parliamentary constitutional monarchy within the Commonwealth, with a single-chamber parliament",
+    "systemType": "parliamentary-monarchy",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Charles III",
+        "title": "King of Papua New Guinea (represented by Governor-General Sir Bob Dadae, in office since 2017-02-28 and re-elected by parliament in January 2023)",
+        "since": "2022-09-08"
+      },
+      "headOfGovernment": {
+        "name": "James Marape",
+        "title": "Prime Minister",
+        "party": "Pangu Pati",
+        "since": "2019-05-30"
+      },
+      "governingParties": [
+        "Pangu Pati"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Parliament",
+        "control": "Coalition government led by Pangu Pati under Prime Minister James Marape",
+        "detail": "118 seats: 96 open electorates and 22 provincial seats, which are held by the provincial governors. Pangu Pati, the largest party, was reported to hold 58 seats in 2024. Marape survived a no-confidence vote 75-32 in September 2024. The 2027 election will be for 124 seats. Speaker: Job Pomat."
+      }
+    ],
+    "judiciary": "The Supreme Court is the highest court, above the National Court. A Court of Appeal has been added in the new court building, and Sir Gibbs Salika is Chief Justice. In 2025 the Supreme Court ordered parliament to sit again to consider a no-confidence motion against the prime minister.",
+    "elections": [
+      {
+        "name": "General election (National Parliament)",
+        "date": "2022-07",
+        "status": "held",
+        "note": "Pangu Pati became the largest party, and parliament re-elected James Marape as prime minister in August 2022."
+      },
+      {
+        "name": "General election (National Parliament)",
+        "date": "2027-06-26",
+        "status": "upcoming",
+        "note": "Electoral Commission's tentative schedule: writs issued 29 April 2027, polling 26 June to 9 July 2027, writs returned by 30 July 2027. The election will be for 124 seats."
+      }
+    ],
+    "synopsis": "Papua New Guinea is a Commonwealth realm with a parliamentary system. The prime minister is elected by the single-chamber National Parliament and governs with a multi-party coalition. James Marape (Pangu Pati) has been prime minister since 2019 and survived several no-confidence challenges in 2024 and 2025. Parliament is now debating whether to ratify Bougainville's 2019 independence referendum, ahead of the general election due in mid-2027.",
+    "policies": [
+      "Taking the Bougainville referendum result and transition framework through parliament for a ratification vote",
+      "Passing legislation to unlock the Papua LNG project, an estimated US$14.5 billion investment",
+      "A foreign policy that keeps close ties with Australia while upholding the One-China Policy and seeking more Chinese trade and investment",
+      "A family-planning policy of no more than three children per family to manage high population growth",
+      "Proposed constitutional reform for the prime minister to be elected directly by the people"
+    ],
+    "challenges": [
+      "Settling Bougainville's political future, including a dispute over the Speaker's ruling that ratification needs three-quarters of MPs",
+      "Unstable coalitions and repeated no-confidence manoeuvres in parliament",
+      "Preparing for the 2027 general election, including enrolling a large youth population and adding six new seats",
+      "Rapid population growth, put at over 10 million in the 2024 census"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Not confirmed: the current seat count for each party in the governing coalition and the full list of coalition parties; who has led the opposition since Douglas Tomuriesa joined the cabinet in July 2026; and whether parliament had voted on Bougainville's independence by 13 November 2026 (the last reports found were from parliamentary debate in late October 2026)."
+  },
+  {
+    "iso3": "WSM",
+    "iso2": "ws",
+    "numeric": "882",
+    "name": "Samoa",
+    "region": "Oceania",
+    "system": "Unitary parliamentary republic with a head of state (O le Ao o le Malo) elected by parliament",
+    "systemType": "parliamentary-republic",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Tuimalealiifano Vaaletoa Sualauvi II",
+        "title": "O le Ao o le Malo (Head of State)",
+        "since": "2017"
+      },
+      "headOfGovernment": {
+        "name": "La'aulialemalietoa Leuatea Polataivao Schmidt",
+        "title": "Prime Minister",
+        "party": "Fa'atuatua i le Atua Samoa ua Tasi (FAST)",
+        "since": "2025-09-16"
+      },
+      "governingParties": [
+        "Fa'atuatua i le Atua Samoa ua Tasi (FAST)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Legislative Assembly (Fono)",
+        "control": "Fa'atuatua i le Atua Samoa ua Tasi (FAST) majority",
+        "detail": "52 members after a sixth woman MP was appointed in October 2026 to meet the 10% quota for women: about 34 FAST, 13 Human Rights Protection Party (HRPP), 5 independents, by a tally of results and later seat changes. The 2025 election result was FAST 30, HRPP 14, Samoa Uniting Party 3, independents 4 (51 seats)."
+      }
+    ],
+    "judiciary": "The Supreme Court, headed by Chief Justice Satiu Simativa Perese, and the Court of Appeal head the courts, and a separate Land and Titles Court deals with customary land and chiefly titles. Since the 2025 election the courts have heard many electoral petitions. In March 2026 the Electoral Court unseated the deputy prime minister for bribery, and a district court acquitted the prime minister in a conspiracy case.",
+    "elections": [
+      {
+        "name": "General election (snap)",
+        "date": "2025-08-29",
+        "status": "held",
+        "note": "FAST won 30 of 51 seats, the HRPP 14, the Samoa Uniting Party 3 and independents 4. La'aulialemalietoa Leuatea Schmidt was sworn in as prime minister on 16 September 2025. Later by-elections and floor-crossings increased FAST's majority."
+      },
+      {
+        "name": "O le Ao o le Malo (head of state) election by the Legislative Assembly",
+        "date": "2027",
+        "status": "upcoming",
+        "note": "Due at the end of the five-year term that began with the uncontested re-election in August 2022."
+      },
+      {
+        "name": "General election",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year parliamentary term. No date has been set."
+      }
+    ],
+    "synopsis": "Samoa is a parliamentary republic in which the prime minister governs and a head of state chosen by parliament from among high chiefs holds a largely ceremonial office. The FAST party, led by La'aulialemalietoa Leuatea Schmidt, won a majority in the August 2025 snap election, and later by-elections and floor-crossings increased that majority. The government has faced electoral-court rulings against its members and international concern over media access.",
+    "policies": [
+      "Higher district grants and cash payouts paid through district councils, including back-to-school help",
+      "A 1.5 billion tala budget for 2026/27, the government's first full budget",
+      "Strong support for Israel, including plans to open an embassy in Jerusalem",
+      "Christian observance promoted by the state, including a Sunday ban on construction work proclaimed in January 2026",
+      "Rules governing media at government press conferences, with the Samoa Observer barred from the prime minister's briefings"
+    ],
+    "challenges": [
+      "Concern about media freedom raised by donor partners at the UN, centred on the ban on the Samoa Observer",
+      "Electoral bribery rulings that unseated MPs, including a former deputy prime minister, and forced repeated by-elections",
+      "Controversy over a 2007 video of the prime minister giving a Nazi salute, for which he apologised in October 2026",
+      "A budget deficit, with planned spending above expected receipts in 2026/27",
+      "Dependence on aid and remittances, and exposure to climate risks"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Current seat counts (FAST 34, HRPP 13, independents 5 of 52) come from a regional media tally of October 2026, not from official parliamentary figures. The exact 2017 start date of the head of state's first term and the 2027 date for the next head-of-state election could not be checked against current sources."
+  },
+  {
+    "iso3": "SLB",
+    "iso2": "sb",
+    "numeric": "090",
+    "name": "Solomon Islands",
+    "region": "Oceania",
+    "system": "Unitary parliamentary constitutional monarchy within the Commonwealth realm, with a prime minister elected by a unicameral parliament",
+    "systemType": "parliamentary-monarchy",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Charles III",
+        "title": "King of Solomon Islands (represented by Governor-General Sir David Tiva Kapu)",
+        "since": "2022-09-08"
+      },
+      "headOfGovernment": {
+        "name": "Matthew Wale",
+        "title": "Prime Minister",
+        "party": "Solomon Islands Democratic Party",
+        "since": "2026-05-15"
+      },
+      "governingParties": [
+        "Solomon Islands Democratic Party",
+        "Solomon Islands People First Party",
+        "Solomon Islands Party for Rural Advancement",
+        "Solomon Islands United Party",
+        "Democratic Alliance Party",
+        "Umi for Change Party"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Parliament",
+        "control": "Government for Reform, Empowerment, Accountability and Transformation (GREAT) coalition led by Matthew Wale; opposition led by Manasseh Sogavare",
+        "detail": "50 seats. In the April 2024 election eight parties and ten independents won seats, and the Solomon Islands Democratic Party won 11. Wale was elected Prime Minister on 15 May 2026 by 26 votes to 22, a week after the previous government lost a no-confidence vote by 26 to 22. A no-confidence motion against Wale was withdrawn in September 2026, and Parliament was then adjourned indefinitely."
+      }
+    ],
+    "judiciary": "The High Court and the Court of Appeal head the judiciary. In May 2026 the Court of Appeal ruled that then-Prime Minister Jeremiah Manele had to convene Parliament by 7 May to consider a no-confidence motion, a ruling Manele criticised before he lost the vote.",
+    "elections": [
+      {
+        "name": "General election (National Parliament)",
+        "date": "2024-04-17",
+        "status": "held",
+        "note": "No party won a majority, and the Solomon Islands Democratic Party won 11 of 50 seats. Jeremiah Manele (OUR Party) was elected Prime Minister on 2 May 2024. He was removed in a no-confidence vote on 7 May 2026, and Matthew Wale was elected Prime Minister on 15 May 2026."
+      },
+      {
+        "name": "General election (National Parliament)",
+        "date": "2028",
+        "status": "upcoming",
+        "note": "Next general election due by law at the end of the current parliamentary term."
+      }
+    ],
+    "synopsis": "Solomon Islands is a parliamentary monarchy whose governments rely on shifting coalitions of small parties and independents. Longtime opposition leader Matthew Wale became Prime Minister in May 2026 after Jeremiah Manele lost a no-confidence vote. Wale heads the six-party GREAT coalition, survived a challenge from within his coalition in September 2026, and chairs the Pacific Islands Forum.",
+    "policies": [
+      "Reviewing the 2022 security agreement with China while keeping relations with all partners, including a security agreement with the United States, US Coast Guard patrols and the return of the Peace Corps",
+      "Negotiating a new treaty with Australia, including on police training",
+      "Free education for all, described as a top priority",
+      "Constitutional and legislative reform, including anti-defection measures to stabilise coalitions",
+      "Mining sector reform and stronger government accountability and transparency"
+    ],
+    "challenges": [
+      "Unstable coalitions and frequent no-confidence motions, including the September 2026 challenge and resignations of senior ministers",
+      "The Prime Minister's absence for medical treatment in Australia since late October 2026",
+      "Passing a national budget, as Parliament was adjourned in September 2026 and the government hopes to return before Christmas",
+      "Balancing competition among China, Australia and the United States for influence",
+      "Economic and fiscal difficulties and dependence on donors"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Prime Minister Wale was flown to Australia for urgent medical treatment in late October 2026. As of early November his office had not said when he would return, and it is not confirmed whether he has returned or who is acting Prime Minister. Seat counts for parties other than the Solomon Islands Democratic Party in the 2024 election, and the date Governor-General David Tiva Kapu took office (July 2024), were not confirmed in sources."
+  },
+  {
+    "iso3": "TON",
+    "iso2": "to",
+    "numeric": "776",
+    "name": "Tonga",
+    "region": "Oceania",
+    "system": "Constitutional monarchy with a prime minister elected by a partly elected unicameral Legislative Assembly",
+    "systemType": "parliamentary-monarchy",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Tupou VI",
+        "title": "King of Tonga",
+        "since": "2012-03-18"
+      },
+      "headOfGovernment": {
+        "name": "Lord Fakafanua",
+        "title": "Prime Minister",
+        "party": "Independent (nobles' representative)",
+        "since": "2025-12-18"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "Legislative Assembly (Fale Alea)",
+        "control": "Non-partisan; a government bloc of nobles' and people's representatives backs Prime Minister Lord Fakafanua",
+        "detail": "26 elected members: 17 people's representatives, all independents after the November 2025 election, and 9 nobles' representatives elected by the hereditary nobles. Up to four non-elected cabinet ministers also sit ex officio. Lord Fakafanua was elected Prime Minister by 16 of the 26 members. Two people's representatives, for Tongatapu 2 and Niua 17, were unseated over electoral offences in August 2026, and both seats were filled at by-elections on 8 October 2026. Speaker: Lord Vaea."
+      }
+    ],
+    "judiciary": "The Court of Appeal is the final appellate court, above the Supreme Court, which is headed by Lord Chief Justice Malcolm Bishop KC (four-year term from September 2024). In 2026 the courts voided the elections of two cabinet ministers for breaking electoral expense and bribery rules, which led to their unseating and a cabinet reshuffle.",
+    "elections": [
+      {
+        "name": "General election (Legislative Assembly)",
+        "date": "2025-11-20",
+        "status": "held",
+        "note": "All 17 people's representative seats went to independents and the Democratic Party of the Friendly Islands won no seats. Turnout was about 50 percent. On 15 December 2025 the Assembly elected the noble Lord Fakafanua as Prime Minister over the incumbent Aisake Eke by 16 votes of 26. By-elections in Tongatapu 2 and Niua 17 followed on 8 October 2026."
+      },
+      {
+        "name": "General election (Legislative Assembly)",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due by law at the end of the four-year parliamentary term; no date has been set."
+      }
+    ],
+    "synopsis": "Tonga is a constitutional monarchy under King Tupou VI. The Prime Minister is elected by the Legislative Assembly, which combines elected people's representatives with representatives chosen by the hereditary nobility. Lord Fakafanua, a noble and former long-serving Speaker, became Prime Minister after the November 2025 election. In August 2026 he reshuffled his cabinet after two ministers were unseated by the courts.",
+    "policies": [
+      "Cabinet renewal: three ministers were brought in in August 2026, two of them non-elected appointees in Finance and Health, which the Prime Minister described as bringing in new ideas",
+      "Close ties with Australia and other Pacific partners, including the Pacific Rugby League Partnership",
+      "Promotion of ocean protection and whale conservation as part of the climate agenda, including at COP31",
+      "Crown Prince Tupouto'a 'Ulukalala kept as Minister for Foreign Affairs and Defence",
+      "Passage of the 2026/2027 national budget through the Legislative Assembly"
+    ],
+    "challenges": [
+      "Electoral-offence rulings that unseated two cabinet ministers and forced a reshuffle and by-elections",
+      "Debate over democratic reform after a noble became Prime Minister, which some pro-democracy advocates saw as a setback",
+      "Risk of wider United States visa restrictions affecting Tongan travellers",
+      "Parliamentary standing committees failing to reach a quorum",
+      "Exposure to climate change and natural disasters"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "TUV",
+    "iso2": "tv",
+    "numeric": "798",
+    "name": "Tuvalu",
+    "region": "Oceania",
+    "system": "Parliamentary constitutional monarchy within the Commonwealth realms, with a non-partisan parliament",
+    "systemType": "parliamentary-monarchy",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Charles III",
+        "title": "King of Tuvalu (represented by Governor-General Temukisa Auina Penehuro Hauma since 2026-09-30)",
+        "since": "2022-09-08"
+      },
+      "headOfGovernment": {
+        "name": "Feleti Teo",
+        "title": "Prime Minister",
+        "since": "2024-02-26"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "Parliament of Tuvalu (Fale i Fono)",
+        "control": "Non-partisan; all members are independents, and the government is formed by a majority of MPs who back Prime Minister Feleti Teo",
+        "detail": "16 seats, all held by independents after the 26 January 2024 general election; Speaker Sir Iakoba Italeli, elected unopposed on 27 February 2024"
+      }
+    ],
+    "judiciary": "The High Court of Tuvalu is the superior court and has unlimited civil and criminal jurisdiction, with appeals going to the Court of Appeal of Tuvalu. No notable tension with the other branches has been reported recently.",
+    "elections": [
+      {
+        "name": "General election",
+        "date": "2024-01-26",
+        "status": "held",
+        "note": "All 16 seats won by independents. Prime Minister Kausea Natano lost his seat, and on 26 February 2024 the new parliament elected Feleti Teo prime minister unopposed."
+      },
+      {
+        "name": "General election",
+        "date": "2028-01",
+        "status": "upcoming",
+        "note": "Due by January 2028 (the IPU gives 31 January 2028 as the expected date); electoral law reforms are planned before the vote."
+      }
+    ],
+    "synopsis": "Tuvalu is a small Pacific atoll nation and Commonwealth realm with a 16-member parliament in which every MP is an independent. Prime Minister Feleti Teo has led the government since February 2024, after elections that ousted Kausea Natano. In September 2026 Temukisa Auina Penehuro Hauma became the country's first woman Governor-General.",
+    "policies": [
+      "International climate advocacy, including at the UN General Assembly and COP31, with sea-level rise treated as an existential threat",
+      "Keeping Tuvalu's statehood and maritime boundaries regardless of physical changes from climate change",
+      "Keeping diplomatic relations with Taiwan",
+      "Reforming electoral laws before the 2028 general election"
+    ],
+    "challenges": [
+      "Sea-level rise and coastal erosion threatening low-lying atolls",
+      "Small, aid-dependent economy with limited land and resources",
+      "Political instability built into a non-partisan parliament, where prime ministers depend on shifting MP support",
+      "Balancing ties with Australia, Taiwan and other partners amid geopolitical competition in the Pacific"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "VUT",
+    "iso2": "vu",
+    "numeric": "548",
+    "name": "Vanuatu",
+    "region": "Oceania",
+    "system": "Unitary parliamentary republic with a president elected by an electoral college",
+    "systemType": "parliamentary-republic",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Nikenike Vurobaravu",
+        "title": "President",
+        "since": "2022-07-23"
+      },
+      "headOfGovernment": {
+        "name": "Jotham Napat",
+        "title": "Prime Minister",
+        "party": "Leaders Party of Vanuatu",
+        "since": "2025-02-11"
+      },
+      "governingParties": [
+        "Leaders Party of Vanuatu",
+        "Vanua'aku Pati",
+        "Graon mo Jastis Pati",
+        "Reunification Movement for Change"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Parliament",
+        "control": "Five-party coalition led by the Leaders Party of Vanuatu",
+        "detail": "52 seats. January 2025 election: Leaders Party 9, Vanua'aku Pati 7, Iauko Group 6, Union of Moderate Parties 6, Rural Development Party 6, Graon mo Jastis Pati 5, Reunification Movement for Change 5, and 8 seats held one each by other parties, custom movements and one independent. At the 9 November 2026 sitting, 40 MPs sat with the government and 12 with the opposition."
+      }
+    ],
+    "judiciary": "The Supreme Court is the superior court, made up of the Chief Justice and puisne judges, and appeals go to the Court of Appeal. In December 2025 the Court of Appeal ruled that the Speaker's decision to block a no-confidence motion against the prime minister was unconstitutional, so the motion went to a vote.",
+    "elections": [
+      {
+        "name": "General election (snap)",
+        "date": "2025-01-16",
+        "status": "held",
+        "note": "No party won a majority. The Leaders Party won the most seats (9) of the 52. A coalition government formed and Parliament elected Jotham Napat prime minister in February 2025."
+      },
+      {
+        "name": "Presidential election (indirect, by electoral college)",
+        "date": "2027",
+        "status": "upcoming",
+        "note": "Due when President Vurobaravu's five-year, non-renewable term ends in July 2027."
+      },
+      {
+        "name": "General election",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due by law at the end of Parliament's four-year term, unless Parliament is dissolved early."
+      }
+    ],
+    "synopsis": "Vanuatu is a parliamentary republic. Parliament elects the prime minister, and the president, chosen by an electoral college, is largely ceremonial. Prime Minister Jotham Napat of the Leaders Party has led a five-party coalition since the snap election of January 2025. He defeated a no-confidence motion in December 2025, and the opposition withdrew a second motion before it was voted on in November 2026.",
+    "policies": [
+      "The government calls economic transformation its central goal",
+      "Negotiations with France, which the prime minister has briefed independence pioneers on",
+      "International advocacy on climate change and climate justice",
+      "Reform of political stability after earlier frequent changes of government"
+    ],
+    "challenges": [
+      "Repeated no-confidence motions and unstable coalitions, with five prime ministers in about five years",
+      "Parliamentary inquiries into allegations that diplomatic passports were sold",
+      "Scrutiny of public spending, including the purchase of a rebuilt Twin Otter aircraft",
+      "High exposure to cyclones, earthquakes and climate change"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Sources describe a five-party coalition, but only four governing parties (Leaders Party, Vanua'aku Pati, Graon mo Jastis Pati, Reunification Movement for Change) could be confirmed; the fifth needs checking. Napat's exact date of taking office (11 February 2025) is from Wikipedia and should be checked against an official source."
+  }
+]
