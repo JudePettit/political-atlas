@@ -12,6 +12,7 @@
     "countries/middle-east.json",
     "countries/asia-south-central.json",
     "countries/asia-east-southeast.json",
-    "countries/africa-east.json"
+    "countries/africa-east.json",
+    "countries/africa-west.json"
   ]
 }

@@ -1,0 +1,1160 @@
+[
+  {
+    "iso3": "BEN",
+    "iso2": "bj",
+    "numeric": "204",
+    "name": "Benin",
+    "region": "Africa",
+    "system": "Unitary presidential republic with a bicameral parliament (National Assembly and Senate since 2026)",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Romuald Wadagni",
+        "title": "President of the Republic",
+        "since": "2026-05-24"
+      },
+      "headOfGovernment": {
+        "name": "Romuald Wadagni",
+        "title": "President of the Republic",
+        "since": "2026-05-24"
+      },
+      "governingParties": [
+        "Progressive Union for Renewal (UPR)",
+        "Republican Bloc (BR)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "Presidential majority: Progressive Union for Renewal (UPR) and Republican Bloc (BR) hold every seat",
+        "detail": "January 2026 election: UPR 60, BR 49 of 109 seats; no opposition party reached the 20% per-constituency threshold. Speaker: Joseph Djogbenou (UPR), since February 2026."
+      },
+      {
+        "name": "Senate",
+        "control": "Non-partisan: ex officio members (former heads of state and of institutions) and members appointed by the government; presided over by former president Patrice Talon",
+        "detail": "25 members (11 statutory, 14 appointed), installed on 30 July 2026; Patrice Talon was elected Senate president on 6 August 2026 with 24 of 25 votes."
+      }
+    ],
+    "judiciary": "The Constitutional Court (seven justices, presided over by Dorothé Sossa) rules on constitutionality and certifies election results, and the Supreme Court (presided over by Dandi Gnamou) heads the ordinary courts. Opposition groups and observers have criticised court and electoral-body decisions that limited which opposition candidates could stand in the 2026 elections.",
+    "elections": [
+      {
+        "name": "Parliamentary and communal elections",
+        "date": "2026-01-11",
+        "status": "held",
+        "note": "UPR won 60 and BR 49 of the 109 National Assembly seats. The main opposition party, The Democrats, won about 16% of the vote but no seats because it did not meet the threshold. Turnout was below 37%."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2026-04-12",
+        "status": "held",
+        "note": "Romuald Wadagni, the UPR-BR candidate, won 94.27% of the vote against Paul Hounkpe of the Cowry Forces for an Emerging Benin (FCBE), who conceded. The Constitutional Court confirmed the result. Final turnout was about 63.6%; provisional turnout had been reported at 58.8%."
+      },
+      {
+        "name": "General elections (presidential, legislative and communal)",
+        "date": "2033",
+        "status": "upcoming",
+        "note": "The November 2025 constitutional reform made presidential, parliamentary and local terms seven years long and set all elections for 2033."
+      }
+    ],
+    "synopsis": "Romuald Wadagni, finance minister under Patrice Talon from 2016 and the ruling coalition's candidate, won the April 2026 presidential election with about 94% of the vote after the main opposition party, The Democrats, was kept out of the race. He succeeded Talon on 24 May 2026, and the UPR and BR hold all 109 National Assembly seats. A November 2025 constitutional reform extended terms to seven years and created a Senate, which Talon has led since August 2026.",
+    "policies": [
+      "Continuing Talon-era economic reforms and infrastructure investment, after growth of about 7.5% in 2025",
+      "Pledges to expand social development and make sure citizens share in economic growth",
+      "Reorganising the security forces, including replacing the whole military high command in November 2026",
+      "Putting the 2025 constitutional reform into effect, including the new Senate and seven-year terms"
+    ],
+    "challenges": [
+      "Jihadist incursions and insecurity in the north",
+      "Limited political competition, with the main opposition party shut out of parliament and the presidential race",
+      "Poverty rate estimated at more than 30% and a large wealth gap",
+      "Civil-military relations less than a year after the December 2025 coup attempt"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "BFA",
+    "iso2": "bf",
+    "numeric": "854",
+    "name": "Burkina Faso",
+    "region": "Africa",
+    "system": "Military-led government under the March 2026 Revolution Charter, with an appointed legislature; political parties dissolved",
+    "systemType": "military",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Ibrahim Traoré",
+        "title": "President of Burkina Faso (Captain; military head of state)",
+        "since": "2022-09-30"
+      },
+      "headOfGovernment": {
+        "name": "Rimtalba Jean Emmanuel Ouédraogo",
+        "title": "Prime Minister",
+        "since": "2024-12-07"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "People's Legislative Assembly (Assemblée législative du peuple)",
+        "control": "Appointed transitional body with no political party representation. Members are designated by the head of state, regional stakeholders, the defence and security forces and civil society. Ousmane Bougouma presides.",
+        "detail": "71 members under Article 15 of the Revolution Charter of 27 March 2026: 24 designated by the head of state, 17 named by regional stakeholders (one per region), 16 from the defence and security forces and 14 from civil society organisations. It replaced the Transitional Legislative Assembly, which had sat since 2022."
+      }
+    ],
+    "judiciary": "The top courts are the Constitutional Council, the Court of Cassation (headed by First President Pascal Bamouni since November 2024) and the Council of State. They work within the military authorities' transitional framework, which rights groups say has sharply narrowed checks on the executive.",
+    "elections": [
+      {
+        "name": "General election (presidential and legislative)",
+        "date": "2020-11-22",
+        "status": "held",
+        "note": "This was the last national election. President Roch Marc Christian Kaboré was re-elected in the first round, and his People's Movement for Progress (MPP) won the most seats in the National Assembly. Kaboré was overthrown in the January 2022 coup. No national election is scheduled. The Revolution Charter of March 2026 makes Traoré eligible to run in future elections that are meant to end the 'revolution', but it sets no date for them."
+      }
+    ],
+    "synopsis": "Captain Ibrahim Traoré has led Burkina Faso since the coup of 30 September 2022. Prime Minister Rimtalba Jean Emmanuel Ouédraogo heads a government appointed by the president. In January 2026 the military authorities dissolved all political parties. In March 2026 a 'Revolution Charter' replaced the transition charter, renamed the appointed parliament the People's Legislative Assembly, and left no date for elections.",
+    "policies": [
+      "Declared a 'Progressive and Popular Revolution' and adopted the Revolution Charter (March 2026), replacing the 2022 Transition Charter",
+      "Dissolved all political parties and repealed the laws governing them, transferring party assets to the state (January 2026)",
+      "Reinstated the death penalty for terrorism, treason and espionage in a revised penal code adopted unanimously by parliament (October 2026)",
+      "Put the war against jihadist armed groups first, and set aside elections in favour of security",
+      "Anti-neocolonial foreign policy, moving away from France and the West"
+    ],
+    "challenges": [
+      "Insurgency by Jama'at Nusrat al-Islam wal-Muslimin (JNIM) and Islamic State Sahel Province, with large-scale attacks on civilians and security forces",
+      "Repeated alleged coup plots, including one the government says it foiled on 3-4 January 2026 and blamed on former leader Paul-Henri Sandaogo Damiba",
+      "Criticism from rights groups over the closing of political space, the dissolution of parties and limits on dissent",
+      "No timetable for a return to elected civilian government"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "CPV",
+    "iso2": "cv",
+    "numeric": "132",
+    "name": "Cabo Verde",
+    "region": "Africa",
+    "system": "Semi-presidential republic with a directly elected president and a prime minister who answers to a unicameral National Assembly",
+    "systemType": "semi-presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "José Maria Neves",
+        "title": "President",
+        "party": "African Party for the Independence of Cape Verde (PAICV)",
+        "since": "2021-11-09"
+      },
+      "headOfGovernment": {
+        "name": "Francisco Carvalho",
+        "title": "Prime Minister",
+        "party": "African Party for the Independence of Cape Verde (PAICV)",
+        "since": "2026-06-19"
+      },
+      "governingParties": [
+        "African Party for the Independence of Cape Verde (PAICV)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly (Assembleia Nacional)",
+        "control": "African Party for the Independence of Cape Verde (PAICV), absolute majority",
+        "detail": "72 seats after the 17 May 2026 election: PAICV 37, Movement for Democracy (MpD) 33, Independent and Democratic Cape Verdean Union (UCID) 2. Speaker: Janira Hopffer Almada (PAICV), since 18 June 2026."
+      }
+    ],
+    "judiciary": "The Supreme Court of Justice heads the ordinary courts, and the Constitutional Court rules on constitutional and electoral matters. In September 2026 the Constitutional Court decided which candidates could run for president. No notable conflict with the other branches has been reported.",
+    "elections": [
+      {
+        "name": "Parliamentary election",
+        "date": "2026-05-17",
+        "status": "held",
+        "note": "The PAICV won 37 of 72 seats and about 48% of the vote. The MpD won 33 seats (44.75%) and the UCID 2. This ended ten years of MpD government under Ulisses Correia e Silva. Abstention was about 53.5%. The National Electoral Commission announced the final results on 29 May 2026."
+      },
+      {
+        "name": "Presidential election (first round)",
+        "date": "2026-11-15",
+        "status": "upcoming",
+        "note": "Six candidates are running. They include President José Maria Neves, backed by the PAICV and seeking a second term, and former justice minister Joana Rosa, backed by the MpD."
+      },
+      {
+        "name": "Presidential election (runoff, if needed)",
+        "date": "2026-11-29",
+        "status": "upcoming"
+      }
+    ],
+    "synopsis": "Cabo Verde is an island republic off West Africa with a long record of peaceful transfers of power between its two main parties, the PAICV and the MpD. The PAICV won a narrow absolute majority in the May 2026 parliamentary election, ending a decade of MpD government. Its leader, Francisco Carvalho, became prime minister in June 2026. President José Maria Neves of the PAICV is seeking re-election on 15 November 2026.",
+    "policies": [
+      "Free access to health care, public university and vocational training",
+      "Creating jobs and opportunities for young people to reduce emigration",
+      "An affordable transport system between the islands",
+      "Modernising and digitising the state, and restoring trust in institutions",
+      "Adapting to climate change and raising climate finance"
+    ],
+    "challenges": [
+      "High public debt and heavy reliance on tourism",
+      "Emigration of young people and unemployment",
+      "Vulnerability to climate change, drought and water scarcity",
+      "Low voter turnout, with abstention above 50% in 2026",
+      "Governing with a one-seat parliamentary majority"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "CIV",
+    "iso2": "ci",
+    "numeric": "384",
+    "name": "Côte d'Ivoire",
+    "region": "Africa",
+    "system": "Presidential republic with an executive president, an appointed vice-president and prime minister, and a two-chamber parliament",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Alassane Ouattara",
+        "title": "President",
+        "party": "Rally of Houphouëtists for Democracy and Peace (RHDP)",
+        "since": "2011"
+      },
+      "headOfGovernment": {
+        "name": "Robert Beugré Mambé",
+        "title": "Prime Minister",
+        "party": "Rally of Houphouëtists for Democracy and Peace (RHDP)",
+        "since": "2023-10"
+      },
+      "governingParties": [
+        "Rally of Houphouëtists for Democracy and Peace (RHDP)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "Rally of Houphouëtists for Democracy and Peace (RHDP), absolute majority",
+        "detail": "255 seats; provisional results of the 27 December 2025 election: RHDP 197, PDCI-RDA 32, independents 23, FPI 1, UNPR 1, Le Buffle 1. Turnout 35.04%. Results in two constituencies were cancelled by the Constitutional Council and re-run. Patrick Achi (RHDP) elected Speaker on 17 January 2026."
+      },
+      {
+        "name": "Senate",
+        "control": "Rally of Houphouëtists for Democracy and Peace (RHDP); two-thirds of members are indirectly elected and one-third are appointed by the President",
+        "detail": "99 seats; in the 16 September 2023 indirect election for 66 seats: RHDP 58, PDCI-RDA 6, independents 2. The remaining 33 are appointed by the President. President of the Senate: Kandia Camara."
+      }
+    ],
+    "judiciary": "The Constitutional Council, presided over by Chantal Nanaba Camara, rules on elections and constitutionality; the Court of Cassation, the Council of State and the Court of Auditors head the ordinary, administrative and financial courts. The opposition criticised the Council's 2025 decisions excluding leading opposition figures, including Laurent Gbagbo, Tidjane Thiam and Pascal Affi N'Guessan, from the presidential race.",
+    "elections": [
+      {
+        "name": "Presidential election",
+        "date": "2025-10-25",
+        "status": "held",
+        "note": "Alassane Ouattara (RHDP) was re-elected in the first round with 89.77% of the vote, confirmed by the Constitutional Council on 4 November 2025. The main opposition leaders were excluded from the race. He was sworn in for a fourth term on 8 December 2025."
+      },
+      {
+        "name": "Legislative election",
+        "date": "2025-12-27",
+        "status": "held",
+        "note": "The RHDP won 197 of 255 seats (provisional results), the PDCI-RDA 32 and independents 23. Turnout was 35.04%."
+      },
+      {
+        "name": "Legislative election",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Next election due at the end of the five-year term"
+      },
+      {
+        "name": "Presidential election",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Next election due at the end of the five-year term"
+      }
+    ],
+    "synopsis": "President Alassane Ouattara, in power since 2011, began a fourth term in December 2025 after winning about 90% of the vote in an election from which the main opposition leaders were excluded. His RHDP party won an absolute majority in the December 2025 legislative elections. Robert Beugré Mambé was reappointed prime minister in January 2026, with the President's brother Téné Birahima Ouattara as vice prime minister.",
+    "policies": [
+      "Industrialisation, with a goal of raising industry's share of GDP to 25% by 2030",
+      "Large-scale infrastructure investment and state-led economic development plans",
+      "Regulating the cocoa sector as the world's largest cocoa producer",
+      "Legislation on sponsorship requirements for presidential candidates",
+      "Digitalisation of public administration and parliamentary procedures"
+    ],
+    "challenges": [
+      "Exclusion of leading opposition figures from elections and a fragmented opposition",
+      "Succession questions around an 84-year-old president serving a fourth term",
+      "Weak and erratic rains threatening cocoa output and export revenue",
+      "Low voter turnout and opposition criticism of the electoral commission",
+      "Security risks on the northern border with the Sahel"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Final National Assembly seat counts after the Constitutional Council's dispute rulings and the re-run in two constituencies could not be confirmed; the detail shows the provisional CEI results of 29 December 2025. The current Senate party breakdown including presidential appointees, and whether parties other than the RHDP sit in the January 2026 government, were not confirmed. The President's start date is given as the year he took power (2011) only."
+  },
+  {
+    "iso3": "GMB",
+    "iso2": "gm",
+    "numeric": "270",
+    "name": "Gambia",
+    "region": "Africa",
+    "system": "Unitary presidential republic; the president is both head of state and head of government",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Adama Barrow",
+        "title": "President",
+        "party": "National People's Party",
+        "since": "2017-01-19"
+      },
+      "headOfGovernment": {
+        "name": "Adama Barrow",
+        "title": "President",
+        "party": "National People's Party",
+        "since": "2017-01-19"
+      },
+      "governingParties": [
+        "National People's Party",
+        "National Reconciliation Party",
+        "Alliance for Patriotic Reorientation and Construction"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "Coalition led by the National People's Party with the National Reconciliation Party and the Alliance for Patriotic Reorientation and Construction (Speaker Fabakary Tombong Jatta, APRC)",
+        "detail": "58 seats: 53 elected and 5 appointed by the president. 2022 result: NPP 18, UDP 15, NRP 4, APRC 2, PDOIS 2, independents 12. The NPP-NRP-APRC coalition formed after the election gave the government 29 seats."
+      }
+    ],
+    "judiciary": "The Supreme Court is the highest court, led by the Chief Justice. Above it, the Court of Appeal and the High Court sit at the top of the court system. In mid-2026 President Barrow swore in Edi Faal as Chief Justice even though the Gambia Bar Association had challenged the appointment at the Supreme Court.",
+    "elections": [
+      {
+        "name": "Presidential election",
+        "date": "2021-12-04",
+        "status": "held",
+        "note": "Adama Barrow (NPP) was re-elected with 53.2% of the vote. Ousainou Darboe (UDP) came second with 27.7%."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2026-12-05",
+        "status": "upcoming",
+        "note": "The Independent Electoral Commission has cleared five candidates: incumbent Adama Barrow (NPP), who is seeking a third term; Ousainou Darboe (UDP); Talib Ahmed Bensouda (UNITE/Coalition 2026); independent Isatou Touray; and Modou Lamin Sima (Alliance of Progressive Citizens)."
+      },
+      {
+        "name": "National Assembly election",
+        "date": "2027-04-10",
+        "status": "upcoming"
+      }
+    ],
+    "synopsis": "President Adama Barrow has led Gambia since 2017, after he defeated Yahya Jammeh and ended Jammeh's 22-year rule. He is seeking a third term on 5 December 2026 as head of an NPP-led alliance, and the 1997 Constitution sets no term limit. The bid has drawn criticism because efforts to adopt a new constitution with term limits have stalled.",
+    "policies": [
+      "Running for a third term at the head of an NPP-led alliance of parties",
+      "Constitutional reform: a revised draft constitution was rejected by the National Assembly in July 2025",
+      "Transitional justice and accountability for abuses committed under the Jammeh government",
+      "Programmes on youth employment and agrifood development"
+    ],
+    "challenges": [
+      "Dispute over presidential term limits and the stalled new constitution",
+      "Preparing for an orderly presidential election in December 2026, with regional efforts to prevent electoral tension",
+      "Disagreement between the executive and the Bar Association over the appointment of the Chief Justice",
+      "Youth unemployment and economic pressure"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "GHA",
+    "iso2": "gh",
+    "numeric": "288",
+    "name": "Ghana",
+    "region": "Africa",
+    "system": "Unitary presidential republic under the 1992 Constitution (Fourth Republic)",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "John Dramani Mahama",
+        "title": "President",
+        "party": "National Democratic Congress",
+        "since": "2025-01-07"
+      },
+      "headOfGovernment": {
+        "name": "John Dramani Mahama",
+        "title": "President",
+        "party": "National Democratic Congress",
+        "since": "2025-01-07"
+      },
+      "governingParties": [
+        "National Democratic Congress"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Parliament of Ghana",
+        "control": "National Democratic Congress (two-thirds majority)",
+        "detail": "276 seats: NDC 185, New Patriotic Party 87, independents 4 (the independents sit with the NDC majority), as listed by Parliament in October 2026"
+      }
+    ],
+    "judiciary": "The Supreme Court, headed by Chief Justice Paul Baffoe-Bonnie (sworn in November 2025), is the highest court. It sits above the Court of Appeal and the High Court. Chief Justice Gertrude Torkornoo was suspended in April 2025 and removed in September 2025, which led to debate about judicial independence. In 2026 the ECOWAS Court and Ghana's Supreme Court dismissed her challenges to the suspension and removal.",
+    "elections": [
+      {
+        "name": "General election (presidential and parliamentary)",
+        "date": "2024-12-07",
+        "status": "held",
+        "note": "John Mahama (NDC) won the presidency with 56.55% of the vote against Mahamudu Bawumia (NPP) with 41.61%. The NDC won a large majority in the 276-seat Parliament."
+      },
+      {
+        "name": "Constitutional referendum",
+        "date": "2027",
+        "status": "upcoming",
+        "note": "Planned. The government intends to put entrenched constitutional amendments from the constitution review to a national referendum alongside the 2027 District Assembly elections. No date has been fixed."
+      },
+      {
+        "name": "General election (presidential and parliamentary)",
+        "date": "2028",
+        "status": "upcoming",
+        "note": "Due in late 2028. The President's current term ends in January 2029. Elections have traditionally been held on 7 December, and the Electoral Commission has considered moving the vote to November."
+      }
+    ],
+    "synopsis": "Ghana is a multiparty presidential republic. Power has alternated between the National Democratic Congress (NDC) and the New Patriotic Party (NPP) since 1992. John Mahama of the NDC returned to the presidency in January 2025 after winning the December 2024 election, and his party holds a two-thirds majority in Parliament.",
+    "policies": [
+      "Review of the 1992 Constitution: the government backs a five-year presidential term, a 300-seat Parliament, elected district chief executives and a cap of 60 ministers",
+      "Economic recovery and fiscal consolidation after the 2022 debt default, including a redesigned cedi banknote series launched in November 2026",
+      "Expanding oil and gas exploration and local content in the petroleum sector",
+      "The \"Resetting Ghana\" governance and development agenda"
+    ],
+    "challenges": [
+      "Debt sustainability and cost-of-living pressures after the debt crisis",
+      "Environmental damage and land disputes caused by illegal small-scale gold mining (galamsey)",
+      "Concerns about judicial independence after the removal of the Chief Justice",
+      "Concerns about checks and balances given the ruling party's two-thirds parliamentary majority"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "GIN",
+    "iso2": "gn",
+    "numeric": "324",
+    "name": "Guinea",
+    "region": "Africa",
+    "system": "Presidential republic under the 2025 constitution, led by a former military ruler who is now the elected president",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Mamadi Doumbouya",
+        "title": "President",
+        "party": "Generation for Modernity and Development (GMD)",
+        "since": "2026-01-17"
+      },
+      "headOfGovernment": {
+        "name": "Amadou Oury Bah",
+        "title": "Prime Minister",
+        "since": "2024-02-27"
+      },
+      "governingParties": [
+        "Generation for Modernity and Development (GMD) and allied parties of the presidential majority"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "Generation for Modernity and Development (GMD) and allied parties backing President Doumbouya",
+        "detail": "147 seats (98 constituency, 49 national proportional). Provisional results of the 31 May 2026 election: GMD 93 seats. GMD and its allies won at least 100. The opposition largely boycotted. Speaker Dansa Kourouma was elected on 17 July 2026."
+      },
+      {
+        "name": "Senate",
+        "control": "Not yet set up. This new upper chamber was created by the 2025 constitution. Two-thirds of its members are to be elected indirectly on 20 December 2026 and the rest appointed by the president.",
+        "detail": "87 seats planned"
+      }
+    ],
+    "judiciary": "The Supreme Court, headed by First President Fodé Bangoura, validated the December 2025 presidential result and the final 2026 legislative results. Opposition groups have contested those results, and the courts have not ruled against the executive in any notable case.",
+    "elections": [
+      {
+        "name": "Presidential election",
+        "date": "2025-12-28",
+        "status": "held",
+        "note": "Mamadi Doumbouya won with 86.72%. Abdoulaye Yéro Baldé was second with 6.59%. Several opposition groups boycotted, and opponents dispute the result. The Supreme Court validated it on 4 January 2026. The term is seven years."
+      },
+      {
+        "name": "Parliamentary election (National Assembly)",
+        "date": "2026-05-31",
+        "status": "held",
+        "note": "This was the first legislative election since the 2021 coup. It followed the dissolution of 40 political parties in March 2026, including the RPG. The pro-Doumbouya GMD won 93 of 147 seats on provisional results. Turnout was about 53%."
+      },
+      {
+        "name": "Senate election (indirect, two-thirds of seats)",
+        "date": "2026-12-20",
+        "status": "upcoming",
+        "note": "First election to the new Senate. Regional council elections come first, on 29 November 2026."
+      },
+      {
+        "name": "Parliamentary election (National Assembly)",
+        "date": "2031",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year term."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2032",
+        "status": "upcoming",
+        "note": "Due by law at the end of the seven-year term."
+      }
+    ],
+    "synopsis": "General Mamadi Doumbouya took power in a September 2021 coup that removed President Alpha Condé. He won the December 2025 presidential election and was sworn in as civilian president on 17 January 2026. The 2025 constitution set up the institutions now in place: parties backing Doumbouya won a large majority in the May 2026 National Assembly election, and a new Senate is to be chosen in December 2026.",
+    "policies": [
+      "Finishing the post-coup transition by setting up the institutions of the 2025 constitution, including the new Senate and regional councils",
+      "Growing the mining sector, especially bauxite and iron ore, as the main source of revenue",
+      "Reconnecting with the region: the African Union and ECOWAS lifted their sanctions in January 2026",
+      "Reorganising political life, including dissolving parties found not to meet legal obligations"
+    ],
+    "challenges": [
+      "Opposition parties dissolved, opposition leaders in exile, and boycotts of the 2025 and 2026 elections",
+      "Criticism of how open politics is and of election conduct, including the low legislative turnout",
+      "Security incidents, including heavy gunfire near a Conakry prison in February 2026, and a border dispute with Sierra Leone",
+      "Poverty and weak infrastructure despite mineral wealth, and disasters such as the 2026 landfill landslide in Conakry"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "The final per-party seat counts for the National Assembly, validated by the Supreme Court on 20 June 2026, could not be confirmed. The detail uses the provisional figures (GMD 93 of 147). The Senate's exact split between elected and appointed seats also differs between sources."
+  },
+  {
+    "iso3": "GNB",
+    "iso2": "gw",
+    "numeric": "624",
+    "name": "Guinea-Bissau",
+    "region": "Africa",
+    "system": "Military-led transitional government following the November 2025 coup, with an appointed prime minister and transitional legislative council",
+    "systemType": "military",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Horta Inta-A Na Man",
+        "title": "Transitional President",
+        "since": "2025-11-27"
+      },
+      "headOfGovernment": {
+        "name": "Ilídio Vieira Té",
+        "title": "Prime Minister",
+        "since": "2025-11-28"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "National Transitional Council",
+        "control": "Appointed transitional legislative body under the transition charter; includes 10 senior officers representing the High Military Command",
+        "detail": "65 members"
+      },
+      {
+        "name": "National People's Assembly",
+        "control": "Dissolved by President Embaló on 4 December 2023; not reconstituted, as the results of the 23 November 2025 legislative election were never announced after the coup",
+        "detail": "102 seats before dissolution"
+      }
+    ],
+    "judiciary": "The Supreme Court of Justice, which also acts as the constitutional court and rules on electoral matters, is headed by Arafam Mané, elected its president in May 2025; the court's independence has been questioned since justices including Chief Justice José Pedro Sambu were removed from 2023. In October 2026 the transitional president removed the Attorney General and the President of the Audit Court.",
+    "elections": [
+      {
+        "name": "General election (presidential and legislative)",
+        "date": "2025-11-23",
+        "status": "held",
+        "note": "The army seized power on 26 November 2025, the day before results were due; no official results were published and the process was halted. Opposition candidate Fernando Dias has claimed he won the presidential vote."
+      },
+      {
+        "name": "Constitutional referendum",
+        "date": "2026",
+        "status": "held",
+        "note": "Held during the transition before September 2026; the exact date and result could not be confirmed. The presidential and legislative elections set for 6 December 2026 were postponed indefinitely in October 2026, and no new date has been set."
+      }
+    ],
+    "synopsis": "Guinea-Bissau has been ruled by a military-led transition since the army ousted President Umaro Sissoco Embaló on 26 November 2025 and halted the counting of that month's general election. General Horta Inta-A Na Man serves as transitional president alongside Prime Minister Ilídio Vieira Té. The general elections that were due to end the transition on 6 December 2026 were postponed in October 2026 without a new date.",
+    "policies": [
+      "A transition charter bars the transitional president and prime minister from running in the next elections",
+      "Revision of the constitution to strengthen the powers of the president",
+      "Cashew export campaign promoted as the economy's main source of income",
+      "Ousted president Embaló barred from returning to the country, citing national security"
+    ],
+    "challenges": [
+      "Election postponed indefinitely and no timetable for a return to constitutional rule",
+      "Suspension from African Union activities and pressure from ECOWAS over the coup",
+      "Long history of coups and military involvement in politics",
+      "Questions over the independence of the courts and the removal of senior legal officials",
+      "Heavy reliance on cashew exports and widespread poverty"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Could not confirm: the exact date and result of the 2026 constitutional referendum; whether the one-year transition period, which ends around 27 November 2026, has been formally extended; and whether any new election date or change of personnel has been announced since late October 2026. The prime minister's party affiliation is left out because no reliable source confirmed it."
+  },
+  {
+    "iso3": "LBR",
+    "iso2": "lr",
+    "numeric": "430",
+    "name": "Liberia",
+    "region": "Africa",
+    "system": "Unitary presidential republic with a bicameral legislature",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Joseph Nyuma Boakai",
+        "title": "President",
+        "party": "Unity Party",
+        "since": "2024-01-22"
+      },
+      "headOfGovernment": {
+        "name": "Joseph Nyuma Boakai",
+        "title": "President",
+        "party": "Unity Party",
+        "since": "2024-01-22"
+      },
+      "governingParties": [
+        "Unity Party"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "House of Representatives",
+        "control": "No single-party majority; a majority bloc aligned with the Unity Party controls the chamber under Speaker Richard Nagbe Koon (Unity Party), speaker since 21 November 2024 after his predecessor Jonathan Fonati Koffa was removed",
+        "detail": "73 seats. October 2023 election: Coalition for Democratic Change 25, Unity Party 11, the rest spread among other parties and independents. After later realignments, the Unity Party is reported to hold 25 seats and the CDC 10."
+      },
+      {
+        "name": "Senate",
+        "control": "No single-party majority; President pro tempore Nyonblee Karnga-Lawrence (Liberty Party). The Vice President, Jeremiah Koung, is President of the Senate.",
+        "detail": "30 seats; 15 were contested in October 2023: Coalition for Democratic Change 6, independents 6, Unity Party 1, Liberia Restoration Party 1, Movement for Democracy and Reconstruction 1. Reported current composition: Unity Party 10, People's Unification Party 6, CDC 3, others and independents 11."
+      }
+    ],
+    "judiciary": "The Supreme Court, led by Chief Justice Yamie Quiqui Gbeisay, heads the judiciary. It ruled in February 2026 that former officials including ex-finance minister Samuel Tweah have no immunity from prosecution, and in 2026 it also decided a case brought by a representative whom the House had expelled. The Chief Justice has campaigned against corruption in the courts and asked the Legislature to abolish trial by jury.",
+    "elections": [
+      {
+        "name": "General election (presidential first round, House of Representatives and half of the Senate)",
+        "date": "2023-10-10",
+        "status": "held",
+        "note": "No presidential candidate won a majority. In the House, the Coalition for Democratic Change won 25 of 73 seats and the Unity Party 11. In the Senate, the CDC won 6 of the 15 seats contested."
+      },
+      {
+        "name": "Presidential election runoff",
+        "date": "2023-11-14",
+        "status": "held",
+        "note": "Joseph Boakai (Unity Party) beat incumbent George Weah (CDC), 50.64% to 49.36%. Weah conceded."
+      },
+      {
+        "name": "General election (presidential and legislative)",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "The National Elections Commission is preparing for the 2029 presidential and legislative elections and has launched a 2026-2030 Strategic Plan for them."
+      }
+    ],
+    "synopsis": "Liberia is a presidential republic. Joseph Boakai of the Unity Party has been president since January 2024, after narrowly defeating incumbent George Weah in a peaceful handover of power. A Unity Party-aligned majority bloc has led the House of Representatives since a 2024 leadership dispute, and the opposition Coalition for Democratic Change is preparing for the 2029 general election.",
+    "policies": [
+      "Anti-corruption drive, including prosecution of former officials",
+      "Attracting investment in mining, energy and infrastructure",
+      "Digital transformation, including joining the Smart Africa Alliance",
+      "Proposed war crimes and anti-corruption courts, under consultation in the Senate",
+      "Judicial reform aimed at court corruption and jury tampering"
+    ],
+    "challenges": [
+      "Poverty and wide gaps between urban and rural areas",
+      "Corruption in public institutions and the courts",
+      "Pressure on government performance, including Unity Party calls for a cabinet reshuffle",
+      "Rising tension between the Unity Party and the CDC ahead of 2029",
+      "Accountability for crimes from the civil-war era"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "The date Chief Justice Yamie Quiqui Gbeisay took office, and the exact current seat totals in both chambers after post-2023 realignments, could not be confirmed from official sources."
+  },
+  {
+    "iso3": "MLI",
+    "iso2": "ml",
+    "numeric": "466",
+    "name": "Mali",
+    "region": "Africa",
+    "system": "Military-led transitional government under a junta president, with an appointed transitional legislature",
+    "systemType": "military",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Assimi Goïta",
+        "title": "President of the Transition, Head of State (also Minister of Defence since May 2026)",
+        "since": "2021-05-24"
+      },
+      "headOfGovernment": {
+        "name": "Abdoulaye Maïga",
+        "title": "Prime Minister, Head of Government",
+        "since": "2024-11-21"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "National Transitional Council (Conseil national de Transition, CNT)",
+        "control": "Appointed by the transitional authorities; no elected members. Political parties were dissolved by decree in May 2025. President: Malick Diaw",
+        "detail": "147 appointed members (expanded from 121 in October 2022); replaced the National Assembly, which was dissolved after the 2020 coup"
+      }
+    ],
+    "judiciary": "The Supreme Court heads the ordinary and administrative courts, and the Constitutional Court rules on constitutional matters and certifies national votes. A legal challenge by the dissolved parties against their ban was referred to the Constitutional Court in August 2025, and the courts have not acted as a check on the junta's consolidation of power.",
+    "elections": [
+      {
+        "name": "Constitutional referendum",
+        "date": "2023-06-18",
+        "status": "held",
+        "note": "New constitution approved with about 97% in favour on roughly 38% turnout; it expanded presidential powers. This is the most recent national vote. Promised presidential and legislative elections were postponed indefinitely. A July 2025 law gave Goïta a five-year presidential mandate, renewable without election until the country is pacified, so no national election is scheduled."
+      }
+    ],
+    "synopsis": "Mali has been ruled by a military junta led by General Assimi Goïta since the coups of 2020 and 2021. In 2025 the junta dissolved all political parties and gave Goïta a renewable five-year mandate without elections. Since April 2026 the government has faced coordinated offensives by the Azawad Liberation Front and the al-Qaeda-linked JNIM, in which Defence Minister Sadio Camara was killed. The army, backed by Russia's Africa Corps, retook Kidal in October 2026.",
+    "policies": [
+      "Security partnership with Russia, including the Africa Corps, after ending military ties with France and the departure of the UN mission",
+      "Confederation of the Alliance of Sahel States (AES) with Burkina Faso and Niger, after leaving ECOWAS",
+      "Military campaign to regain territorial control in the north and centre, including the recapture of Kidal in October 2026",
+      "Rapprochement with Algeria, including a visit to Algiers by the Prime Minister in August 2026",
+      "Greater state control and revenue share in the mining sector"
+    ],
+    "challenges": [
+      "Jihadist insurgency by JNIM and Islamic State Sahel Province, including attacks near Bamako and Kati",
+      "Separatist rebellion by the Azawad Liberation Front in the north",
+      "Indefinite postponement of elections, ban on political parties and restrictions on civic space",
+      "Economic strain and supply disruption from the conflict and insurgent blockades",
+      "Diplomatic isolation from ECOWAS and Western partners"
+    ],
+    "lastVerified": "2026-11-13"
+  },
+  {
+    "iso3": "MRT",
+    "iso2": "mr",
+    "numeric": "478",
+    "name": "Mauritania",
+    "region": "Africa",
+    "system": "Presidential republic with an appointed prime minister and a unicameral parliament",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Mohamed Ould Cheikh El Ghazouani",
+        "title": "President",
+        "party": "El Insaf",
+        "since": "2019-08-01"
+      },
+      "headOfGovernment": {
+        "name": "Mokhtar Ould Djay",
+        "title": "Prime Minister",
+        "party": "El Insaf",
+        "since": "2024-08-02"
+      },
+      "governingParties": [
+        "El Insaf",
+        "National Democratic Alliance (AND)",
+        "El Islah"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "El Insaf (absolute majority), supported by allied parties of the presidential majority",
+        "detail": "176 seats (May 2023 election): El Insaf 107, Tewassoul 11, UDP 10, Hope Mauritania 7, AND 6, El Islah 6, others smaller parties. In October 2026 the Constitutional Council confirmed that two opposition deputies had lost their seats after their convictions became final. The Senate was abolished by the 2017 referendum."
+      }
+    ],
+    "judiciary": "The Supreme Court is the highest court for ordinary matters, and the Constitutional Council rules on constitutional questions and elections. In 2026 the Council at first refused to strip two opposition deputies of their seats while an appeal was pending. After the Supreme Court rejected their appeal, the Council confirmed in October 2026 that they had lost their seats.",
+    "elections": [
+      {
+        "name": "Presidential election",
+        "date": "2024-06-29",
+        "status": "held",
+        "note": "Incumbent Mohamed Ould Ghazouani (El Insaf) was re-elected in the first round with 56.12%, ahead of Biram Dah Abeid (22.10%) and Hamadi Ould Sid'El Moctar of Tewassoul (12.76%). Turnout was 55.39%."
+      },
+      {
+        "name": "Parliamentary election",
+        "date": "2023-05",
+        "status": "held",
+        "note": "Held in two rounds on 13 and 27 May 2023, alongside regional and local elections. El Insaf won 107 of 176 seats."
+      },
+      {
+        "name": "Parliamentary election",
+        "date": "2028",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year term. Some sources give May 2028."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due by June 2029. The constitution limits presidents to two five-year terms, and Ghazouani is serving his second."
+      }
+    ],
+    "synopsis": "Mauritania is a presidential republic led by President Mohamed Ould Cheikh El Ghazouani, a former army general first elected in 2019 and re-elected in 2024, whose El Insaf party holds a large parliamentary majority. Prime Minister Mokhtar Ould Djay resigned on 9 October 2026, a day after the president received an inquiry report on fires at Nouakchott power facilities; he was reappointed the same day and formed a 29-member government on 10 October. A national dialogue between the ruling majority and the opposition is being prepared, alongside a debate over calls for a third presidential term.",
+    "policies": [
+      "Developing offshore gas, including the Greater Tortue Ahmeyim LNG project shared with Senegal, as well as mining, green hydrogen and the digital economy",
+      "A national political dialogue with the opposition that the president wants concluded before the end of 2026",
+      "Security cooperation with Western and regional partners, including NATO and France, while keeping the border with the Sahel stable",
+      "Overhauling the energy sector after the August 2026 power-plant fires and blackouts, with new heads for the national power utility and the state gas company"
+    ],
+    "challenges": [
+      "Jihadist violence and refugee flows from neighbouring Mali",
+      "Unreliable electricity supply and accountability for the August 2026 blackouts",
+      "Opposition objections to ruling-party calls for a third Ghazouani term, which the opposition says the constitution forbids",
+      "Complaints about restrictions on political freedoms, including the prosecution of two opposition deputies who lost their seats",
+      "Rising cost of living, and migration toward Europe through Mauritanian territory"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Not confirmed: whether the National Democratic Alliance (AND) and El Islah kept their ministerial posts in the government formed on 10 October 2026. Their inclusion is based on the composition of the Ould Djay government before the reshuffle. The 2028 date for the next parliamentary election is the date due by law, not an officially announced date."
+  },
+  {
+    "iso3": "NER",
+    "iso2": "ne",
+    "numeric": "562",
+    "name": "Niger",
+    "region": "Africa",
+    "system": "Military government under a five-year transition charter (Refoundation Charter, March 2025); constitution suspended, political parties dissolved",
+    "systemType": "military",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Abdourahamane Tiani",
+        "title": "President of the Republic (transitional) and President of the National Council for the Safeguard of the Homeland (CNSP)",
+        "since": "2023-07-28"
+      },
+      "headOfGovernment": {
+        "name": "Ali Mahamane Lamine Zeine",
+        "title": "Prime Minister",
+        "since": "2023-08"
+      },
+      "governingParties": []
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "Dissolved after the July 2023 coup; replaced by the appointed Consultative Council for the Refoundation (CCR), an advisory body whose members are named by presidential decree",
+        "detail": "The CCR was installed in June 2025 with 194 civilian and military members drawn from Niger's eight regions, and is chaired by Mamoudou Harouna Djingarey, chief of the canton of Sinder"
+      }
+    ],
+    "judiciary": "The constitutional order was suspended after the 2023 coup, and the military authorities reorganised the top courts; the BTI 2026 report says the CNSP president also controls the judiciary. In October 2026 President Tiani opened the judicial year by calling for 'offensive justice' to defend national sovereignty.",
+    "elections": [
+      {
+        "name": "Presidential election (second round)",
+        "date": "2021-02-21",
+        "status": "held",
+        "note": "Most recent national vote. Mohamed Bazoum (PNDS-Tarayya) defeated Mahamane Ousmane with about 56% of the vote. He was overthrown in the July 2023 coup. No national election is scheduled: the March 2025 Refoundation Charter set a flexible five-year transition from 26 March 2025 that can be extended depending on the security situation, and coup leaders may run in future elections."
+      }
+    ],
+    "synopsis": "Niger has been ruled by a military junta, the National Council for the Safeguard of the Homeland, since soldiers led by General Abdourahamane Tiani overthrew President Mohamed Bazoum in July 2023. In March 2025 Tiani was sworn in as president for a five-year transition, political parties were dissolved, and an appointed advisory council replaced the dissolved National Assembly. The government survived a mutiny and coup attempt in Niamey on 28–29 August 2026, with help from Russian forces, and then reshuffled the military command and the cabinet.",
+    "policies": [
+      "Alliance of Sahel States with Mali and Burkina Faso, and withdrawal from ECOWAS",
+      "Closer security and energy cooperation with Russia, and a recent rapprochement with Algeria, which approved sending troops to northern Niger in October 2026",
+      "More state control over mining and oil, including cancelling the licences of foreign companies",
+      "A national 'refoundation' programme under the 2025 transition charter",
+      "Banning fuel exports to put domestic supply first during shortages"
+    ],
+    "challenges": [
+      "Attacks by Islamic State Sahel Province, ISWAP and JNIM in the Tillabéri, Tahoua and Diffa regions",
+      "Divisions within the army, shown by the August 2026 mutiny and coup attempt",
+      "Fuel shortages and public frustration over prices",
+      "Worsening relations with Chad, which Niger accused of a drone strike in Agadez in October 2026",
+      "A deepening humanitarian crisis, with large numbers of refugees, including tens of thousands who arrived from northern Nigeria in 2026"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Not confirmed in this research: the exact date Prime Minister Zeine was appointed (given as August 2023); the current structure and names of the top courts after the 2023 reorganisation; Bazoum's exact 2021 runoff share (about 56%); and the detail behind the refugee figure, as the UN report seen confirms only the nearly 64,000 arrivals from Nigeria in 2026. Tiani's 'since' date is when he took office as CNSP president; he was sworn in as President of the Republic on 2025-03-26."
+  },
+  {
+    "iso3": "NGA",
+    "iso2": "ng",
+    "numeric": "566",
+    "name": "Nigeria",
+    "region": "Africa",
+    "system": "Federal presidential republic with a bicameral National Assembly",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Bola Ahmed Tinubu",
+        "title": "President",
+        "party": "All Progressives Congress (APC)",
+        "since": "2023-05-29"
+      },
+      "headOfGovernment": {
+        "name": "Bola Ahmed Tinubu",
+        "title": "President",
+        "party": "All Progressives Congress (APC)",
+        "since": "2023-05-29"
+      },
+      "governingParties": [
+        "All Progressives Congress (APC)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Senate",
+        "control": "All Progressives Congress (APC) majority; Senate President Godswill Akpabio (APC)",
+        "detail": "109 seats. 2023 election: APC 59, PDP 36, Labour Party 8, others 6. After opposition senators defected, the APC was reported in March 2026 to hold about 87 seats and the ADC 9."
+      },
+      {
+        "name": "House of Representatives",
+        "control": "All Progressives Congress (APC) majority; Speaker Tajudeen Abbas (APC)",
+        "detail": "360 seats. 2023 election: APC 176, PDP about 118, then Labour Party, NNPP and smaller parties. After defections, the APC was reported in March 2026 to hold 261 seats and the ADC 6. Members have kept changing parties since then."
+      }
+    ],
+    "judiciary": "The Supreme Court, led by Chief Justice Kudirat Kekere-Ekun since 2024, is the highest court, with the Court of Appeal and the Federal High Court below it. The courts regularly settle election petitions and party leadership and registration disputes before national votes.",
+    "elections": [
+      {
+        "name": "Presidential and National Assembly elections",
+        "date": "2023-02-25",
+        "status": "held",
+        "note": "Bola Tinubu (APC) won the presidency with 36.61% of the vote, ahead of Atiku Abubakar (PDP, 29.07%) and Peter Obi (Labour Party). The APC kept its majorities in both chambers."
+      },
+      {
+        "name": "Presidential and National Assembly elections",
+        "date": "2027-01-16",
+        "status": "upcoming",
+        "note": "INEC moved the date forward from February 2027 after the Electoral Act 2026 took effect. INEC's final list has 18 to 19 presidential candidates, including Bola Tinubu (APC), Atiku Abubakar (ADC) and Peter Obi (NDC). Campaigning began in August 2026."
+      },
+      {
+        "name": "Governorship and State Houses of Assembly elections",
+        "date": "2027-02-06",
+        "status": "upcoming"
+      }
+    ],
+    "synopsis": "Nigeria is a federal presidential republic of 36 states. President Bola Tinubu of the All Progressives Congress has governed since May 2023, and opposition lawmakers moving to the APC have given it large majorities in both chambers of the National Assembly. The country is campaigning for general elections on 16 January 2027, in which Tinubu is seeking a second term against candidates including Atiku Abubakar and Peter Obi.",
+    "policies": [
+      "Market-oriented economic reforms begun in 2023, including ending the fuel subsidy and unifying the exchange rate",
+      "Overhaul and harmonisation of the tax system under new tax laws",
+      "Counter-insurgency and counter-banditry operations, including security cooperation with the United States in the north",
+      "Electoral Act 2026, which reshaped the 2027 election timetable",
+      "Infrastructure and investment drive, including seaport and road projects"
+    ],
+    "challenges": [
+      "Jihadist insurgency by Boko Haram and ISWAP in the northeast, and mass kidnappings by armed gangs in the northwest",
+      "High cost of living and inflation after the subsidy and currency reforms",
+      "Opposition parties weakened by splits and defections ahead of the 2027 vote",
+      "Intercommunal and farmer-herder violence in the Middle Belt",
+      "Poverty, unemployment and pressure on public finances"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Current seat counts in both chambers are not confirmed. The latest firm figures (Senate about 87 APC, House 261 APC) date from March 2026, other reports from that time give the House APC about 280, and members have kept changing parties since."
+  },
+  {
+    "iso3": "SEN",
+    "iso2": "sn",
+    "numeric": "686",
+    "name": "Senegal",
+    "region": "Africa",
+    "system": "Unitary semi-presidential republic with a directly elected president and a unicameral National Assembly",
+    "systemType": "semi-presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Bassirou Diomaye Faye",
+        "title": "President",
+        "party": "Kiiraay – The Republican Patriots",
+        "since": "2024-04-02"
+      },
+      "headOfGovernment": {
+        "name": "Ahmadou Al Aminou Lo",
+        "title": "Prime Minister",
+        "since": "2026-05-25"
+      },
+      "governingParties": [
+        "Kiiraay – The Republican Patriots"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "PASTEF (led by Assembly President Ousmane Sonko), which has been in opposition to President Faye's government since June 2026",
+        "detail": "165 seats; PASTEF won 130 in the November 2024 snap election. Ousmane Sonko was elected Assembly president on 26 May 2026 with 132 of 133 votes cast. On 3 November 2026 the Assembly rejected the revised 2026 budget by 109 votes to 20, with 3 abstentions."
+      }
+    ],
+    "judiciary": "The Constitutional Council rules on constitutional and electoral disputes, and the Supreme Court is the highest court for ordinary and administrative cases. In 2026 the Constitutional Council struck down a constitutional revision, and Assembly President Ousmane Sonko publicly attacked the decision.",
+    "elections": [
+      {
+        "name": "Presidential election",
+        "date": "2024-03-24",
+        "status": "held",
+        "note": "Bassirou Diomaye Faye, then backed by PASTEF, won in the first round and took office on 2 April 2024."
+      },
+      {
+        "name": "National Assembly snap election",
+        "date": "2024-11-17",
+        "status": "held",
+        "note": "PASTEF won a large majority, 130 of 165 seats, after President Faye dissolved the previous opposition-controlled Assembly."
+      },
+      {
+        "name": "Presidential election",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year term that began in April 2024."
+      },
+      {
+        "name": "National Assembly election",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due by law at the end of the five-year term elected in November 2024, unless the President dissolves the Assembly earlier. President Faye has said he does not rule out a dissolution."
+      }
+    ],
+    "synopsis": "President Bassirou Diomaye Faye and Ousmane Sonko came to power together in 2024 on an anti-establishment platform. Faye dismissed Sonko as prime minister on 22 May 2026, appointed the economist Ahmadou Al Aminou Lo in his place and launched his own party, Kiiraay, in July. Sonko now leads the National Assembly, where his party PASTEF holds the majority and opposes the government, while Senegal deals with a debt crisis and negotiates a new IMF programme.",
+    "policies": [
+      "Securing a $2.2 billion IMF financing programme to stabilise public finances after the debt crisis",
+      "A revised 2026 budget and a 2027 budget with a higher deficit target and spending cuts",
+      "Not passing an energy price shock, which the government puts at about 550 billion CFA francs, on to consumers",
+      "The long-term national development agenda Sénégal 2050"
+    ],
+    "challenges": [
+      "Standoff between the President and the PASTEF-controlled National Assembly, which rejected the revised 2026 budget and asked for the 2027 budget bill to be withdrawn",
+      "High public debt and delays to the IMF programme",
+      "Threats by Assembly President Sonko to bring a censure motion against the Lo government",
+      "Disagreement over renegotiating oil, gas and mining contracts, which was a central PASTEF pledge",
+      "Rising fuel costs linked to the 2026 Strait of Hormuz crisis"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Not confirmed: the party make-up of the Lo government. Sources disagree on whether any PASTEF members remain in it, and they do not say which parties besides President Faye's Kiiraay hold posts. Prime Minister Lo is described as independent. Also not confirmed: the current seat count of each group after the Faye–Sonko split; the 130 figure is the November 2024 result. The government's next step on the budget after the 3 November 2026 rejection (an ordinance, a resubmitted bill or a dissolution) could not be confirmed."
+  },
+  {
+    "iso3": "SLE",
+    "iso2": "sl",
+    "numeric": "694",
+    "name": "Sierra Leone",
+    "region": "Africa",
+    "system": "Unitary presidential republic with a unicameral parliament",
+    "systemType": "presidential",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Julius Maada Bio",
+        "title": "President",
+        "party": "Sierra Leone People's Party",
+        "since": "2018-04-04"
+      },
+      "headOfGovernment": {
+        "name": "Julius Maada Bio",
+        "title": "President",
+        "party": "Sierra Leone People's Party",
+        "since": "2018-04-04"
+      },
+      "governingParties": [
+        "Sierra Leone People's Party"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "Parliament",
+        "control": "Sierra Leone People's Party (majority)",
+        "detail": "149 seats: 135 elected in June 2023 (Sierra Leone People's Party 81, All People's Congress 54) and 14 paramount chiefs"
+      }
+    ],
+    "judiciary": "The Supreme Court, led by Chief Justice Komba Kamanda since December 2024, is the highest court, above the Court of Appeal and the High Court. After Parliament passed the Constitution of Sierra Leone (Amendment) Bill, 2025 by a simple majority in August 2026, the Speaker referred the question of the required voting threshold to the Supreme Court. The opposition argues that a two-thirds majority is required.",
+    "elections": [
+      {
+        "name": "General election (presidential, parliamentary and local)",
+        "date": "2023-06-24",
+        "status": "held",
+        "note": "President Julius Maada Bio was re-elected in the first round, defeating Samura Kamara of the All People's Congress. In Parliament, the Sierra Leone People's Party won 81 of the 135 elected seats and the All People's Congress won 54. The APC rejected the results and at first boycotted Parliament."
+      },
+      {
+        "name": "General election (presidential, parliamentary and local)",
+        "date": "2028",
+        "status": "upcoming",
+        "note": "The Electoral Commission for Sierra Leone says the election will be held in 2028, no later than 12 October 2028. Bio is limited to two terms and cannot run again. The government has said a constitutional referendum could be held before or alongside the election."
+      }
+    ],
+    "synopsis": "Sierra Leone is a presidential republic. President Julius Maada Bio of the Sierra Leone People's Party (SLPP) is both head of state and head of government; he was first elected in 2018 and re-elected in a disputed 2023 vote. Bio appointed David Moinina Sengeh as Chief Minister in July 2023 to coordinate government business. Politics is now focused on a contested constitutional amendment that changes the electoral system, and on the 2028 general election, in which Bio cannot stand.",
+    "policies": [
+      "The 'Big Five Game Changers' agenda: food security (Feed Salone), human capital development, youth employment, public service reform, and technology and infrastructure",
+      "Free Quality School Education and investment in human capital",
+      "Constitutional and electoral reform through the Constitution of Sierra Leone (Amendment) Bill, 2025, which changes the presidential and parliamentary electoral systems",
+      "Regional diplomacy, including West African security and African cooperation"
+    ],
+    "challenges": [
+      "Dispute between the governing party and the opposition over whether the 2026 constitutional amendment passed lawfully",
+      "Deep political polarisation since the disputed 2023 election, and building trust in electoral institutions before 2028",
+      "Economic pressure from inflation, public debt and youth unemployment",
+      "Security concerns after the November 2023 attacks in Freetown, which the government described as a failed coup attempt",
+      "Drug abuse among young people, especially the synthetic drug kush"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Not confirmed: whether the Supreme Court has ruled on the voting threshold for the Constitution of Sierra Leone (Amendment) Bill, 2025, and whether the bill has been signed into law. A date for any constitutional referendum has not been confirmed. The 2023 presidential vote shares were not confirmed from an official source and are left out."
+  },
+  {
+    "iso3": "TGO",
+    "iso2": "tg",
+    "numeric": "768",
+    "name": "Togo",
+    "region": "Africa",
+    "system": "Unitary parliamentary republic under the 2024 constitution, with a mostly ceremonial president elected by parliament and executive power held by the President of the Council of Ministers",
+    "systemType": "parliamentary-republic",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfGovernment",
+      "headOfState": {
+        "name": "Jean-Lucien Savi de Tové",
+        "title": "President of the Republic",
+        "since": "2025-05-03"
+      },
+      "headOfGovernment": {
+        "name": "Faure Essozimna Gnassingbé",
+        "title": "President of the Council of Ministers",
+        "party": "Union for the Republic (UNIR)",
+        "since": "2025-05"
+      },
+      "governingParties": [
+        "Union for the Republic (UNIR)"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly",
+        "control": "Union for the Republic (UNIR) supermajority",
+        "detail": "113 seats (election of 29 April 2024): UNIR 108; four other parties share the remaining 5"
+      },
+      {
+        "name": "Senate",
+        "control": "Union for the Republic (UNIR) majority",
+        "detail": "61 seats: 41 indirectly elected by municipal and regional councillors on 15 February 2025 (UNIR 34 of 41) and 20 appointed"
+      }
+    ],
+    "judiciary": "The Constitutional Court rules on constitutional matters and confirms national election results, and the Supreme Court heads the ordinary courts and confirmed the 2025 municipal results. Opposition groups reject the 2024 constitution that moved Togo to a parliamentary system.",
+    "elections": [
+      {
+        "name": "Presidential election (by Parliament)",
+        "date": "2025-05-03",
+        "status": "held",
+        "note": "Meeting jointly, the National Assembly and Senate elected Jean-Lucien Savi de Tové President of the Republic unanimously with 150 votes, the first such vote under the 2024 constitution."
+      },
+      {
+        "name": "Senate election",
+        "date": "2025-02-15",
+        "status": "held",
+        "note": "First Senate election, held indirectly; UNIR won 34 of the 41 elected seats, and the Constitutional Court confirmed the results on 24 February 2025."
+      },
+      {
+        "name": "Presidential election (by Parliament)",
+        "date": "2029",
+        "status": "upcoming",
+        "note": "Due when the four-year term that began in May 2025 ends; no date set."
+      },
+      {
+        "name": "National Assembly election",
+        "date": "2030",
+        "status": "upcoming",
+        "note": "Due by law at the end of the six-year term; the IPU gives April 2030 as the expected date."
+      },
+      {
+        "name": "Senate election",
+        "date": "2031",
+        "status": "upcoming",
+        "note": "Due by law at the end of the six-year term."
+      }
+    ],
+    "synopsis": "Under its 2024 constitution Togo became a parliamentary republic. Faure Gnassingbé, who led the country as president from 2005, has run the government as President of the Council of Ministers since May 2025, and parliament elected the former opposition figure Jean-Lucien Savi de Tové to the largely ceremonial presidency. The ruling UNIR holds large majorities in both chambers and won about 75% of municipal council seats in July 2025.",
+    "policies": [
+      "A government roadmap, moving into its operational phase in April 2026, that calls for joint work across ministries",
+      "A 2026 budget of CFA 2,740 billion, and a proposed 2027 budget of CFA 2,684.1 billion that Parliament has not yet voted on",
+      "Restructuring of the armed forces in response to the jihadist threat in the north",
+      "Diplomatic outreach, including Gnassingbé's visit to the Kremlin in November 2025"
+    ],
+    "challenges": [
+      "Jihadist attacks in the northern Savanes region",
+      "Opposition to the 2024 constitution, including the 'Front du Changement' launched at a rally in Lomé in May 2026",
+      "Four opposition groups have called a nationwide work stoppage for 20 November 2026, citing power cuts, prices and a demand for a political transition",
+      "Rights groups report arrests of protesters and critics and restrictions on civil society",
+      "Regional instability, including the January 2026 expulsion of a former Burkina Faso leader after reports of a coup plot"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Not confirmed: President Savi de Tové's party affiliation, the exact day Gnassingbé took office (sources give 3 or 4 May 2025), the four other parties' seats in the National Assembly and the Senate, and whether the Constitutional Court still has the same president in 2026."
+  }
+]
