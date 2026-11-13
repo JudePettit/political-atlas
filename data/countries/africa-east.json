@@ -232,6 +232,65 @@
     "reviewNote": "A Dawan Africa report of 22 October 2026 calls Ali Hassan Bahdon, the Minister of Justice, 'interim Prime Minister'. No other source reports a change of prime minister: Abdoulkader Kamil Mohamed was reappointed in May 2026 and is reported acting as Prime Minister on 21 September 2026, so Bahdon was most likely standing in during an absence, but this is not confirmed. If Kamil has left office, update the head of government and consider setting the status to in-flux. Kamil's party could not be confirmed."
   },
   {
+    "iso3": "ERI",
+    "iso2": "er",
+    "numeric": "232",
+    "name": "Eritrea",
+    "region": "Africa",
+    "system": "One-party presidential state ruled by decree; the 1997 constitution has never been implemented",
+    "systemType": "one-party",
+    "status": "stable",
+    "executive": {
+      "leader": "headOfState",
+      "headOfState": {
+        "name": "Isaias Afwerki",
+        "title": "President",
+        "party": "People's Front for Democracy and Justice",
+        "since": "1993-05-24"
+      },
+      "headOfGovernment": {
+        "name": "Isaias Afwerki",
+        "title": "President",
+        "party": "People's Front for Democracy and Justice",
+        "since": "1993-05-24"
+      },
+      "governingParties": [
+        "People's Front for Democracy and Justice"
+      ]
+    },
+    "legislature": [
+      {
+        "name": "National Assembly (Hagerawi Baito)",
+        "control": "Not functioning: the transitional assembly has not met since 2002, and the president governs by decree",
+        "detail": "Transitional body of 150 members set up in 1994: the 75 members of the ruling front's central committee and 75 others; never directly elected"
+      }
+    ],
+    "judiciary": "The Supreme Court provided for in the 1997 constitution does not function, and a panel of the High Court in Asmara hears final appeals. The judiciary is not independent of the executive. Special courts outside the regular system, reporting to the Ministry of Defence and the Office of the President, hear corruption and national security cases, with no appeal from their decisions.",
+    "elections": [
+      {
+        "name": "Independence referendum",
+        "date": "1993-04",
+        "status": "held",
+        "note": "Held 23-25 April 1993; 99.83% voted for independence from Ethiopia, which was declared on 27 April 1993. No national legislative or presidential election has been held since independence, and none is scheduled."
+      }
+    ],
+    "synopsis": "Isaias Afwerki has led Eritrea since independence in 1993. He rules through the People's Front for Democracy and Justice, the only legal party, without an implemented constitution or a functioning legislature. In 2026 relations with Ethiopia broke down: Eritrea cut diplomatic ties on 1 October after Ethiopia expelled ten Eritrean diplomats, and each government accuses the other of backing armed groups opposed to it.",
+    "policies": [
+      "A development strategy built on self-reliance, with emphasis on agriculture and infrastructure",
+      "Mandatory national service, often for an indefinite period",
+      "Closer ties with Egypt and Russia: President Isaias held talks with President el-Sisi in Cairo in June 2026 and with President Putin in Moscow in October 2026",
+      "Improving relations with the United States, which on 18 September 2026 let its 2021 Ethiopia-related sanctions order lapse and removed Eritrea's ruling party and armed forces from its sanctions list"
+    ],
+    "challenges": [
+      "Risk of war with Ethiopia over the border, Tigray and Ethiopia's push for access to the Red Sea, including the port of Assab",
+      "No elections, no implemented constitution and no functioning legislature",
+      "Arbitrary detention, restrictions on rights and large numbers of people leaving the country",
+      "Succession uncertainty, as the president turned 80 in February 2026"
+    ],
+    "lastVerified": "2026-11-13",
+    "reviewNote": "Not fully confirmed: how the 75 members of the transitional National Assembly who are not central committee members were chosen (sources variously say by regional assemblies, from the 1997 Constituent Assembly, or by appointment); whether the Supreme Court was ever set up or has been defunct since 2001-2002, and whether the special courts still sit (the US State Department described them as operating in 2023; the Bertelsmann BTI country report calls them defunct)."
+  },
+  {
     "iso3": "ETH",
     "iso2": "et",
     "numeric": "231",
