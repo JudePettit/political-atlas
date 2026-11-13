@@ -269,6 +269,34 @@ test('the tooltip names whoever holds the most power: the president of France, t
   assert.equal(liechtenstein, `Liechtenstein | ${lie.regent.name} | ${lie.regent.title}`, 'the regent, not the Prince');
 });
 
+test('a monarch who rules is a "Ruling monarchy": Morocco, Jordan and Saudi Arabia share the label and the colour', async () => {
+  // Jude, 13 November 2026: the label was "Absolute monarchy", which Jordan, Kuwait, Bahrain and Morocco are not, and
+  // Morocco had been shown as "Constitutional monarchy" beside them.
+  await open();
+  const tip = iso => page.evaluate(code => {
+    const el = document.querySelector(`path.country.active[data-iso="${code}"]`), b = el.getBoundingClientRect();
+    el.dispatchEvent(new MouseEvent('mousemove', { bubbles: true, clientX: b.left + b.width / 2, clientY: b.top + b.height / 2 }));
+    const t = document.getElementById('tooltip');
+    return { system: t.hidden ? null : t.querySelector('.tip-sub').textContent, fill: el.getAttribute('fill') };
+  }, iso);
+  const mar = await tip('MAR'), jor = await tip('JOR'), sau = await tip('SAU'), gbr = await tip('GBR');
+  for (const t of [mar, jor, sau]) assert.equal(t.system, 'Ruling monarchy');
+  assert.equal(mar.fill, sau.fill, 'Morocco has the colour of the other ruling monarchies');
+  assert.equal(jor.fill, sau.fill);
+  assert.equal(gbr.system, 'Constitutional monarchy');
+  assert.notEqual(mar.fill, gbr.fill, 'and not the colour of the parliamentary systems');
+  // The legend names that colour without the word "absolute"…
+  const legend = await page.$$eval('#legend li', lis => lis.map(li => li.textContent.trim()));
+  assert.ok(legend.some(t => /^One-party or monarch’s rule\s+also theocratic and military rule$/.test(t)), legend.join(' / '));
+  assert.ok(!legend.some(t => /absolute/i.test(t)), legend.join(' / '));
+  // …and the table gives every ruling monarchy the same label.
+  await page.goto(`${BASE}/?view=table`, { waitUntil: 'networkidle' });
+  await page.waitForSelector('#country-table tbody tr');
+  const systems = await page.$$eval('#country-table tbody tr', trs => Object.fromEntries(trs.map(tr => [tr.dataset.iso, tr.querySelector('td:nth-child(2)').textContent.trim()])));
+  for (const iso of ['MAR', 'JOR', 'KWT', 'BHR', 'SAU', 'OMN', 'QAT', 'ARE']) assert.equal(systems[iso], 'Ruling monarchy', iso);
+  assert.ok(!Object.values(systems).includes('Absolute monarchy'), 'no row keeps the old label');
+});
+
 test('search finds countries and leaders', async () => {
   await open();
   await page.fill('#search', 'Burnham');

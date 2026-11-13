@@ -75,11 +75,27 @@ test('each country names the office that holds the most power', () => {
   }
 });
 
+test('monarchs who rule are classed together and shown as "Ruling monarchy"', () => {
+  // Jude, 13 November 2026: the type absolute-monarchy holds every monarchy whose monarch rules as well as reigns,
+  // with or without a constitution and an elected chamber, and the page calls it "Ruling monarchy" ("Absolute
+  // monarchy" before, which Jordan, Kuwait, Bahrain and Morocco are not). Morocco joined the type that day: it had
+  // been shown as "Constitutional monarchy" beside the other three.
+  const record = iso => countries.find(c => c.iso3 === iso);
+  for (const iso of ['SAU', 'OMN', 'QAT', 'ARE', 'BHR', 'JOR', 'KWT', 'MAR']) assert.equal(record(iso).systemType, 'absolute-monarchy', iso);
+  // The map names the monarch in each, or in Saudi Arabia the crown prince, who governs as prime minister.
+  for (const iso of ['OMN', 'QAT', 'ARE', 'BHR', 'JOR', 'KWT', 'MAR']) assert.equal(record(iso).executive.leader, 'headOfState', iso);
+  // The label is the page's; the data keeps the type's id, and the schema tells the research runs what it means.
+  const app = readFileSync(new URL('../app.js', import.meta.url), 'utf8');
+  assert.match(app, /'absolute-monarchy': \{ label: 'Ruling monarchy', family: 'auto' \}/);
+  assert.doesNotMatch(app, /label: '[^']*[Aa]bsolute/, 'no label on the page says "absolute"');
+  assert.match(schema.properties.systemType.description, /shown on the page as "Ruling monarchy"/);
+});
+
 test('every country has an upcoming election or a stated reason', () => {
   const none = countries.filter(c => !c.elections.some(e => e.status === 'upcoming'))
     .map(c => c.iso3);
-  // Absolute monarchies, the Holy See, military governments and civilian transitions have no national vote to schedule
-  // (the rule create mode applies too).
+  // Ruling monarchies (some hold no national vote at all), the Holy See, military governments and civilian
+  // transitions may have no national vote to schedule (the rule create mode applies too).
   const exempt = new Set(countries.filter(c => NO_ELECTION_TYPES.includes(c.systemType)).map(c => c.iso3));
   assert.deepEqual(none.filter(c => !exempt.has(c)), []);
   assert.ok(exempt.has('SAU') && exempt.has('VAT'), 'Saudi Arabia and the Holy See are exempt');

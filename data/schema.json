@@ -14,7 +14,7 @@
     "systemType": {
       "type": "string",
       "enum": ["presidential", "semi-presidential", "parliamentary-republic", "parliamentary-monarchy", "absolute-monarchy", "one-party", "directorial", "theocratic", "military", "transitional", "dependent-territory"],
-      "description": "How power is held in practice. absolute-monarchy: a monarch who rules as well as reigns (Saudi Arabia, Oman, Brunei). one-party: one party rules and others are banned or subordinate. theocratic: religious authority holds supreme power (the Holy See, Iran). military: the armed forces hold power after a coup, including juntas that call themselves transitional. transitional: a civilian interim arrangement on the way to a new constitution or election. dependent-territory: self-governing but not sovereign (Greenland)."
+      "description": "How power is held in practice. absolute-monarchy (shown on the page as \"Ruling monarchy\"): a monarch who rules as well as reigns, with or without a constitution and an elected chamber (Saudi Arabia, Oman, Jordan, Morocco, Brunei). one-party: one party rules and others are banned or subordinate. theocratic: religious authority holds supreme power (the Holy See, Iran). military: the armed forces hold power after a coup, including juntas that call themselves transitional. transitional: a civilian interim arrangement on the way to a new constitution or election. dependent-territory: self-governing but not sovereign (Greenland)."
     },
     "status": { "type": "string", "enum": ["stable", "in-flux"], "description": "in-flux = government formation, caretaker, disputed or election under way" },
     "executive": {

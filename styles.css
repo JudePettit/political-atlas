@@ -5,7 +5,7 @@
      System: three categorical hues (all-pairs CVD-safe on a map), then a neutral "Other". */
   --c-parl: var(--prp-cat-1);         /* parliamentary republics and constitutional monarchies */
   --c-pres: var(--prp-cat-2);         /* presidential and semi-presidential republics */
-  --c-auto: var(--prp-cat-3);         /* one-party states, absolute and theocratic monarchies */
+  --c-auto: var(--prp-cat-3);         /* one-party states, ruling monarchies, theocracies, military governments */
   --c-other: var(--prp-line-strong);  /* directorial, transitional, autonomous territory */
   --c-none: var(--prp-map-land);      /* not covered */
   /* Stability is a status, always named in the legend, tooltip, profile and table. "In flux" is the signal, so it takes

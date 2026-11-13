@@ -27,7 +27,7 @@ const MARKERS = {
 const FAMILIES = {
   parl: { label: 'Parliamentary', note: 'republic or constitutional monarchy', color: 'var(--c-parl)' },
   pres: { label: 'Presidential or semi-presidential', note: '', color: 'var(--c-pres)' },
-  auto: { label: 'One-party or absolute rule', note: 'including theocratic and military rule', color: 'var(--c-auto)' },
+  auto: { label: 'One-party or monarch’s rule', note: 'also theocratic and military rule', color: 'var(--c-auto)' },
   other: { label: 'Other', note: 'directorial, transitional, territory', color: 'var(--c-other)' }
 };
 const SYSTEM_TYPES = {
@@ -35,7 +35,10 @@ const SYSTEM_TYPES = {
   'semi-presidential': { label: 'Semi-presidential', family: 'pres' },
   'parliamentary-republic': { label: 'Parliamentary republic', family: 'parl' },
   'parliamentary-monarchy': { label: 'Constitutional monarchy', family: 'parl' },
-  'absolute-monarchy': { label: 'Absolute monarchy', family: 'auto' },
+  // "Ruling monarchy" (Jude, 13 November 2026; "Absolute monarchy" before): a monarch who rules as well as reigns,
+  // with or without a constitution and an elected chamber. "Absolute" fitted Saudi Arabia and Oman but not Jordan,
+  // Kuwait, Bahrain or Morocco, which have both. The type keeps its id in the data.
+  'absolute-monarchy': { label: 'Ruling monarchy', family: 'auto' },
   'one-party': { label: 'One-party state', family: 'auto' },
   'directorial': { label: 'Directorial', family: 'other' },
   // The Holy See (an elective monarchy) and Iran (a republic under a supreme leader) are both theocracies.

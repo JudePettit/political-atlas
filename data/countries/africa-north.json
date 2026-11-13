@@ -245,8 +245,8 @@
     "numeric": "504",
     "name": "Morocco",
     "region": "Africa",
-    "system": "Constitutional monarchy with an elected bicameral parliament and a head of government appointed by the king from the largest party",
-    "systemType": "parliamentary-monarchy",
+    "system": "Constitutional monarchy in which the king chairs the Council of Ministers and keeps decisive powers over foreign policy, defence and religious affairs, with an elected bicameral parliament and a head of government appointed by the king from the largest party",
+    "systemType": "absolute-monarchy",
     "status": "stable",
     "executive": {
       "leader": "headOfState",
