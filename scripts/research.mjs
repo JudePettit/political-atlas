@@ -35,6 +35,12 @@ export const NO_ELECTION_TYPES = ['absolute-monarchy', 'theocratic', 'military',
 // and none is scheduled. Three create runs on 13 November 2026 refused its record for telling the truth about that.
 // Its record still needs one "elections" entry, the last national vote held.
 export const NO_ELECTION_COUNTRIES = ['ERI'];
+// Jude, 13 November 2026: a monarchy is a ruling monarchy (absolute-monarchy) where the map names its monarch or regent
+// as the leader, and a parliamentary-monarchy where it names the head of government. The records that break that rule,
+// named one by one with the reason, until it is decided what they should be.
+export const MONARCHY_RULE_EXCEPTIONS = {
+  SAU: 'a ruling monarchy whose crown prince, Mohammed bin Salman, governs as prime minister, so the map names the head of government'
+};
 export const DATE = /^(\d{4})(-\d{2})?(-\d{2})?$|^TBD$/;
 
 export const todayISO = () => new Date().toISOString().slice(0, 10);
@@ -144,7 +150,8 @@ Rules:
   referendum, a local vote, a conclave) with a note that no national election is scheduled. Always give at least one.
   Dates are YYYY-MM-DD, YYYY-MM or YYYY; a date before today is "held", a later one "upcoming".
 - Set "systemType" by how power is held in practice (see its description in the schema), and describe the system in
-  "system" in a short phrase.
+  "system" in a short phrase. A monarchy is a ruling monarchy ("absolute-monarchy") where executive.leader names its
+  monarch or regent, and a "parliamentary-monarchy" where it names the head of government.
 - Set "status" to "in-flux" when a government is being formed, is caretaker, a national election or count is under way,
   or control of the state is contested; otherwise "stable". An in-flux record says why in "reviewNote".
 - Be neutral and factual. Describe policies and challenges without editorialising or taking sides. Keep the synopsis
@@ -280,6 +287,11 @@ export function checkRecord(c, today = todayISO()) {
   }
   if (c.systemType === 'dependent-territory' && ex.leader !== 'headOfGovernment') {
     problems.push('executive.leader must be "headOfGovernment" for a dependent territory');
+  }
+  if (!MONARCHY_RULE_EXCEPTIONS[c.iso3]) {
+    const monarch = ex.leader === 'headOfState' || ex.leader === 'regent';
+    if (c.systemType === 'parliamentary-monarchy' && monarch) problems.push('a monarchy whose executive.leader is its monarch or regent is a ruling monarchy: systemType "absolute-monarchy"');
+    if (c.systemType === 'absolute-monarchy' && !monarch) problems.push('a ruling monarchy ("absolute-monarchy") names its monarch or regent in executive.leader; where the head of government governs, it is a "parliamentary-monarchy"');
   }
   if (!c.legislature?.length) problems.push('legislature needs at least one entry (say so in "control" where none sits)');
   const elections = c.elections || [];

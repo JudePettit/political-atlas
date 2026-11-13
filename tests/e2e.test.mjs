@@ -293,7 +293,8 @@ test('a monarch who rules is a "Ruling monarchy": Morocco, Jordan and Saudi Arab
   await page.goto(`${BASE}/?view=table`, { waitUntil: 'networkidle' });
   await page.waitForSelector('#country-table tbody tr');
   const systems = await page.$$eval('#country-table tbody tr', trs => Object.fromEntries(trs.map(tr => [tr.dataset.iso, tr.querySelector('td:nth-child(2)').textContent.trim()])));
-  for (const iso of ['MAR', 'JOR', 'KWT', 'BHR', 'SAU', 'OMN', 'QAT', 'ARE']) assert.equal(systems[iso], 'Ruling monarchy', iso);
+  // Monaco and Liechtenstein, whose Prince and regent the map names, are ruling monarchies too (Jude, 13 November 2026).
+  for (const iso of ['MAR', 'JOR', 'KWT', 'BHR', 'SAU', 'OMN', 'QAT', 'ARE', 'MCO', 'LIE']) assert.equal(systems[iso], 'Ruling monarchy', iso);
   assert.ok(!Object.values(systems).includes('Absolute monarchy'), 'no row keeps the old label');
 });
 
@@ -330,6 +331,48 @@ test('PRP design system is applied', async () => {
   await page.waitForSelector('.jdpi-returnbar', { timeout: 5000 });
 });
 
+// Jude, 13 November 2026: the VM return bar, which arrives after the page has loaded, pushed everything down by its
+// height. Its height is now kept from the first paint, so nothing moves when it appears; without the bar (in VM's frame,
+// or when its script cannot load) there is no empty band. The positions are taken at DOMContentLoaded, which always comes
+// before the load event the bar waits for, and again once the bar is there: no timing is involved.
+test('the VM return bar appears without moving the page, at desktop and phone widths', async () => {
+  for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 }]) {
+    const p = await browser.newPage({ viewport });
+    await mapLive(p);
+    const errors = [];
+    p.on('pageerror', e => errors.push(e.message));
+    await p.addInitScript(() => document.addEventListener('DOMContentLoaded', () => {
+      window.__first = { top: document.querySelector('.page').getBoundingClientRect().top, bar: !!document.querySelector('.jdpi-returnbar') };
+    }));
+    await p.goto(`${BASE}/`, { waitUntil: 'domcontentloaded' });
+    await p.waitForSelector('.jdpi-returnbar', { timeout: 15000 });
+    await p.waitForFunction(() => document.querySelectorAll('path.country.active').length > 0, null, { timeout: 30000 });
+    const s = await p.evaluate(() => {
+      const bar = document.querySelector('.jdpi-returnbar').getBoundingClientRect();
+      return { first: window.__first, top: document.querySelector('.page').getBoundingClientRect().top, bar: { top: bar.top, bottom: bar.bottom } };
+    });
+    const at = `${viewport.width} wide`;
+    assert.equal(s.first.bar, false, `${at}: no bar at DOMContentLoaded`);
+    assert.equal(s.first.top, 36, `${at}: the bar's 36px are kept from the first paint`);
+    assert.equal(s.top, s.first.top, `${at}: the page does not move when the bar appears`);
+    assert.deepEqual(s.bar, { top: 0, bottom: 36 }, `${at}: the bar fills the band it was kept`);
+    // The bar keeps its link and its accessible name.
+    const link = p.getByRole('link', { name: 'VM', exact: true });
+    assert.equal(await link.count(), 1);
+    assert.match(await link.getAttribute('href'), /#\/rt\/atlas$/);
+    assert.deepEqual(errors, [], `${at}: script errors`);
+    await p.close();
+  }
+  // When the bar's script cannot load, there is no bar and no band.
+  const p = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+  await mapLive(p);
+  await p.route(u => u.pathname.endsWith('/design/prp-bar.js'), route => route.abort());
+  await p.goto(`${BASE}/`, { waitUntil: 'load' });
+  const s = await p.evaluate(() => ({ due: document.documentElement.classList.contains('vm-bar-due'), top: document.querySelector('.page').getBoundingClientRect().top, bar: !!document.querySelector('.jdpi-returnbar') }));
+  assert.deepEqual(s, { due: false, top: 0, bar: false }, 'no bar, no band');
+  await p.close();
+});
+
 test('inside the PRP shell the page hides its own brand', async () => {
   // Where the shell files the atlas, and what its breadcrumb calls it, come from jdpi's registry, so a rename there
   // needs no change here.
@@ -343,6 +386,8 @@ test('inside the PRP shell the page hides its own brand', async () => {
   assert.match(embedded || '', /jdpi-embedded/);
   assert.equal(await frame.locator('.eyebrow').isHidden(), true);
   assert.equal(await frame.locator('.jdpi-returnbar').count(), 0);
+  // No bar in the frame, and no band kept for one: the page starts at the top.
+  assert.equal(await frame.locator('.page').evaluate(el => el.getBoundingClientRect().top), 0, 'no empty band in the frame');
   const crumbs = await page.textContent('#crumbs');
   assert.ok(crumbs.includes(suite.name) && crumbs.indexOf(atlas.name) > crumbs.indexOf(suite.name), `breadcrumb: ${crumbs}`);
 });
@@ -362,8 +407,8 @@ test('on a phone at world scale, a tap on Germany opens Germany, not the Luxembo
   await mobile.waitForSelector('path.country.active[data-iso="DEU"]');
   const dot = () => mobile.$eval('circle.microstate[data-iso="LUX"]', el => getComputedStyle(el).pointerEvents);
   assert.equal(await dot(), 'none', 'dots let taps through at world scale');
-  // Measure Germany once the layout has settled (fonts, lazy images and the VM return bar, which arrives from jdpi
-  // after network idle and pushes the map down 36 pixels, can still move the map; in one full run a tap measured too
+  // Measure Germany once the layout has settled (fonts and lazy images can still move the map, as the VM return bar
+  // did before its height was kept from the first paint on 13 November 2026; in one full run a tap measured too
   // early landed on nothing), and only when Germany is the element under that point. The loop runs here and not in
   // waitForFunction, which does not wait for an async function's answer: it took the first look even when that look
   // was false, and the tap then had no point to aim at.

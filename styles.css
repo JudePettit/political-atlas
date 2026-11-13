@@ -21,6 +21,13 @@
 
 * { box-sizing: border-box; }
 body { margin: 0; }
+/* VM's return bar (jdpi's design/prp-bar.js, 36px high) is put at the top of the body after the page has loaded, and only
+   when the atlas is opened on its own, not in VM's frame. index.html marks that case on <html> before the first paint, so
+   the bar's height is kept from the start and the bar lays itself into it: nothing below moves when it appears. In VM's
+   frame, or if the bar's script cannot load, the class is absent and there is no band. */
+.vm-bar-due body { padding-top: 36px; }
+.vm-bar-due .jdpi-returnbar { margin-top: -36px; }
+@media print { .vm-bar-due body { padding-top: 0; } }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .page { max-width: 1440px; margin: 0 auto; padding: 22px 24px 28px; }
 .page-head { margin-bottom: 16px; }

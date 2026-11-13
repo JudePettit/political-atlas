@@ -9,7 +9,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
   MODEL, SEARCHES, IDENTITY, MAX_CREATE, PRICES, extractJson, checkRecord, createCountry, createPrompt, compileSchema, pickSeeds, seedRows, runCreate,
-  parseNotes, searchUrls, sourceLines, estimateCost
+  parseNotes, searchUrls, sourceLines, estimateCost, MONARCHY_RULE_EXCEPTIONS
 } from '../scripts/research.mjs';
 
 const DATA = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'data');
@@ -178,6 +178,17 @@ test('checkRecord applies the data tests\' rules', () => {
   assert.match(problems({ executive: { ...ok.executive, leader: 'headOfGovernment' } }), /presidential/);
   const same = { name: 'One Ruler', title: 'King' };
   assert.match(problems({ systemType: 'absolute-monarchy', executive: { leader: 'headOfGovernment', headOfState: same, headOfGovernment: same, governingParties: [] } }), /both offices/);
+  // A monarchy is a ruling monarchy where the map names its monarch or regent, and only there (Jude, 13 November 2026),
+  // except for the countries named in MONARCHY_RULE_EXCEPTIONS.
+  const monarchy = leader => ({ ...ok.executive, leader, headOfState: { name: 'A Monarch', title: 'King' }, headOfGovernment: { name: 'A Premier', title: 'Prime Minister' } });
+  assert.match(problems({ systemType: 'parliamentary-monarchy', executive: monarchy('headOfState') }), /is a ruling monarchy/);
+  assert.match(problems({ systemType: 'absolute-monarchy', executive: monarchy('headOfGovernment') }), /names its monarch or regent/);
+  assert.deepEqual(checkRecord({ ...ok, systemType: 'parliamentary-monarchy', executive: monarchy('headOfGovernment') }, TODAY), []);
+  assert.deepEqual(checkRecord({ ...ok, systemType: 'absolute-monarchy', executive: monarchy('headOfState') }, TODAY), []);
+  assert.ok(MONARCHY_RULE_EXCEPTIONS.SAU, 'Saudi Arabia is a named exception');
+  assert.deepEqual(checkRecord({ ...ok, iso3: 'SAU', systemType: 'absolute-monarchy', executive: monarchy('headOfGovernment') }, TODAY), []);
+  // Create mode's writer is told the rule in one sentence.
+  assert.match(createPrompt(schema, TODAY), /A monarchy is a ruling monarchy \("absolute-monarchy"\) where executive\.leader names its\s+monarch or regent, and a "parliamentary-monarchy" where it names the head of government\./);
 });
 
 test('pickSeeds chooses by group, by region name or by code, and skips countries that have records', () => {

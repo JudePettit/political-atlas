@@ -12,7 +12,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://jdpi.pages.dev/design/prp.css">
   <link rel="stylesheet" href="styles.css">
-  <script src="https://jdpi.pages.dev/design/prp-bar.js" data-suite="rt" data-module="atlas" defer></script>
+  <!-- Opened on its own (not in VM's frame), the page gains VM's return bar after it has loaded: keep its height from the
+       first paint (styles.css, vm-bar-due), and give it back if the bar's script cannot load. -->
+  <script>try { if (window.self === window.top) document.documentElement.classList.add('vm-bar-due'); } catch { /* in a frame */ }</script>
+  <script src="https://jdpi.pages.dev/design/prp-bar.js" data-suite="rt" data-module="atlas" defer onerror="document.documentElement.classList.remove('vm-bar-due')"></script>
 </head>
 <body>
 <div class="page">

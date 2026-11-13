@@ -4,7 +4,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import Ajv from 'ajv/dist/2020.js';
-import { seedRows, checkRecord, NO_ELECTION_TYPES, NO_ELECTION_COUNTRIES, IDENTITY } from '../scripts/research.mjs';
+import { seedRows, checkRecord, NO_ELECTION_TYPES, NO_ELECTION_COUNTRIES, MONARCHY_RULE_EXCEPTIONS, IDENTITY } from '../scripts/research.mjs';
 
 const read = p => JSON.parse(readFileSync(new URL(`../data/${p}`, import.meta.url), 'utf8'));
 const manifest = read('manifest.json');
@@ -81,14 +81,37 @@ test('monarchs who rule are classed together and shown as "Ruling monarchy"', ()
   // monarchy" before, which Jordan, Kuwait, Bahrain and Morocco are not). Morocco joined the type that day: it had
   // been shown as "Constitutional monarchy" beside the other three.
   const record = iso => countries.find(c => c.iso3 === iso);
-  for (const iso of ['SAU', 'OMN', 'QAT', 'ARE', 'BHR', 'JOR', 'KWT', 'MAR']) assert.equal(record(iso).systemType, 'absolute-monarchy', iso);
-  // The map names the monarch in each, or in Saudi Arabia the crown prince, who governs as prime minister.
-  for (const iso of ['OMN', 'QAT', 'ARE', 'BHR', 'JOR', 'KWT', 'MAR']) assert.equal(record(iso).executive.leader, 'headOfState', iso);
+  // Monaco and Liechtenstein joined it the same day, by the rule below (Jude, 13 November 2026).
+  for (const iso of ['SAU', 'OMN', 'QAT', 'ARE', 'BHR', 'JOR', 'KWT', 'MAR', 'MCO', 'LIE']) assert.equal(record(iso).systemType, 'absolute-monarchy', iso);
+  // The map names the monarch in each, or in Liechtenstein the regent, or in Saudi Arabia the crown prince, who governs
+  // as prime minister.
+  for (const iso of ['OMN', 'QAT', 'ARE', 'BHR', 'JOR', 'KWT', 'MAR', 'MCO']) assert.equal(record(iso).executive.leader, 'headOfState', iso);
   // The label is the page's; the data keeps the type's id, and the schema tells the research runs what it means.
   const app = readFileSync(new URL('../app.js', import.meta.url), 'utf8');
   assert.match(app, /'absolute-monarchy': \{ label: 'Ruling monarchy', family: 'auto' \}/);
   assert.doesNotMatch(app, /label: '[^']*[Aa]bsolute/, 'no label on the page says "absolute"');
   assert.match(schema.properties.systemType.description, /shown on the page as "Ruling monarchy"/);
+});
+
+test('a monarchy is a ruling monarchy where the map names its monarch or regent, and only there', () => {
+  // Jude, 13 November 2026, when Monaco and Liechtenstein became ruling monarchies: a parliamentary-monarchy must not
+  // name the head of state or a regent as executive.leader, and an absolute-monarchy must. Create mode refuses a record
+  // that breaks the rule (checkRecord), from the same list of named exceptions, each with its reason.
+  const breaks = c => {
+    const monarch = c.executive.leader === 'headOfState' || c.executive.leader === 'regent';
+    return (c.systemType === 'parliamentary-monarchy' && monarch) || (c.systemType === 'absolute-monarchy' && !monarch);
+  };
+  const broken = countries.filter(breaks).map(c => c.iso3);
+  assert.deepEqual(broken.filter(iso => !MONARCHY_RULE_EXCEPTIONS[iso]), [], 'records that break the rule');
+  // Each exception is a record that still breaks it, with its reason, so the list cannot outlive the need for it.
+  assert.deepEqual(Object.keys(MONARCHY_RULE_EXCEPTIONS).sort(), broken.filter(iso => MONARCHY_RULE_EXCEPTIONS[iso]).sort(), 'every named exception still breaks the rule');
+  for (const [iso, why] of Object.entries(MONARCHY_RULE_EXCEPTIONS)) assert.ok(why.length > 20, `${iso}: a reason`);
+  for (const iso of ['MCO', 'LIE']) assert.ok(!MONARCHY_RULE_EXCEPTIONS[iso] && !breaks(countries.find(c => c.iso3 === iso)), iso);
+  // The new class is not a fact in doubt: Monaco's facts are confirmed, so its profile shows no "Needs review" box.
+  assert.equal(countries.find(c => c.iso3 === 'MCO').reviewNote, undefined, 'Monaco has no reviewNote');
+  // The schema states the rule for the research runs, and names both countries among the ruling monarchies.
+  assert.match(schema.properties.systemType.description, /a monarchy is a ruling monarchy where executive\.leader names its monarch \(headOfState\) or regent/);
+  assert.match(schema.properties.systemType.description, /\(Saudi Arabia, [^)]*Monaco, Liechtenstein\)/);
 });
 
 test('every country has an upcoming election or a stated reason', () => {

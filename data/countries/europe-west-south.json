@@ -215,7 +215,7 @@
   },
   {
     "iso3": "LIE", "iso2": "li", "numeric": "438", "name": "Liechtenstein", "region": "Europe",
-    "system": "Constitutional monarchy with strong princely powers and direct democracy", "systemType": "parliamentary-monarchy", "status": "stable",
+    "system": "Hereditary principality under a written constitution, with strong princely powers exercised by the regent, an elected Landtag and direct democracy", "systemType": "absolute-monarchy", "status": "stable",
     "executive": {
       "leader": "regent",
       "headOfState": { "name": "Hans-Adam II", "title": "Prince", "since": "1989-11-13" },
@@ -233,11 +233,11 @@
     "policies": ["Economic stability and financial-sector regulation", "EEA relations"],
     "challenges": ["US tariffs on exports", "Housing costs"],
     "lastVerified": "2026-11-13",
-    "reviewNote": "The map names Hereditary Prince Alois (executive.leader \"regent\", Jude's decision of 12 November 2026): Prince Hans-Adam II appointed him his deputy under Article 13bis of the Constitution on 15 August 2004, and he has carried out the duties of head of state since then, as the Princely House of Liechtenstein's own website says on its page about Alois; its page about Hans-Adam II gives him as the reigning prince, so he remains head of state. When Alois succeeds, record him as head of state and drop the regent."
+    "reviewNote": "The map names Hereditary Prince Alois (executive.leader \"regent\", Jude's decision of 12 November 2026): Prince Hans-Adam II appointed him his deputy under Article 13bis of the Constitution on 15 August 2004, and he has carried out the duties of head of state since then, as the Princely House of Liechtenstein's own website says on its page about Alois; its page about Hans-Adam II gives him as the reigning prince, so he remains head of state. When Alois succeeds, record him as head of state and drop the regent. Classed as a ruling monarchy (systemType \"absolute-monarchy\", Jude's decision of 13 November 2026), by the rule that a monarchy is a ruling monarchy where the map names its monarch or regent as the leader; the written constitution, the elected Landtag and direct democracy remain."
   },
   {
     "iso3": "MCO", "iso2": "mc", "numeric": "492", "name": "Monaco", "region": "Europe",
-    "system": "Constitutional monarchy (principality)", "systemType": "parliamentary-monarchy", "status": "stable",
+    "system": "Hereditary principality under the 1962 constitution, in which the Prince holds executive power and governs through a Minister of State, with an elected National Council", "systemType": "absolute-monarchy", "status": "stable",
     "executive": {
       "leader": "headOfState",
       "headOfState": { "name": "Albert II", "title": "Sovereign Prince", "since": "2005" },
