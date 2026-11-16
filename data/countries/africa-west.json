@@ -172,18 +172,18 @@
         "note": "The PAICV won 37 of 72 seats and about 48% of the vote. The MpD won 33 seats (44.75%) and the UCID 2. This ended ten years of MpD government under Ulisses Correia e Silva. Abstention was about 53.5%. The National Electoral Commission announced the final results on 29 May 2026."
       },
       {
-        "name": "Presidential election (first round)",
+        "name": "Presidential election",
         "date": "2026-11-15",
-        "status": "upcoming",
-        "note": "Six candidates are running. They include President José Maria Neves, backed by the PAICV and seeking a second term, and former justice minister Joana Rosa, backed by the MpD."
+        "status": "held",
+        "note": "President José Maria Neves, backed by the PAICV, was re-elected in the first round with about 64% of the vote, on provisional results from the National Electoral Commission. Former justice minister Joana Rosa, backed by the MpD, took about 31%. Abstention was about 68%. No runoff is needed; the final results are still to be announced."
       },
       {
-        "name": "Presidential election (runoff, if needed)",
-        "date": "2026-11-29",
+        "name": "Presidential election",
+        "date": "2031",
         "status": "upcoming"
       }
     ],
-    "synopsis": "Cabo Verde is an island republic off West Africa with a long record of peaceful transfers of power between its two main parties, the PAICV and the MpD. The PAICV won a narrow absolute majority in the May 2026 parliamentary election, ending a decade of MpD government. Its leader, Francisco Carvalho, became prime minister in June 2026. President José Maria Neves of the PAICV is seeking re-election on 15 November 2026.",
+    "synopsis": "Cabo Verde is an island republic off West Africa with a long record of peaceful transfers of power between its two main parties, the PAICV and the MpD. The PAICV won a narrow absolute majority in the May 2026 parliamentary election, ending a decade of MpD government. Its leader, Francisco Carvalho, became prime minister in June 2026. President José Maria Neves of the PAICV won a second term in the first round on 15 November 2026, with about 64% of the vote on provisional results.",
     "policies": [
       "Free access to health care, public university and vocational training",
       "Creating jobs and opportunities for young people to reduce emigration",
@@ -198,7 +198,8 @@
       "Low voter turnout, with abstention above 50% in 2026",
       "Governing with a one-seat parliamentary majority"
     ],
-    "lastVerified": "2026-11-13"
+    "lastVerified": "2026-11-16",
+    "reviewNote": "Presidential election of 15 Nov 2026: Neves re-elected in the first round on provisional results (reports give 63.8% to 64%; Joana Rosa 31.4%; abstention about 68%). Not yet confirmed: the National Electoral Commission's final figures and the date of the inauguration."
   },
   {
     "iso3": "CIV",

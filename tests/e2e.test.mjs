@@ -50,7 +50,9 @@ test('page loads with all countries and no script errors', async () => {
   await open();
   const records = await loadRecords();
   const meta = await page.textContent('#updated');
-  assert.match(meta, /Updated \S+/);
+  assert.match(meta, /Reviewed \S+/);
+  assert.doesNotMatch(meta, /Updated/, 'the date is the last review, so the page says "Reviewed"');
+  assert.equal(await page.getAttribute('#updated span:first-child', 'title'), "Every country's record was checked on or after this day");
   assert.match(meta, new RegExp(`Coverage ${records.length} countries and territories`));
   assert.equal(await page.title(), 'Political Atlas · PRP');
   const active = await page.locator('path.country.active').count();

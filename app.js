@@ -144,7 +144,7 @@ async function loadData() {
   state.byName.set('kosovo', state.countries.get('XKX'));
   state.byName.set('n. cyprus', state.countries.get('CYP'));
   document.getElementById('updated').innerHTML =
-    `<span>Updated <b>${esc(formatDate(manifest.lastUpdated))}</b></span><span>Coverage <b>${state.countries.size} countries and territories</b></span>` +
+    `<span title="Every country's record was checked on or after this day">Reviewed <b>${esc(formatDate(manifest.lastUpdated))}</b></span><span>Coverage <b>${state.countries.size} countries and territories</b></span>` +
     '<span>Refresh <b>monthly, reviewed</b></span><span>Boundaries <b>Natural Earth</b></span>';
 }
 
