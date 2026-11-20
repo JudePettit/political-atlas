@@ -443,7 +443,7 @@
     "region": "Europe",
     "system": "Unitary parliamentary republic",
     "systemType": "parliamentary-republic",
-    "status": "in-flux",
+    "status": "stable",
     "executive": {
       "leader": "headOfGovernment",
       "headOfState": {
@@ -453,21 +453,19 @@
       },
       "headOfGovernment": {
         "name": "Andris Kulbergs",
-        "title": "Prime Minister (caretaker)",
+        "title": "Prime Minister",
         "party": "United List",
         "since": "2026-05-28"
       },
       "governingParties": [
         "United List",
-        "New Unity",
-        "National Alliance",
-        "Union of Greens and Farmers (caretaker cabinet only; no seats in the new Saeima)"
+        "National Alliance"
       ]
     },
     "legislature": [
       {
         "name": "Saeima (100)",
-        "control": "United List largest (41 seats); coalition talks under way",
+        "control": "United List–National Alliance coalition majority (51 of 100)",
         "detail": "15th Saeima (elected 3 Oct 2026): United List 41, Latvia First 17, Sovereign Power/Alliance of Young Latvians 15, National Alliance 10, Progressives 10, New Unity 7. Speaker: Edvards Smiltēns (United List), elected 3 Nov 2026."
       }
     ],
@@ -485,19 +483,18 @@
         "status": "upcoming"
       }
     ],
-    "synopsis": "Andris Kulbergs (United List) has led a four-party government since 28 May 2026, after Evika Siliņa resigned. His centre-right United List won the 3 October 2026 election with 41 of 100 seats; the government resigned when the new Saeima met on 3 November and stays on as caretaker, and on 4 November President Rinkēvičs nominated Kulbergs to form the next government, which he aims to present by 18 November.",
+    "synopsis": "Andris Kulbergs (United List) has led Latvia's government since 28 May 2026, after Evika Siliņa resigned. His centre-right United List won the 3 October 2026 election with 41 of 100 seats, and on 17 November the Saeima approved his second government, the 44th Cabinet of Ministers, by 57 votes to 34. It is a two-party coalition of the United List and the National Alliance, with 51 seats, and four of its ministries are led by non-party ministers.",
     "policies": [
       "Defence and border fortification",
       "Budget efficiency",
       "Energy independence"
     ],
     "challenges": [
-      "Coalition formation",
+      "A one-seat majority in the Saeima (51 of 100)",
       "Economic stagnation",
       "Russian-speaking minority integration"
     ],
-    "lastVerified": "2026-11-06",
-    "reviewNote": "Kulbergs leads a caretaker government and was nominated on 4 Nov 2026 to form the next one. As of 6 Nov its partners are not settled: he has held talks with the National Alliance, New Unity and other parties and has not ruled out a minority government. Update the title, governing parties and synopsis once the Saeima approves the new cabinet."
+    "lastVerified": "2026-11-20"
   },
   {
     "iso3": "LTU",
