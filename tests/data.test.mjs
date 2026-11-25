@@ -51,6 +51,18 @@ test('election dates are well formed and statuses match the calendar', () => {
   assert.deepEqual(problems, []);
 });
 
+// The page lists these entries under "Upcoming elections", so an inauguration or a swearing-in has no place among
+// them (Haiti's "Inauguration of elected president" was once shown there as if it were a vote).
+test('no inauguration or swearing-in is listed among the elections', () => {
+  const problems = [];
+  for (const c of countries) {
+    for (const e of c.elections) {
+      if (/inaugurat|swearing[- ]in|sworn in/i.test(e.name)) problems.push(`${c.iso3}: "${e.name}" is not a vote`);
+    }
+  }
+  assert.deepEqual(problems, []);
+});
+
 test('each country names the office that holds the most power', () => {
   const leader = iso => countries.find(c => c.iso3 === iso).executive.leader;
   // Where the president, party leader or ruling monarch directs the government, it is the head of state…
