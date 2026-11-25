@@ -333,7 +333,7 @@
         "name": "Presidential election",
         "date": "2026-12-05",
         "status": "upcoming",
-        "note": "The Independent Electoral Commission has cleared five candidates: incumbent Adama Barrow (NPP), who is seeking a third term; Ousainou Darboe (UDP); Talib Ahmed Bensouda (UNITE/Coalition 2026); independent Isatou Touray; and Modou Lamin Sima (Alliance of Progressive Citizens)."
+        "note": "When nominations closed on 14 November 2026, the Independent Electoral Commission accepted nine candidates and rejected seven. Ansu Sanneh (National Builders Party) later withdrew to join the UNITE-led Coalition 2026, and on 25 November 2026 the Commission published a notice of the withdrawal of Modou Lamin Sima (Alliance of Progressive Citizens); its calendar gives 26 November as the withdrawal deadline. The seven candidates the Commission lists are: incumbent Adama Barrow (NPP), who is seeking a third term; Ousainou Darboe (UDP); Talib Ahmed Bensouda (UNITE/Coalition 2026); Isatou Touray (independent); Lamin J. Darbo (independent); Almameh Gibba (independent); and Ebrima Tabora Manneh (People's Alliance Party). Campaigning runs from 16 November to 3 December 2026."
       },
       {
         "name": "National Assembly election",
@@ -354,7 +354,8 @@
       "Disagreement between the executive and the Bar Association over the appointment of the Chief Justice",
       "Youth unemployment and economic pressure"
     ],
-    "lastVerified": "2026-11-13"
+    "lastVerified": "2026-11-25",
+    "reviewNote": "Candidate list as shown on the IEC's own site on 25 Nov 2026, after its notices of Sanneh's withdrawal (19 Nov; also Askanwi, 21 Nov) and of Sima's withdrawal (25 Nov). Sima's withdrawal rests on the IEC notice alone: The Standard (25 Nov, morning) still listed him, and no independent report had been found; the notice's text, including any endorsement, was not read. Recheck the field after the 26 November withdrawal deadline."
   },
   {
     "iso3": "GHA",

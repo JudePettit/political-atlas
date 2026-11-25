@@ -154,7 +154,7 @@
       {
         "name": "Riksdag (349)",
         "control": "Opposition parties (S, V, C, MP) 176 vs outgoing Tidö parties (M, SD, KD, L) 173",
-        "detail": "S 99, M 70, SD 62, V 30, C 25, KD 22, MP 22, L 19. Speaker Andreas Norlén (M). On 15 Oct 2026 the Riksdag rejected Magdalena Andersson as PM of a Social Democrat-only government, 248 against and 99 in favour. This was the first of the four PM votes allowed before a snap election must be called. Government formation is continuing."
+        "detail": "S 99, M 70, SD 62, V 30, C 25, KD 22, MP 22, L 19. Speaker Andreas Norlén (M). On 15 Oct 2026 the Riksdag rejected Magdalena Andersson (S) as PM of a Social Democrat-only government, 248 against and 99 in favour, and on 3 Nov 2026 it rejected Elisabeth Thand Ringqvist (C), 324 against and 25 in favour. Two of the four PM votes allowed before a snap election must be called have now failed. On 24 Nov 2026 the Speaker proposed Ulf Kristersson (M) as PM of a Moderate, Centre, Christian Democrat and Liberal government; the Riksdag votes on 30 Nov 2026."
       }
     ],
     "judiciary": "Independent courts headed by the Supreme Court and the Supreme Administrative Court; the Council on Legislation reviews draft bills.",
@@ -169,10 +169,10 @@
         "name": "General election (Riksdag)",
         "date": "2030-09-08",
         "status": "upcoming",
-        "note": "Regular election, held on the second Sunday of September. A snap election would be called if four PM votes fail."
+        "note": "Regular election, held on the second Sunday of September. A snap election would be called if four PM votes fail; two have failed (15 Oct and 3 Nov 2026) and the third is set for 30 Nov 2026."
       }
     ],
-    "synopsis": "The opposition parties (Social Democrats, Left, Centre and Greens) narrowly won the September 2026 election with 176 of 349 seats. They disagree over which parties should sit in government, and on 15 October 2026 the Riksdag rejected Magdalena Andersson as prime minister of a Social Democrat-only government. Ulf Kristersson leads a caretaker government while the Speaker continues talks.",
+    "synopsis": "The opposition parties (Social Democrats, Left, Centre and Greens) narrowly won the September 2026 election with 176 of 349 seats. They disagree over which parties should sit in government: on 15 October 2026 the Riksdag rejected Magdalena Andersson as prime minister of a Social Democrat-only government, and on 3 November it rejected the Centre Party leader Elisabeth Thand Ringqvist. Ulf Kristersson leads a caretaker government, and on 24 November the Speaker proposed him as prime minister of a Moderate, Centre, Christian Democrat and Liberal government; the Riksdag votes on 30 November, while the Centre Party is divided over a government that would depend on the Sweden Democrats.",
     "policies": [
       "Caretaker government limited to routine business pending a new government",
       "Measures against gang crime (outgoing government's agenda)",
@@ -180,13 +180,13 @@
       "Stricter migration policy (outgoing government's agenda)"
     ],
     "challenges": [
-      "Government formation deadlock: one failed PM vote so far, and a snap election follows if four fail",
+      "Government formation deadlock: two failed PM votes so far, and a snap election follows if four fail",
       "Disputes among the opposition parties over whether the Centre or Left Party should be in government",
       "Gang violence",
       "Housing and economic slowdown"
     ],
-    "lastVerified": "2026-10-25",
-    "reviewNote": "Confirmed: election results, seat counts, Kristersson's caretaker status (still shown as of about 23 Oct 2026) and the 15 Oct PM vote (248–99 against Andersson). Corrected the earlier claim of 'four failed PM votes'; only one vote has been held. Not yet confirmed: who the Speaker gave the next formation mandate to after 15 Oct, and whether any further PM vote is scheduled. Check before the next update."
+    "lastVerified": "2026-11-25",
+    "reviewNote": "Confirmed: election results, seat counts, Kristersson's caretaker status and the PM votes of 15 Oct (248–99 against Andersson) and 3 Nov (324–25 against Thand Ringqvist, only the Centre Party voting yes) (Riksdag, 3 Nov). On 3 Nov the Speaker gave Ulf Kristersson the task of exploring whether a government the Riksdag will tolerate can be formed; on 17 Nov he gave an interim report and was given a further week, and on 24 Nov he gave his final report and the Speaker proposed him as PM of an M, C, KD and L government (Riksdag, 3, 17 and 24 Nov). The third PM vote is set for 30 Nov 2026 at 1 p.m.; a candidate is rejected only if more than half of all 349 members vote no. This is a nomination only: the Centre Party had taken no decision as of 25 Nov and faces internal opposition (The Local, 25 Nov). Executive, governing parties and Riksdag control stay as they are until the vote. Check the 30 Nov result before the next update."
   },
   {
     "iso3": "NOR",
@@ -352,9 +352,10 @@
         "status": "held"
       },
       {
-        "name": "Referendum on resuming EU accession talks (planned)",
-        "date": "2027",
-        "status": "upcoming"
+        "name": "Referendum on resuming EU accession talks",
+        "date": "2026-08-29",
+        "status": "held",
+        "note": "Rejected: No 118,047 (52.84%), Yes 105,338 (47.16%) of 223,385 valid votes; 897 blank and 749 invalid; turnout 82.6% (225,031 of 272,591 registered). Final count of the National Electoral Commission (Landskjörstjórn), announced on 2026-09-22."
       },
       {
         "name": "Parliamentary election",
@@ -362,10 +363,10 @@
         "status": "upcoming"
       }
     ],
-    "synopsis": "A coalition led by women party leaders is focused on stabilising the economy and plans a referendum on reopening EU accession talks.",
+    "synopsis": "A coalition led by women party leaders is focused on stabilising the economy; voters narrowly rejected resuming EU accession talks in a referendum on 29 August 2026, and the Prime Minister has said the question is off the agenda for the rest of her term.",
     "policies": [
       "Inflation and interest-rate reduction",
-      "Possible EU referendum",
+      "EU accession talks shelved after the 2026 referendum",
       "Fisheries fee reform"
     ],
     "challenges": [
@@ -373,7 +374,8 @@
       "Volcanic activity on Reykjanes",
       "Housing"
     ],
-    "lastVerified": "2026-10-25"
+    "lastVerified": "2026-11-25",
+    "reviewNote": "Referendum figures are the final count in the National Electoral Commission's report signed on 22 Sep 2026; Euronews and ABC (30 Aug 2026) report the same No win. The vote was advisory, but the government pledged to abide by it, and it said parliament, not the cabinet, would decide whether to formally withdraw the membership application (Euronews). No withdrawal had been reported in the sources read on 25 Nov 2026."
   },
   {
     "iso3": "EST",

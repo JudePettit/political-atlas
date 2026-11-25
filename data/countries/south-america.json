@@ -620,13 +620,25 @@
         "note": "Keiko Fujimori won with 50.135% of valid votes to 49.865% for Roberto Sánchez, a margin of about 50,000 votes. The National Elections Board (JNE) proclaimed her president-elect on 3 July 2026."
       },
       {
+        "name": "Regional and municipal elections (regional governors and councils, provincial and district mayors and councils)",
+        "date": "2026-10-04",
+        "status": "held",
+        "note": "Nationwide local elections for the 2027–2030 term. Turnout was 74.5% in the regional vote and 75.3% in the municipal vote (ONPE final count, completed 23 November 2026). Governors and vice-governors were elected outright in 10 of the 25 regions (Callao, Ica, San Martín, Huánuco, Ucayali, Huancavelica, Ayacucho, Apurímac, Cusco and Madre de Dios); in the other 15 no ticket reached the 30% of valid votes the law requires, so they go to a second round on 6 December. In Lima Metropolitana, Popular Renewal won with 27.685% of valid votes, ahead of Avanza País (26.811%), Somos Perú (15.088%) and Podemos Perú (8.023%), and holds 21 of the 39 seats on the metropolitan council. On 25 November 2026 the Lima Centro special electoral jury (JEE) proclaimed Jeanette Alonzo (Popular Renewal) mayor-elect of Lima; Rafael López Aliaga, who headed the list, was proclaimed first councillor, being barred from the mayoralty under the JNE's ruling against the re-election of mayors who served in 2023–2026. Popular Renewal is preparing a further legal challenge."
+      },
+      {
+        "name": "Second regional election (governor and vice-governor runoff in 15 regions)",
+        "date": "2026-12-06",
+        "status": "upcoming",
+        "note": "Convened by Supreme Decree No. 150-2026-PCM (published 11 November 2026), signed by President Keiko Fujimori and Prime Minister Luis Galarreta, in the 15 regions where no ticket won 30% of valid votes on 4 October: Amazonas, Áncash, Arequipa, Cajamarca, Junín, La Libertad, Lambayeque, Lima Provinces, Loreto, Moquegua, Pasco, Piura, Puno, Tacna and Tumbes. Popular Force is in one runoff (Lambayeque, against Somos Perú)."
+      },
+      {
         "name": "General election (president and Congress)",
         "date": "2031",
         "status": "upcoming",
         "note": "Due by law at the end of the five-year term."
       }
     ],
-    "synopsis": "Keiko Fujimori, leader of the conservative Popular Force, became president on 28 July 2026 after narrowly beating leftist Roberto Sánchez in the runoff. She is Peru's ninth president in a decade. The 2026 election also restored a two-chamber Congress, in which her party is the largest group but has no majority of its own.",
+    "synopsis": "Keiko Fujimori, leader of the conservative Popular Force, became president on 28 July 2026 after narrowly beating leftist Roberto Sánchez in the runoff. She is Peru's ninth president in a decade. The 2026 election also restored a two-chamber Congress, in which her party is the largest group but has no majority of its own. In the regional and municipal elections of 4 October 2026, Popular Renewal won the Lima mayoralty, and 15 regions hold governor runoffs on 6 December.",
     "policies": [
       "A tough approach to crime and extortion, including a larger role for the armed forces in emergency zones",
       "Promoting economic growth and investment, with economist Elmer Cuba as economy minister",
@@ -640,8 +652,8 @@
       "A Congress where the government has no majority of its own",
       "Falling public approval: in October 2026 Ipsos found 49% disapproval and 40% approval, down from 57% approval in August"
     ],
-    "lastVerified": "2026-11-13",
-    "reviewNote": "Not confirmed: whether Luis Galarreta is still President of the Council of Ministers (prime minister) in November 2026; La República reported on 27 October 2026 that the President was considering replacing him. Seat counts are the 2026 election results and do not reflect later changes in parliamentary groups."
+    "lastVerified": "2026-11-25",
+    "reviewNote": "Luis Galarreta was still President of the Council of Ministers (prime minister) on 11 November 2026, when he co-signed the decree calling the second regional election (JNE, 11 Nov), after La República reported on 27 October 2026 that the President was considering replacing him; not confirmed for 12–25 November. The Lima mayor-elect was proclaimed on 25 November and Popular Renewal is preparing a further legal challenge (El Comercio). Seat counts are the 2026 election results and do not reflect later changes in parliamentary groups."
   },
   {
     "iso3": "PRY",

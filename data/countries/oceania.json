@@ -101,7 +101,7 @@
       {
         "name": "Parliament of Fiji",
         "control": "People's Coalition Government (People's Alliance, National Federation Party, SODELPA)",
-        "detail": "55 seats, two of them vacant since two MPs died in September 2026, leaving 53 sitting members; a constitutional amendment needs at least 36 votes. 2022 election: FijiFirst 26, People's Alliance 21, National Federation Party 5, SODELPA 3. FijiFirst was deregistered in 2024, and ten former FijiFirst MPs led by Opposition Leader Inia Seruiratu formed the People First Party (registered January 2026). Current seats include People's Alliance 21, People First 10, NFP 4, SODELPA 3."
+        "detail": "55 seats, three of them vacant after two MPs died in September 2026 and People's Alliance MP Jovesa Vocea died on 18 November 2026, leaving 52 sitting members; a constitutional amendment needs at least 36 votes. 2022 election: FijiFirst 26, People's Alliance 21, National Federation Party 5, SODELPA 3. FijiFirst was deregistered in 2024, and ten former FijiFirst MPs led by Opposition Leader Inia Seruiratu formed the People First Party (registered January 2026). Current seats include People's Alliance 20, People First 10, NFP 4, SODELPA 3."
       }
     ],
     "judiciary": "The Supreme Court is the top court, above the Court of Appeal and the High Court. A Supreme Court advisory opinion recognised the 2013 Constitution as legally effective but lowered the supermajorities needed to amend it. This opened the way for the government's 2026 constitutional rewrite, and in October 2026 the High Court refused to halt the referendum process.",
@@ -114,18 +114,18 @@
       },
       {
         "name": "Constitutional referendum",
-        "date": "2026-12-09",
+        "date": "2027",
         "status": "upcoming",
-        "note": "Provisionally scheduled vote on a new constitution to replace the 2013 Constitution. It depends on the Constitution (Amendment) Bill 2026 passing its third reading in Parliament. The bill passed its second reading on 2 October 2026 (38 for, 5 against, 9 abstaining). The special committee's report was put back to 30 November, and the third-reading vote is expected in the first days of December."
+        "note": "Vote on a new constitution to replace the 2013 Constitution. It depends on the Constitution (Amendment) Bill 2026 passing its third reading in Parliament with a two-thirds majority; the bill passed its second reading on 2 October 2026 (38 for, 5 against, 9 abstaining). On 25 November 2026 the Supervisor of Elections, Ana Mataiciwa, said the third and final vote was due the following week and that, if the bill passes, the referendum will be held on the same day as the general election. The special committee chair, Viliame Gavoka, said on 22 November that both would take place in the latter part of January if the third reading succeeds. No polling date has been set."
       },
       {
         "name": "General election",
         "date": "2027",
         "status": "upcoming",
-        "note": "All 55 seats. Must be held no later than 6 February 2027. No date had been announced as of early November 2026."
+        "note": "All 55 seats. The last date to issue the writ of elections is 24 December 2026 and the last date to hold the election is 6 February 2027. As of 25 November 2026 no polling date had been set: the Fijian Elections Office was awaiting the President's issue of the writ to the Electoral Commission, and was preparing to hold the constitutional referendum on the same day if the constitution bill passes."
       }
     ],
-    "synopsis": "Fiji is a parliamentary republic governed since December 2022 by a three-party coalition led by Prime Minister Sitiveni Rabuka of the People's Alliance, which ended 16 years of FijiFirst government under Frank Bainimarama. The government is pursuing a rewrite of the 2013 Constitution through Fiji's first national referendum, which is planned ahead of a general election due by February 2027.",
+    "synopsis": "Fiji is a parliamentary republic governed since December 2022 by a three-party coalition led by Prime Minister Sitiveni Rabuka of the People's Alliance, which ended 16 years of FijiFirst government under Frank Bainimarama. The government is pursuing a rewrite of the 2013 Constitution through Fiji's first national referendum, which, if Parliament passes the constitution bill, is to be held on the same day as the general election due by 6 February 2027.",
     "policies": [
       "Replacing the 2013 Constitution through a constitutional amendment bill and a national referendum",
       "Restoring media freedom, including repeal of the Media Industry Development Act",
@@ -138,8 +138,8 @@
       "Criticism from the opposition and civil society groups that constitutional reform so close to the election deadline puts a timely vote at risk",
       "A political landscape reshaped by the collapse of FijiFirst and a record number of registered parties"
     ],
-    "lastVerified": "2026-11-13",
-    "reviewNote": "No general election date had been announced as of 13 November 2026; the election must be held by 6 February 2027, and the Prime Minister has spoken of a window from 24 December 2026 to early February 2027. The 9 December 2026 referendum is provisional and depends on the bill's third reading in early December, which RNZ reported the government may lack the votes to pass. People First's current seat count (10) and the party affiliations of the two MPs who died in September 2026 were not confirmed in a second source."
+    "lastVerified": "2026-11-25",
+    "reviewNote": "No polling date for the general election had been set as of 25 November 2026; the election must be held by 6 February 2027, and the 24 December 2026 deadline for the writ is reported by Fijivillage alone (25 Nov). The referendum's 9 December date has gone: if the constitution bill passes its third reading, due the week after 25 November, the referendum is to be held with the general election (Fijivillage, FBC and Fiji Times, 25 Nov); Viliame Gavoka's timing of late January rests on one report (FBC, 22 Nov). A State of National Disaster had been declared by 25 November, and the Elections Office said preparations were unaffected; its cause was not confirmed. Jovesa Vocea's death on 18 November 2026 is reported by the Fiji Times and FBC. Not confirmed, because Parliament's own site refused automated requests on 25 November: that his seat remains vacant, the current party counts (including People's Alliance 20 and People First 10), the party affiliations of the two MPs who died in September 2026, and whether the 36-vote threshold changes with the vacancies."
   },
   {
     "iso3": "KIR",

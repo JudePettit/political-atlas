@@ -17,10 +17,10 @@
       { "name": "Presidential election", "date": "2025-06-01", "status": "held" },
       { "name": "Parliamentary election", "date": "2027-10", "status": "upcoming" }
     ],
-    "synopsis": "Tusk's pro-EU coalition faces a hostile, veto-wielding president, slowing judicial and social reforms. Defence spending is the highest in NATO relative to GDP.",
+    "synopsis": "Tusk's pro-EU coalition faces a hostile, veto-wielding president, slowing judicial and social reforms. On 17 November 2026 the Sejm rejected a constructive motion of no confidence in Tusk's government, which named Marek Jurek as prime minister, by 242 votes to 200. Defence spending is the highest in NATO relative to GDP.",
     "policies": ["Defence spending near 5% of GDP", "Restoring rule of law in the judiciary", "Tighter migration and asylum suspension at Belarus border"],
     "challenges": ["Cohabitation and presidential vetoes", "Deficit", "PiS and Confederation strength ahead of 2027"],
-    "lastVerified": "2026-10-25"
+    "lastVerified": "2026-11-25"
   },
   {
     "iso3": "CZE", "iso2": "cz", "numeric": "203", "name": "Czechia", "region": "Europe",
@@ -55,16 +55,16 @@
       "headOfGovernment": { "name": "Robert Fico", "title": "Prime Minister", "party": "Smer–SD", "since": "2023-10-25" },
       "governingParties": ["Smer–SD", "Hlas–SD", "Slovak National Party"]
     },
-    "legislature": [{ "name": "National Council (150)", "control": "Fragile governing majority" }],
+    "legislature": [{ "name": "National Council (150)", "control": "Governing coalition without a reliable majority", "detail": "Since independent MP Roman Malatinec joined former environment minister Tomáš Taraba's group on 3 November 2026, the Smer–SD, Hlas–SD and Slovak National Party coalition can rely on 75 of the 150 votes, one short of a majority." }],
     "judiciary": "Constitutional Court; criminal-code and prosecutor reforms criticised by the EU.",
     "elections": [
       { "name": "Parliamentary election", "date": "2023-09-30", "status": "held" },
       { "name": "Parliamentary election", "date": "2027-09", "status": "upcoming" }
     ],
-    "synopsis": "Fico's nationalist-left government has softened anti-corruption institutions and pursued a Russia-friendly line within the EU, sparking mass protests.",
+    "synopsis": "Fico's nationalist-left government has softened anti-corruption institutions and pursued a Russia-friendly line within the EU, sparking mass protests. The coalition lost its reliable majority in November 2026 and can now count on 75 of 150 votes; the regular election is due in 2027, and the opposition demands an early one.",
     "policies": ["Opposition to military aid for Ukraine", "Fiscal consolidation package", "Constitutional amendment on 'two sexes' and national sovereignty"],
-    "challenges": ["Large protests", "EU rule-of-law disputes", "High deficit"],
-    "lastVerified": "2026-10-25"
+    "challenges": ["Large protests", "EU rule-of-law disputes", "High deficit", "No reliable parliamentary majority (75 of 150 votes)"],
+    "lastVerified": "2026-11-25"
   },
   {
     "iso3": "HUN", "iso2": "hu", "numeric": "348", "name": "Hungary", "region": "Europe",

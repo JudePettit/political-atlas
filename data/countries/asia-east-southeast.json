@@ -88,9 +88,10 @@
     "executive": {
       "leader": "headOfGovernment",
       "headOfState": {
-        "name": "Ukhnaagiin Khurelsukh",
-        "title": "President",
-        "since": "2021-06-25"
+        "name": "Sandagiin Byambatsogt",
+        "title": "Acting President (Chairman of the State Great Khural; Khurelsukh relieved of office 19 Nov 2026)",
+        "party": "Mongolian People's Party",
+        "since": "2026-11-19"
       },
       "headOfGovernment": {
         "name": "Nyam-Osoryn Uchral",
@@ -108,7 +109,7 @@
       {
         "name": "State Great Khural",
         "control": "Mongolian People's Party majority, governing in coalition with the HUN Party and the National Coalition",
-        "detail": "126 seats (2024 election): Mongolian People's Party 68, Democratic Party 42, HUN Party 8, Civil Will-Green Party 4, National Coalition 4. Speaker: Sandagiin Byambatsogt (MPP), since 3 April 2026"
+        "detail": "126 seats (2024 election): Mongolian People's Party 68, Democratic Party 42, HUN Party 8, Civil Will-Green Party 4, National Coalition 4. Speaker: Sandagiin Byambatsogt (MPP), since 3 April 2026; on 19 November 2026 it relieved President Khurelsukh of office at his own request, with 96 of the 104 members taking part (92.3%) in favour; the Speaker exercises the president's powers until a new president is elected and sworn in"
       }
     ],
     "judiciary": "The Constitutional Court (Tsets) rules on constitutional questions, and the Supreme Court heads the ordinary courts. In October 2025 the Constitutional Court upheld the president's veto and ruled unconstitutional the parliamentary resolution dismissing Prime Minister Zandanshatar.",
@@ -120,10 +121,10 @@
         "note": "Mongolian People's Party kept its majority with 68 of 126 seats; Democratic Party 42, HUN Party 8, Civil Will-Green Party 4, National Coalition 4. First election to the parliament enlarged to 126 seats under a mixed electoral system."
       },
       {
-        "name": "Presidential election",
-        "date": "2027-06",
+        "name": "Early presidential election",
+        "date": "2027",
         "status": "upcoming",
-        "note": "By law the election is normally held in June. The exact date has not yet been set. President Khurelsukh cannot run again because the presidency is limited to a single six-year term."
+        "note": "Brought forward by President Khurelsukh's resignation on 19 November 2026; the regular election had been due in summer 2027. By law it must be held within four months of the vacancy. The date had not been announced as of 25 November 2026; UBN reports that it is expected to be set by 20 December. Khurelsukh cannot stand again because the presidency is limited to a single six-year term."
       },
       {
         "name": "Parliamentary election (State Great Khural)",
@@ -132,7 +133,7 @@
         "note": "Due at the end of the four-year term."
       }
     ],
-    "synopsis": "Mongolia is a multiparty democracy in which the Mongolian People's Party (MPP) holds a parliamentary majority. Since mid-2025 the country has had three prime ministers, driven by factional disputes within the MPP. These included a constitutional crisis in October 2025, when parliament's vote to dismiss Prime Minister Zandanshatar was vetoed by the president and ruled unconstitutional. MPP chairman Nyam-Osoryn Uchral became prime minister in March 2026 after Zandanshatar resigned. He leads a coalition of the MPP, the HUN Party and the National Coalition, with the Democratic Party in opposition.",
+    "synopsis": "Mongolia is a multiparty democracy in which the Mongolian People's Party (MPP) holds a parliamentary majority. Since mid-2025 the country has had three prime ministers, driven by factional disputes within the MPP. These included a constitutional crisis in October 2025, when parliament's vote to dismiss Prime Minister Zandanshatar was vetoed by the president and ruled unconstitutional. MPP chairman Nyam-Osoryn Uchral became prime minister in March 2026 after Zandanshatar resigned. He leads a coalition of the MPP, the HUN Party and the National Coalition, with the Democratic Party in opposition. In November 2026 President Ukhnaagiin Khurelsukh resigned after the Democratic Party accused him of links to graft and threatened impeachment; he denies wrongdoing. Parliament accepted the resignation on 19 November, and Speaker Sandagiin Byambatsogt exercises the president's powers until an early presidential election, which must be held within four months.",
     "policies": [
       "A 2026-2030 five-year development plan focused on economic growth and diversification",
       "Market-oriented economic reform, with the government stressing policy continuity and stability",
@@ -144,9 +145,10 @@
       "Heavy economic dependence on mining exports, mostly to China",
       "Public frustration over corruption, including the coal theft scandal",
       "Stability of the financial sector, including a reported capital shortfall at the Bank of Mongolia",
-      "Political competition ahead of the 2027 presidential election"
+      "An early presidential election, due by March 2027, after the president's resignation over corruption allegations"
     ],
-    "lastVerified": "2026-11-13"
+    "lastVerified": "2026-11-25",
+    "reviewNote": "President Khurelsukh was relieved of office on 19 Nov 2026 and Speaker Byambatsogt exercises the president's powers (AP, AFP, Kazinform, Ikon.mn, UBN); president.mn and parliament.mn could not be read. The 104 votes cast are the members taking part, not the 126-seat total. Map leader stays the Prime Minister: the government is unchanged and the acting presidency lasts only until the early election. Not yet confirmed: the election date (UBN alone says it is expected by 20 December) and any party's candidate."
   },
   {
     "iso3": "PRK",
@@ -456,7 +458,7 @@
     "legislature": [
       {
         "name": "People's Consultative Assembly (MPR)",
-        "control": "Joint sitting of all DPR and DPD members; Speaker Ahmad Muzani (Gerindra). It must elect a new vice-president from two candidates nominated by the president.",
+        "control": "Joint sitting of all DPR and DPD members; Speaker Ahmad Muzani (Gerindra). On 2026-12-11 it is due to elect a new vice-president from the two candidates President Prabowo nominated on 2026-11-23, Sugiono and Andi Amran Sulaiman.",
         "detail": "732 members: 580 DPR and 152 DPD"
       },
       {
@@ -480,9 +482,9 @@
       },
       {
         "name": "MPR election of a new vice-president",
-        "date": "2026-12-02",
+        "date": "2026-12-11",
         "status": "upcoming",
-        "note": "This is an indirect vote, not a popular election. The MPR will choose one of two candidates nominated by President Prabowo to fill the vacancy left by Gibran's resignation on 12 November 2026."
+        "note": "This is an indirect vote, not a popular election. On 2026-11-23 President Prabowo submitted two candidates to MPR Speaker Ahmad Muzani: Sugiono, Coordinating Minister for Human Development and Culture, and Andi Amran Sulaiman, Minister of Agriculture. The MPR will choose one of them at a plenary session on 2026-12-11 to fill the vacancy left by Gibran's resignation on 12 November 2026. That person will serve the rest of the 2024–2029 term."
       },
       {
         "name": "General election (presidential, DPR and DPD)",
@@ -491,7 +493,7 @@
         "note": "The exact date has not been set. The winner will be sworn in on 2029-10-20. Under a 2025 Constitutional Court ruling, local elections will be held separately, two to two and a half years later."
       }
     ],
-    "synopsis": "President Prabowo Subianto (Gerindra) took office in October 2024 and governs through a broad coalition that holds a large majority in the DPR. PDI-P is the main party outside the government. In late 2026 his alliance with former president Joko Widodo came under strain. A wiretapping scandal led to the arrest of his chief of staff, and Widodo's son, Vice-President Gibran Rakabuming Raka, resigned on 12 November 2026 after court rulings on his eligibility. The MPR is due to elect a replacement on 2 December.",
+    "synopsis": "President Prabowo Subianto (Gerindra) took office in October 2024 and governs through a broad coalition that holds a large majority in the DPR. PDI-P is the main party outside the government. In late 2026 his alliance with former president Joko Widodo came under strain. A wiretapping scandal led to the arrest of his chief of staff, and Widodo's son, Vice-President Gibran Rakabuming Raka, resigned on 12 November 2026 after court rulings on his eligibility. On 23 November Prabowo nominated two candidates, Coordinating Minister Sugiono and Agriculture Minister Andi Amran Sulaiman, and the MPR is due to elect one of them on 11 December.",
     "policies": [
       "Free nutritious meals programme for schoolchildren",
       "Downstreaming (domestic processing of natural resources) and energy transition",
@@ -506,8 +508,8 @@
       "Student-led protests over spending priorities and the military's expanded role in civilian affairs",
       "Growing rift between Prabowo and former president Joko Widodo"
     ],
-    "lastVerified": "2026-11-13",
-    "reviewNote": "I could not confirm whether NasDem and PKS hold cabinet posts in November 2026, so they are not in governingParties. One source describes them as giving the government confidence and supply."
+    "lastVerified": "2026-11-25",
+    "reviewNote": "I could not confirm whether NasDem and PKS hold cabinet posts in November 2026, so they are not in governingParties. One source describes them as giving the government confidence and supply. The MPR first set the vice-presidential vote for 9 December 2026 and moved it to 11 December as a precaution, because members disagreed over whether the 14-day nomination period counts calendar or working days (MPR, 23 Nov 2026). The candidates' verification was set for 25–26 November."
   },
   {
     "iso3": "LAO",
@@ -625,13 +627,25 @@
         "note": "Hung parliament. Pakatan Harapan won 82 seats, Perikatan Nasional 74, Barisan Nasional 30, Gabungan Parti Sarawak 23, Gabungan Rakyat Sabah 6 and Warisan 3. Anwar Ibrahim formed a unity government."
       },
       {
+        "name": "Melaka state election (16th)",
+        "date": "2026-11-14",
+        "status": "held",
+        "note": "State election for the 28-seat Melaka assembly. The Barisan Nasional–Perikatan Nasional alliance won 24 seats, more than the 19 needed for a two-thirds majority: BN 21 (UMNO 18, MCA 2, MIC 1) and PN 3 (PAS 2, Wawasan 1). Pakatan Harapan won 4, all of them DAP seats; Bersatu and Parti Bersama Malaysia won none. PH conceded."
+      },
+      {
+        "name": "Sarawak state election (13th)",
+        "date": "2026-12-12",
+        "status": "upcoming",
+        "note": "All 82 seats of the Sarawak Legislative Assembly, dissolved on 26 October 2026; 2,058,781 registered voters. The Election Commission set nomination for 28 November and early voting for 8 December. At the previous election, on 18 December 2021, Gabungan Parti Sarawak won 76 of 82 seats."
+      },
+      {
         "name": "General election (16th)",
         "date": "2028",
         "status": "upcoming",
         "note": "Not yet called. It must be held by February 2028; if Parliament runs its full term, the latest possible polling date is 17 February 2028."
       }
     ],
-    "synopsis": "Prime Minister Anwar Ibrahim has led a multi-coalition unity government since the hung parliament of November 2022. In October 2026 it gained more backing through a confidence-and-supply agreement with Bersatu president Muhyiddin Yassin and several other MPs. The coalition has been strained by the November 2026 move of former prime minister Najib Razak to house arrest, which led DAP secretary-general Anthony Loke to resign as Transport Minister; as of 13 November Anwar had not yet accepted the resignation. There is also open speculation about an early general election and a Malacca state election on 14 November 2026.",
+    "synopsis": "Prime Minister Anwar Ibrahim has led a multi-coalition unity government since the hung parliament of November 2022. In October 2026 it gained more backing through a confidence-and-supply agreement with Bersatu president Muhyiddin Yassin and several other MPs. The coalition has been strained by the November 2026 move of former prime minister Najib Razak to house arrest, which led DAP secretary-general Anthony Loke to resign as Transport Minister; as of 13 November Anwar had not yet accepted the resignation. There is also open speculation about an early general election. At the Melaka state election on 14 November 2026 the Barisan Nasional–Perikatan Nasional alliance won 24 of 28 seats (BN 21, PN 3) and Pakatan Harapan 4, a setback for Anwar's coalition; Sarawak votes on 12 December.",
     "policies": [
       "MADANI governance framework and Budget 2027",
       "Attracting high-tech and semiconductor investment",
@@ -641,11 +655,11 @@
     "challenges": [
       "Tension between DAP and UMNO in the coalition over Najib Razak's house arrest, and Anthony Loke's resignation as Transport Minister",
       "Speculation about an early general election, and Barisan Nasional saying it will leave the unity government once Parliament is dissolved",
-      "A run of state elections in 2026 (Johor in July, Malacca in November) testing support for the governing parties",
+      "A run of state elections in 2026 testing support for the governing parties: Johor in July; Melaka on 14 November, where Barisan Nasional, a federal partner, ran alongside the opposition Perikatan Nasional against Pakatan Harapan and won 24 of 28 seats; and Sarawak on 12 December",
       "Taiwan suspending bilateral investment talks after Anwar's remarks on China"
     ],
-    "lastVerified": "2026-11-13",
-    "reviewNote": "Not re-checked in this session: the party seat counts from the 2022 general election, and the current party breakdown of the Dewan Negara. Warisan's 3 MPs are counted in the government bloc in the Dewan Rakyat, but Warisan is not listed in governingParties because it is not confirmed to hold cabinet posts."
+    "lastVerified": "2026-11-25",
+    "reviewNote": "Melaka result from the Election Commission's official count as reported by Free Malaysia Today and Malay Mail (14 Nov 2026); Ab Rauf Yusoh's swearing-in for a second term as Chief Minister rests on one source (FMT, 15 Nov) and is left out. Not checked: the 2026 Negeri Sembilan state polls that FMT's archive mentions. Not re-checked in this session: the party seat counts from the 2022 general election, and the current party breakdown of the Dewan Negara. Warisan's 3 MPs are counted in the government bloc in the Dewan Rakyat, but Warisan is not listed in governingParties because it is not confirmed to hold cabinet posts."
   },
   {
     "iso3": "MMR",

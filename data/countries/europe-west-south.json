@@ -66,12 +66,12 @@
     "elections": [
       { "name": "Snap legislative election", "date": "2024-07-07", "status": "held" },
       { "name": "Municipal elections", "date": "2026-03", "status": "held" },
-      { "name": "Presidential election (1st round)", "date": "2027-04", "status": "upcoming", "note": "Macron is term-limited; Marine Le Pen barred pending appeal, Jordan Bardella RN's likely candidate." }
+      { "name": "Presidential election (1st round)", "date": "2027-04", "status": "upcoming", "note": "Macron is term-limited. On 7 July 2026 the Paris Court of Appeal upheld Marine Le Pen's embezzlement conviction but cut her ineligibility to 45 months, two-thirds suspended, clearing her to run; she is the National Rally's candidate (campaign launched 8 July 2026) while appealing to the Court of Cassation. Jordan Bardella, RN president, backs her." }
     ],
     "synopsis": "France has cycled through prime ministers since the 2024 snap election produced a hung parliament. Budget consolidation and the 2027 presidential succession dominate.",
     "policies": ["Deficit reduction through difficult budgets", "Pension reform (partially suspended as a concession)", "European defence and support for Ukraine"],
     "challenges": ["Government instability and no-confidence threats", "High deficit and debt; rating downgrades", "Rise of the National Rally"],
-    "lastVerified": "2026-10-25",
+    "lastVerified": "2026-11-25",
     "reviewNote": "Prime minister status not verified for 2026 — confirm."
   },
   {
@@ -91,13 +91,14 @@
     "elections": [
       { "name": "Federal election", "date": "2025-02-23", "status": "held" },
       { "name": "State elections (BW, RP, ST, MV, Berlin)", "date": "2026-09-20", "status": "held", "note": "Five state elections across 2026 (March–September)." },
-      { "name": "Federal Convention (presidential election)", "date": "2027-02", "status": "upcoming" },
+      { "name": "Federal Convention (presidential election)", "date": "2027-01-30", "status": "upcoming", "note": "18th Federal Convention, Reichstag building, Berlin; the date was set on 26 February 2026 by the President of the Bundestag, Julia Klöckner. Ilse Aigner (CSU), President of the Bavarian Landtag, is the candidate of the CDU and CSU and is backed by the SPD and the Greens. AfD candidate: Thomas Berthold, former footballer, not a party member (announced 14 November 2026)." },
       { "name": "Federal election", "date": "2029", "status": "upcoming" }
     ],
     "synopsis": "Merz leads a grand coalition with the SPD after loosening the debt brake for defence and infrastructure. The government is trying to revive a stagnant economy while the AfD polls strongly.",
     "policies": ["€500bn infrastructure fund and exemption of defence from the debt brake", "Tighter migration and border controls", "Military expansion and new military service model", "Economic competitiveness and bureaucracy reduction"],
     "challenges": ["Economic stagnation and industrial decline", "AfD strength, especially in the east", "Coalition friction on welfare and pensions"],
-    "lastVerified": "2026-10-25"
+    "lastVerified": "2026-11-25",
+    "reviewNote": "Federal Convention date from the Bundestag's press release of 26 Feb 2026. Candidates from ZDF (13 Nov 2026) and ran.de (14 Nov 2026): the Union nominated Ilse Aigner, with the SPD and the Greens backing her; the AfD named Thomas Berthold, who runs as a non-party candidate. The date of Aigner's nomination was not confirmed."
   },
   {
     "iso3": "NLD", "iso2": "nl", "numeric": "528", "name": "Netherlands", "region": "Europe",
@@ -141,10 +142,10 @@
       { "name": "Federal, regional & EU elections", "date": "2024-06-09", "status": "held" },
       { "name": "Federal election", "date": "2029-06", "status": "upcoming" }
     ],
-    "synopsis": "Flemish nationalist De Wever leads a five-party centre-right coalition focused on budget repair and labour-market reform.",
+    "synopsis": "Flemish nationalist De Wever leads a five-party centre-right coalition that is deadlocked over the multi-year budget. He offered his resignation on 2 November 2026 after the talks failed; the King refused it on 6 November and sent the coalition back to negotiate, and on 23 November no decisive progress had been made.",
     "policies": ["Pension and unemployment-benefit reform", "Budget consolidation", "Raising defence spending", "Stricter migration"],
-    "challenges": ["Union strikes against reforms", "Deficit above EU limits", "Brussels governance deadlock"],
-    "lastVerified": "2026-10-25"
+    "challenges": ["Coalition deadlock over the multi-year budget", "Union strikes against reforms", "Deficit above EU limits", "Brussels governance deadlock"],
+    "lastVerified": "2026-11-25"
   },
   {
     "iso3": "LUX", "iso2": "lu", "numeric": "442", "name": "Luxembourg", "region": "Europe",
@@ -206,12 +207,13 @@
     "judiciary": "Federal Supreme Court (no review of federal laws' constitutionality).",
     "elections": [
       { "name": "Federal election", "date": "2023-10-22", "status": "held" },
+      { "name": "Federal Council by-election (successor to Guy Parmelin) and election of the President and Vice-President of the Confederation for 2027, by the United Federal Assembly", "date": "2026-12-09", "status": "upcoming", "note": "Parmelin announced on 2 October 2026 that he will leave the Federal Council at the end of December 2026. The SVP group's official ticket, named in November 2026, is Thomas Aeschi (Zug) and Michael Graber (Valais); the FDP and the Centre back the SVP's claim to the seat, and the Greens are running Delphine Klopfenstein Broggini (Geneva) against the ticket." },
       { "name": "Federal election", "date": "2027-10-24", "status": "upcoming" }
     ],
-    "synopsis": "Switzerland's consensus 'magic formula' government shares power among the four largest parties. Debate centres on the new EU bilateral package and US tariffs.",
+    "synopsis": "Switzerland's consensus 'magic formula' government shares power among the four largest parties. Debate centres on the new EU bilateral package and US tariffs. Guy Parmelin (SVP), President of the Confederation for 2026, announced on 2 October 2026 that he will leave the Federal Council at the end of December 2026; the Federal Assembly elects his successor on 9 December 2026.",
     "policies": ["New bilateral treaty package with the EU", "Negotiating relief from US tariffs", "Army and defence funding increase"],
     "challenges": ["Referendums on EU deal and population cap ('10 million' initiative)", "Export pressure from strong franc and tariffs"],
-    "lastVerified": "2026-10-25"
+    "lastVerified": "2026-11-25"
   },
   {
     "iso3": "LIE", "iso2": "li", "numeric": "438", "name": "Liechtenstein", "region": "Europe",
@@ -288,15 +290,17 @@
       { "name": "Chamber of Deputies (400)", "control": "Centre-right coalition majority" },
       { "name": "Senate (200 + life senators)", "control": "Centre-right coalition majority" }
     ],
-    "judiciary": "Constitutional Court; a constitutional reform separating judges' and prosecutors' careers has been central to government–judiciary tension.",
+    "judiciary": "Constitutional Court; a constitutional reform separating judges' and prosecutors' careers, a source of tension between the government and the judiciary, was rejected in a referendum on 22–23 March 2026.",
     "elections": [
       { "name": "General election", "date": "2022-09-25", "status": "held" },
+      { "name": "Constitutional referendum (justice reform)", "date": "2026-03-22", "status": "held", "note": "Held on 22–23 March 2026 on the Nordio reform (separate careers for judges and prosecutors, the High Council of the Judiciary split in two with members partly chosen by lot, and a new High Disciplinary Court). Rejected: No 53.74%, Yes 46.26%; turnout 55.7% including Italians abroad (58.93% in Italy). No quorum applied." },
       { "name": "General election (latest)", "date": "2027", "status": "upcoming" }
     ],
-    "synopsis": "Meloni leads one of Italy's most stable post-war governments, combining fiscal prudence with conservative social and migration policy and an Atlanticist foreign policy.",
-    "policies": ["Migration deterrence (including Albania processing centres)", "Justice reform and 'premierato' constitutional proposal", "Fiscal discipline to exit EU deficit procedure", "Support for Ukraine and close ties with the US"],
-    "challenges": ["Low growth and high public debt", "Demographic decline", "PNRR (EU recovery fund) deadline in 2026"],
-    "lastVerified": "2026-10-25"
+    "synopsis": "Meloni leads one of Italy's most stable post-war governments, combining fiscal prudence with conservative social and migration policy and an Atlanticist foreign policy. Voters rejected her government's justice reform in a constitutional referendum on 22–23 March 2026.",
+    "policies": ["Migration deterrence (including Albania processing centres)", "'Premierato' constitutional proposal", "Fiscal discipline to exit EU deficit procedure", "Support for Ukraine and close ties with the US"],
+    "challenges": ["Low growth and high public debt", "Demographic decline", "PNRR (EU recovery fund) deadline in 2026", "Defeat of the justice reform in the March 2026 referendum"],
+    "lastVerified": "2026-11-25",
+    "reviewNote": "The referendum's final figures (No 53.74%, Yes 46.26%; turnout 55.7% with Italians abroad, 58.93% in Italy) are from Il Post and Open (23 Mar 2026), and the No committee gives the same No share; the Interior Ministry's own Eligendo pages could not be read on 25 Nov 2026. Confirm on Eligendo."
   },
   {
     "iso3": "SMR", "iso2": "sm", "numeric": "674", "name": "San Marino", "region": "Europe",

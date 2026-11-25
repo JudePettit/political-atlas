@@ -926,7 +926,7 @@
         "note": "Scheduled under the government's timetable to follow the inauguration of the newly elected parliament; disputed by the opposition and affected by the Supreme Court's ruling."
       }
     ],
-    "synopsis": "Somalia's federal government is in a constitutional crisis over the mandates of the president and parliament. In March 2026 parliament passed amendments extending terms from four to five years, and the president says he stays in office until May 2027. On 5 November 2026 the Supreme Court ruled that the mandates had expired in April and May 2026 and ordered elections within 90 days. The government and the opposition are trying to agree on an electoral framework while fighting al-Shabaab continues.",
+    "synopsis": "Somalia's federal government is in a constitutional crisis over the mandates of the president and parliament. In March 2026 parliament passed amendments extending terms from four to five years, and the president says he stays in office until May 2027. On 5 November 2026 the Supreme Court ruled that the mandates had expired in April and May 2026 and ordered elections within 90 days. No electoral framework has been agreed: the main opposition alliance, the Somali Future Council, refused to attend the national forum the government had called for 14–18 November 2026, which did not open as planned, and asks for international mediation, while fighting al-Shabaab continues.",
     "policies": [
       "Moving from indirect clan-based selection to direct one-person-one-vote elections",
       "Putting into effect the revised constitution adopted in March 2026",
@@ -940,8 +940,8 @@
       "Al-Shabaab insurgency and reports of political and clan pressure splitting the national army",
       "Armed clashes in Mogadishu linked to the election dispute"
     ],
-    "lastVerified": "2026-11-13",
-    "reviewNote": "In flux: the Supreme Court ruled on 5 November 2026 that the president's term expired on 15 May 2026 and parliament's on 14 April 2026, and ordered elections within 90 days. The president rejects this, holds that his term runs to 15 May 2027 under the March 2026 amendments, and remains in office; the Attorney General's office has rejected the ruling, and a government-opposition conference is planned for 14-18 November 2026. Not confirmed: the parties of the president and prime minister, which party or parties govern, current seat counts of both chambers, and the vote totals of the 2022 presidential election. An online claim that Aden Madobe has been acting president since 15 May 2026 is not supported: one outlet reports that the House of the People elected Abdulkadir Mohamed Nur as its Speaker on 10 August 2026."
+    "lastVerified": "2026-11-25",
+    "reviewNote": "In flux: the Supreme Court ruled on 5 November 2026 that the president's term expired on 15 May 2026 and parliament's on 14 April 2026, and ordered elections within 90 days. The president rejects this, holds that his term runs to 15 May 2027 under the March 2026 amendments, and remains in office; the Attorney General's office has rejected the ruling. The government had called a National Consultative Forum in Mogadishu for 14–18 November 2026; the main opposition alliance, the Somali Future Council, said it would not attend sessions at Villa Somalia and asked for talks facilitated by the international quartet (the US, the UK, the EU and Türkiye) with guarantees. On 14 November the presidency said only that the forum would open soon, and it did not open as planned (Dawan Africa, 14 Nov; Horn Review, 16 Nov). On 23 November 2026, after meeting President Hassan Sheikh Mohamud at Entebbe, Ugandan President Yoweri Museveni accepted an invitation to visit Mogadishu on dates still to be agreed; the presidency denies reports that Uganda will mediate (Garowe Online, 23 Nov; Caasimada Online, 24 Nov). Not confirmed: the parties of the president and prime minister, which party or parties govern, current seat counts of both chambers, and the vote totals of the 2022 presidential election. An online claim that Aden Madobe has been acting president since 15 May 2026 is not supported: one outlet reports that the House of the People elected Abdulkadir Mohamed Nur as its Speaker on 10 August 2026."
   },
   {
     "iso3": "SSD",
@@ -973,12 +973,12 @@
     "legislature": [
       {
         "name": "Transitional National Legislative Assembly",
-        "control": "Dissolved by presidential order in September 2026 ahead of the 22 December 2026 elections; its members had been appointed under the 2018 peace agreement, and the incumbent government's share was a majority",
+        "control": "Dissolved by presidential order in September 2026 ahead of the general elections now set for 11 February 2027; its members had been appointed under the 2018 peace agreement, and the incumbent government's share was a majority",
         "detail": "550 appointed members (May 2021): incumbent Transitional Government of National Unity 332, SPLM/A-IO 128, South Sudan Opposition Alliance 50, other political parties 30, former detainees 10"
       },
       {
         "name": "Council of States",
-        "control": "Dissolved along with the rest of the national legislature in September 2026 ahead of the 22 December 2026 elections",
+        "control": "Dissolved along with the rest of the national legislature in September 2026 ahead of the general elections now set for 11 February 2027",
         "detail": "100 seats"
       }
     ],
@@ -992,14 +992,14 @@
       },
       {
         "name": "General election (presidential and legislative)",
-        "date": "2026-12-22",
+        "date": "2027-02-11",
         "status": "upcoming",
-        "note": "First election since independence, postponed several times since 2015. President Kiir is expected to be the SPLM candidate. The Machar-led SPLM-IO is not a registered party; a breakaway faction led by Stephen Par Kuol registered as the IO Party."
+        "note": "First election since independence. On 14 November 2026 the National Elections Commission (NEC) moved the vote from 22 December 2026 to 11 February 2027, citing its power under the National Elections Act 2012, as amended, to adjust the timetable; it is at least the third postponement since 2022. Voter registration runs from 14 to 28 November 2026 at 3,161 centres. President Kiir registered in Juba on 20 November 2026 and is expected to be the SPLM candidate. On 23 November 2026 the National Alliance of Political Parties, chaired by Kornelio Kon Ngu, asked the Supreme Court to declare the postponement unconstitutional and confirm 22 December; no ruling had been reported by 24 November. The Machar-led SPLM-IO is not a registered party; a breakaway faction led by Stephen Par Kuol registered as the IO Party."
       }
     ],
-    "synopsis": "Salva Kiir has led South Sudan since independence in 2011. A power-sharing unity government formed under the 2018 peace agreement lasted until September 2026, when Kiir dissolved it, removed all vice-presidents and dissolved the national and state legislatures. He now leads a caretaker administration ahead of the country's first general election on 22 December 2026. Former First Vice President and SPLM-IO leader Riek Machar has been detained since March 2025 and is on trial on treason and other charges.",
+    "synopsis": "Salva Kiir has led South Sudan since independence in 2011. A power-sharing unity government formed under the 2018 peace agreement lasted until September 2026, when Kiir dissolved it, removed all vice-presidents and dissolved the national and state legislatures. He now leads a caretaker administration ahead of the country's first general election, which the National Elections Commission moved in November 2026 from 22 December 2026 to 11 February 2027. Former First Vice President and SPLM-IO leader Riek Machar has been detained since March 2025 and is on trial on treason and other charges.",
     "policies": [
-      "Holding the general election on 22 December 2026 despite calls from opposition parties to postpone and renegotiate",
+      "Holding the general election on 11 February 2027, after the National Elections Commission moved it from 22 December 2026",
       "Amendments to the National Elections Act keeping the president in office during the election period",
       "Caretaker ministers running key ministries until an elected government takes office",
       "Prosecution of Riek Machar and seven co-accused over the March 2025 Nasir attack",
@@ -1012,8 +1012,8 @@
       "Split in the SPLM-IO, and the Machar-loyal faction left out of the electoral process",
       "Concerns from the UN and others that the conditions for credible elections are not yet in place"
     ],
-    "lastVerified": "2026-11-13",
-    "reviewNote": "In flux: the transitional unity government and national legislature were dissolved by presidential order announced on 22 September 2026 (some sources give 21 September), and a caretaker administration governs until the 22 December 2026 general election. Not confirmed: the party make-up of the caretaker cabinet (SPLM is listed as governing), whether voter registration has started, and the seat breakdown of the 100-member Council of States."
+    "lastVerified": "2026-11-25",
+    "reviewNote": "In flux: the transitional unity government and national legislature were dissolved by presidential order announced on 22 September 2026 (some sources give 21 September), and a caretaker administration governs until the general election, moved on 14 November 2026 to 11 February 2027 and challenged in the Supreme Court (Al Jazeera/AFP, 14 Nov; Radio Tamazuj, 20 and 24 Nov; Sudans Post, 23 Nov). Voter registration began on 14 November 2026 and runs to 28 November. Not confirmed: the party make-up of the caretaker cabinet (SPLM is listed as governing) and the seat breakdown of the 100-member Council of States."
   },
   {
     "iso3": "TZA",

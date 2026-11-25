@@ -10,18 +10,18 @@
     },
     "legislature": [
       { "name": "House of Representatives (435)", "control": "Republican until January 2027; Democrats won a majority on 3 Nov 2026", "detail": "Speaker Mike Johnson until the new House sits. CBS News projects 251–268 Democratic seats; Hakeem Jeffries, the Democratic leader, is in line to be Speaker." },
-      { "name": "Senate (100)", "control": "Republican (53–47) until January 2027; Democrats won a majority on 3 Nov 2026", "detail": "Majority Leader John Thune until the new Senate sits. Democrats won at least 54 seats; Alaska and Mississippi were still uncalled on 5 Nov." }
+      { "name": "Senate (100)", "control": "Republican (53–47) until January 2027; Democrats won a 56–44 majority on 3 Nov 2026", "detail": "Majority Leader John Thune until the new Senate sits in January 2027. The 56 include two independents who caucus with the Democrats. Democrats flipped nine Republican seats; the last two races were called by the AP for Scott Colom in Mississippi (11 Nov) and Mary Peltola in Alaska (17 Nov)." }
     ],
     "judiciary": "Supreme Court, 6–3 conservative majority (Chief Justice John Roberts); major rulings on executive power, tariffs and immigration pending or recent.",
     "elections": [
       { "name": "Presidential & congressional elections", "date": "2024-11-05", "status": "held" },
-      { "name": "Midterm elections (House, 1/3 Senate, 36 governors)", "date": "2026-11-03", "status": "held", "note": "Democrats won both chambers: at least 54 Senate seats and a projected 251–268 House seats (CBS News, 5 Nov), with the Alaska and Mississippi Senate races uncalled. The new Congress sits in January 2027." },      { "name": "Presidential election", "date": "2028-11-07", "status": "upcoming" }
+      { "name": "Midterm elections (House, 1/3 Senate, 36 governors)", "date": "2026-11-03", "status": "held", "note": "Democrats won both chambers: a 56–44 Senate majority (all races called by 17 Nov) and a projected 251–268 House seats (CBS News, 5 Nov). The new Congress sits in January 2027." },      { "name": "Presidential election", "date": "2028-11-07", "status": "upcoming" }
     ],
-    "synopsis": "Republicans hold the White House, with an assertive use of executive authority. Democrats won both chambers of Congress in the 3 November 2026 midterms, so unified Republican control ends when the new Congress sits in January 2027; final seat counts are pending.",
+    "synopsis": "Republicans hold the White House, with an assertive use of executive authority. Democrats won both chambers of Congress in the 3 November 2026 midterms, with a 56–44 Senate majority, so unified Republican control ends when the new Congress sits in January 2027; only the final House seat count is pending.",
     "policies": ["Broad tariffs and trade renegotiation", "Immigration enforcement and deportations", "Federal workforce and regulatory cuts", "Tax cuts extended via the 2025 budget reconciliation law"],
     "challenges": ["Cost of living, inflation and tariff effects", "Legal battles over the limits of executive power", "Deficits and federal debt", "Polarisation and divided government from January 2027"],
-    "lastVerified": "2026-11-05",
-    "reviewNote": "Final House and Senate seat counts pending (Alaska and Mississippi Senate races uncalled on 5 Nov); confirm the new Speaker and Senate Majority Leader in January 2027."
+    "lastVerified": "2026-11-25",
+    "reviewNote": "Senate checked on 25 Nov 2026: the AP called the last two races for the Democrats, Mississippi on 11 Nov (Scott Colom; Cindy Hyde-Smith conceded) and Alaska on 17 Nov (Mary Peltola), giving a 56–44 majority; these are AP calls, not certified results. The House projection is still CBS News's of 5 Nov: the final House seat count is pending. Confirm the new Speaker and Senate Majority Leader in January 2027."
   },
   {
     "iso3": "CAN", "iso2": "ca", "numeric": "124", "name": "Canada", "region": "North America",
@@ -183,17 +183,16 @@
       "headOfGovernment": { "name": "Laura Fernández", "title": "President", "party": "Pueblo Soberano", "since": "2026-05-08" },
       "governingParties": ["Pueblo Soberano"]
     },
-    "legislature": [{ "name": "Legislative Assembly (57)", "control": "Pueblo Soberano (largest party)" }],
+    "legislature": [{ "name": "Legislative Assembly (57)", "control": "Pueblo Soberano absolute majority, with 31 of 57 seats won in the election of 1 February 2026; Assembly President Yara Jiménez (Pueblo Soberano) since 2026-05-01" }],
     "judiciary": "Independent Supreme Court; Constitutional Chamber (Sala IV) is a strong check.",
     "elections": [
-      { "name": "General election", "date": "2026-02-01", "status": "held", "note": "Fernández, Rodrigo Chaves's chosen successor, won in the first round." },
+      { "name": "General election", "date": "2026-02-01", "status": "held", "note": "Fernández, Rodrigo Chaves's chosen successor, won in the first round. Pueblo Soberano won 31 of the 57 Assembly seats." },
       { "name": "General election", "date": "2030-02", "status": "upcoming" }
     ],
     "synopsis": "Laura Fernández continues outgoing president Chaves's populist, security-focused agenda with a much stronger legislative position.",
     "policies": ["Tough-on-crime measures and prison expansion", "Institutional reforms to reduce checks on the executive", "Investment attraction (semiconductors, medical devices)"],
     "challenges": ["Rising drug-related homicides", "Tension with courts and auditors", "Fiscal consolidation"],
-    "lastVerified": "2026-10-25",
-    "reviewNote": "Verify exact seat count of Pueblo Soberano."
+    "lastVerified": "2026-11-25"
   },
   {
     "iso3": "PAN", "iso2": "pa", "numeric": "591", "name": "Panama", "region": "North America",
@@ -247,15 +246,14 @@
     "legislature": [{ "name": "Parliament", "control": "Not functioning", "detail": "No sitting legislature since January 2023." }],
     "judiciary": "Court of Cassation; justice system severely weakened by gang violence.",
     "elections": [
-      { "name": "General election (first round, planned)", "date": "2026-08-30", "status": "held", "note": "Timetable has slipped repeatedly — verify whether voting took place." },
-      { "name": "General election (second round, planned)", "date": "2026-12", "status": "upcoming" },
-      { "name": "Inauguration of elected president (target)", "date": "2027-02-07", "status": "upcoming" }
+      { "name": "General election (first round: presidential and legislative)", "date": "2027-07-18", "status": "upcoming", "note": "Set by the Provisional Electoral Council (CEP) in its calendar of 28 October 2026, after the 30 August and 13 December 2026 dates were dropped; no vote was held in 2026." },
+      { "name": "General election (second round, with local elections)", "date": "2027-10-04", "status": "upcoming", "note": "CEP calendar of 28 October 2026; final second-round results due 20–23 October 2027." }
     ],
     "synopsis": "After the Transitional Presidential Council's mandate ended in February 2026, PM Fils-Aimé governs alone with US backing. Gangs control much of Port-au-Prince and an international Gang Suppression Force is deploying.",
     "policies": ["Restoring security with the UN-authorised Gang Suppression Force", "Organising first elections since 2016", "Humanitarian response"],
     "challenges": ["Gang control and mass displacement", "Lack of elected institutions", "Food insecurity"],
-    "lastVerified": "2026-10-25",
-    "reviewNote": "Election schedule uncertain; confirm status of 2026 voting."
+    "lastVerified": "2026-11-25",
+    "reviewNote": "CEP calendar of 28 October 2026 sets the first round for 18 July 2027 and the second for 4 October 2027; dates have slipped repeatedly."
   },
   {
     "iso3": "DOM", "iso2": "do", "numeric": "214", "name": "Dominican Republic", "region": "North America",
@@ -395,23 +393,24 @@
   },
   {
     "iso3": "DMA", "iso2": "dm", "numeric": "212", "name": "Dominica", "region": "North America",
-    "system": "Parliamentary republic", "systemType": "parliamentary-republic", "status": "stable",
+    "system": "Parliamentary republic", "systemType": "parliamentary-republic", "status": "in-flux",
     "executive": {
       "leader": "headOfGovernment",
       "headOfState": { "name": "Sylvanie Burton", "title": "President", "since": "2023" },
       "headOfGovernment": { "name": "Roosevelt Skerrit", "title": "Prime Minister", "party": "Dominica Labour Party (DLP)", "since": "2004" },
       "governingParties": ["DLP"]
     },
-    "legislature": [{ "name": "House of Assembly", "control": "DLP (19 of 21 elected seats)" }],
+    "legislature": [{ "name": "House of Assembly", "control": "DLP (19 of 21 elected seats); dissolved 18 Nov 2026 for the 16 Dec 2026 election" }],
     "judiciary": "Eastern Caribbean Supreme Court; Caribbean Court of Justice.",
     "elections": [
       { "name": "General election", "date": "2022-12-06", "status": "held", "note": "Boycotted by the main opposition." },
-      { "name": "General election (due)", "date": "2027", "status": "upcoming" }
+      { "name": "General election", "date": "2026-12-16", "status": "upcoming", "note": "Snap election called by Prime Minister Roosevelt Skerrit in an address to the nation on 18 Nov 2026; the President has issued the writs; nomination day 30 Nov 2026." }
     ],
-    "synopsis": "Skerrit is the Caribbean's longest-serving leader, positioning Dominica as a 'climate-resilient nation'.",
+    "synopsis": "Skerrit is the Caribbean's longest-serving leader, positioning Dominica as a 'climate-resilient nation'. He called a snap general election for 16 December 2026, and the House of Assembly was dissolved on 18 November; he remains Prime Minister through the campaign.",
     "policies": ["Climate resilience", "Geothermal energy and international airport", "Citizenship-by-investment"],
     "challenges": ["Hurricane exposure", "Electoral reform demands", "US visa restrictions linked to CBI"],
-    "lastVerified": "2026-10-25"
+    "lastVerified": "2026-11-25",
+    "reviewNote": "Snap general election on 16 Dec 2026 (nomination day 30 Nov): update the result. Dissolution with effect from 18 Nov is from the Prime Minister's address and press reports; the proclamation in the Official Gazette was not read."
   },
   {
     "iso3": "GRD", "iso2": "gd", "numeric": "308", "name": "Grenada", "region": "North America",
@@ -422,16 +421,18 @@
       "headOfGovernment": { "name": "Dickon Mitchell", "title": "Prime Minister", "party": "National Democratic Congress (NDC)", "since": "2022" },
       "governingParties": ["NDC"]
     },
-    "legislature": [{ "name": "House of Representatives (15)", "control": "NDC (9 seats)" }, { "name": "Senate (13)", "control": "Appointed" }],
+    "legislature": [{ "name": "House of Representatives (15)", "control": "NDC (14 seats; provisional)", "detail": "The NNP holds the other seat, St George North-West. Provisional results of the 5 November 2026 election, not yet certified by the Parliamentary Elections Office." }, { "name": "Senate (13)", "control": "Appointed" }],
     "judiciary": "Eastern Caribbean Supreme Court; Privy Council.",
     "elections": [
       { "name": "General election", "date": "2022-06-23", "status": "held" },
-      { "name": "General election (due)", "date": "2027", "status": "upcoming" }
+      { "name": "General election", "date": "2026-11-05", "status": "held", "note": "Early election. NDC re-elected with 14 of 15 seats on provisional results (NDC 60.95%, NNP 36.89%); NNP leader Emmalin Pierre lost St Andrew South-East. Turnout about 63% (provisional)." },
+      { "name": "General election (due)", "date": "2031", "status": "upcoming" }
     ],
-    "synopsis": "Mitchell's NDC leads recovery from 2024's Hurricane Beryl, which devastated Carriacou and Petite Martinique.",
+    "synopsis": "Mitchell's NDC won a second consecutive term in the early election of 5 November 2026, taking 14 of 15 seats on provisional results, and leads recovery from 2024's Hurricane Beryl, which devastated Carriacou and Petite Martinique.",
     "policies": ["Hurricane reconstruction", "Youth employment", "Tourism"],
     "challenges": ["Climate damage", "Debt", "Cost of living"],
-    "lastVerified": "2026-10-25"
+    "lastVerified": "2026-11-25",
+    "reviewNote": "Results of the 5 Nov 2026 election are provisional until certified by the Parliamentary Elections Office: confirm the final count. The 2031 date follows from the five-year term, not from an announced date."
   },
   {
     "iso3": "KNA", "iso2": "kn", "numeric": "659", "name": "Saint Kitts and Nevis", "region": "North America",
