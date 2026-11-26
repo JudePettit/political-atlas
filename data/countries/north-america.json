@@ -9,19 +9,19 @@
       "governingParties": ["Republican Party"]
     },
     "legislature": [
-      { "name": "House of Representatives (435)", "control": "Republican until January 2027; Democrats won a majority on 3 Nov 2026", "detail": "Speaker Mike Johnson until the new House sits. CBS News projects 251–268 Democratic seats; Hakeem Jeffries, the Democratic leader, is in line to be Speaker." },
+      { "name": "House of Representatives (435)", "control": "Republican until January 2027; Democrats won a majority on 3 Nov 2026", "detail": "Speaker Mike Johnson until the new House sits. As of 24 Nov 2026 Democrats had won 259 seats and Republicans 173 (AP; NBC News), with three still open: MN-1 goes to a recount (30 Nov–3 Dec, certified on 8 Dec) and LA-5 and LA-6 to runoffs on 12 Dec. Hakeem Jeffries, the Democratic leader, is in line to be Speaker." },
       { "name": "Senate (100)", "control": "Republican (53–47) until January 2027; Democrats won a 56–44 majority on 3 Nov 2026", "detail": "Majority Leader John Thune until the new Senate sits in January 2027. The 56 include two independents who caucus with the Democrats. Democrats flipped nine Republican seats; the last two races were called by the AP for Scott Colom in Mississippi (11 Nov) and Mary Peltola in Alaska (17 Nov)." }
     ],
     "judiciary": "Supreme Court, 6–3 conservative majority (Chief Justice John Roberts); major rulings on executive power, tariffs and immigration pending or recent.",
     "elections": [
       { "name": "Presidential & congressional elections", "date": "2024-11-05", "status": "held" },
-      { "name": "Midterm elections (House, 1/3 Senate, 36 governors)", "date": "2026-11-03", "status": "held", "note": "Democrats won both chambers: a 56–44 Senate majority (all races called by 17 Nov) and a projected 251–268 House seats (CBS News, 5 Nov). The new Congress sits in January 2027." },      { "name": "Presidential election", "date": "2028-11-07", "status": "upcoming" }
+      { "name": "Midterm elections (House, 1/3 Senate, 36 governors)", "date": "2026-11-03", "status": "held", "note": "Democrats won both chambers: a 56–44 Senate majority (all races called by 17 Nov) and 259 House seats to the Republicans' 173, with three still open (AP and NBC News, 24 Nov). The new Congress sits in January 2027." },      { "name": "Presidential election", "date": "2028-11-07", "status": "upcoming" }
     ],
     "synopsis": "Republicans hold the White House, with an assertive use of executive authority. Democrats won both chambers of Congress in the 3 November 2026 midterms, with a 56–44 Senate majority, so unified Republican control ends when the new Congress sits in January 2027; only the final House seat count is pending.",
     "policies": ["Broad tariffs and trade renegotiation", "Immigration enforcement and deportations", "Federal workforce and regulatory cuts", "Tax cuts extended via the 2025 budget reconciliation law"],
     "challenges": ["Cost of living, inflation and tariff effects", "Legal battles over the limits of executive power", "Deficits and federal debt", "Polarisation and divided government from January 2027"],
-    "lastVerified": "2026-11-25",
-    "reviewNote": "Senate checked on 25 Nov 2026: the AP called the last two races for the Democrats, Mississippi on 11 Nov (Scott Colom; Cindy Hyde-Smith conceded) and Alaska on 17 Nov (Mary Peltola), giving a 56–44 majority; these are AP calls, not certified results. The House projection is still CBS News's of 5 Nov: the final House seat count is pending. Confirm the new Speaker and Senate Majority Leader in January 2027."
+    "lastVerified": "2026-11-26",
+    "reviewNote": "Senate checked on 25 Nov 2026: the AP called the last two races for the Democrats, Mississippi on 11 Nov (Scott Colom; Cindy Hyde-Smith conceded) and Alaska on 17 Nov (Mary Peltola), giving a 56–44 majority; these are AP calls, not certified results. House checked on 26 Nov 2026: Democrats 259, Republicans 173 after the AP called TN-4 for Victoria Broderick on 24 Nov (Scott DesJarlais conceded on 16 Nov); these are AP calls, not certified results. MN-1 (Jake Johnson leads Rep. Brad Finstad by 324 votes on the results certified on 19 Nov) goes to a recount, certified on 8 Dec, and LA-5 and LA-6 go to runoffs on 12 Dec: look again after 8 and 12 Dec. Confirm the new Speaker and Senate Majority Leader in January 2027."
   },
   {
     "iso3": "CAN", "iso2": "ca", "numeric": "124", "name": "Canada", "region": "North America",

@@ -1006,7 +1006,7 @@
         "detail": "90 delegates, 10 from each of the nine provincial legislatures"
       }
     ],
-    "judiciary": "The Constitutional Court, led by Chief Justice Mandisa Maya, is the highest court, with the Supreme Court of Appeal below it. A Constitutional Court ruling on the Phala Phala case led Parliament to set up an impeachment inquiry into President Ramaphosa in 2026. The Western Cape High Court has paused the inquiry's hearings while it decides his challenge to the independent panel report, on which it has reserved judgment.",
+    "judiciary": "The Constitutional Court, led by Chief Justice Mandisa Maya, is the highest court, with the Supreme Court of Appeal below it. A Constitutional Court ruling on the Phala Phala case led Parliament to set up an impeachment inquiry into President Ramaphosa in 2026. On 25 November 2026 a full bench of the Western Cape High Court unanimously set aside the independent panel report on which the inquiry rested and declared the National Assembly's steps based on it unlawful; the ATM says it intends to appeal.",
     "elections": [
       {
         "name": "General election (National Assembly and provincial legislatures)",
@@ -1027,7 +1027,7 @@
         "note": "Due by law in 2029; no date set."
       }
     ],
-    "synopsis": "South Africa has been governed since 2024 by a Government of National Unity of ten parties led by President Cyril Ramaphosa's ANC, with the Democratic Alliance as its largest partner. In the November 2026 local elections the ANC's vote fell to about 30%. The ANC is now debating whether to stay in its national coalition with the DA, while a parliamentary impeachment inquiry over the Phala Phala affair is on hold pending a court ruling.",
+    "synopsis": "South Africa has been governed since 2024 by a Government of National Unity of ten parties led by President Cyril Ramaphosa's ANC, with the Democratic Alliance as its largest partner. In the November 2026 local elections the ANC's vote fell to about 30%. The ANC is now debating whether to stay in its national coalition with the DA. On 25 November 2026 the Western Cape High Court set aside the independent panel report behind the parliamentary impeachment inquiry over the Phala Phala affair, halting the inquiry; the ATM, which brought the impeachment motion, says it intends to appeal.",
     "policies": [
       "Economic reforms to raise growth, including in electricity, logistics and ports",
       "Fiscal consolidation and stabilising public debt",
@@ -1037,12 +1037,12 @@
     ],
     "challenges": [
       "Tensions within the ANC-DA coalition after the 2026 local election losses",
-      "Parliamentary impeachment inquiry into President Ramaphosa over Phala Phala, paused pending court review",
+      "Phala Phala impeachment inquiry into President Ramaphosa halted after the Western Cape High Court set aside the panel report on 25 November 2026; an appeal is possible",
       "High unemployment, inequality and slow economic growth",
       "Violent crime, political violence and xenophobic tensions",
       "Weak municipal finances and hung councils needing coalitions"
     ],
-    "lastVerified": "2026-11-13",
-    "reviewNote": "The National Council of Provinces' party make-up was not confirmed. Final metro-by-metro results, including the contested count in eThekwini where recounts were ordered, were not confirmed. It was not confirmed whether any party has formally left the Government of National Unity since the November 2026 local elections; the ANC was reported to be considering ending its national coalition with the DA."
+    "lastVerified": "2026-11-26",
+    "reviewNote": "The National Council of Provinces' party make-up was not confirmed. Final metro-by-metro results, including the contested count in eThekwini where recounts were ordered, were not confirmed. It was not confirmed whether any party has formally left the Government of National Unity since the November 2026 local elections; the ANC was reported to be considering ending its national coalition with the DA. It was not confirmed whether Parliament has formally disbanded the impeachment committee after the 25 November 2026 High Court ruling, or whether an appeal has been lodged."
   }
 ]
