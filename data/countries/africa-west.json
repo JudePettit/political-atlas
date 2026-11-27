@@ -333,7 +333,7 @@
         "name": "Presidential election",
         "date": "2026-12-05",
         "status": "upcoming",
-        "note": "When nominations closed on 14 November 2026, the Independent Electoral Commission accepted nine candidates and rejected seven. Ansu Sanneh (National Builders Party) later withdrew to join the UNITE-led Coalition 2026, and Modou Lamin Sima (Alliance of Progressive Citizens) withdrew on 24 November 2026; the Commission accepted his withdrawal under section 50(2)(a) of the Elections Act 2025 and published a notice on 25 November. Its events page gives 26 November as the withdrawal deadline. The seven candidates the Commission lists are: incumbent Adama Barrow (NPP), who is seeking a third term; Ousainou Darboe (UDP); Talib Ahmed Bensouda (UNITE/Coalition 2026); Isatou Touray (independent); Lamin J. Darbo (independent); Almameh Gibba (independent); and Ebrima Tabora Manneh (People's Alliance Party). Campaigning runs from 16 November to 3 December 2026."
+        "note": "When nominations closed on 14 November 2026, the Independent Electoral Commission accepted nine candidates and rejected seven. Ansu Sanneh (National Builders Party) later withdrew to join the UNITE-led Coalition 2026, and Modou Lamin Sima (Alliance of Progressive Citizens) withdrew on 24 November 2026; the Commission accepted his withdrawal under section 50(2)(a) of the Elections Act 2025 and published a notice on 25 November. On 26 November 2026 the APC signed a memorandum of understanding at Jarra Soma to join the UDP-led Gambia First Coalition, which backs Ousainou Darboe. Its events page gives 26 November as the withdrawal deadline. The seven candidates the Commission lists are: incumbent Adama Barrow (NPP), who is seeking a third term; Ousainou Darboe (UDP); Talib Ahmed Bensouda (UNITE/Coalition 2026); Isatou Touray (independent); Lamin J. Darbo (independent); Almameh Gibba (independent); and Ebrima Tabora Manneh (People's Alliance Party). Campaigning runs from 16 November to 3 December 2026."
       },
       {
         "name": "National Assembly election",
@@ -354,8 +354,8 @@
       "Disagreement between the executive and the Bar Association over the appointment of the Chief Justice",
       "Youth unemployment and economic pressure"
     ],
-    "lastVerified": "2026-11-26",
-    "reviewNote": "Candidate list as shown on the IEC's own site on 26 Nov 2026, after its notices of Sanneh's withdrawal (19 Nov; also Askanwi, 21 Nov) and of Sima's withdrawal (25 Nov). The 24 November date and the section 50(2)(a) provision for Sima's withdrawal come from The Gambia Journal and Afreeque (both 25 Nov); Voice of Nigeria and Voice Gambia (26 Nov) also report it. No endorsement by Sima or the APC had been reported by 26 November. The IEC events page gives the withdrawal deadline as 26 November, 10:00 to 17:00; an older IEC calendar page (posted October 2025) gives 27 November. Recheck the IEC candidate list on or after 27 November for any withdrawal filed on deadline day."
+    "lastVerified": "2026-11-27",
+    "reviewNote": "Candidate list as shown on the IEC's own site on 26 Nov 2026, after its notices of Sanneh's withdrawal (19 Nov; also Askanwi, 21 Nov) and of Sima's withdrawal (25 Nov). The 24 November date and the section 50(2)(a) provision for Sima's withdrawal come from The Gambia Journal and Afreeque (both 25 Nov); Voice of Nigeria and Voice Gambia (26 Nov) also report it. The APC's memorandum of understanding with the UDP-led Gambia First Coalition (26 Nov, Jarra Soma) is reported by The Voice and The Gambia Journal (Gambiaj places it at the UDP bureau in Soma), and The Point (27 Nov) also reports the signing. The IEC events page gives the withdrawal deadline as 26 November, 10:00 to 17:00; an older IEC calendar page (posted October 2025) gives 27 November. On 27 Nov 2026 the IEC still listed seven candidates and had published no withdrawal notice after Sima's of 25 November; because the older calendar page gives 27 November, recheck the list on or after 28 November."
   },
   {
     "iso3": "GHA",
@@ -561,10 +561,16 @@
         "name": "Constitutional referendum",
         "date": "2026-08-30",
         "status": "held",
-        "note": "Voters approved a new constitution with about 70% in favour, according to provisional results announced by the National Electoral Commission on 1 September, on turnout of nearly 60%. The main opposition party, the PAIGC, called a boycott. The constitution moves the country to a presidential system and cuts parliament from 102 to 65 seats. The presidential and legislative elections set for 6 December 2026 were postponed indefinitely in October 2026, and no new date has been set."
+        "note": "Voters approved a new constitution with about 70% in favour, according to provisional results announced by the National Electoral Commission on 1 September, on turnout of nearly 60%. The main opposition party, the PAIGC, called a boycott. The constitution moves the country to a presidential system and cuts parliament from 102 to 65 seats. In October 2026 the prime minister said the conditions were not in place for the presidential and legislative elections set for 6 December 2026; on 26 November 2026 a presidential decree reset them for 26 November 2028."
+      },
+      {
+        "name": "General election (presidential and legislative)",
+        "date": "2028-11-26",
+        "status": "upcoming",
+        "note": "Set by Presidential Decree No. 35/2026, made public on 26 November 2026, which revoked the date of 6 December 2026 set in January, citing insufficient technical, material and financial conditions. The decree also calls for the country's first municipal elections, for which no date has been given."
       }
     ],
-    "synopsis": "Guinea-Bissau has been ruled by a military-led transition since the army ousted President Umaro Sissoco Embaló on 26 November 2025 and halted the counting of that month's general election. General Horta Inta-A Na Man serves as transitional president alongside Prime Minister Ilídio Vieira Té. The general elections that were due to end the transition on 6 December 2026 were postponed in October 2026 without a new date.",
+    "synopsis": "Guinea-Bissau has been ruled by a military-led transition since the army ousted President Umaro Sissoco Embaló on 26 November 2025 and halted the counting of that month's general election. General Horta Inta-A Na Man serves as transitional president alongside Prime Minister Ilídio Vieira Té. The general elections that were due to end the transition on 6 December 2026 were put off, and on 26 November 2026 a presidential decree set them for 26 November 2028, extending the one-year transition by about two years.",
     "policies": [
       "A transition charter bars the transitional president and prime minister from running in the next elections",
       "A new constitution, approved by referendum on 30 August 2026, that strengthens the presidency and reduces parliament to 65 seats",
@@ -572,14 +578,14 @@
       "Ousted president Embaló barred from returning to the country, citing national security"
     ],
     "challenges": [
-      "Election postponed indefinitely and no timetable for a return to constitutional rule",
+      "Elections delayed to November 2028, about two years beyond the one-year transition first promised",
       "Suspension from African Union activities and pressure from ECOWAS over the coup",
       "Long history of coups and military involvement in politics",
       "Questions over the independence of the courts and the removal of senior legal officials",
       "Heavy reliance on cashew exports and widespread poverty"
     ],
-    "lastVerified": "2026-11-13",
-    "reviewNote": "Could not confirm: the final certified referendum figures (the record gives the provisional ones); whether the one-year transition period, which ends around 27 November 2026, has been formally extended; and whether any new election date or change of personnel has been announced since late October 2026. The prime minister's party affiliation is left out because no reliable source confirmed it."
+    "lastVerified": "2026-11-27",
+    "reviewNote": "Could not confirm the final certified referendum figures (the record gives the provisional ones announced on 1 September 2026). Decree No. 35/2026, which set the general elections for 26 November 2028, was made public on 26 November 2026 in the Presidency's information note and reported by the press (AP, Público, O Democrata GB, RTÉ); no source gives the date it was signed, and its publication in the Boletim Oficial was not checked. No date has been set for the first municipal elections. The prime minister's party affiliation is left out because no reliable source confirmed it."
   },
   {
     "iso3": "LBR",
@@ -959,7 +965,7 @@
       {
         "name": "National Assembly",
         "control": "PASTEF (led by Assembly President Ousmane Sonko), which has been in opposition to President Faye's government since June 2026",
-        "detail": "165 seats; PASTEF won 130 in the November 2024 snap election. Ousmane Sonko was elected Assembly president on 26 May 2026 with 132 of 133 votes cast. On 3 November 2026 the Assembly rejected the revised 2026 budget: 109 of the 132 deputies voting backed the rejection, 20 opposed it and 3 abstained (AFP later reported 126 for rejection once proxy votes were counted)."
+        "detail": "165 seats; PASTEF won 130 in the November 2024 snap election. Ousmane Sonko was elected Assembly president on 26 May 2026 with 132 of 133 votes cast. On 3 November 2026 the Assembly rejected the revised 2026 budget: 109 of the 132 deputies voting backed the rejection, 20 opposed it and 3 abstained (AFP later reported 126 for rejection once proxy votes were counted). On 18 November 2026 it rejected the first part of the 2027 budget bill, covering revenue, the spending ceiling and public debt, which ended the bill's examination. APS reported 128 votes against, 18 for and 3 abstentions; Dakaractu reported 126 against, 18 for and 3 abstentions on the revenue vote. On 19 November President Faye put the revised 2026 budget into force by Decree No. 2026-2416. On 25 November the Assembly adopted a PASTEF resolution by 128 votes to 9 with 2 abstentions (139 deputies voting, 21 of them by proxy). It demands the decree's withdrawal and a halt to carrying out the revised budget. The resolution states the Assembly's position but does not itself annul the decree."
       }
     ],
     "judiciary": "The Constitutional Council rules on constitutional and electoral disputes, and the Supreme Court is the highest court for ordinary and administrative cases. In 2026 the Constitutional Council struck down a constitutional revision, and Assembly President Ousmane Sonko publicly attacked the decision.",
@@ -989,22 +995,22 @@
         "note": "Due by law at the end of the five-year term elected in November 2024, unless the President dissolves the Assembly earlier. President Faye has said he does not rule out a dissolution."
       }
     ],
-    "synopsis": "President Bassirou Diomaye Faye and Ousmane Sonko came to power together in 2024 on an anti-establishment platform. Faye dismissed Sonko as prime minister on 22 May 2026, appointed the economist Ahmadou Al Aminou Lo in his place and launched his own party, Kiiraay, in July. Sonko now leads the National Assembly, where his party PASTEF holds the majority and opposes the government, while Senegal deals with a debt crisis and negotiates a new IMF programme.",
+    "synopsis": "President Bassirou Diomaye Faye and Ousmane Sonko came to power together in 2024 on an anti-establishment platform. Faye dismissed Sonko as prime minister on 22 May 2026, appointed the economist Ahmadou Al Aminou Lo in his place and launched his own party, Kiiraay, in July. Sonko now leads the National Assembly, where his party PASTEF holds the majority and opposes the government, while Senegal deals with a debt crisis and negotiates a new IMF programme. After the Assembly rejected the revised 2026 budget and the first part of the 2027 budget in November 2026, Faye put the revised budget into force by decree on 19 November. On 25 November the Assembly adopted a resolution demanding the decree's withdrawal; the same day Faye told the government to carry out the budget without delay.",
     "policies": [
       "Securing final approval of a $2.2 billion IMF programme, agreed at staff level in September 2026, to stabilise public finances after the debt crisis",
-      "A revised 2026 budget and a 2027 budget with a higher deficit target and spending cuts",
+      "Carrying out the revised 2026 budget, put into force by decree on 19 November 2026 after the Assembly rejected it, and a 2027 budget with a higher deficit target and spending cuts",
       "Not passing the 2026 rise in world oil prices on to consumers, at a high cost in fuel subsidies",
       "The long-term national development agenda Sénégal 2050"
     ],
     "challenges": [
-      "Standoff between the President and the PASTEF-controlled National Assembly, which rejected the revised 2026 budget and asked for the 2027 budget bill to be withdrawn",
+      "Standoff between the President and the PASTEF-controlled National Assembly, which rejected the revised 2026 budget and the first part of the 2027 budget, and on 25 November 2026 demanded the withdrawal of the decree that put the revised budget into force",
       "High public debt and delays to the IMF programme",
       "Threats by Assembly President Sonko to bring a censure motion against the Lo government",
       "Disagreement over renegotiating oil, gas and mining contracts, which was a central PASTEF pledge",
       "Higher fuel costs after the oil price rise linked to the 2026 war involving Iran"
     ],
-    "lastVerified": "2026-11-13",
-    "reviewNote": "Not confirmed: the party make-up of the Lo government. Sources disagree on whether any PASTEF members remain in it, and they do not say which parties besides President Faye's Kiiraay hold posts. Prime Minister Lo is described as independent. Also not confirmed: the current seat count of each group after the Faye–Sonko split; the 130 figure is the November 2024 result. The government's next step on the budget after the 3 November 2026 rejection (an ordinance, a resubmitted bill or a dissolution) could not be confirmed."
+    "lastVerified": "2026-11-27",
+    "reviewNote": "Not confirmed: the party make-up of the Lo government. Sources disagree on whether any PASTEF members remain in it, and they do not say which parties besides President Faye's Kiiraay hold posts. Prime Minister Lo is described as independent. Also not confirmed: the current seat count of each group after the Faye–Sonko split; the 130 figure is the November 2024 result. Also not confirmed: the exact vote on the first part of the 2027 budget on 18 November 2026 (APS gives 128 against, Dakaractu 126 against), and the legal standing of Decree No. 2026-2416, which PASTEF deputies dispute."
   },
   {
     "iso3": "SLE",

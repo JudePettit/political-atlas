@@ -446,8 +446,8 @@
     "legislature": [
       {
         "name": "House of Representatives",
-        "control": "The National–ACT–NZ First coalition has a narrow majority on preliminary results (67 of 131 seats); final control depends on the official count due 2026-11-27",
-        "detail": "Preliminary results of the 2026-11-07 election (131 seats, 66 for a majority): National 42, Labour 36, Green 16, ACT 13, NZ First 12, Opportunity 7, Te Pāti Māori 5. The 54th Parliament was dissolved on 2026-10-01."
+        "control": "Hung: on the official results the National–ACT–NZ First coalition holds 65 of 130 seats, one short of the 66 needed for a majority. Labour, the Greens and Te Pāti Māori hold 58, and even with the Opportunity Party's 7 seats they would reach only 65, so the coalition's only route to a majority is Opportunity's support",
+        "detail": "Official results of the 2026-11-07 election, declared on 2026-11-27 (130 seats, 66 for a majority, including 10 overhang seats: 6 for National and 4 for Te Pāti Māori): National 40, Labour 36, Green 17, ACT 13, NZ First 12, Opportunity 7, Te Pāti Māori 5. Recount applications close on 2026-12-02; if none is made, the writ is due to be returned on 2026-12-03. The 54th Parliament was dissolved on 2026-10-01."
       }
     ],
     "judiciary": "The Supreme Court, led by Chief Justice Dame Helen Winkelmann since 2019, is the final court of appeal. The Court of Appeal and the High Court sit below it. New Zealand has no codified constitution, and the courts cannot strike down Acts of Parliament.",
@@ -456,7 +456,7 @@
         "name": "General election",
         "date": "2026-11-07",
         "status": "held",
-        "note": "On preliminary results Labour won 29.4% of the party vote and National 29.2%, but National won more seats (42 to 36). The incumbent National–ACT–NZ First coalition won 67 of 131 seats, one more than the 66 needed for a majority. About 399,000 special votes are still being counted, and official results are due on 2026-11-27."
+        "note": "Official results were declared on 2026-11-27, after 484,865 special votes (16.5% of 2,931,604 votes) were counted. Labour won 29.88% of the party vote and National 28.35%. National fell from 42 seats on preliminary results to 40, the Greens rose from 16 to 17, and the House shrank from 131 to 130 seats. Labour took Hamilton East (by 173 votes) and Wairarapa (by 81) from National. The Greens' Julie Anne Genter won Wellington Bays, where Labour had led on election night. Turnout was 77.2% of enrolled voters. The National–ACT–NZ First coalition lost its majority, winning 65 of 130 seats. Candidates have until 2026-12-02 to apply to a District Court for a recount."
       },
       {
         "name": "Next general election",
@@ -465,7 +465,7 @@
         "note": "Due by law within three years. No date has been set."
       }
     ],
-    "synopsis": "New Zealand is a parliamentary democracy with King Charles III as head of state, represented by a Governor-General, and the prime minister leading the government. The 7 November 2026 general election was very close. On preliminary results, Christopher Luxon's National–ACT–NZ First coalition kept a narrow majority (67 of 131 seats), while Labour narrowly won the most party votes. The government is acting under caretaker conventions until official results come out on 27 November.",
+    "synopsis": "New Zealand is a parliamentary democracy with King Charles III as head of state, represented by a Governor-General, and the prime minister leading the government. The 7 November 2026 general election produced a hung parliament. On the official results declared on 27 November, Christopher Luxon's National–ACT–NZ First coalition won 65 of 130 seats, one short of a majority, while Labour won the most party votes. The Opportunity Party's seven seats are the coalition's only route to a majority. Luxon had ruled out working with Opportunity during the campaign but has opened talks with it. His government remains in office under caretaker conventions while talks continue, and another election is possible if no deal is reached.",
     "policies": [
       "Economic growth, a tighter budget and a return to surplus",
       "Easing the cost of living, including food, housing, banking and energy costs",
@@ -474,14 +474,14 @@
       "Proposed compulsory KiwiSaver (retirement savings) for workers, part of National's 2026 platform"
     ],
     "challenges": [
-      "Uncertain government formation, with the result depending on special votes and possible recounts",
-      "Minor parties, including the Opportunity Party, could decide which side governs",
+      "A hung parliament: the National–ACT–NZ First coalition is one seat short of a majority and needs the Opportunity Party, which NZ First has said it will not work with",
+      "Possible recounts in close electorates, including Wairarapa (81 votes) and Hamilton East (173 votes)",
       "Cost-of-living pressures after years of high inflation and interest rates",
       "Fiscal pressures and returning the budget to surplus",
       "Tensions over Māori rights and Treaty of Waitangi issues"
     ],
-    "lastVerified": "2026-11-13",
-    "reviewNote": "In flux: the 2026-11-07 general election produced a very close preliminary result. The Luxon government is acting under caretaker conventions while about 399,000 special votes are counted, with official results due 2026-11-27 and recounts possible. Seat counts are preliminary, and the makeup of the next government is not yet settled."
+    "lastVerified": "2026-11-27",
+    "reviewNote": "In flux: the official results of the 2026-11-07 general election, declared on 2026-11-27, leave no side with a majority (National–ACT–NZ First 65 of 130; Labour, Greens and Te Pāti Māori 58; Opportunity 7). The Luxon government is acting under caretaker conventions while talks go on. Recount applications close on 2026-12-02, and the writ is due back on 2026-12-03 if none is made. No coalition or confidence agreement has been signed."
   },
   {
     "iso3": "PLW",
