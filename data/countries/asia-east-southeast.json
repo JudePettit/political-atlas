@@ -262,8 +262,8 @@
       {
         "name": "Local elections (mayors, county magistrates and councils)",
         "date": "2026-11-28",
-        "status": "upcoming",
-        "note": "Nationwide local elections, set by the Central Election Commission, for 22 cities and counties. These are not national elections."
+        "status": "held",
+        "note": "Preliminary Central Election Commission count, not yet formally announced. The Kuomintang won 11 of the 22 mayor and magistrate posts, the DPP 10 (up from 5 in 2022) and an independent 1; the TPP won none. In the six special municipalities the KMT held Taipei (Chiang Wan-an, 53.72%, against Puma Shen of the DPP, 45.69%), New Taipei (Lee Shu-chuan, 51.21%, against Su Chiao-hui, 48.25%) and Taoyuan (Chang San-cheng, 55.68%). The DPP held Kaohsiung (Lai Jui-lung, 52.90%, against Ko Chih-en, 45.79%) and Tainan (Chen Ting-fei, 52.49%), and gained Taichung (Ho Hsin-chun, 50.68%, against Johnny Chiang, 48.39%). The DPP also gained Yilan, Hsinchu County, Changhua, Chiayi City and Yunlin, and lost Penghu to the KMT. Hsinchu City re-elected the independent Kao Hung-an. Two races were very close and may be recounted: Yunlin, where the DPP's Liu Chien-kuo led the KMT's Chang Chia-chun by 173 votes, and Hualien, where the KMT's Yu Shu-chen led the independent Chang Chun by 357 votes. A national referendum held the same day (Case 22) asked whether the government should use nuclear power and drop the non-nuclear homeland policy. It passed, with about 7.43 million votes for and 4.56 million against. The votes for were 37.16% of the electorate, enough to meet the threshold. Turnout in the referendum was 62.79%."
       },
       {
         "name": "Presidential and legislative elections",
@@ -272,7 +272,7 @@
         "note": "Due by law at the end of the current four-year terms."
       }
     ],
-    "synopsis": "Taiwan is governed as the Republic of China by President Lai Ching-te of the Democratic Progressive Party, with Cho Jung-tai as premier. The People's Republic of China claims Taiwan as its territory. The government is divided: the opposition Kuomintang and Taiwan People's Party hold a majority in the Legislative Yuan, and in May 2026 they brought an impeachment motion against Lai, which failed.",
+    "synopsis": "Taiwan is governed as the Republic of China by President Lai Ching-te of the Democratic Progressive Party, with Cho Jung-tai as premier. The People's Republic of China claims Taiwan as its territory. The government is divided: the opposition Kuomintang and Taiwan People's Party hold a majority in the Legislative Yuan, and in May 2026 they brought an impeachment motion against Lai, which failed. In the local elections of 28 November 2026 the DPP raised its mayors and magistrates from 5 to 10, by the preliminary count, and regained Taichung, while the KMT kept Taipei, New Taipei and Taoyuan and won 11 of the 22 posts.",
     "policies": [
       "Raising defence spending, including a multi-year special budget for US arms; the legislature passed NT$780 billion in May 2026, less than the executive proposed",
       "Promoting 13 strategic industries, with a focus on semiconductors and other high-technology sectors",
@@ -286,7 +286,8 @@
       "Fights over budget cuts and spending priorities, including defence procurement",
       "Political fallout from the March 2026 conviction of TPP founder Ko Wen-je for corruption, which is under appeal"
     ],
-    "lastVerified": "2026-11-13"
+    "lastVerified": "2026-11-28",
+    "reviewNote": "The 2026 local election results are the Central Election Commission's preliminary count of 28 November 2026, not its formal announcement. Recounts may follow in Yunlin and Hualien."
   },
   {
     "iso3": "BRN",
